@@ -1,0 +1,44 @@
+﻿CHARACTERS = {
+	c:KSN = {
+		create_character = {
+			first_name = "Kasa"
+			last_name = "Lukeni"
+			culture = cu:lunda
+			religion = rel:catholic
+			birth_date = 1799.4.4
+			traits = {
+				basic_diplomat direct 
+			}
+		}
+
+		create_character = {
+			first_name = "Jetta"
+			last_name = "Imbangala"
+			heir = yes
+			female = yes
+			culture = cu:lunda
+			religion = rel:catholic
+			birth_date = 1823.6.25
+			traits = {
+				basic_diplomat 
+			}
+		}
+
+		create_character = {
+			first_name = "Jetta_V"
+			last_name = "Imbangala"
+			ruler = yes
+			female = yes
+			culture = cu:lunda
+			religion = rel:catholic
+			birth_date = 1792.4.12
+			traits = {
+				basic_colonial_administrator cautious 
+			}
+			on_created = {
+				set_variable = is_married
+			}
+		}
+
+	}
+}

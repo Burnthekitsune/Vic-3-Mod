@@ -1,0 +1,90 @@
+﻿CHARACTERS = {
+	c:W40 = {
+		create_character = {
+			first_name = "Ardabur"
+			last_name = "Nishkepaz"
+			culture = cu:muraa
+			religion = rel:converted_dynamic_faith_106
+			birth_date = 1799.6.15
+			traits = {
+				basic_colonial_administrator persistent 
+			}
+		}
+
+		create_character = {
+			first_name = "Nomedas"
+			last_name = "Asha"
+			heir = yes
+			culture = cu:muraa
+			religion = rel:converted_dynamic_faith_106
+			birth_date = 1828.3.1
+		}
+
+		create_character = {
+			first_name = "Citska_II"
+			last_name = "Asha"
+			ruler = yes
+			female = yes
+			culture = cu:muraa
+			religion = rel:converted_dynamic_faith_106
+			birth_date = 1792.3.24
+			traits = {
+				basic_diplomat persistent 
+			}
+			on_created = {
+				set_variable = is_married
+			}
+		}
+
+		create_character = {
+			first_name = "Vecas_Cania"
+			is_general = yes
+			commander_rank = commander_rank_3
+			birth_date = 1791.12.3
+			traits = {
+				experienced_offensive_planner 
+			}
+		}
+
+		create_character = {
+			first_name = "Hakam_Sarkis"
+			is_general = yes
+			commander_rank = commander_rank_4
+			birth_date = 1799.3.17
+			traits = {
+				surveyor 
+			}
+		}
+
+		create_character = {
+			first_name = "Henotikon_Taid"
+			is_general = yes
+			commander_rank = commander_rank_4
+			birth_date = 1807.8.21
+			traits = {
+				expert_offensive_planner 
+			}
+		}
+
+		create_character = {
+			first_name = "Gejopal_Bahadur"
+			is_general = yes
+			commander_rank = commander_rank_4
+			birth_date = 1783.4.13
+			traits = {
+				experienced_offensive_planner 
+			}
+		}
+
+		create_character = {
+			first_name = "Maha_Xiphias"
+			is_general = yes
+			commander_rank = commander_rank_2
+			birth_date = 1782.11.16
+			traits = {
+				basic_offensive_planner 
+			}
+		}
+
+	}
+}

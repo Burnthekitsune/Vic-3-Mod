@@ -1,0 +1,85 @@
+﻿CHARACTERS = {
+	c:X77 = {
+		create_character = {
+			first_name = "Eun-young_Go"
+			is_general = yes
+			commander_rank = commander_rank_2
+			female = yes
+			birth_date = 1797.2.9
+			traits = {
+				resupply_commander 
+			}
+		}
+
+		create_character = {
+			first_name = "Hye-jin_Min"
+			is_general = yes
+			commander_rank = commander_rank_3
+			female = yes
+			birth_date = 1795.8.31
+			traits = {
+				basic_defensive_strategist 
+			}
+		}
+
+		create_character = {
+			first_name = "Yeon-hee_Sim"
+			is_general = yes
+			commander_rank = commander_rank_1
+			female = yes
+			birth_date = 1809.11.14
+			traits = {
+				shellshocked 
+			}
+		}
+
+		create_character = {
+			first_name = "Mi-ran_Jin"
+			is_general = yes
+			commander_rank = commander_rank_2
+			female = yes
+			birth_date = 1794.1.7
+			traits = {
+				shellshocked 
+			}
+		}
+
+		create_character = {
+			first_name = "Abdallah"
+			last_name = "Haesteining"
+			heir = yes
+			culture = cu:faykinghian
+			religion = rel:converted_dynamic_faith_102
+			birth_date = 1828.9.26
+			traits = {
+				experienced_political_operator 
+			}
+		}
+
+		create_character = {
+			first_name = "Abdallah_III"
+			last_name = "Haesteining"
+			ruler = yes
+			is_general = yes
+			commander_rank = commander_rank_3
+			culture = cu:faykinghian
+			religion = rel:converted_dynamic_faith_102
+			birth_date = 1802.4.14
+			traits = {
+				basic_offensive_planner basic_political_operator romantic 
+			}
+		}
+
+		create_character = {
+			first_name = "Hana_Seok"
+			is_admiral = yes
+			commander_rank = commander_rank_4
+			female = yes
+			birth_date = 1801.1.8
+			traits = {
+				popular_commander 
+			}
+		}
+
+	}
+}

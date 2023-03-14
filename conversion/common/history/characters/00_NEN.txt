@@ -1,0 +1,93 @@
+﻿CHARACTERS = {
+	c:NEN = {
+		create_character = {
+			first_name = "Wahida_Elfael"
+			is_general = yes
+			commander_rank = commander_rank_2
+			female = yes
+			birth_date = 1803.12.28
+		}
+
+		create_character = {
+			first_name = "Kolbjorn_Qutamid"
+			ruler = yes
+			is_general = yes
+			commander_rank = commander_rank_1
+			culture = cu:neo-usa_north_colony-faykinghian
+			religion = rel:converted_dynamic_faith_102
+			birth_date = 1793.1.10
+			traits = {
+				direct 
+			}
+		}
+
+		create_character = {
+			first_name = "Abda_Snjalli"
+			is_general = yes
+			commander_rank = commander_rank_2
+			female = yes
+			birth_date = 1810.11.13
+			traits = {
+				shellshocked 
+			}
+		}
+
+		create_character = {
+			first_name = "Karima_Snjalli"
+			is_general = yes
+			commander_rank = commander_rank_1
+			female = yes
+			birth_date = 1796.1.21
+		}
+
+		create_character = {
+			first_name = "Sveinn_Ari"
+			is_general = yes
+			commander_rank = commander_rank_1
+			birth_date = 1785.12.7
+			traits = {
+				grifter 
+			}
+		}
+
+		create_character = {
+			first_name = "Aliya_Hammelburg"
+			is_general = yes
+			commander_rank = commander_rank_1
+			female = yes
+			birth_date = 1786.8.4
+			traits = {
+				alcoholic 
+			}
+		}
+
+		create_character = {
+			first_name = "Zahida_Haesteining"
+			is_general = yes
+			commander_rank = commander_rank_2
+			female = yes
+			birth_date = 1786.4.30
+		}
+
+		create_character = {
+			first_name = "Adergazuz_Haesteining"
+			is_general = yes
+			commander_rank = commander_rank_1
+			birth_date = 1787.12.4
+			traits = {
+				charismatic 
+			}
+		}
+
+		create_character = {
+			first_name = "Hro0geirr_Qutamid"
+			is_general = yes
+			commander_rank = commander_rank_1
+			birth_date = 1768.12.26
+			traits = {
+				opium_addiction 
+			}
+		}
+
+	}
+}

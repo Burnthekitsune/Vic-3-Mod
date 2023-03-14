@@ -1,0 +1,44 @@
+﻿CHARACTERS = {
+	c:BUN = {
+		create_character = {
+			first_name = "Nima"
+			last_name = "Sankara"
+			female = yes
+			culture = cu:oriya
+			religion = rel:jain
+			birth_date = 1810.12.4
+			traits = {
+				romantic 
+			}
+		}
+
+		create_character = {
+			first_name = "Akkadevi"
+			last_name = "Chalukya"
+			heir = yes
+			female = yes
+			culture = cu:telegu
+			religion = rel:jain
+			birth_date = 1802.7.27
+			traits = {
+				ambitious 
+			}
+		}
+
+		create_character = {
+			first_name = "Anirudh_III"
+			last_name = "Chalukya"
+			ruler = yes
+			culture = cu:telegu
+			religion = rel:jain
+			birth_date = 1784.4.17
+			traits = {
+				charismatic 
+			}
+			on_created = {
+				set_variable = is_married
+			}
+		}
+
+	}
+}

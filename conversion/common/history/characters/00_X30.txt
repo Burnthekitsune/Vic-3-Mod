@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:X30 = {
+		create_character = {
+			first_name = "Cuitlahuac_I"
+			last_name = "Tepetl"
+			ruler = yes
+			culture = cu:chichimecan
+			religion = rel:totemism
+			birth_date = 1815.1.3
+			traits = {
+				experienced_diplomat 
+			}
+		}
+
+	}
+}

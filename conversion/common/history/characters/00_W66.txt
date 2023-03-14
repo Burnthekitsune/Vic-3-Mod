@@ -1,0 +1,28 @@
+﻿CHARACTERS = {
+	c:W66 = {
+		create_character = {
+			first_name = "Poppo"
+			last_name = "Kosaca"
+			heir = yes
+			culture = cu:romanian
+			religion = rel:catholic
+			birth_date = 1822.1.29
+			traits = {
+				basic_diplomat 
+			}
+		}
+
+		create_character = {
+			first_name = "Adalhard_VIII"
+			last_name = "Kosaca"
+			ruler = yes
+			culture = cu:romanian
+			religion = rel:catholic
+			birth_date = 1804.2.5
+			traits = {
+				basic_diplomat persistent 
+			}
+		}
+
+	}
+}

@@ -1,0 +1,28 @@
+﻿CHARACTERS = {
+	c:CHK = {
+		create_character = {
+			first_name = "Chinguli"
+			last_name = "Imbangala"
+			heir = yes
+			culture = cu:lunda
+			religion = rel:animist
+			birth_date = 1784.12.14
+			traits = {
+				basic_diplomat direct 
+			}
+		}
+
+		create_character = {
+			first_name = "Nkonde_I"
+			last_name = "Imbangala"
+			ruler = yes
+			culture = cu:lunda
+			religion = rel:animist
+			birth_date = 1762.2.13
+			traits = {
+				basic_diplomat charismatic 
+			}
+		}
+
+	}
+}

@@ -1,0 +1,25 @@
+﻿CHARACTERS = {
+	c:NIC = {
+		create_character = {
+			first_name = "Boso_Hammelburg"
+			ruler = yes
+			culture = cu:neo-central_america_colony-faykinghian
+			religion = rel:converted_dynamic_faith_102
+			birth_date = 1788.10.18
+			traits = {
+				innovative 
+			}
+		}
+
+		create_character = {
+			first_name = "Vigfus_Haesteining"
+			is_general = yes
+			commander_rank = commander_rank_1
+			birth_date = 1785.9.18
+			traits = {
+				cautious 
+			}
+		}
+
+	}
+}

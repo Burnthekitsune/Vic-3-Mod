@@ -1,0 +1,63 @@
+﻿CHARACTERS = {
+	c:W57 = {
+		create_character = {
+			first_name = "Aiza_Taparelli"
+			is_general = yes
+			commander_rank = commander_rank_2
+			female = yes
+			birth_date = 1819.1.10
+			traits = {
+				basic_offensive_planner 
+			}
+		}
+
+		create_character = {
+			first_name = "Abdul-Hakam_Doria_di_Cirie"
+			is_general = yes
+			commander_rank = commander_rank_1
+			birth_date = 1799.2.9
+			traits = {
+				shellshocked 
+			}
+		}
+
+		create_character = {
+			first_name = "Aamina"
+			last_name = "di_Avula"
+			heir = yes
+			female = yes
+			culture = cu:south_italian
+			religion = rel:converted_dynamic_faith_102
+			birth_date = 1823.7.30
+			traits = {
+				basic_colonial_administrator 
+			}
+		}
+
+		create_character = {
+			first_name = "Aamina_I"
+			last_name = "di_Avula"
+			ruler = yes
+			is_general = yes
+			commander_rank = commander_rank_2
+			female = yes
+			culture = cu:south_italian
+			religion = rel:converted_dynamic_faith_102
+			birth_date = 1805.1.14
+			traits = {
+				ambitious basic_colonial_administrator stalwart_defender 
+			}
+		}
+
+		create_character = {
+			first_name = "Rahat_Pallavicini"
+			is_admiral = yes
+			female = yes
+			birth_date = 1771.2.13
+			traits = {
+				cocaine_addiction 
+			}
+		}
+
+	}
+}

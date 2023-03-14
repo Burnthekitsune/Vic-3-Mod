@@ -1,0 +1,38 @@
+﻿CHARACTERS = {
+	c:ACE = {
+		create_character = {
+			first_name = "Mengtsekya_Chairul"
+			is_general = yes
+			commander_rank = commander_rank_2
+			birth_date = 1784.7.9
+			traits = {
+				stalwart_defender 
+			}
+		}
+
+		create_character = {
+			first_name = "Megat_Iskander"
+			last_name = "Pahang"
+			heir = yes
+			culture = cu:malay
+			religion = rel:sunni
+			birth_date = 1792.12.18
+			traits = {
+				charismatic experienced_political_operator 
+			}
+		}
+
+		create_character = {
+			first_name = "_Al0_Mug0yat_VII"
+			last_name = "Jambi"
+			ruler = yes
+			culture = cu:sumatran
+			religion = rel:sunni
+			birth_date = 1785.10.3
+			traits = {
+				innovative 
+			}
+		}
+
+	}
+}

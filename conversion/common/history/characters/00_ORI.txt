@@ -1,0 +1,31 @@
+﻿CHARACTERS = {
+	c:ORI = {
+		create_character = {
+			first_name = "Khelma"
+			last_name = "Singha"
+			female = yes
+			culture = cu:oriya
+			religion = rel:jain
+			birth_date = 1803.4.20
+			traits = {
+				cruel 
+			}
+		}
+
+		create_character = {
+			first_name = "Laxminath_Singh_Dev_II"
+			last_name = "Sankara"
+			ruler = yes
+			culture = cu:oriya
+			religion = rel:jain
+			birth_date = 1772.7.27
+			traits = {
+				basic_colonial_administrator meticulous 
+			}
+			on_created = {
+				set_variable = is_married
+			}
+		}
+
+	}
+}

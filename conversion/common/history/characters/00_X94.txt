@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:X94 = {
+		create_character = {
+			first_name = "Cakasekene_Naweej"
+			last_name = "Mwene"
+			heir = yes
+			culture = cu:lunda
+			religion = rel:animist
+			birth_date = 1827.8.2
+			traits = {
+				basic_political_operator 
+			}
+		}
+
+	}
+}

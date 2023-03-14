@@ -1,0 +1,53 @@
+﻿CHARACTERS = {
+	c:HUN = {
+		create_character = {
+			first_name = "Erzs0bet"
+			last_name = "Kemeny"
+			female = yes
+			culture = cu:szekely
+			religion = rel:orthodox
+			birth_date = 1803.7.12
+			traits = {
+				direct 
+			}
+		}
+
+		create_character = {
+			first_name = "Istv0n"
+			last_name = "Unruochinger-Tolna"
+			heir = yes
+			culture = cu:szekely
+			religion = rel:orthodox
+			birth_date = 1833.3.1
+			traits = {
+				basic_political_operator 
+			}
+		}
+
+		create_character = {
+			first_name = "K0roly_III"
+			last_name = "Unruochinger-Tolna"
+			ruler = yes
+			culture = cu:szekely
+			religion = rel:orthodox
+			birth_date = 1789.11.18
+			traits = {
+				charismatic experienced_diplomat 
+			}
+			on_created = {
+				set_variable = is_married
+			}
+		}
+
+		create_character = {
+			first_name = "Anaszt0z_Lackovic_"
+			is_general = yes
+			commander_rank = commander_rank_2
+			birth_date = 1790.10.28
+			traits = {
+				charismatic resupply_commander 
+			}
+		}
+
+	}
+}

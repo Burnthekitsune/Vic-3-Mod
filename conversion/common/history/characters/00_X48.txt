@@ -1,0 +1,15 @@
+﻿CHARACTERS = {
+	c:X48 = {
+		create_character = {
+			first_name = "Pope_Acoma"
+			ruler = yes
+			culture = cu:pueblo
+			religion = rel:totemism
+			birth_date = 1799.7.1
+			traits = {
+				syphilis 
+			}
+		}
+
+	}
+}

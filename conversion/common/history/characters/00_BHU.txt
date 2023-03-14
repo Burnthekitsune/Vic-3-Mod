@@ -1,0 +1,44 @@
+﻿CHARACTERS = {
+	c:BHU = {
+		create_character = {
+			first_name = "Kuladevi"
+			last_name = "Mnyammed"
+			female = yes
+			culture = cu:oriya
+			religion = rel:jain
+			birth_date = 1799.4.5
+			traits = {
+				basic_diplomat charismatic 
+			}
+		}
+
+		create_character = {
+			first_name = "Tshering"
+			last_name = "Sankara"
+			heir = yes
+			female = yes
+			culture = cu:oriya
+			religion = rel:jain
+			birth_date = 1822.4.26
+			traits = {
+				basic_diplomat 
+			}
+		}
+
+		create_character = {
+			first_name = "Adek_IX"
+			last_name = "Sankara"
+			ruler = yes
+			culture = cu:oriya
+			religion = rel:jain
+			birth_date = 1795.12.23
+			traits = {
+				basic_political_operator meticulous 
+			}
+			on_created = {
+				set_variable = is_married
+			}
+		}
+
+	}
+}

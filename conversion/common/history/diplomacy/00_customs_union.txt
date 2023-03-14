@@ -1,0 +1,20 @@
+﻿DIPLOMACY = {
+	c:EGY = {
+		create_diplomatic_pact = {
+			country = c:PAL
+			type = customs_union
+		}
+	}
+	c:W75 = {
+		create_diplomatic_pact = {
+			country = c:W19
+			type = customs_union
+		}
+	}
+	c:W17 = {
+		create_diplomatic_pact = {
+			country = c:VEN
+			type = customs_union
+		}
+	}
+}

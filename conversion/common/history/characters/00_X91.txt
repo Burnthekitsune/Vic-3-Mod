@@ -1,0 +1,79 @@
+﻿CHARACTERS = {
+	c:X91 = {
+		create_character = {
+			first_name = "Baghatur_Koke_Burilgi"
+			is_general = yes
+			commander_rank = commander_rank_3
+			birth_date = 1802.4.8
+			traits = {
+				basic_defensive_strategist wrathful 
+			}
+		}
+
+		create_character = {
+			first_name = "Bihar_Temur-chi"
+			is_general = yes
+			commander_rank = commander_rank_2
+			birth_date = 1803.3.5
+			traits = {
+				resupply_commander 
+			}
+		}
+
+		create_character = {
+			first_name = "Zebulun_Suren_Chinua"
+			is_general = yes
+			commander_rank = commander_rank_2
+			birth_date = 1806.4.20
+			traits = {
+				stalwart_defender 
+			}
+		}
+
+		create_character = {
+			first_name = "Keghanoush"
+			last_name = "Tekkelu"
+			female = yes
+			culture = cu:dynamic-khazar-culture-num1
+			religion = rel:zoroastrian
+			birth_date = 1798.9.22
+			traits = {
+				pious 
+			}
+		}
+
+		create_character = {
+			first_name = "Bashtwa"
+			last_name = "Zulqadr"
+			heir = yes
+			culture = cu:dynamic-khazar-culture-num1
+			religion = rel:zoroastrian
+			birth_date = 1823.10.13
+		}
+
+		create_character = {
+			first_name = "Bagha_IV"
+			last_name = "Zulqadr"
+			ruler = yes
+			is_general = yes
+			commander_rank = commander_rank_2
+			culture = cu:dynamic-khazar-culture-num1
+			religion = rel:zoroastrian
+			birth_date = 1807.12.24
+			traits = {
+				basic_colonial_administrator bigoted direct stalwart_defender 
+			}
+			on_created = {
+				set_variable = is_married
+			}
+		}
+
+		create_character = {
+			first_name = "Baghatur_Chinuagene"
+			is_general = yes
+			commander_rank = commander_rank_1
+			birth_date = 1774.6.16
+		}
+
+	}
+}

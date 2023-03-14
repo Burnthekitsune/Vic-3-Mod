@@ -1,0 +1,60 @@
+﻿CHARACTERS = {
+	c:W27 = {
+		create_character = {
+			first_name = "Samir_Kalshat"
+			is_general = yes
+			commander_rank = commander_rank_2
+			birth_date = 1805.2.23
+			traits = {
+				grifter 
+			}
+		}
+
+		create_character = {
+			first_name = "Muzaffaraddin_Harawiz"
+			is_general = yes
+			commander_rank = commander_rank_1
+			birth_date = 1799.8.20
+			traits = {
+				shellshocked 
+			}
+		}
+
+		create_character = {
+			first_name = "Shamir_Ziyad"
+			is_general = yes
+			commander_rank = commander_rank_3
+			birth_date = 1799.3.26
+			traits = {
+				charismatic 
+			}
+		}
+
+		create_character = {
+			first_name = "Abdul-Wahab"
+			last_name = "Abdullahid"
+			heir = yes
+			culture = cu:yemenite
+			religion = rel:sunni
+			birth_date = 1818.5.13
+			traits = {
+				basic_political_operator innovative 
+			}
+		}
+
+		create_character = {
+			first_name = "Muzaffaraddin_III"
+			last_name = "Abdullahid"
+			ruler = yes
+			is_general = yes
+			commander_rank = commander_rank_1
+			culture = cu:yemenite
+			religion = rel:sunni
+			birth_date = 1781.7.27
+			traits = {
+				cautious 
+			}
+		}
+
+	}
+}

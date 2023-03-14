@@ -1,0 +1,85 @@
+﻿CHARACTERS = {
+	c:PAN = {
+		create_character = {
+			first_name = "Prithichand_Bhangalia"
+			is_general = yes
+			commander_rank = commander_rank_1
+			birth_date = 1800.10.31
+			traits = {
+				persistent 
+			}
+		}
+
+		create_character = {
+			first_name = "Samgramapida_Jivan"
+			is_general = yes
+			commander_rank = commander_rank_2
+			birth_date = 1807.10.6
+			traits = {
+				expensive_tastes 
+			}
+		}
+
+		create_character = {
+			first_name = "Jayapida_Bhatta"
+			is_general = yes
+			commander_rank = commander_rank_2
+			birth_date = 1799.6.8
+			traits = {
+				psychological_affliction 
+			}
+		}
+
+		create_character = {
+			first_name = "Ajitapida_Khokhar"
+			is_general = yes
+			commander_rank = commander_rank_2
+			birth_date = 1806.11.14
+			traits = {
+				shellshocked 
+			}
+		}
+
+		create_character = {
+			first_name = "Darya"
+			last_name = "Jadeja"
+			female = yes
+			culture = cu:dynamic-gujarati-culture-num1
+			religion = rel:zoroastrian
+			birth_date = 1800.3.25
+			traits = {
+				basic_diplomat direct 
+			}
+		}
+
+		create_character = {
+			first_name = "Prithichand"
+			last_name = "Rawal"
+			heir = yes
+			culture = cu:dynamic-gujarati-culture-num1
+			religion = rel:zoroastrian
+			birth_date = 1822.9.11
+			traits = {
+				basic_diplomat 
+			}
+		}
+
+		create_character = {
+			first_name = "Ajitapida_VIII"
+			last_name = "Rawal"
+			ruler = yes
+			is_general = yes
+			commander_rank = commander_rank_2
+			culture = cu:dynamic-gujarati-culture-num1
+			religion = rel:zoroastrian
+			birth_date = 1792.12.6
+			traits = {
+				cautious experienced_diplomat 
+			}
+			on_created = {
+				set_variable = is_married
+			}
+		}
+
+	}
+}

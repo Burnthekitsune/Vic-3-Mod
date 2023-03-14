@@ -1,0 +1,29 @@
+﻿CHARACTERS = {
+	c:VIE = {
+		create_character = {
+			first_name = "Anousa"
+			last_name = "Pyusawhti"
+			heir = yes
+			female = yes
+			culture = cu:burmese
+			religion = rel:theravada
+			birth_date = 1826.1.1
+			traits = {
+				basic_diplomat 
+			}
+		}
+
+		create_character = {
+			first_name = "Tian_Thala_I"
+			last_name = "Pyusawhti"
+			ruler = yes
+			culture = cu:burmese
+			religion = rel:theravada
+			birth_date = 1809.4.23
+			traits = {
+				expert_political_operator wrathful 
+			}
+		}
+
+	}
+}

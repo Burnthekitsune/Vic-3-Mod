@@ -1,0 +1,53 @@
+﻿CHARACTERS = {
+	c:X72 = {
+		create_character = {
+			first_name = "Waali_Anabid"
+			is_general = yes
+			commander_rank = commander_rank_1
+			birth_date = 1807.12.14
+			traits = {
+				grifter 
+			}
+		}
+
+		create_character = {
+			first_name = "Barakaaharoog_Matzaris"
+			is_general = yes
+			commander_rank = commander_rank_2
+			birth_date = 1795.7.14
+		}
+
+		create_character = {
+			first_name = "Skaaruhan_Benn"
+			is_general = yes
+			commander_rank = commander_rank_2
+			birth_date = 1793.7.7
+			traits = {
+				expensive_tastes 
+			}
+		}
+
+		create_character = {
+			first_name = "Maha"
+			last_name = "Philokales"
+			heir = yes
+			culture = cu:dynamic-greek-culture-num4
+			religion = rel:converted_dynamic_faith_106
+			birth_date = 1827.10.19
+			traits = {
+				basic_diplomat 
+			}
+		}
+
+		create_character = {
+			first_name = "Maha_Agapimeni_tou_Roog"
+			is_general = yes
+			commander_rank = commander_rank_2
+			birth_date = 1781.5.2
+			traits = {
+				basic_offensive_planner 
+			}
+		}
+
+	}
+}

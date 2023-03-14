@@ -1,0 +1,77 @@
+﻿CHARACTERS = {
+	c:DAI = {
+		create_character = {
+			first_name = "Duy_Khiem_Thi"
+			is_general = yes
+			commander_rank = commander_rank_2
+			birth_date = 1789.9.17
+			traits = {
+				syphilis 
+			}
+		}
+
+		create_character = {
+			first_name = "Thuy_Tram"
+			last_name = "Nguyen"
+			female = yes
+			culture = cu:assamese
+			religion = rel:mahayana
+			birth_date = 1786.10.29
+			traits = {
+				persistent 
+			}
+		}
+
+		create_character = {
+			first_name = "Y"
+			last_name = "Chandrasen"
+			heir = yes
+			is_general = yes
+			commander_rank = commander_rank_1
+			culture = cu:assamese
+			religion = rel:mahayana
+			birth_date = 1817.4.17
+			traits = {
+				reserved 
+			}
+		}
+
+		create_character = {
+			first_name = "Kinh_Cung_I"
+			last_name = "Chandrasen"
+			ruler = yes
+			is_general = yes
+			commander_rank = commander_rank_2
+			culture = cu:assamese
+			religion = rel:mahayana
+			birth_date = 1802.4.17
+			traits = {
+				direct romantic 
+			}
+			on_created = {
+				set_variable = is_married
+			}
+		}
+
+		create_character = {
+			first_name = "Phuc_Tan_Van"
+			is_general = yes
+			commander_rank = commander_rank_2
+			birth_date = 1774.3.19
+			traits = {
+				meticulous 
+			}
+		}
+
+		create_character = {
+			first_name = "Phuc_Tru_Truong"
+			is_general = yes
+			commander_rank = commander_rank_1
+			birth_date = 1791.3.21
+			traits = {
+				syphilis 
+			}
+		}
+
+	}
+}

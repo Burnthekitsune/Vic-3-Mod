@@ -1,0 +1,43 @@
+﻿CHARACTERS = {
+	c:NVJ = {
+		create_character = {
+			first_name = "Ilthgozay"
+			last_name = "Kiyaa_aanii"
+			female = yes
+			culture = cu:navajo
+			religion = rel:converted_dynamic_faith_106
+			birth_date = 1799.10.24
+			traits = {
+				basic_diplomat innovative 
+			}
+		}
+
+		create_character = {
+			first_name = "Dahaana_Baadaane"
+			last_name = "To_Baazhni_azhi"
+			heir = yes
+			culture = cu:navajo
+			religion = rel:converted_dynamic_faith_106
+			birth_date = 1824.9.26
+			traits = {
+				basic_political_operator 
+			}
+		}
+
+		create_character = {
+			first_name = "Chapitone_II"
+			last_name = "To_Baazhni_azhi"
+			ruler = yes
+			culture = cu:navajo
+			religion = rel:converted_dynamic_faith_106
+			birth_date = 1796.10.22
+			traits = {
+				basic_political_operator innovative 
+			}
+			on_created = {
+				set_variable = is_married
+			}
+		}
+
+	}
+}

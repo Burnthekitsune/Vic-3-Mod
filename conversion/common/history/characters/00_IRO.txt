@@ -1,0 +1,15 @@
+﻿CHARACTERS = {
+	c:IRO = {
+		create_character = {
+			first_name = "Onogwendahonji_Hostayuntwa"
+			ruler = yes
+			culture = cu:iroquoian
+			religion = rel:totemism
+			birth_date = 1773.4.27
+			traits = {
+				basic_diplomat 
+			}
+		}
+
+	}
+}

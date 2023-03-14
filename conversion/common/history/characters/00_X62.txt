@@ -1,0 +1,43 @@
+﻿CHARACTERS = {
+	c:X62 = {
+		create_character = {
+			first_name = "Aiaan"
+			last_name = "Khorints"
+			heir = yes
+			culture = cu:yakut
+			religion = rel:tengri_pagan
+			birth_date = 1813.2.18
+			traits = {
+				basic_political_operator cruel 
+			}
+		}
+
+		create_character = {
+			first_name = "Khaarchaana"
+			last_name = "Khorints"
+			female = yes
+			culture = cu:yakut
+			religion = rel:tengri_pagan
+			birth_date = 1790.6.29
+			traits = {
+				experienced_political_operator reserved 
+			}
+		}
+
+		create_character = {
+			first_name = "Giv-ynkeev_I"
+			last_name = "Khorints"
+			ruler = yes
+			culture = cu:yakut
+			religion = rel:tengri_pagan
+			birth_date = 1787.11.22
+			traits = {
+				basic_political_operator imperious 
+			}
+			on_created = {
+				set_variable = is_married
+			}
+		}
+
+	}
+}

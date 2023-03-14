@@ -1,0 +1,15 @@
+﻿CHARACTERS = {
+	c:NNG = {
+		create_character = {
+			first_name = "Bennelong_Mearann"
+			ruler = yes
+			culture = cu:aborigine
+			religion = rel:animist
+			birth_date = 1594.5.25
+			traits = {
+				basic_colonial_administrator innovative 
+			}
+		}
+
+	}
+}

@@ -1,0 +1,28 @@
+﻿CHARACTERS = {
+	c:MLT = {
+		create_character = {
+			first_name = "Olafr"
+			last_name = "Haesteining"
+			heir = yes
+			culture = cu:rumanian
+			religion = rel:converted_dynamic_faith_102
+			birth_date = 1789.12.11
+			traits = {
+				arrogant basic_political_operator 
+			}
+		}
+
+		create_character = {
+			first_name = "Abas_IX"
+			last_name = "Haesteining"
+			ruler = yes
+			culture = cu:rumanian
+			religion = rel:converted_dynamic_faith_102
+			birth_date = 1771.10.19
+			traits = {
+				basic_colonial_administrator cruel 
+			}
+		}
+
+	}
+}

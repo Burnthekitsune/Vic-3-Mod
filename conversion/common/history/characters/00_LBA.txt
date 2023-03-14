@@ -1,0 +1,43 @@
+﻿CHARACTERS = {
+	c:LBA = {
+		create_character = {
+			first_name = "Jetta"
+			last_name = "Mwaantaangaand"
+			female = yes
+			culture = cu:luba
+			religion = rel:animist
+			birth_date = 1807.2.12
+			traits = {
+				hedonist 
+			}
+		}
+
+		create_character = {
+			first_name = "Ilunga_Kabale"
+			last_name = "Shila"
+			heir = yes
+			culture = cu:luba
+			religion = rel:animist
+			birth_date = 1816.4.29
+			traits = {
+				basic_diplomat innovative 
+			}
+		}
+
+		create_character = {
+			first_name = "Kasongo_Mukaya_I"
+			last_name = "Shila"
+			ruler = yes
+			culture = cu:luba
+			religion = rel:animist
+			birth_date = 1770.3.4
+			traits = {
+				cruel experienced_diplomat 
+			}
+			on_created = {
+				set_variable = is_married
+			}
+		}
+
+	}
+}

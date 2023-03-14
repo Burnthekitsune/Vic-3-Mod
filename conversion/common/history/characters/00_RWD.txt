@@ -1,0 +1,43 @@
+﻿CHARACTERS = {
+	c:RWD = {
+		create_character = {
+			first_name = "Kanjogera"
+			last_name = "Bairu"
+			female = yes
+			culture = cu:baganda
+			religion = rel:animist
+			birth_date = 1804.1.3
+			traits = {
+				tactful 
+			}
+		}
+
+		create_character = {
+			first_name = "Cyilima"
+			last_name = "Babiito"
+			heir = yes
+			culture = cu:baganda
+			religion = rel:animist
+			birth_date = 1830.8.20
+			traits = {
+				basic_colonial_administrator 
+			}
+		}
+
+		create_character = {
+			first_name = "Yuhi_IV"
+			last_name = "Babiito"
+			ruler = yes
+			culture = cu:baganda
+			religion = rel:animist
+			birth_date = 1786.11.28
+			traits = {
+				cautious experienced_colonial_administrator 
+			}
+			on_created = {
+				set_variable = is_married
+			}
+		}
+
+	}
+}

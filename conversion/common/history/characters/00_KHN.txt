@@ -1,0 +1,43 @@
+﻿CHARACTERS = {
+	c:KHN = {
+		create_character = {
+			first_name = "Myat"
+			last_name = "Kengtung"
+			female = yes
+			culture = cu:kachin
+			religion = rel:mahayana
+			birth_date = 1804.1.31
+			traits = {
+				ambitious 
+			}
+		}
+
+		create_character = {
+			first_name = "Ai_Wu_Hsa"
+			last_name = "Mong_Kawng"
+			heir = yes
+			culture = cu:kachin
+			religion = rel:mahayana
+			birth_date = 1830.5.2
+			traits = {
+				shellshocked 
+			}
+		}
+
+		create_character = {
+			first_name = "Nga_Nauk_Hsan_I"
+			last_name = "Mong_Kawng"
+			ruler = yes
+			culture = cu:kachin
+			religion = rel:mahayana
+			birth_date = 1800.10.2
+			traits = {
+				direct 
+			}
+			on_created = {
+				set_variable = is_married
+			}
+		}
+
+	}
+}

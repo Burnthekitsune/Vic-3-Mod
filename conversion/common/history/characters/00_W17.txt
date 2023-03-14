@@ -1,0 +1,164 @@
+﻿CHARACTERS = {
+	c:W17 = {
+		create_character = {
+			first_name = "Hamelin_de_Ternant"
+			is_admiral = yes
+			birth_date = 1799.12.1
+		}
+
+		create_character = {
+			first_name = "Sigrid_de_Neufchatel"
+			is_general = yes
+			commander_rank = commander_rank_2
+			female = yes
+			birth_date = 1801.11.17
+			traits = {
+				surveyor 
+			}
+		}
+
+		create_character = {
+			first_name = "Raphaela_de_Chin"
+			is_admiral = yes
+			commander_rank = commander_rank_1
+			female = yes
+			birth_date = 1801.9.26
+		}
+
+		create_character = {
+			first_name = "Childebert_d_Abonde"
+			is_admiral = yes
+			commander_rank = commander_rank_1
+			birth_date = 1798.2.13
+			traits = {
+				explorer 
+			}
+		}
+
+		create_character = {
+			first_name = "Theoderic_de_Chabot"
+			is_admiral = yes
+			commander_rank = commander_rank_1
+			birth_date = 1802.8.21
+		}
+
+		create_character = {
+			first_name = "Karloman_de_Brimeu"
+			is_general = yes
+			commander_rank = commander_rank_2
+			birth_date = 1788.2.22
+			traits = {
+				basic_defensive_strategist 
+			}
+		}
+
+		create_character = {
+			first_name = "Amalia_d_Egmont"
+			is_general = yes
+			commander_rank = commander_rank_4
+			female = yes
+			birth_date = 1790.4.5
+			traits = {
+				cautious experienced_defensive_strategist 
+			}
+		}
+
+		create_character = {
+			first_name = "Margret_de_Ferrette"
+			is_general = yes
+			commander_rank = commander_rank_4
+			female = yes
+			birth_date = 1801.4.16
+			traits = {
+				expert_defensive_strategist wrathful 
+			}
+		}
+
+		create_character = {
+			first_name = "Hamelin_de_Montsouris"
+			ruler = yes
+			is_general = yes
+			commander_rank = commander_rank_4
+			culture = cu:north_german
+			religion = rel:converted_dynamic_faith_102
+			birth_date = 1785.7.4
+			traits = {
+				ambitious basic_diplomat cruel experienced_defensive_strategist 
+			}
+		}
+
+		create_character = {
+			first_name = "Miloslaw_de_Dammartin"
+			is_general = yes
+			commander_rank = commander_rank_3
+			birth_date = 1779.1.23
+			traits = {
+				basic_defensive_strategist wrathful 
+			}
+		}
+
+		create_character = {
+			first_name = "Ida_de_Damas"
+			is_general = yes
+			commander_rank = commander_rank_3
+			female = yes
+			birth_date = 1779.7.31
+			traits = {
+				basic_defensive_strategist 
+			}
+		}
+
+		create_character = {
+			first_name = "Eleonora_Pot_de_la_Roche"
+			is_general = yes
+			commander_rank = commander_rank_3
+			female = yes
+			birth_date = 1774.5.3
+			traits = {
+				basic_defensive_strategist 
+			}
+		}
+
+		create_character = {
+			first_name = "Childebert_de_Villiers"
+			is_general = yes
+			commander_rank = commander_rank_4
+			birth_date = 1768.5.4
+			traits = {
+				basic_defensive_strategist 
+			}
+		}
+
+		create_character = {
+			first_name = "Clotaire_de_Dyo"
+			is_general = yes
+			commander_rank = commander_rank_2
+			birth_date = 1784.2.17
+			traits = {
+				basic_offensive_planner 
+			}
+		}
+
+		create_character = {
+			first_name = "Thorvald_de_Montfaucon"
+			is_general = yes
+			commander_rank = commander_rank_3
+			birth_date = 1786.3.18
+			traits = {
+				basic_defensive_strategist 
+			}
+		}
+
+		create_character = {
+			first_name = "Zazilie_de_Semur"
+			is_general = yes
+			commander_rank = commander_rank_2
+			female = yes
+			birth_date = 1768.3.15
+			traits = {
+				charismatic resupply_commander 
+			}
+		}
+
+	}
+}

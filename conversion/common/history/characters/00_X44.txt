@@ -1,0 +1,43 @@
+﻿CHARACTERS = {
+	c:X44 = {
+		create_character = {
+			first_name = "Trinle"
+			last_name = "Ghorka"
+			female = yes
+			culture = cu:dynamic-avadhi-nepali-culture-num1
+			religion = rel:gelugpa
+			birth_date = 1790.7.22
+			traits = {
+				basic_political_operator direct 
+			}
+		}
+
+		create_character = {
+			first_name = "Angbo"
+			last_name = "Yangwarok"
+			heir = yes
+			culture = cu:dynamic-avadhi-nepali-culture-num1
+			religion = rel:gelugpa
+			birth_date = 1818.12.14
+			traits = {
+				expert_colonial_administrator tactful 
+			}
+		}
+
+		create_character = {
+			first_name = "Angbo_VII"
+			last_name = "Yangwarok"
+			ruler = yes
+			culture = cu:dynamic-avadhi-nepali-culture-num1
+			religion = rel:gelugpa
+			birth_date = 1790.4.5
+			traits = {
+				charismatic experienced_diplomat 
+			}
+			on_created = {
+				set_variable = is_married
+			}
+		}
+
+	}
+}

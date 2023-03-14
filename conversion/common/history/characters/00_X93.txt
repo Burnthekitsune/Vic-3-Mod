@@ -1,0 +1,53 @@
+﻿CHARACTERS = {
+	c:X93 = {
+		create_character = {
+			first_name = "Vandana"
+			last_name = "Boussombo"
+			female = yes
+			culture = cu:luba
+			religion = rel:animist
+			birth_date = 1812.12.1
+			traits = {
+				expert_political_operator imperious 
+			}
+		}
+
+		create_character = {
+			first_name = "Kisuku"
+			last_name = "Mwaantaangaand"
+			heir = yes
+			culture = cu:luba
+			religion = rel:animist
+			birth_date = 1834.2.26
+			traits = {
+				experienced_colonial_administrator 
+			}
+		}
+
+		create_character = {
+			first_name = "Dibwe_V"
+			last_name = "Mwaantaangaand"
+			ruler = yes
+			culture = cu:luba
+			religion = rel:animist
+			birth_date = 1810.12.6
+			traits = {
+				cruel 
+			}
+			on_created = {
+				set_variable = is_married
+			}
+		}
+
+		create_character = {
+			first_name = "Nyembo_Tayot"
+			is_general = yes
+			commander_rank = commander_rank_2
+			birth_date = 1788.4.19
+			traits = {
+				charismatic 
+			}
+		}
+
+	}
+}

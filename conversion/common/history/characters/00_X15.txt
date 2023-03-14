@@ -1,0 +1,15 @@
+﻿CHARACTERS = {
+	c:X15 = {
+		create_character = {
+			first_name = "Khafaja_Spinola"
+			ruler = yes
+			culture = cu:sicilian
+			religion = rel:adamites
+			birth_date = 1796.4.27
+			traits = {
+				direct 
+			}
+		}
+
+	}
+}

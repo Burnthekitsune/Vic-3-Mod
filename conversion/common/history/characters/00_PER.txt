@@ -1,0 +1,35 @@
+﻿CHARACTERS = {
+	c:PER = {
+		create_character = {
+			first_name = "Dmitriy_Azizi"
+			ruler = yes
+			culture = cu:persian
+			religion = rel:zoroastrian
+			birth_date = 1795.7.23
+			traits = {
+				hedonist 
+			}
+		}
+
+		create_character = {
+			first_name = "Afanasiy_Sabet"
+			is_general = yes
+			commander_rank = commander_rank_3
+			birth_date = 1802.8.29
+			traits = {
+				surveyor 
+			}
+		}
+
+		create_character = {
+			first_name = "Fyodor_Ansari"
+			is_admiral = yes
+			commander_rank = commander_rank_3
+			birth_date = 1785.1.2
+			traits = {
+				traditionalist_commander 
+			}
+		}
+
+	}
+}

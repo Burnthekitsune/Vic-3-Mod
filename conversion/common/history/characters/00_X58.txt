@@ -1,0 +1,43 @@
+﻿CHARACTERS = {
+	c:X58 = {
+		create_character = {
+			first_name = "_Abdullah"
+			last_name = "Chalukya"
+			heir = yes
+			culture = cu:telegu
+			religion = rel:jain
+			birth_date = 1824.1.27
+			traits = {
+				expensive_tastes 
+			}
+		}
+
+		create_character = {
+			first_name = "Dattadevi"
+			last_name = "Chalukya"
+			female = yes
+			culture = cu:telegu
+			religion = rel:jain
+			birth_date = 1796.8.21
+			traits = {
+				experienced_colonial_administrator imperious 
+			}
+		}
+
+		create_character = {
+			first_name = "_Abdullah_VI"
+			last_name = "Chalukya"
+			ruler = yes
+			culture = cu:telegu
+			religion = rel:jain
+			birth_date = 1783.2.23
+			traits = {
+				basic_diplomat cautious 
+			}
+			on_created = {
+				set_variable = is_married
+			}
+		}
+
+	}
+}

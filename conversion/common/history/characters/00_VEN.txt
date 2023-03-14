@@ -1,0 +1,26 @@
+﻿CHARACTERS = {
+	c:VEN = {
+		create_character = {
+			first_name = "Giovanni_Giustinani"
+			ruler = yes
+			culture = cu:north_italian
+			religion = rel:converted_dynamic_faith_102
+			birth_date = 1794.8.14
+			traits = {
+				cautious 
+			}
+		}
+
+		create_character = {
+			first_name = "Joscella_Giustinani"
+			is_general = yes
+			commander_rank = commander_rank_2
+			female = yes
+			birth_date = 1812.9.4
+			traits = {
+				psychological_affliction 
+			}
+		}
+
+	}
+}

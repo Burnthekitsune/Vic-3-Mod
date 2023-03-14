@@ -1,0 +1,18 @@
+﻿CHARACTERS = {
+	c:BRU = {
+		create_character = {
+			first_name = "_Abd_al-Jal0l_III"
+			last_name = "Bolkiah"
+			ruler = yes
+			is_general = yes
+			commander_rank = commander_rank_2
+			culture = cu:bornean
+			religion = rel:sunni
+			birth_date = 1752.7.14
+			traits = {
+				direct 
+			}
+		}
+
+	}
+}

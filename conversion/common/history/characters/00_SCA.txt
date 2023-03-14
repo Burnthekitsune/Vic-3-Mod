@@ -1,0 +1,262 @@
+﻿CHARACTERS = {
+	c:SCA = {
+		create_character = {
+			first_name = "Harald_Lovenorn"
+			is_general = yes
+			commander_rank = commander_rank_3
+			birth_date = 1797.5.25
+			traits = {
+				basic_offensive_planner 
+			}
+		}
+
+		create_character = {
+			first_name = "Cecilie_von_Ascheberg"
+			is_general = yes
+			commander_rank = commander_rank_4
+			female = yes
+			birth_date = 1797.8.22
+			traits = {
+				expert_offensive_planner 
+			}
+		}
+
+		create_character = {
+			first_name = "Gunhild_Eberstein"
+			is_general = yes
+			commander_rank = commander_rank_3
+			female = yes
+			birth_date = 1800.8.17
+			traits = {
+				experienced_offensive_planner 
+			}
+		}
+
+		create_character = {
+			first_name = "Johan_Schack"
+			is_admiral = yes
+			commander_rank = commander_rank_3
+			birth_date = 1797.1.22
+			traits = {
+				traditionalist_commander 
+			}
+		}
+
+		create_character = {
+			first_name = "Ludvig_Cronstedt"
+			is_admiral = yes
+			commander_rank = commander_rank_1
+			birth_date = 1809.8.24
+		}
+
+		create_character = {
+			first_name = "Luitgard_Fleming"
+			is_general = yes
+			commander_rank = commander_rank_4
+			female = yes
+			birth_date = 1806.9.18
+			traits = {
+				ambitious explorer 
+			}
+		}
+
+		create_character = {
+			first_name = "Katrine_Dahlbergh"
+			is_general = yes
+			commander_rank = commander_rank_3
+			female = yes
+			birth_date = 1801.2.3
+			traits = {
+				surveyor 
+			}
+		}
+
+		create_character = {
+			first_name = "Sigvard_von_Fersen"
+			is_general = yes
+			commander_rank = commander_rank_4
+			birth_date = 1787.1.5
+			traits = {
+				cautious surveyor 
+			}
+		}
+
+		create_character = {
+			first_name = "Bengt_Krabbe"
+			is_general = yes
+			commander_rank = commander_rank_4
+			birth_date = 1802.5.12
+			traits = {
+				cautious experienced_offensive_planner 
+			}
+		}
+
+		create_character = {
+			first_name = "Ludvig_Engelbrekt"
+			is_admiral = yes
+			commander_rank = commander_rank_1
+			birth_date = 1785.1.12
+			traits = {
+				convoy_raider_commander 
+			}
+		}
+
+		create_character = {
+			first_name = "Luitgard_Lovenorn"
+			is_general = yes
+			commander_rank = commander_rank_3
+			female = yes
+			birth_date = 1796.7.12
+			traits = {
+				meticulous surveyor 
+			}
+		}
+
+		create_character = {
+			first_name = "Frederikke_Brahe"
+			is_general = yes
+			commander_rank = commander_rank_3
+			female = yes
+			birth_date = 1804.1.8
+			traits = {
+				basic_offensive_planner innovative 
+			}
+		}
+
+		create_character = {
+			first_name = "Maren_Hastfer"
+			is_admiral = yes
+			commander_rank = commander_rank_1
+			female = yes
+			birth_date = 1781.12.1
+			traits = {
+				explorer 
+			}
+		}
+
+		create_character = {
+			first_name = "Ulrika"
+			last_name = "Grubbe"
+			female = yes
+			culture = cu:dynamic-uralic-old_prussian-culture-num1
+			religion = rel:converted_dynamic_faith_102
+			birth_date = 1785.3.11
+			traits = {
+				hedonist 
+			}
+		}
+
+		create_character = {
+			first_name = "Olav"
+			last_name = "Hvide"
+			heir = yes
+			is_general = yes
+			commander_rank = commander_rank_3
+			culture = cu:dynamic-uralic-old_prussian-culture-num1
+			religion = rel:converted_dynamic_faith_102
+			birth_date = 1814.7.22
+			traits = {
+				experienced_diplomat hedonist trench_rat 
+			}
+		}
+
+		create_character = {
+			first_name = "Adolf_III"
+			last_name = "Hvide"
+			ruler = yes
+			is_general = yes
+			commander_rank = commander_rank_3
+			culture = cu:dynamic-uralic-old_prussian-culture-num1
+			religion = rel:converted_dynamic_faith_102
+			birth_date = 1799.7.22
+			traits = {
+				basic_political_operator pious surveyor 
+			}
+			on_created = {
+				set_variable = is_married
+			}
+		}
+
+		create_character = {
+			first_name = "Margaret_Rehnskiold"
+			is_general = yes
+			commander_rank = commander_rank_4
+			female = yes
+			birth_date = 1789.9.21
+			traits = {
+				defense_in_depth_specialist wrathful 
+			}
+		}
+
+		create_character = {
+			first_name = "Emily_Daa"
+			is_admiral = yes
+			commander_rank = commander_rank_1
+			female = yes
+			birth_date = 1789.4.18
+		}
+
+		create_character = {
+			first_name = "Karl_Ulfeldt"
+			is_admiral = yes
+			commander_rank = commander_rank_2
+			birth_date = 1769.12.23
+		}
+
+		create_character = {
+			first_name = "Eleanor_Hjarne"
+			is_general = yes
+			commander_rank = commander_rank_3
+			female = yes
+			birth_date = 1790.9.29
+			traits = {
+				basic_offensive_planner 
+			}
+		}
+
+		create_character = {
+			first_name = "Gottfrid_Akeleye"
+			is_general = yes
+			commander_rank = commander_rank_4
+			birth_date = 1779.1.30
+			traits = {
+				basic_defensive_strategist cruel 
+			}
+		}
+
+		create_character = {
+			first_name = "Alfred_Dahlbergh"
+			is_admiral = yes
+			birth_date = 1782.10.8
+			traits = {
+				alcoholic 
+			}
+		}
+
+		create_character = {
+			first_name = "Gottfrid_Reventlow"
+			is_admiral = yes
+			commander_rank = commander_rank_2
+			birth_date = 1768.11.6
+			traits = {
+				convoy_raider_commander 
+			}
+		}
+
+		create_character = {
+			first_name = "Einar_Christiansen"
+			is_admiral = yes
+			commander_rank = commander_rank_1
+			birth_date = 1787.11.16
+		}
+
+		create_character = {
+			first_name = "Tora_Dahlbergh"
+			is_admiral = yes
+			commander_rank = commander_rank_2
+			female = yes
+			birth_date = 1759.8.31
+		}
+
+	}
+}

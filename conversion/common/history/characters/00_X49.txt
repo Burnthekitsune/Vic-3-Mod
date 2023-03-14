@@ -1,0 +1,35 @@
+﻿CHARACTERS = {
+	c:X49 = {
+		create_character = {
+			first_name = "Manuel_Palahniuk"
+			is_general = yes
+			commander_rank = commander_rank_2
+			birth_date = 1789.3.8
+			traits = {
+				meticulous 
+			}
+		}
+
+		create_character = {
+			first_name = "Anatolios_Said"
+			ruler = yes
+			culture = cu:greek
+			religion = rel:zoroastrian
+			birth_date = 1780.6.2
+			traits = {
+				experienced_political_operator innovative 
+			}
+		}
+
+		create_character = {
+			first_name = "Theophylaktos_Kobylyanska"
+			is_general = yes
+			commander_rank = commander_rank_1
+			birth_date = 1782.5.2
+			traits = {
+				innovative 
+			}
+		}
+
+	}
+}

@@ -1,0 +1,43 @@
+﻿CHARACTERS = {
+	c:ASM = {
+		create_character = {
+			first_name = "Hira"
+			last_name = "Sur"
+			female = yes
+			culture = cu:assamese
+			religion = rel:mahayana
+			birth_date = 1812.5.14
+			traits = {
+				charismatic 
+			}
+		}
+
+		create_character = {
+			first_name = "Arathi"
+			last_name = "Chandrasen"
+			heir = yes
+			culture = cu:assamese
+			religion = rel:mahayana
+			birth_date = 1833.11.13
+			traits = {
+				basic_colonial_administrator 
+			}
+		}
+
+		create_character = {
+			first_name = "Devakhadga_II"
+			last_name = "Chandrasen"
+			ruler = yes
+			culture = cu:assamese
+			religion = rel:mahayana
+			birth_date = 1818.11.13
+			traits = {
+				basic_political_operator charismatic 
+			}
+			on_created = {
+				set_variable = is_married
+			}
+		}
+
+	}
+}
