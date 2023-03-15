@@ -8922,6 +8922,32 @@
 		}
 	}
 	s:STATE_GUATEMALA = {
+		region_state:X86 = {
+			create_building = {
+				building = "building_port"
+				level = 1
+				reserves = 1
+				activate_production_methods = { "pm_anchorage" }
+			}
+			create_building = {
+				building = "building_iron_mine"
+				level = 1
+				reserves = 1
+				activate_production_methods = { }
+			}
+			create_building = {
+				building = "building_logging_camp"
+				level = 1
+				reserves = 1
+				activate_production_methods = { pm_hardwood }
+			}
+			create_building = {
+				building = building_arms_industry
+				level = 1
+				reserves = 1
+				activate_production_methods = { }
+			}
+		}
 		region_state:NIC = {
 			create_building = {
 				building = "building_barracks"
@@ -13972,6 +13998,14 @@
 		}
 	}
 	s:STATE_MAURITANIA = {
+		region_state:W65 = {
+			create_building = {
+				building = "building_port"
+				level = 1
+				reserves = 1
+				activate_production_methods = { "pm_anchorage" }
+			}
+		}
 		region_state:V27 = {
 			create_building = {
 				building = "building_barracks"
@@ -23628,6 +23662,22 @@
 		}
 	}
 	s:STATE_VERACRUZ = {
+		region_state:X38 = {
+			create_building = {
+				building = "building_port"
+				level = 1
+				reserves = 1
+				activate_production_methods = { "pm_anchorage" }
+			}
+		}
+		region_state:V12 = {
+			create_building = {
+				building = "building_port"
+				level = 1
+				reserves = 1
+				activate_production_methods = { "pm_anchorage" }
+			}
+		}
 		region_state:X42 = {
 			create_building = {
 				building = "building_maize_farm"
@@ -25840,6 +25890,48 @@
 			create_building = {
 				building = "building_port"
 				level = 1
+				reserves = 1
+				activate_production_methods = { }
+			}
+		}
+	}
+	s:STATE_YUCATAN = {
+		region_state:X38 = {
+			create_building = {
+				building = "building_port"
+				level = 1
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+			create_building = {
+				building = "building_maize_farm"
+				level = 2
+				reserves = 1
+				activate_production_methods = { }
+			}
+			create_building = {
+				building = "building_food_industry"
+				level = 1
+				reserves = 1
+				activate_production_methods = { }
+			}
+		}
+		region_state:V12 = {
+			create_building = {
+				building = "building_port"
+				level = 1
+				reserves = 1
+				activate_production_methods = { "pm_basic_port" }
+			}
+			create_building = {
+				building = "building_maize_farm"
+				level = 6
+				reserves = 1
+				activate_production_methods = { }
+			}
+			create_building = {
+				building = "building_food_industry"
+				level = 2
 				reserves = 1
 				activate_production_methods = { }
 			}

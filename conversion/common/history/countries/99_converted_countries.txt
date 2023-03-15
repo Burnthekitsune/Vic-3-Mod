@@ -3963,6 +3963,7 @@
 	}
 	c:V12 = {
 		add_technology_researched = enclosure
+		add_technology_researched = manufacturies
 		add_technology_researched = navigation
 		add_technology_researched = standing_army
 		add_technology_researched = tech_bureaucracy
@@ -7538,6 +7539,7 @@
 		add_technology_researched = standing_army
 		add_technology_researched = tech_bureaucracy
 		add_technology_researched = urbanization
+		add_technology_researched = navigation
 		effect_native_conscription_3 = yes
 		effect_starting_politics_traditional = yes
 		effect_starting_technology_tier_7_tech = yes
@@ -9595,6 +9597,8 @@
 		add_technology_researched = standing_army
 		add_technology_researched = tech_bureaucracy
 		add_technology_researched = urbanization
+		add_technology_researched = manufacturies
+		add_technology_researched = navigation
 		effect_native_conscription_3 = yes
 		effect_starting_politics_traditional = yes
 		effect_starting_technology_tier_7_tech = yes
@@ -11660,10 +11664,13 @@
 	}
 	c:X86 = {
 		add_technology_researched = enclosure
+		add_technology_researched = gunsmithing
+		add_technology_researched = manufacturies
 		add_technology_researched = navigation
 		add_technology_researched = standing_army
 		add_technology_researched = tech_bureaucracy
 		add_technology_researched = urbanization
+		add_technology_researched = shaft_mining
 		effect_native_conscription_3 = yes
 		effect_starting_politics_traditional = yes
 		effect_starting_technology_tier_7_tech = yes
