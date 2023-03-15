@@ -439,6 +439,12 @@
 				reserves = 1
 				activate_production_methods = { "pm_citrus_orchards" }
 			}
+			create_building={
+				building="building_railway"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_steam_trains" "pm_wooden_passenger_carriages" }
+			}
 			create_building = {
 				building = "building_food_industry"
 				level = 1
@@ -597,6 +603,12 @@
 				reserves = 1
 				activate_production_methods = { "pm_line_infantry" "pm_mobile_artillery" }
 			}
+			create_building={
+				building="building_railway"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_steam_trains" "pm_wooden_passenger_carriages" }
+			}
 			create_building = {
 				building = "building_wheat_farm"
 				level = 1
@@ -672,6 +684,12 @@
 				level = 1
 				reserves = 1
 				activate_production_methods = { "pm_line_infantry" "pm_mobile_artillery" }
+			}
+			create_building={
+				building="building_railway"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_steam_trains" "pm_wooden_passenger_carriages" }
 			}
 			create_building = {
 				building = "building_port"
@@ -789,6 +807,12 @@
 				reserves = 1
 				activate_production_methods = { }
 			}
+			create_building={
+				building="building_railway"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_steam_trains" "pm_wooden_passenger_carriages" }
+			}
 			create_building = {
 				building = "building_food_industry"
 				level = 1
@@ -824,6 +848,12 @@
 				level = 2
 				reserves = 1
 				activate_production_methods = { "pm_vertical_filing_cabinets" }
+			}
+			create_building = {
+				building = "building_naval_base"
+				level = 9
+				reserves = 1
+				activate_production_methods = { "pm_power_of_the_purse" }
 			}
 		}
 	}
@@ -1145,6 +1175,12 @@
 				reserves = 1
 				activate_production_methods = { }
 			}
+			create_building={
+				building="building_railway"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_steam_trains" "pm_wooden_passenger_carriages" }
+			}
 			create_building = {
 				building = "building_shipyards"
 				level = 1
@@ -1196,6 +1232,12 @@
 				level = 1
 				reserves = 1
 				activate_production_methods = { "pm_cannons" }
+			}
+			create_building={
+				building="building_railway"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_steam_trains" "pm_wooden_passenger_carriages" }
 			}
 			create_building = {
 				building = "building_coal_mine"
@@ -1326,6 +1368,12 @@
 				level = 2
 				reserves = 1
 				activate_production_methods = { "pm_sulfite_pulping" }
+			}
+			create_building={
+				building="building_railway"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_steam_trains" "pm_wooden_passenger_carriages" }
 			}
 			create_building = {
 				building = "building_barracks"
@@ -1493,6 +1541,12 @@
 				reserves = 1
 				activate_production_methods = { }
 			}
+			create_building={
+				building="building_railway"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_steam_trains" "pm_wooden_passenger_carriages" }
+			}wd
 			create_building = {
 				building = "building_gold_mine"
 				level = 1
@@ -1662,6 +1716,18 @@
 				level = 1
 				reserves = 1
 				activate_production_methods = { }
+			}
+			create_building={
+				building="building_railway"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_steam_trains" "pm_wooden_passenger_carriages" }
+			}
+			create_building={
+				building="building_railway"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_steam_trains" "pm_wooden_passenger_carriages" }
 			}
 			create_building = {
 				building = "building_munition_plants"
@@ -1908,6 +1974,12 @@
 				level = 1
 				reserves = 1
 				activate_production_methods = { "pm_no_secondary" }
+			}
+			create_building={
+				building="building_railway"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_steam_trains" "pm_wooden_passenger_carriages" }
 			}
 			create_building = {
 				building = "building_tooling_workshops"
@@ -2806,6 +2878,12 @@
 				level = 7
 				reserves = 1
 				activate_production_methods = { "pm_no_secondary" }
+			}
+			create_building={
+				building="building_railway"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_steam_trains" "pm_wooden_passenger_carriages" }
 			}
 			create_building = {
 				building = "building_barracks"
@@ -3799,6 +3877,12 @@
 				reserves = 1
 				activate_production_methods = { }
 			}
+			create_building={
+				building="building_railway"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_steam_trains" "pm_wooden_passenger_carriages" }
+			}
 			create_building = {
 				building = "building_fishing_wharf"
 				level = 5
@@ -4037,6 +4121,12 @@
 				reserves = 1
 				activate_production_methods = { "pm_line_infantry" "pm_mobile_artillery" }
 			}
+			create_building={
+				building="building_railway"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_steam_trains" "pm_wooden_passenger_carriages" }
+			}
 			create_building = {
 				building = "building_logging_camp"
 				level = 2
@@ -4080,6 +4170,12 @@
 				level = 1
 				reserves = 1
 				activate_production_methods = { "pm_no_secondary" }
+			}
+			create_building={
+				building="building_railway"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_steam_trains" "pm_wooden_passenger_carriages" }
 			}
 			create_building = {
 				building = "building_food_industry"
@@ -4457,6 +4553,12 @@
 				reserves = 1
 				activate_production_methods = { }
 			}
+			create_building={
+				building="building_railway"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_steam_trains" "pm_wooden_passenger_carriages" }
+			}
 			create_building = {
 				building = "building_iron_mine"
 				level = 2
@@ -4490,6 +4592,12 @@
 				level = 1
 				reserves = 1
 				activate_production_methods = { }
+			}
+			create_building={dd
+				building="building_railway"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_steam_trains" "pm_wooden_passenger_carriages" }
 			}
 			create_building = {
 				building = "building_lead_mine"
@@ -5072,6 +5180,12 @@
 				level = 1
 				reserves = 1
 				activate_production_methods = { "pm_hardwood" "pm_saw_mills" }
+			}
+			create_building={
+				building="building_railway"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_steam_trains" "pm_wooden_passenger_carriages" }
 			}
 			create_building = {
 				building = "building_wheat_farm"
@@ -7395,6 +7509,18 @@
 				reserves = 1
 				activate_production_methods = { "pm_military_shipbuilding_wooden" }
 			}
+			create_building={
+				building="building_railway"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_steam_trains" "pm_wooden_passenger_carriages" }
+			}
+			create_building = {
+				building = "building_naval_base"
+				level = 9
+				reserves = 1
+				activate_production_methods = { "pm_power_of_the_purse" }
+			}
 			create_building = {
 				building = "building_barracks"
 				level = 5
@@ -7463,6 +7589,12 @@
 				reserves = 1
 				activate_production_methods = { }
 			}
+			create_building={
+				building="building_railway"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_steam_trains" "pm_wooden_passenger_carriages" }
+			}
 			create_building = {
 				building = "building_tooling_workshops"
 				level = 1
@@ -7508,6 +7640,12 @@
 				level = 2
 				reserves = 1
 				activate_production_methods = { "pm_no_secondary" }
+			}
+			create_building={
+				building="building_railway"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_steam_trains" "pm_wooden_passenger_carriages" }
 			}
 			create_building = {
 				building = "building_naval_base"
@@ -7666,6 +7804,12 @@
 				level = 1
 				reserves = 1
 				activate_production_methods = { }
+			}
+			create_building={
+				building="building_railway"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_steam_trains" "pm_wooden_passenger_carriages" }
 			}
 			create_building = {
 				building = "building_barracks"
@@ -8034,6 +8178,12 @@
 				level = 1
 				reserves = 1
 				activate_production_methods = { "pm_pulp_pressing" }
+			}
+			create_building={
+				building="building_railway"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_steam_trains" "pm_wooden_passenger_carriages" }
 			}
 			create_building = {
 				building = "building_iron_mine"
@@ -8414,6 +8564,12 @@
 				level = 2
 				reserves = 1
 				activate_production_methods = { }
+			}
+			create_building={
+				building="building_railway"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_steam_trains" "pm_wooden_passenger_carriages" }
 			}
 			create_building = {
 				building = "building_silk_plantation"
@@ -10079,6 +10235,12 @@
 				reserves = 1
 				activate_production_methods = { "pm_line_infantry" "pm_mobile_artillery" }
 			}
+			create_building={
+				building="building_railway"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_steam_trains" "pm_wooden_passenger_carriages" }
+			}
 			create_building = {
 				building = "building_university"
 				level = 1
@@ -10242,6 +10404,12 @@
 				level = 2
 				reserves = 1
 				activate_production_methods = { }
+			}
+			create_building={
+				building="building_railway"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_steam_trains" "pm_wooden_passenger_carriages" }
 			}
 			create_building = {
 				building = "building_iron_mine"
@@ -11887,6 +12055,12 @@
 				reserves = 1
 				activate_production_methods = { "pm_pulp_pressing" }
 			}
+			create_building={
+				building="building_railway"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_steam_trains" "pm_wooden_passenger_carriages" }
+			}
 			create_building = {
 				building = "building_barracks"
 				level = 5
@@ -12571,6 +12745,12 @@
 				reserves = 1
 				activate_production_methods = { "pm_line_infantry" "pm_mobile_artillery" }
 			}
+			create_building={
+				building="building_railway"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_steam_trains" "pm_wooden_passenger_carriages" }
+			}
 			create_building = {
 				building = "building_wheat_farm"
 				level = 1
@@ -12596,6 +12776,12 @@
 				level = 1
 				reserves = 1
 				activate_production_methods = { "pm_cannons" }
+			}
+			create_building={
+				building="building_railway"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_steam_trains" "pm_wooden_passenger_carriages" }
 			}
 			create_building = {
 				building = "building_coal_mine"
@@ -12671,6 +12857,12 @@
 				reserves = 1
 				activate_production_methods = { }
 			}
+			create_building={
+				building="building_railway"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_steam_trains" "pm_wooden_passenger_carriages" }
+			}
 			create_building = {
 				building = "building_barracks"
 				level = 25
@@ -12702,6 +12894,12 @@
 				level = 8
 				reserves = 1
 				activate_production_methods = { "pm_power_of_the_purse" }
+			}
+			create_building={
+				building="building_railway"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_steam_trains" "pm_wooden_passenger_carriages" }
 			}
 			create_building = {
 				building = "building_paper_mills"
@@ -13612,6 +13810,12 @@
 				level = 1
 				reserves = 1
 				activate_production_methods = { }
+			}
+			create_building={
+				building="building_railway"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_steam_trains" "pm_wooden_passenger_carriages" }
 			}
 			create_building = {
 				building = "building_tooling_workshops"
@@ -15175,6 +15379,12 @@
 				reserves = 1
 				activate_production_methods = { "pm_no_secondary" }
 			}
+			create_building={
+				building="building_railway"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_steam_trains" "pm_wooden_passenger_carriages" }
+			}
 			create_building = {
 				building = "building_food_industry"
 				level = 1
@@ -15702,6 +15912,12 @@
 				level = 1
 				reserves = 1
 				activate_production_methods = { }
+			}
+			create_building={
+				building="building_railway"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_steam_trains" "pm_wooden_passenger_carriages" }
 			}
 			create_building = {
 				building = "building_wheat_farm"
@@ -16897,6 +17113,12 @@
 				reserves = 1
 				activate_production_methods = { "pm_line_infantry" "pm_mobile_artillery" }
 			}
+			create_building={
+				building="building_railway"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_steam_trains" "pm_wooden_passenger_carriages" }
+			}
 			create_building = {
 				building = "building_university"
 				level = 1
@@ -17639,6 +17861,12 @@
 				reserves = 1
 				activate_production_methods = { "pm_no_naval_theory" }
 			}
+			create_building={
+				building="building_railway"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_steam_trains" "pm_wooden_passenger_carriages" }
+			}
 			create_building = {
 				building = "building_barracks"
 				level = 17
@@ -17786,6 +18014,18 @@
 				level = 1
 				reserves = 1
 				activate_production_methods = { "pm_cannons" }
+			}
+			create_building={
+				building="building_railway"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_steam_trains" "pm_wooden_passenger_carriages" }
+			}
+			create_building = {
+				building = "building_naval_base"
+				level = 5
+				reserves = 1
+				activate_production_methods = { "pm_power_of_the_purse" }
 			}
 			create_building = {
 				building = "building_logging_camp"
@@ -17948,6 +18188,18 @@
 				level = 2
 				reserves = 1
 				activate_production_methods = { }
+			}
+			create_building={
+				building="building_railway"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_steam_trains" "pm_wooden_passenger_carriages" }
+			}
+			create_building = {
+				building = "building_naval_base"
+				level = 5
+				reserves = 1
+				activate_production_methods = { "pm_power_of_the_purse" }
 			}
 			create_building = {
 				building = "building_paper_mills"
@@ -18500,6 +18752,12 @@
 				level = 3
 				reserves = 1
 				activate_production_methods = { }
+			}
+			create_building={
+				building="building_railway"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_steam_trains" "pm_wooden_passenger_carriages" }
 			}
 			create_building = {
 				building = "building_paper_mills"
@@ -19242,6 +19500,12 @@
 				level = 1
 				reserves = 1
 				activate_production_methods = { "pm_atmospheric_engine_pump_building_iron_mine" }
+			}
+			create_building={
+				building="building_railway"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_steam_trains" "pm_wooden_passenger_carriages" }
 			}
 		}
 		region_state:X19 = {
@@ -22007,6 +22271,12 @@
 				reserves = 1
 				activate_production_methods = { "pm_mobile_artillery" "pm_skirmish_infantry" }
 			}
+			create_building={
+				building="building_railway"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_steam_trains" "pm_wooden_passenger_carriages" }
+			}
 			create_building = {
 				building = "building_cotton_plantation"
 				level = 3
@@ -23165,6 +23435,12 @@
 				reserves = 1
 				activate_production_methods = { "pm_mobile_artillery" "pm_skirmish_infantry" }
 			}
+			create_building={
+				building="building_railway"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_steam_trains" "pm_wooden_passenger_carriages" }
+			}
 			create_building = {
 				building = "building_coal_mine"
 				level = 1
@@ -23683,6 +23959,12 @@
 				reserves = 1
 				activate_production_methods = { }
 			}
+			create_building={
+				building="building_railway"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_steam_trains" "pm_wooden_passenger_carriages" }
+			}
 			create_building = {
 				building = "building_barracks"
 				level = 1
@@ -24056,6 +24338,12 @@
 				level = 1
 				reserves = 1
 				activate_production_methods = { "pm_no_naval_theory" }
+			}
+			create_building={
+				building="building_railway"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_steam_trains" "pm_wooden_passenger_carriages" }
 			}
 			create_building = {
 				building = "building_sulfur_mine"
