@@ -463,6 +463,30 @@
 				reserves = 1
 				activate_production_methods = { }
 			}
+			create_building = {
+				building = "building_iron_mine"
+				level = 3
+				reserves = 1
+				activate_production_methods = { "pm_atmospheric_engine_pump_building_iron_mine" }
+			}
+			create_building = {
+				building = "building_coal_mine"
+				level = 3
+				reserves = 1
+				activate_production_methods = { "pm_atmospheric_engine_pump_building_coal_mine" }
+			}
+			create_building={
+				building="building_steel_mills"
+				level=2
+				reserves=1
+				activate_production_methods={ "pm_blister_steel_process" "pm_automation_disabled" "pm_privately_owned_industry" }
+			}
+			create_building={
+				building="building_motor_industry"
+				level=8
+				reserves=1
+				activate_production_methods={ "pm_steam_engines" "pm_automobiles_disabled" "pm_automation_disabled" "pm_privately_owned_industry" }
+			}
 		}
 	}
 	s:STATE_ALEPPO = {
@@ -854,6 +878,12 @@
 				level = 9
 				reserves = 1
 				activate_production_methods = { "pm_power_of_the_purse" }
+			}
+			create_building = {
+				building = "building_sulfur_mine"
+				level = 1
+				reserves = 1
+				activate_production_methods = { "pm_atmospheric_engine_pump_building_sulfur_mine" }
 			}
 		}
 	}
@@ -4590,6 +4620,18 @@
 				level = 3
 				reserves = 1
 				activate_production_methods = { "pm_vertical_filing_cabinets" }
+			}
+			create_building={
+				building="building_steel_mills"
+				level=2
+				reserves=1
+				activate_production_methods={ "pm_blister_steel_process" "pm_automation_disabled" "pm_privately_owned_industry" }
+			}
+			create_building={
+				building="building_motor_industry"
+				level=2
+				reserves=1
+				activate_production_methods={ "pm_steam_engines" "pm_automobiles_disabled" "pm_automation_disabled" "pm_privately_owned_industry" }
 			}
 		}
 	}
