@@ -8888,7 +8888,7 @@ X83 = {
 	color = { 221 81 172 }
 	country_type = recognized
 	tier = principality
-	cultures = { neo-mexico_colony-north_american_alshamali }
+	cultures = { neo-mexico_colony-faykinghian }
 	religion = converted_dynamic_faith_102
 	capital = STATE_SONORA
 }

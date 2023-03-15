@@ -2536,11 +2536,11 @@
 	s:STATE_HIGHLANDS = {
 		create_state = {
 			country = c:GBR
-			owned_provinces = { x0C1520 x0E7C03 x314E1F x37518E x3CFF08 x47C5CD x5B0884 x637BE8 x662BE7 x80DB90 x84625B x8E7728 xB7B8EA xCCBBD1 xF00652 xF78F29 xFACCE3 xFBDD5D }
+			owned_provinces = { x0C1520 x0E7C03 x314E1F x3CFF08 x47C5CD x5B0884 x637BE8 x662BE7 x80DB90 x84625B x8E7728 xB7B8EA xCCBBD1 xF00652 xF78F29 xFACCE3 xFBDD5D }
 		}
 		create_state = {
 			country = c:ICL
-			owned_provinces = { x20E000 }
+			owned_provinces = { x20E000 x37518E}
 		}
 		add_homeland = alayislandia
 		add_homeland = askulandi
@@ -5092,6 +5092,7 @@
 			owned_provinces = { x54728A x5F6BAA }
 		}
 		add_homeland = north_italian
+		add_homeland = shamalian
 		add_claim = c:LOM
 		add_claim = c:V23
 	}
@@ -5278,7 +5279,7 @@
 		}
 		add_homeland = aborigine
 		add_homeland = australian
-		add_homeland = neo-australia_colony-australian_alshamali
+		add_homeland = australian_alshamali
 		add_homeland = persian
 	}
 	s:STATE_RAJPUTANA = {
@@ -6012,7 +6013,7 @@
 			owned_provinces = { x050D8E x071CF7 x0C69F3 x0E784F x102244 x1C59CC x1D5F99 x21E8F0 x232E1F x2B0CF4 x396221 x3B56F3 x3FE668 x4122F8 x5040B0 x50C0B0 x50F19B x51B446 x561832 x586231 x5A7F48 x60236D x6A5DDE x6F5B60 x733DDF x738A48 x8385E4 x86A979 x8749DD x8EE07C x92A994 x96DD26 x998BCA x9CAE58 xA18C1B xA1C4D2 xA1D52F xC5AD14 xD040B0 xD0FA16 xD51A40 xD8C27E xDFB440 xE2064F xE353A8 xE7C924 xFF586D }
 		}
 		add_homeland = maori
-		add_homeland = neo-australia_colony-australian_alshamali
+		add_homeland = australian_alshamali
 	}
 	s:STATE_SOUTH_MADAGASCAR = {
 		create_state = {
@@ -6190,7 +6191,7 @@
 			country = c:AST
 			owned_provinces = { x05B74C x0E4E0B x111FE6 x114030 x21D238 x22A709 x3BE014 x48D6CE x4BBCDF x536123 x5B6491 x63CEB5 x9088C7 x97975E x9AD48A xABB52D xBA7909 xBB312B xCC29B4 xEBABAC xEC439A }
 		}
-		add_homeland = neo-australia_colony-australian_alshamali
+		add_homeland = australian_alshamali
 	}
 	s:STATE_TENASSERIM = {
 		create_state = {
@@ -6968,7 +6969,7 @@
 		}
 		add_homeland = aborigine
 		add_homeland = australian
-		add_homeland = neo-australia_colony-australian_alshamali
+		add_homeland = australian_alshamali
 		add_homeland = persian
 		add_claim = c:NNG
 	}
@@ -7079,7 +7080,6 @@
 			owned_provinces = { x30F080 x335389 x33895B x445B6C x446C63 x5299CA x606060 x707080 x70F001 x89334D x89337A x9C52CA xD496B1 xECC061 xF0F001 }
 		}
 		add_homeland = neo-caribbean_colony-alkubiu
-		add_homeland = neo-caribbean_colony-south_american_alshamali
 	}
 	s:STATE_WEST_JAVA = {
 		create_state = {
@@ -7475,7 +7475,7 @@
 			country = c:WIN
 			owned_provinces = { x1D9B6B xB03080 }
 		}
-		add_homeland = neo-colombia_colony-alkubiu
+		add_homeland = neo-caribbean_colony-alkubiu
 		add_homeland = neo-colombia_colony-south_american_alshamali
 	}
 	s:STATE_ZULULAND = {

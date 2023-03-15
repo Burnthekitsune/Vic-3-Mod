@@ -1426,7 +1426,7 @@
 				size = 524
 			}
 			create_pop = {
-				culture = neo-argentine_colony-faykinghian
+				culture = neo-argentine_colony-south_american_alshamal
 				religion = converted_dynamic_faith_102
 				size = 198
 			}
@@ -1451,7 +1451,7 @@
 				size = 548
 			}
 			create_pop = {
-				culture = neo-argentine_colony-anjilu_nurs
+				culture = neo-argentine_colony-south_american_alshamal
 				religion = converted_dynamic_faith_102
 				size = 349
 			}
@@ -1675,7 +1675,7 @@
 				size = 3
 			}
 			create_pop = {
-				culture = neo-brazil_colony-faykinghian
+				culture = neo-brazil_colony-south_american_alshamali
 				religion = converted_dynamic_faith_102
 				size = 113
 			}
@@ -1700,7 +1700,7 @@
 				size = 475
 			}
 			create_pop = {
-				culture = neo-brazil_colony-faykinghian
+				culture = neo-brazil_colony-south_american_alshamali
 				religion = converted_dynamic_faith_102
 				size = 289
 			}
@@ -2446,12 +2446,12 @@
 				size = 3
 			}
 			create_pop = {
-				culture = neo-colombia_colony-north_american_alshamali
+				culture = neo-colombia_colony-south_american_alshamali
 				religion = converted_dynamic_faith_102
 				size = 3174
 			}
 			create_pop = {
-				culture = neo-colombia_colony-north_american_alshamali
+				culture = neo-colombia_colony-south_american_alshamali
 				religion = converted_dynamic_faith_102
 				pop_type = slaves
 				size = 2
@@ -2549,12 +2549,12 @@
 				size = 21
 			}
 			create_pop = {
-				culture = neo-colombia_colony-north_american_alshamali
+				culture = neo-colombia_colony-south_american_alshamali
 				religion = converted_dynamic_faith_102
 				size = 1089
 			}
 			create_pop = {
-				culture = neo-colombia_colony-north_american_alshamali
+				culture = neo-colombia_colony-south_american_alshamali
 				religion = converted_dynamic_faith_102
 				pop_type = slaves
 				size = 1
@@ -2597,17 +2597,17 @@
 				size = 3
 			}
 			create_pop = {
-				culture = neo-colombia_colony-faykinghian
+				culture = neo-colombia_colony-south_american_alshamali
 				religion = converted_dynamic_faith_102
 				size = 337
 			}
 			create_pop = {
-				culture = neo-colombia_colony-north_american_alshamali
+				culture = neo-colombia_colony-south_american_alshamali
 				religion = converted_dynamic_faith_102
 				size = 3808
 			}
 			create_pop = {
-				culture = neo-colombia_colony-north_american_alshamali
+				culture = neo-colombia_colony-south_american_alshamali
 				religion = converted_dynamic_faith_102
 				pop_type = slaves
 				size = 2
@@ -2758,7 +2758,7 @@
 				size = 695
 			}
 			create_pop = {
-				culture = neo-colombia_colony-north_american_alshamali
+				culture = neo-colombia_colony-south_american_alshamali
 				religion = converted_dynamic_faith_102
 				size = 526
 			}
@@ -2785,12 +2785,12 @@
 				size = 3
 			}
 			create_pop = {
-				culture = neo-colombia_colony-north_american_alshamali
+				culture = neo-colombia_colony-south_american_alshamali
 				religion = converted_dynamic_faith_102
 				size = 2749
 			}
 			create_pop = {
-				culture = neo-colombia_colony-north_american_alshamali
+				culture = neo-colombia_colony-south_american_alshamali
 				religion = converted_dynamic_faith_102
 				pop_type = slaves
 				size = 2
@@ -2849,7 +2849,7 @@
 				size = 5545
 			}
 			create_pop = {
-				culture = neo-peru_colony-faykinghian
+				culture = neo-peru_colony-south_american_alshamali
 				religion = converted_dynamic_faith_102
 				size = 2147
 			}
@@ -2869,7 +2869,7 @@
 				size = 140
 			}
 			create_pop = {
-				culture = neo-peru_colony-anjilu_nurs
+				culture = neo-peru_colony-south_american_alshamali
 				religion = converted_dynamic_faith_102
 				size = 1161
 			}
@@ -2990,7 +2990,7 @@
 				size = 1817
 			}
 			create_pop = {
-				culture = neo-argentine_colony-anjilu_nurs
+				culture = neo-argentine_colony-south_american_alshamal
 				religion = converted_dynamic_faith_102
 				size = 726
 			}
@@ -3005,7 +3005,7 @@
 				size = 1048
 			}
 			create_pop = {
-				culture = neo-argentine_colony-anjilu_nurs
+				culture = neo-argentine_colony-south_american_alshamal
 				religion = converted_dynamic_faith_102
 				size = 487
 			}
@@ -3020,12 +3020,12 @@
 				size = 316
 			}
 			create_pop = {
-				culture = neo-argentine_colony-anjilu_nurs
+				culture = neo-argentine_colony-south_american_alshamal
 				religion = converted_dynamic_faith_102
 				size = 63
 			}
 			create_pop = {
-				culture = neo-argentine_colony-askulandi
+				culture = neo-argentine_colony-south_american_alshamal
 				religion = converted_dynamic_faith_102
 				size = 182
 			}
@@ -3055,7 +3055,7 @@
 				size = 2534
 			}
 			create_pop = {
-				culture = neo-argentine_colony-anjilu_nurs
+				culture = neo-argentine_colony-south_american_alshamal
 				religion = converted_dynamic_faith_102
 				size = 1047
 			}
@@ -3070,7 +3070,7 @@
 				size = 148
 			}
 			create_pop = {
-				culture = neo-argentine_colony-faransan
+				culture = neo-argentine_colony-south_american_alshamal
 				religion = converted_dynamic_faith_102
 				size = 110
 			}
@@ -3110,7 +3110,7 @@
 				size = 2189
 			}
 			create_pop = {
-				culture = neo-peru_colony-faykinghian
+				culture = neo-peru_colony-south_american_alshamali
 				religion = converted_dynamic_faith_102
 				size = 2040
 			}
@@ -3125,7 +3125,7 @@
 				size = 1696
 			}
 			create_pop = {
-				culture = neo-peru_colony-faykinghian
+				culture = neo-peru_colony-south_american_alshamali
 				religion = converted_dynamic_faith_102
 				size = 1589
 			}
@@ -4538,7 +4538,7 @@
 				size = 3962
 			}
 			create_pop = {
-				culture = neo-caribbean_colony-shamalian
+				culture = neo-caribbean_colony-alkubiu
 				religion = converted_dynamic_faith_102
 				size = 1514
 			}
@@ -4553,7 +4553,7 @@
 				size = 3392
 			}
 			create_pop = {
-				culture = neo-caribbean_colony-faransan
+				culture = neo-caribbean_colony-alkubiu
 				religion = converted_dynamic_faith_102
 				size = 711
 			}
@@ -4563,7 +4563,7 @@
 				size = 67088
 			}
 			create_pop = {
-				culture = neo-caribbean_colony-jabric
+				culture = neo-caribbean_colony-alkubiu
 				religion = converted_dynamic_faith_102
 				size = 1999
 			}
@@ -4899,7 +4899,7 @@
 				size = 192
 			}
 			create_pop = {
-				culture = neo-mexico_colony-north_american_alshamali
+				culture = neo-mexico_colony-faykinghian
 				religion = converted_dynamic_faith_102
 				size = 4065
 			}
@@ -4919,7 +4919,7 @@
 				size = 226
 			}
 			create_pop = {
-				culture = neo-mexico_colony-north_american_alshamali
+				culture = neo-mexico_colony-faykinghian
 				religion = converted_dynamic_faith_102
 				size = 6161
 			}
@@ -4934,7 +4934,7 @@
 				size = 140
 			}
 			create_pop = {
-				culture = neo-mexico_colony-north_american_alshamali
+				culture = neo-mexico_colony-faykinghian
 				religion = converted_dynamic_faith_102
 				size = 3049
 			}
@@ -4954,7 +4954,7 @@
 				size = 110
 			}
 			create_pop = {
-				culture = neo-mexico_colony-north_american_alshamali
+				culture = neo-mexico_colony-faykinghian
 				religion = converted_dynamic_faith_102
 				size = 2541
 			}
@@ -6625,12 +6625,12 @@
 				size = 48
 			}
 			create_pop = {
-				culture = neo-colombia_colony-north_shamalian
+				culture = neo-colombia_colony-south_american_alshamali
 				religion = converted_dynamic_faith_102
 				size = 2480
 			}
 			create_pop = {
-				culture = neo-colombia_colony-north_shamalian
+				culture = neo-colombia_colony-south_american_alshamali
 				religion = converted_dynamic_faith_102
 				pop_type = slaves
 				size = 38
@@ -6691,12 +6691,12 @@
 				size = 34
 			}
 			create_pop = {
-				culture = neo-colombia_colony-north_shamalian
+				culture = neo-colombia_colony-south_american_alshamali
 				religion = converted_dynamic_faith_102
 				size = 1469
 			}
 			create_pop = {
-				culture = neo-colombia_colony-north_shamalian
+				culture = neo-colombia_colony-south_american_alshamali
 				religion = converted_dynamic_faith_102
 				pop_type = slaves
 				size = 22
@@ -6757,12 +6757,12 @@
 				size = 24
 			}
 			create_pop = {
-				culture = neo-colombia_colony-north_shamalian
+				culture = neo-colombia_colony-south_american_alshamali
 				religion = converted_dynamic_faith_102
 				size = 568
 			}
 			create_pop = {
-				culture = neo-colombia_colony-north_shamalian
+				culture = neo-colombia_colony-south_american_alshamali
 				religion = converted_dynamic_faith_102
 				pop_type = slaves
 				size = 9
@@ -8341,12 +8341,12 @@
 				size = 2
 			}
 			create_pop = {
-				culture = neo-argentine_colony-faykinghian
+				culture = neo-argentine_colony-south_american_alshamal
 				religion = converted_dynamic_faith_102
 				size = 3895
 			}
 			create_pop = {
-				culture = neo-argentine_colony-faykinghian
+				culture = neo-argentine_colony-south_american_alshamal
 				religion = converted_dynamic_faith_102
 				pop_type = slaves
 				size = 15
@@ -8390,12 +8390,12 @@
 				size = 1
 			}
 			create_pop = {
-				culture = neo-argentine_colony-faykinghian
+				culture = neo-argentine_colony-south_american_alshamal
 				religion = converted_dynamic_faith_102
 				size = 1116
 			}
 			create_pop = {
-				culture = neo-argentine_colony-faykinghian
+				culture = neo-argentine_colony-south_american_alshamal
 				religion = converted_dynamic_faith_102
 				pop_type = slaves
 				size = 4
@@ -9776,7 +9776,7 @@
 				size = 3392
 			}
 			create_pop = {
-				culture = neo-colombia_colony-north_american_alshamali
+				culture = neo-colombia_colony-south_american_alshamali
 				religion = converted_dynamic_faith_102
 				size = 1840
 			}
@@ -9791,7 +9791,7 @@
 				size = 4608
 			}
 			create_pop = {
-				culture = neo-colombia_colony-north_american_alshamali
+				culture = neo-colombia_colony-south_american_alshamali
 				religion = converted_dynamic_faith_102
 				size = 1827
 			}
@@ -9806,7 +9806,7 @@
 				size = 7974
 			}
 			create_pop = {
-				culture = neo-colombia_colony-north_american_alshamali
+				culture = neo-colombia_colony-south_american_alshamali
 				religion = converted_dynamic_faith_102
 				size = 4167
 			}
@@ -9821,7 +9821,7 @@
 				size = 4129
 			}
 			create_pop = {
-				culture = neo-colombia_colony-north_american_alshamali
+				culture = neo-colombia_colony-south_american_alshamali
 				religion = converted_dynamic_faith_102
 				size = 3528
 			}
@@ -9868,12 +9868,12 @@
 				size = 82
 			}
 			create_pop = {
-				culture = neo-brazil_colony-faykinghian
+				culture = neo-brazil_colony-south_american_alshamali
 				religion = converted_dynamic_faith_102
 				size = 3178
 			}
 			create_pop = {
-				culture = neo-brazil_colony-faykinghian
+				culture = neo-brazil_colony-south_american_alshamali
 				religion = converted_dynamic_faith_102
 				pop_type = slaves
 				size = 34
@@ -12315,7 +12315,7 @@
 				size = 1657
 			}
 			create_pop = {
-				culture = neo-central_america_colony-faykinghian
+				culture = neo-central_america_colony-north_american_alshamali
 				religion = converted_dynamic_faith_102
 				size = 633
 			}
@@ -12335,7 +12335,7 @@
 				size = 56
 			}
 			create_pop = {
-				culture = neo-central_america_colony-faykinghian
+				culture = neo-central_america_colony-north_american_alshamali
 				religion = converted_dynamic_faith_102
 				size = 766
 			}
@@ -12487,12 +12487,12 @@
 				size = 506
 			}
 			create_pop = {
-				culture = neo-caribbean_colony-anjilu_nurs
+				culture = neo-caribbean_colony-alkubiu
 				religion = converted_dynamic_faith_102
 				size = 5284
 			}
 			create_pop = {
-				culture = neo-caribbean_colony-anjilu_nurs
+				culture = neo-caribbean_colony-alkubiu
 				religion = converted_dynamic_faith_102
 				pop_type = slaves
 				size = 253
@@ -12520,12 +12520,12 @@
 				size = 296
 			}
 			create_pop = {
-				culture = neo-caribbean_colony-biritani
+				culture = neo-caribbean_colony-alkubiu
 				religion = converted_dynamic_faith_102
 				size = 2435
 			}
 			create_pop = {
-				culture = neo-caribbean_colony-biritani
+				culture = neo-caribbean_colony-alkubiu
 				religion = converted_dynamic_faith_102
 				pop_type = slaves
 				size = 117
@@ -12553,12 +12553,12 @@
 				size = 292
 			}
 			create_pop = {
-				culture = neo-caribbean_colony-faransan
+				culture = neo-caribbean_colony-alkubiu
 				religion = converted_dynamic_faith_102
 				size = 2412
 			}
 			create_pop = {
-				culture = neo-caribbean_colony-faransan
+				culture = neo-caribbean_colony-alkubiu
 				religion = converted_dynamic_faith_102
 				pop_type = slaves
 				size = 116
@@ -12586,12 +12586,12 @@
 				size = 193
 			}
 			create_pop = {
-				culture = neo-caribbean_colony-jabric
+				culture = neo-caribbean_colony-alkubiu
 				religion = converted_dynamic_faith_102
 				size = 656
 			}
 			create_pop = {
-				culture = neo-caribbean_colony-jabric
+				culture = neo-caribbean_colony-alkubiu
 				religion = converted_dynamic_faith_102
 				pop_type = slaves
 				size = 31
@@ -12630,12 +12630,12 @@
 				size = 202
 			}
 			create_pop = {
-				culture = neo-caribbean_colony-biritani
+				culture = neo-caribbean_colony-alkubiu
 				religion = converted_dynamic_faith_102
 				size = 2911
 			}
 			create_pop = {
-				culture = neo-caribbean_colony-biritani
+				culture = neo-caribbean_colony-alkubiu
 				religion = converted_dynamic_faith_102
 				pop_type = slaves
 				size = 139
@@ -12663,12 +12663,12 @@
 				size = 277
 			}
 			create_pop = {
-				culture = neo-caribbean_colony-faransan
+				culture = neo-caribbean_colony-alkubiu
 				religion = converted_dynamic_faith_102
 				size = 2406
 			}
 			create_pop = {
-				culture = neo-caribbean_colony-faransan
+				culture = neo-caribbean_colony-alkubiu
 				religion = converted_dynamic_faith_102
 				pop_type = slaves
 				size = 115
@@ -12696,12 +12696,12 @@
 				size = 371
 			}
 			create_pop = {
-				culture = neo-caribbean_colony-anjilu_nurs
+				culture = neo-caribbean_colony-alkubiu
 				religion = converted_dynamic_faith_102
 				size = 3809
 			}
 			create_pop = {
-				culture = neo-caribbean_colony-anjilu_nurs
+				culture = neo-caribbean_colony-alkubiu
 				religion = converted_dynamic_faith_102
 				pop_type = slaves
 				size = 182
@@ -12729,12 +12729,12 @@
 				size = 354
 			}
 			create_pop = {
-				culture = neo-caribbean_colony-biritani
+				culture = neo-caribbean_colony-alkubiu
 				religion = converted_dynamic_faith_102
 				size = 2933
 			}
 			create_pop = {
-				culture = neo-caribbean_colony-biritani
+				culture = neo-caribbean_colony-alkubiu
 				religion = converted_dynamic_faith_102
 				pop_type = slaves
 				size = 140
@@ -12762,12 +12762,12 @@
 				size = 616
 			}
 			create_pop = {
-				culture = neo-caribbean_colony-jabric
+				culture = neo-caribbean_colony-alkubiu
 				religion = converted_dynamic_faith_102
 				size = 4338
 			}
 			create_pop = {
-				culture = neo-caribbean_colony-jabric
+				culture = neo-caribbean_colony-alkubiu
 				religion = converted_dynamic_faith_102
 				pop_type = slaves
 				size = 208
@@ -12804,12 +12804,12 @@
 				size = 333
 			}
 			create_pop = {
-				culture = neo-colombia_colony-north_american_alshamali
+				culture = neo-colombia_colony-south_american_alshamali
 				religion = converted_dynamic_faith_102
 				size = 2754
 			}
 			create_pop = {
-				culture = neo-colombia_colony-north_american_alshamali
+				culture = neo-colombia_colony-south_american_alshamali
 				religion = converted_dynamic_faith_102
 				pop_type = slaves
 				size = 1
@@ -12897,7 +12897,7 @@
 				size = 2535
 			}
 			create_pop = {
-				culture = neo-colombia_colony-north_american_alshamali
+				culture = neo-colombia_colony-south_american_alshamali
 				religion = converted_dynamic_faith_102
 				size = 1588
 			}
@@ -13265,12 +13265,12 @@
 				size = 2
 			}
 			create_pop = {
-				culture = neo-usa_north_colony-anjilu_nurs
+				culture = neo-usa_north_colony-north_american_alshamali
 				religion = converted_dynamic_faith_102
 				size = 1463
 			}
 			create_pop = {
-				culture = neo-usa_north_colony-anjilu_nurs
+				culture = neo-usa_north_colony-north_american_alshamali
 				religion = converted_dynamic_faith_102
 				pop_type = slaves
 				size = 8
@@ -13613,12 +13613,12 @@
 				size = 3
 			}
 			create_pop = {
-				culture = neo-usa_north_colony-faykinghian
+				culture = neo-usa_north_colony-north_american_alshamali
 				religion = converted_dynamic_faith_102
 				size = 5140
 			}
 			create_pop = {
-				culture = neo-usa_north_colony-faykinghian
+				culture = neo-usa_north_colony-north_american_alshamali
 				religion = converted_dynamic_faith_102
 				pop_type = slaves
 				size = 34
@@ -15735,7 +15735,7 @@
 				size = 53526
 			}
 			create_pop = {
-				culture = neo-peru_colony-north_american_alshamali
+				culture = neo-peru_colony-south_american_alshamali
 				religion = converted_dynamic_faith_102
 				size = 2739
 			}
@@ -15745,7 +15745,7 @@
 				size = 2697
 			}
 			create_pop = {
-				culture = neo-peru_colony-north_american_alshamali
+				culture = neo-peru_colony-south_american_alshamali
 				religion = converted_dynamic_faith_102
 				size = 1203
 			}
@@ -15765,7 +15765,7 @@
 				size = 1637
 			}
 			create_pop = {
-				culture = neo-peru_colony-north_american_alshamali
+				culture = neo-peru_colony-south_american_alshamali
 				religion = converted_dynamic_faith_102
 				size = 3800
 			}
@@ -15810,7 +15810,7 @@
 				size = 1605
 			}
 			create_pop = {
-				culture = neo-peru_colony-north_american_alshamali
+				culture = neo-peru_colony-south_american_alshamali
 				religion = converted_dynamic_faith_102
 				size = 782
 			}
@@ -16805,12 +16805,12 @@
 				size = 5
 			}
 			create_pop = {
-				culture = neo-usa_south_colony-north_american_alshamali
+				culture = neo-usa_south_colony-anjilu_nurs
 				religion = converted_dynamic_faith_102
 				size = 1248
 			}
 			create_pop = {
-				culture = neo-usa_south_colony-north_american_alshamali
+				culture = neo-usa_south_colony-anjilu_nurs
 				religion = converted_dynamic_faith_102
 				pop_type = slaves
 				size = 105
@@ -16926,14 +16926,13 @@
 				size = 8
 			}
 			create_pop = {
-				culture = neo-usa_south_colony-north_american_alshamali
+				culture = neo-usa_south_colony-anjilu_nurs
 				religion = converted_dynamic_faith_102
 				size = 1418
 			}
 			create_pop = {
-				culture = neo-usa_south_colony-north_american_alshamali
+				culture = neo-usa_south_colony-anjilu_nurs
 				religion = converted_dynamic_faith_102
-				pop_type = slaves
 				size = 120
 			}
 			create_pop = {
@@ -18245,7 +18244,7 @@
 				size = 534
 			}
 			create_pop = {
-				culture = neo-brazil_colony-faykinghian
+				culture = neo-brazil_colony-south_american_alshamali
 				religion = converted_dynamic_faith_102
 				size = 337
 			}
@@ -19433,7 +19432,7 @@
 				size = 411
 			}
 			create_pop = {
-				culture = neo-colombia_colony-north_american_alshamali
+				culture = neo-colombia_colony-south_american_alshamali
 				religion = converted_dynamic_faith_102
 				size = 224
 			}
@@ -19448,7 +19447,7 @@
 				size = 2583
 			}
 			create_pop = {
-				culture = neo-colombia_colony-north_shamalian
+				culture = neo-colombia_colony-south_american_alshamali
 				religion = converted_dynamic_faith_102
 				size = 1043
 			}
@@ -19463,7 +19462,7 @@
 				size = 1500
 			}
 			create_pop = {
-				culture = neo-colombia_colony-north_american_alshamali
+				culture = neo-colombia_colony-south_american_alshamali
 				religion = converted_dynamic_faith_102
 				size = 1129
 			}
@@ -19488,7 +19487,7 @@
 				size = 1534
 			}
 			create_pop = {
-				culture = neo-colombia_colony-north_american_alshamali
+				culture = neo-colombia_colony-south_american_alshamali
 				religion = converted_dynamic_faith_102
 				size = 833
 			}
@@ -19503,7 +19502,7 @@
 				size = 1080
 			}
 			create_pop = {
-				culture = neo-colombia_colony-north_american_alshamali
+				culture = neo-colombia_colony-south_american_alshamali
 				religion = converted_dynamic_faith_102
 				size = 536
 			}
@@ -19545,7 +19544,7 @@
 				size = 1422
 			}
 			create_pop = {
-				culture = neo-colombia_colony-north_shamalian
+				culture = neo-colombia_colony-south_american_alshamali
 				religion = converted_dynamic_faith_102
 				size = 1251
 			}
@@ -19560,7 +19559,7 @@
 				size = 1312
 			}
 			create_pop = {
-				culture = neo-colombia_colony-north_shamalian
+				culture = neo-colombia_colony-south_american_alshamali
 				religion = converted_dynamic_faith_102
 				size = 979
 			}
@@ -19575,7 +19574,7 @@
 				size = 1190
 			}
 			create_pop = {
-				culture = neo-colombia_colony-faransan
+				culture = neo-colombia_colony-south_american_alshamali
 				religion = converted_dynamic_faith_102
 				size = 1083
 			}
@@ -19590,7 +19589,7 @@
 				size = 769
 			}
 			create_pop = {
-				culture = neo-colombia_colony-anjilu_nurs
+				culture = neo-colombia_colony-south_american_alshamali
 				religion = converted_dynamic_faith_102
 				size = 664
 			}
@@ -19625,7 +19624,7 @@
 				size = 318
 			}
 			create_pop = {
-				culture = neo-colombia_colony-faransan
+				culture = neo-colombia_colony-south_american_alshamali
 				religion = converted_dynamic_faith_102
 				size = 2738
 			}
@@ -20206,7 +20205,7 @@
 				size = 9731
 			}
 			create_pop = {
-				culture = neo-caribbean_colony-north_shamalian
+				culture = neo-caribbean_colony-alkubiu
 				religion = converted_dynamic_faith_102
 				size = 4218
 			}
@@ -20221,7 +20220,7 @@
 				size = 5804
 			}
 			create_pop = {
-				culture = neo-caribbean_colony-biritani
+				culture = neo-caribbean_colony-alkubiu
 				religion = converted_dynamic_faith_102
 				size = 2568
 			}
@@ -20236,7 +20235,7 @@
 				size = 7266
 			}
 			create_pop = {
-				culture = neo-caribbean_colony-north_shamalian
+				culture = neo-caribbean_colony-alkubiu
 				religion = converted_dynamic_faith_102
 				size = 2879
 			}
@@ -20251,7 +20250,7 @@
 				size = 7616
 			}
 			create_pop = {
-				culture = neo-caribbean_colony-north_shamalian
+				culture = neo-caribbean_colony-alkubiu
 				religion = converted_dynamic_faith_102
 				size = 2952
 			}
@@ -21651,7 +21650,7 @@
 				size = 5292
 			}
 			create_pop = {
-				culture = neo-central_america_colony-faykinghian
+				culture = neo-central_america_colony-north_american_alshamali
 				religion = converted_dynamic_faith_102
 				size = 2177
 			}
@@ -21711,7 +21710,7 @@
 				size = 2192
 			}
 			create_pop = {
-				culture = neo-central_america_colony-faykinghian
+				culture = neo-central_america_colony-north_american_alshamali
 				religion = converted_dynamic_faith_102
 				size = 251
 			}
@@ -22078,7 +22077,7 @@
 				size = 4742
 			}
 			create_pop = {
-				culture = neo-peru_colony-faykinghian
+				culture = neo-peru_colony-south_american_alshamali
 				religion = converted_dynamic_faith_102
 				size = 4205
 			}
@@ -24098,7 +24097,7 @@
 				size = 32622
 			}
 			create_pop = {
-				culture = neo-caribbean_colony-north_shamalian
+				culture = neo-caribbean_colony-alkubiu
 				religion = converted_dynamic_faith_102
 				size = 14862
 			}
@@ -24372,7 +24371,7 @@
 				size = 420
 			}
 			create_pop = {
-				culture = neo-peru_colony-anjilu_nurs
+				culture = neo-peru_colony-south_american_alshamali
 				religion = converted_dynamic_faith_102
 				size = 894
 			}
@@ -28396,7 +28395,7 @@
 				size = 433
 			}
 			create_pop = {
-				culture = neo-peru_colony-faykinghian
+				culture = neo-peru_colony-south_american_alshamali
 				religion = converted_dynamic_faith_102
 				size = 384
 			}
@@ -30330,7 +30329,7 @@
 				size = 615
 			}
 			create_pop = {
-				culture = neo-usa_north_colony-anjilu_nurs
+				culture = neo-usa_north_colony-north_american_alshamali
 				religion = converted_dynamic_faith_102
 				size = 2364
 			}
@@ -30350,7 +30349,7 @@
 				size = 1130
 			}
 			create_pop = {
-				culture = neo-usa_north_colony-anjilu_nurs
+				culture = neo-usa_north_colony-north_american_alshamali
 				religion = converted_dynamic_faith_102
 				size = 3911
 			}
@@ -30395,7 +30394,7 @@
 				size = 316
 			}
 			create_pop = {
-				culture = neo-usa_north_colony-anjilu_nurs
+				culture = neo-usa_north_colony-north_american_alshamali
 				religion = converted_dynamic_faith_102
 				size = 2704
 			}
@@ -30420,7 +30419,7 @@
 				size = 472
 			}
 			create_pop = {
-				culture = neo-usa_north_colony-anjilu_nurs
+				culture = neo-usa_north_colony-north_american_alshamali
 				religion = converted_dynamic_faith_102
 				size = 1848
 			}
@@ -30611,13 +30610,13 @@
 	s:STATE_MALTA = {
 		region_state:MLT = {
 			create_pop = {
-				culture = maltese
+				culture = rumanian
 				religion = converted_dynamic_faith_102
 				size = 119425
 			}
 			create_pop = {
-				culture = maltese
-				religion = shiite
+				culture = rumanian
+				religion = converted_dynamic_faith_102
 				size = 11333
 			}
 		}
@@ -30659,7 +30658,7 @@
 				size = 65
 			}
 			create_pop = {
-				culture = neo-canada_colony-faykinghian
+				culture = neo-canada_colony-north_american_alshamali
 				religion = converted_dynamic_faith_102
 				size = 225
 			}
@@ -30864,7 +30863,7 @@
 				size = 354
 			}
 			create_pop = {
-				culture = neo-canada_colony-faykinghian
+				culture = neo-canada_colony-north_american_alshamali
 				religion = converted_dynamic_faith_102
 				size = 916
 			}
@@ -30893,7 +30892,7 @@
 				size = 349
 			}
 			create_pop = {
-				culture = neo-brazil_colony-faykinghian
+				culture = neo-brazil_colony-south_american_alshamali
 				religion = converted_dynamic_faith_102
 				size = 905
 			}
@@ -31093,12 +31092,12 @@
 				size = 1
 			}
 			create_pop = {
-				culture = neo-usa_north_colony-faykinghian
+				culture = neo-usa_north_colony-north_american_alshamali
 				religion = converted_dynamic_faith_102
 				size = 4092
 			}
 			create_pop = {
-				culture = neo-usa_north_colony-faykinghian
+				culture = neo-usa_north_colony-north_american_alshamali
 				religion = converted_dynamic_faith_102
 				pop_type = slaves
 				size = 14
@@ -31192,12 +31191,12 @@
 				size = 1
 			}
 			create_pop = {
-				culture = neo-usa_north_colony-anjilu_nurs
+				culture = neo-usa_north_colony-north_american_alshamali
 				religion = converted_dynamic_faith_102
 				size = 2082
 			}
 			create_pop = {
-				culture = neo-usa_north_colony-anjilu_nurs
+				culture = neo-usa_north_colony-north_american_alshamali
 				religion = converted_dynamic_faith_102
 				pop_type = slaves
 				size = 7
@@ -31304,7 +31303,7 @@
 				size = 1844
 			}
 			create_pop = {
-				culture = neo-usa_north_colony-faykinghian
+				culture = neo-usa_north_colony-north_american_alshamali
 				religion = converted_dynamic_faith_102
 				size = 3143
 			}
@@ -31446,7 +31445,7 @@
 				size = 2071
 			}
 			create_pop = {
-				culture = neo-brazil_colony-faykinghian
+				culture = neo-brazil_colony-south_american_alshamali
 				religion = converted_dynamic_faith_102
 				size = 782
 			}
@@ -32109,7 +32108,7 @@
 				size = 10
 			}
 			create_pop = {
-				culture = neo-usa_north_colony-faykinghian
+				culture = neo-usa_north_colony-north_american_alshamali
 				religion = converted_dynamic_faith_102
 				size = 584
 			}
@@ -32740,7 +32739,7 @@
 				size = 10
 			}
 			create_pop = {
-				culture = neo-usa_north_colony-faykinghian
+				culture = neo-usa_north_colony-north_american_alshamali
 				religion = converted_dynamic_faith_102
 				size = 172
 			}
@@ -33001,12 +33000,12 @@
 				size = 22
 			}
 			create_pop = {
-				culture = neo-colombia_colony-north_shamalian
+				culture = neo-colombia_colony-south_american_alshamali
 				religion = converted_dynamic_faith_102
 				size = 1065
 			}
 			create_pop = {
-				culture = neo-colombia_colony-north_shamalian
+				culture = neo-colombia_colony-south_american_alshamali
 				religion = converted_dynamic_faith_102
 				pop_type = slaves
 				size = 9
@@ -33034,12 +33033,12 @@
 				size = 27
 			}
 			create_pop = {
-				culture = neo-colombia_colony-north_shamalian
+				culture = neo-colombia_colony-south_american_alshamali
 				religion = converted_dynamic_faith_102
 				size = 1271
 			}
 			create_pop = {
-				culture = neo-colombia_colony-north_shamalian
+				culture = neo-colombia_colony-south_american_alshamali
 				religion = converted_dynamic_faith_102
 				pop_type = slaves
 				size = 11
@@ -33067,12 +33066,12 @@
 				size = 46
 			}
 			create_pop = {
-				culture = neo-colombia_colony-north_shamalian
+				culture = neo-colombia_colony-south_american_alshamali
 				religion = converted_dynamic_faith_102
 				size = 2167
 			}
 			create_pop = {
-				culture = neo-colombia_colony-north_shamalian
+				culture = neo-colombia_colony-south_american_alshamali
 				religion = converted_dynamic_faith_102
 				pop_type = slaves
 				size = 19
@@ -33144,12 +33143,12 @@
 				size = 19
 			}
 			create_pop = {
-				culture = neo-colombia_colony-north_shamalian
+				culture = neo-colombia_colony-south_american_alshamali
 				religion = converted_dynamic_faith_102
 				size = 1394
 			}
 			create_pop = {
-				culture = neo-colombia_colony-north_shamalian
+				culture = neo-colombia_colony-south_american_alshamali
 				religion = converted_dynamic_faith_102
 				pop_type = slaves
 				size = 12
@@ -33177,12 +33176,12 @@
 				size = 30
 			}
 			create_pop = {
-				culture = neo-colombia_colony-north_shamalian
+				culture = neo-colombia_colony-south_american_alshamali
 				religion = converted_dynamic_faith_102
 				size = 1354
 			}
 			create_pop = {
-				culture = neo-colombia_colony-north_shamalian
+				culture = neo-colombia_colony-south_american_alshamali
 				religion = converted_dynamic_faith_102
 				pop_type = slaves
 				size = 12
@@ -33232,12 +33231,12 @@
 				size = 19
 			}
 			create_pop = {
-				culture = neo-colombia_colony-north_shamalian
+				culture = neo-colombia_colony-south_american_alshamali
 				religion = converted_dynamic_faith_102
 				size = 1625
 			}
 			create_pop = {
-				culture = neo-colombia_colony-north_shamalian
+				culture = neo-colombia_colony-south_american_alshamali
 				religion = converted_dynamic_faith_102
 				pop_type = slaves
 				size = 14
@@ -33948,7 +33947,7 @@
 				size = 20
 			}
 			create_pop = {
-				culture = neo-usa_north_colony-faykinghian
+				culture = neo-usa_north_colony-north_american_alshamali
 				religion = converted_dynamic_faith_102
 				size = 86
 			}
@@ -35203,7 +35202,7 @@
 				size = 80
 			}
 			create_pop = {
-				culture = neo-canada_colony-biritani
+				culture = neo-canada_colony-north_american_alshamali
 				religion = converted_dynamic_faith_102
 				size = 397
 			}
@@ -35223,7 +35222,7 @@
 				size = 32
 			}
 			create_pop = {
-				culture = neo-canada_colony-biritani
+				culture = neo-canada_colony-north_american_alshamali
 				religion = converted_dynamic_faith_102
 				size = 221
 			}
@@ -35248,7 +35247,7 @@
 				size = 9
 			}
 			create_pop = {
-				culture = neo-canada_colony-faykinghian
+				culture = neo-canada_colony-north_american_alshamali
 				religion = converted_dynamic_faith_102
 				size = 68
 			}
@@ -35273,7 +35272,7 @@
 				size = 42
 			}
 			create_pop = {
-				culture = neo-canada_colony-biritani
+				culture = neo-canada_colony-north_american_alshamali
 				religion = converted_dynamic_faith_102
 				size = 468
 			}
@@ -35293,7 +35292,7 @@
 				size = 23
 			}
 			create_pop = {
-				culture = neo-canada_colony-faykinghian
+				culture = neo-canada_colony-north_american_alshamali
 				religion = converted_dynamic_faith_102
 				size = 102
 			}
@@ -35313,7 +35312,7 @@
 				size = 37
 			}
 			create_pop = {
-				culture = neo-canada_colony-faykinghian
+				culture = neo-canada_colony-north_american_alshamali
 				religion = converted_dynamic_faith_102
 				size = 148
 			}
@@ -35682,7 +35681,7 @@
 				size = 904
 			}
 			create_pop = {
-				culture = neo-usa_north_colony-faykinghian
+				culture = neo-usa_north_colony-north_american_alshamali
 				religion = converted_dynamic_faith_102
 				size = 4746
 			}
@@ -36360,7 +36359,7 @@
 				size = 1
 			}
 			create_pop = {
-				culture = neo-central_america_colony-faykinghian
+				culture = neo-central_america_colony-north_american_alshamali
 				religion = converted_dynamic_faith_102
 				size = 1677
 			}
@@ -36381,7 +36380,7 @@
 				size = 2183
 			}
 			create_pop = {
-				culture = neo-central_america_colony-faykinghian
+				culture = neo-central_america_colony-north_american_alshamali
 				religion = converted_dynamic_faith_102
 				size = 835
 			}
@@ -36413,12 +36412,12 @@
 				size = 1331
 			}
 			create_pop = {
-				culture = neo-central_america_colony-faykinghian
+				culture = neo-central_america_colony-north_american_alshamali
 				religion = converted_dynamic_faith_102
 				size = 5054
 			}
 			create_pop = {
-				culture = neo-central_america_colony-faykinghian
+				culture = neo-central_america_colony-north_american_alshamali
 				religion = converted_dynamic_faith_102
 				pop_type = slaves
 				size = 1
@@ -40128,7 +40127,7 @@
 				size = 1154
 			}
 			create_pop = {
-				culture = neo-texas_colony-north_american_alshamali
+				culture = neo-usa_south_colony-north_american_alshamali
 				religion = converted_dynamic_faith_102
 				size = 4755
 			}
@@ -40143,7 +40142,7 @@
 				size = 472
 			}
 			create_pop = {
-				culture = neo-texas_colony-north_american_alshamali
+				culture = neo-usa_south_colony-north_american_alshamali
 				religion = converted_dynamic_faith_102
 				size = 7374
 			}
@@ -40163,12 +40162,12 @@
 				size = 166
 			}
 			create_pop = {
-				culture = neo-texas_colony-north_american_alshamali
+				culture = neo-usa_south_colony-north_american_alshamali
 				religion = converted_dynamic_faith_102
 				size = 10665
 			}
 			create_pop = {
-				culture = neo-texas_colony-north_american_alshamali
+				culture = neo-usa_south_colony-north_american_alshamali
 				religion = totemism
 				size = 1565
 			}
@@ -40551,7 +40550,7 @@
 				size = 33
 			}
 			create_pop = {
-				culture = neo-canada_colony-faykinghian
+				culture = neo-canada_colony-north_american_alshamali
 				religion = converted_dynamic_faith_102
 				size = 135
 			}
@@ -40913,7 +40912,7 @@
 				size = 129
 			}
 			create_pop = {
-				culture = neo-canada_colony-faykinghian
+				culture = neo-canada_colony-north_american_alshamali
 				religion = converted_dynamic_faith_102
 				size = 742
 			}
@@ -40943,7 +40942,7 @@
 				size = 56
 			}
 			create_pop = {
-				culture = neo-canada_colony-faykinghian
+				culture = neo-canada_colony-north_american_alshamali
 				religion = converted_dynamic_faith_102
 				size = 267
 			}
@@ -42214,12 +42213,12 @@
 				size = 9
 			}
 			create_pop = {
-				culture = neo-central_america_colony-faykinghian
+				culture = neo-central_america_colony-north_american_alshamali
 				religion = converted_dynamic_faith_102
 				size = 2169
 			}
 			create_pop = {
-				culture = neo-central_america_colony-faykinghian
+				culture = neo-central_america_colony-north_american_alshamali
 				religion = converted_dynamic_faith_102
 				pop_type = slaves
 				size = 5
@@ -42247,12 +42246,12 @@
 				size = 3
 			}
 			create_pop = {
-				culture = neo-central_america_colony-faykinghian
+				culture = neo-central_america_colony-north_american_alshamali
 				religion = converted_dynamic_faith_102
 				size = 722
 			}
 			create_pop = {
-				culture = neo-central_america_colony-faykinghian
+				culture = neo-central_america_colony-north_american_alshamali
 				religion = converted_dynamic_faith_102
 				pop_type = slaves
 				size = 2
@@ -42280,12 +42279,12 @@
 				size = 3
 			}
 			create_pop = {
-				culture = neo-central_america_colony-faykinghian
+				culture = neo-central_america_colony-north_american_alshamali
 				religion = converted_dynamic_faith_102
 				size = 428
 			}
 			create_pop = {
-				culture = neo-central_america_colony-faykinghian
+				culture = neo-central_america_colony-north_american_alshamali
 				religion = converted_dynamic_faith_102
 				pop_type = slaves
 				size = 1
@@ -42324,12 +42323,12 @@
 				size = 4
 			}
 			create_pop = {
-				culture = neo-central_america_colony-faykinghian
+				culture = neo-central_america_colony-north_american_alshamali
 				religion = converted_dynamic_faith_102
 				size = 835
 			}
 			create_pop = {
-				culture = neo-central_america_colony-faykinghian
+				culture = neo-central_america_colony-north_american_alshamali
 				religion = converted_dynamic_faith_102
 				pop_type = slaves
 				size = 2
@@ -42362,7 +42361,7 @@
 				size = 11
 			}
 			create_pop = {
-				culture = neo-central_america_colony-faykinghian
+				culture = neo-central_america_colony-north_american_alshamali
 				religion = converted_dynamic_faith_102
 				size = 145
 			}
@@ -42468,7 +42467,7 @@
 				size = 19
 			}
 			create_pop = {
-				culture = neo-brazil_colony-faykinghian
+				culture = neo-brazil_colony-south_american_alshamali
 				religion = converted_dynamic_faith_102
 				size = 648
 			}
@@ -42518,12 +42517,12 @@
 				size = 118
 			}
 			create_pop = {
-				culture = neo-brazil_colony-faykinghian
+				culture = neo-brazil_colony-south_american_alshamali
 				religion = converted_dynamic_faith_102
 				size = 2927
 			}
 			create_pop = {
-				culture = neo-brazil_colony-faykinghian
+				culture = neo-brazil_colony-south_american_alshamali
 				religion = converted_dynamic_faith_102
 				pop_type = slaves
 				size = 56
@@ -42721,7 +42720,7 @@
 				size = 1414
 			}
 			create_pop = {
-				culture = neo-peru_colony-north_american_alshamali
+				culture = neo-peru_colony-south_american_alshamali
 				religion = converted_dynamic_faith_102
 				size = 1051
 			}
@@ -42746,7 +42745,7 @@
 				size = 1659
 			}
 			create_pop = {
-				culture = neo-peru_colony-north_american_alshamali
+				culture = neo-peru_colony-south_american_alshamali
 				religion = converted_dynamic_faith_102
 				size = 85
 			}
@@ -42756,7 +42755,7 @@
 				size = 523
 			}
 			create_pop = {
-				culture = neo-peru_colony-north_american_alshamali
+				culture = neo-peru_colony-south_american_alshamali
 				religion = converted_dynamic_faith_102
 				size = 254
 			}
@@ -42771,7 +42770,7 @@
 				size = 348
 			}
 			create_pop = {
-				culture = neo-peru_colony-north_american_alshamali
+				culture = neo-peru_colony-south_american_alshamali
 				religion = converted_dynamic_faith_102
 				size = 170
 			}
@@ -42824,7 +42823,7 @@
 				size = 472
 			}
 			create_pop = {
-				culture = neo-peru_colony-north_american_alshamali
+				culture = neo-peru_colony-south_american_alshamali
 				religion = converted_dynamic_faith_102
 				size = 419
 			}
@@ -42843,7 +42842,7 @@
 				size = 483
 			}
 			create_pop = {
-				culture = neo-argentine_colony-faransan
+				culture = neo-argentine_colony-south_american_alshamal
 				religion = converted_dynamic_faith_102
 				size = 445
 			}
@@ -42858,7 +42857,7 @@
 				size = 677
 			}
 			create_pop = {
-				culture = neo-argentine_colony-faransan
+				culture = neo-argentine_colony-south_american_alshamal
 				religion = converted_dynamic_faith_102
 				size = 367
 			}
@@ -42873,7 +42872,7 @@
 				size = 746
 			}
 			create_pop = {
-				culture = neo-argentine_colony-faransan
+				culture = neo-argentine_colony-south_american_alshamal
 				religion = converted_dynamic_faith_102
 				size = 488
 			}
@@ -42903,12 +42902,12 @@
 				size = 598
 			}
 			create_pop = {
-				culture = neo-argentine_colony-anjilu_nurs
+				culture = neo-argentine_colony-south_american_alshamal
 				religion = converted_dynamic_faith_102
 				size = 120
 			}
 			create_pop = {
-				culture = neo-argentine_colony-askulandi
+				culture = neo-argentine_colony-south_american_alshamal
 				religion = converted_dynamic_faith_102
 				size = 345
 			}
@@ -42928,7 +42927,7 @@
 				size = 39
 			}
 			create_pop = {
-				culture = neo-argentine_colony-faransan
+				culture = neo-argentine_colony-south_american_alshamal
 				religion = converted_dynamic_faith_102
 				size = 239
 			}
@@ -42963,7 +42962,7 @@
 				size = 720
 			}
 			create_pop = {
-				culture = neo-argentine_colony-faransan
+				culture = neo-argentine_colony-south_american_alshamal
 				religion = converted_dynamic_faith_102
 				size = 464
 			}
@@ -42978,7 +42977,7 @@
 				size = 579
 			}
 			create_pop = {
-				culture = neo-argentine_colony-faransan
+				culture = neo-argentine_colony-south_american_alshamal
 				religion = converted_dynamic_faith_102
 				size = 431
 			}
@@ -43523,12 +43522,12 @@
 				size = 633
 			}
 			create_pop = {
-				culture = neo-brazil_colony-faykinghian
+				culture = neo-brazil_colony-south_american_alshamali
 				religion = converted_dynamic_faith_102
 				size = 8892
 			}
 			create_pop = {
-				culture = neo-brazil_colony-faykinghian
+				culture = neo-brazil_colony-south_american_alshamali
 				religion = converted_dynamic_faith_102
 				pop_type = slaves
 				size = 303
@@ -43633,12 +43632,12 @@
 				size = 442
 			}
 			create_pop = {
-				culture = neo-brazil_colony-faykinghian
+				culture = neo-brazil_colony-south_american_alshamali
 				religion = converted_dynamic_faith_102
 				size = 4341
 			}
 			create_pop = {
-				culture = neo-brazil_colony-faykinghian
+				culture = neo-brazil_colony-south_american_alshamali
 				religion = converted_dynamic_faith_102
 				pop_type = slaves
 				size = 148
@@ -43734,7 +43733,7 @@
 				size = 1884
 			}
 			create_pop = {
-				culture = neo-brazil_colony-faykinghian
+				culture = neo-brazil_colony-south_american_alshamali
 				religion = converted_dynamic_faith_102
 				size = 756
 			}
@@ -43899,12 +43898,12 @@
 		}
 		region_state:W57 = {
 			create_pop = {
-				culture = north_italian
+				culture = shamalian
 				religion = converted_dynamic_faith_102
 				size = 65192
 			}
 			create_pop = {
-				culture = north_italian
+				culture = shamalian
 				religion = converted_dynamic_faith_102
 				size = 141270
 			}
@@ -44366,12 +44365,12 @@
 				size = 903
 			}
 			create_pop = {
-				culture = neo-caribbean_colony-biritani
+				culture = neo-caribbean_colony-alkubiu
 				religion = converted_dynamic_faith_102
 				size = 15642
 			}
 			create_pop = {
-				culture = neo-caribbean_colony-biritani
+				culture = neo-caribbean_colony-alkubiu
 				religion = converted_dynamic_faith_102
 				pop_type = slaves
 				size = 449
@@ -45037,7 +45036,7 @@
 				size = 36
 			}
 			create_pop = {
-				culture = neo-canada_colony-biritani
+				culture = neo-canada_colony-north_american_alshamali
 				religion = converted_dynamic_faith_102
 				size = 106
 			}
@@ -45266,7 +45265,7 @@
 				size = 7
 			}
 			create_pop = {
-				culture = neo-canada_colony-faykinghian
+				culture = neo-canada_colony-north_american_alshamali
 				religion = converted_dynamic_faith_102
 				size = 34
 			}
@@ -45286,7 +45285,7 @@
 				size = 259
 			}
 			create_pop = {
-				culture = neo-canada_colony-biritani
+				culture = neo-canada_colony-north_american_alshamali
 				religion = converted_dynamic_faith_102
 				size = 108
 			}
@@ -45301,7 +45300,7 @@
 				size = 194
 			}
 			create_pop = {
-				culture = neo-canada_colony-biritani
+				culture = neo-canada_colony-north_american_alshamali
 				religion = converted_dynamic_faith_102
 				size = 118
 			}
@@ -45321,7 +45320,7 @@
 				size = 13
 			}
 			create_pop = {
-				culture = neo-canada_colony-biritani
+				culture = neo-canada_colony-north_american_alshamali
 				religion = converted_dynamic_faith_102
 				size = 209
 			}
@@ -45346,7 +45345,7 @@
 				size = 37
 			}
 			create_pop = {
-				culture = neo-canada_colony-biritani
+				culture = neo-canada_colony-north_american_alshamali
 				religion = converted_dynamic_faith_102
 				size = 356
 			}
@@ -45391,7 +45390,7 @@
 				size = 2
 			}
 			create_pop = {
-				culture = neo-canada_colony-faykinghian
+				culture = neo-canada_colony-north_american_alshamali
 				religion = converted_dynamic_faith_102
 				size = 9
 			}
@@ -45629,17 +45628,17 @@
 				size = 7
 			}
 			create_pop = {
-				culture = neo-australia_colony-anjilu_nurs
+				culture = australian_alshamali
 				religion = converted_dynamic_faith_102
 				size = 89
 			}
 			create_pop = {
-				culture = neo-australia_colony-anjilu_nurs
+				culture = australian_alshamali
 				religion = zoroastrian
 				size = 205
 			}
 			create_pop = {
-				culture = neo-australia_colony-australian_alshamali
+				culture = australian_alshamali
 				religion = zoroastrian
 				size = 1210
 			}
@@ -45704,17 +45703,17 @@
 				size = 14
 			}
 			create_pop = {
-				culture = neo-australia_colony-anjilu_nurs
+				culture = australian_alshamali
 				religion = converted_dynamic_faith_102
 				size = 162
 			}
 			create_pop = {
-				culture = neo-australia_colony-anjilu_nurs
+				culture = australian_alshamali
 				religion = zoroastrian
 				size = 176
 			}
 			create_pop = {
-				culture = neo-australia_colony-australian_alshamali
+				culture = australian_alshamali
 				religion = zoroastrian
 				size = 1545
 			}
@@ -46306,7 +46305,7 @@
 				size = 58
 			}
 			create_pop = {
-				culture = neo-mexico_colony-biritani
+				culture = neo-texas_colony-north_american_alshamali
 				religion = converted_dynamic_faith_102
 				size = 496
 			}
@@ -46341,12 +46340,12 @@
 				size = 68
 			}
 			create_pop = {
-				culture = neo-mexico_colony-biritani
+				culture = neo-texas_colony-north_american_alshamali
 				religion = converted_dynamic_faith_102
 				size = 393
 			}
 			create_pop = {
-				culture = neo-mexico_colony-biritani
+				culture = neo-texas_colony-north_american_alshamali
 				religion = totemism
 				size = 430
 			}
@@ -46455,12 +46454,12 @@
 				size = 133
 			}
 			create_pop = {
-				culture = neo-brazil_colony-faykinghian
+				culture = neo-brazil_colony-south_american_alshamali
 				religion = converted_dynamic_faith_102
 				size = 3196
 			}
 			create_pop = {
-				culture = neo-brazil_colony-faykinghian
+				culture = neo-brazil_colony-south_american_alshamali
 				religion = converted_dynamic_faith_102
 				pop_type = slaves
 				size = 89
@@ -47061,7 +47060,7 @@
 				size = 818
 			}
 			create_pop = {
-				culture = neo-peru_colony-faykinghian
+				culture = neo-peru_colony-south_american_alshamali
 				religion = converted_dynamic_faith_102
 				size = 558
 			}
@@ -47133,7 +47132,7 @@
 				size = 204
 			}
 			create_pop = {
-				culture = neo-argentine_colony-faykinghian
+				culture = neo-argentine_colony-south_american_alshamal
 				religion = converted_dynamic_faith_102
 				size = 890
 			}
@@ -47165,12 +47164,12 @@
 				size = 498
 			}
 			create_pop = {
-				culture = neo-argentine_colony-faykinghian
+				culture = neo-argentine_colony-south_american_alshamal
 				religion = converted_dynamic_faith_102
 				size = 1408
 			}
 			create_pop = {
-				culture = neo-argentine_colony-faykinghian
+				culture = neo-argentine_colony-south_american_alshamal
 				religion = converted_dynamic_faith_102
 				pop_type = slaves
 				size = 1
@@ -47286,7 +47285,7 @@
 				size = 1817
 			}
 			create_pop = {
-				culture = neo-caribbean_colony-jabric
+				culture = neo-caribbean_colony-alkubiu
 				religion = converted_dynamic_faith_102
 				size = 1908
 			}
@@ -47301,7 +47300,7 @@
 				size = 2407
 			}
 			create_pop = {
-				culture = neo-caribbean_colony-jabric
+				culture = neo-caribbean_colony-alkubiu
 				religion = converted_dynamic_faith_102
 				size = 1337
 			}
@@ -47316,7 +47315,7 @@
 				size = 3575
 			}
 			create_pop = {
-				culture = neo-caribbean_colony-jabric
+				culture = neo-caribbean_colony-alkubiu
 				religion = converted_dynamic_faith_102
 				size = 1625
 			}
@@ -47331,7 +47330,7 @@
 				size = 4352
 			}
 			create_pop = {
-				culture = neo-caribbean_colony-jabric
+				culture = neo-caribbean_colony-alkubiu
 				religion = converted_dynamic_faith_102
 				size = 2304
 			}
@@ -47346,7 +47345,7 @@
 				size = 6954
 			}
 			create_pop = {
-				culture = neo-caribbean_colony-jabric
+				culture = neo-caribbean_colony-alkubiu
 				religion = converted_dynamic_faith_102
 				size = 4278
 			}
@@ -47635,7 +47634,7 @@
 				size = 15
 			}
 			create_pop = {
-				culture = neo-canada_colony-faykinghian
+				culture = neo-canada_colony-north_american_alshamali
 				religion = converted_dynamic_faith_102
 				size = 67
 			}
@@ -47730,7 +47729,7 @@
 				size = 24
 			}
 			create_pop = {
-				culture = neo-canada_colony-faykinghian
+				culture = neo-canada_colony-north_american_alshamali
 				religion = converted_dynamic_faith_102
 				size = 186
 			}
@@ -50432,17 +50431,17 @@
 				size = 170
 			}
 			create_pop = {
-				culture = neo-mexico_colony-north_american_alshamali
+				culture = neo-mexico_colony-faykinghian
 				religion = converted_dynamic_faith_102
 				size = 725
 			}
 			create_pop = {
-				culture = neo-mexico_colony-north_american_alshamali
+				culture = neo-mexico_colony-faykinghian
 				religion = nahuatl
 				size = 2274
 			}
 			create_pop = {
-				culture = neo-mexico_colony-north_american_alshamali
+				culture = neo-mexico_colony-faykinghian
 				religion = totemism
 				size = 9536
 			}
@@ -50496,7 +50495,7 @@
 				size = 1279
 			}
 			create_pop = {
-				culture = neo-mexico_colony-north_american_alshamali
+				culture = neo-mexico_colony-faykinghian
 				religion = converted_dynamic_faith_102
 				size = 25914
 			}
@@ -50516,7 +50515,7 @@
 				size = 37
 			}
 			create_pop = {
-				culture = neo-mexico_colony-north_american_alshamali
+				culture = neo-mexico_colony-faykinghian
 				religion = converted_dynamic_faith_102
 				size = 852
 			}
@@ -51712,22 +51711,22 @@
 				size = 1235
 			}
 			create_pop = {
-				culture = neo-australia_colony-anjilu_nurs
+				culture = australian_alshamali
 				religion = converted_dynamic_faith_102
 				size = 147
 			}
 			create_pop = {
-				culture = neo-australia_colony-australian_alshamali
+				culture = australian_alshamali
 				religion = converted_dynamic_faith_102
 				size = 657
 			}
 			create_pop = {
-				culture = neo-australia_colony-australian_alshamali
+				culture = australian_alshamali
 				religion = animist
 				size = 5243
 			}
 			create_pop = {
-				culture = neo-australia_colony-australian_alshamali
+				culture = australian_alshamali
 				religion = zoroastrian
 				size = 6010
 			}
@@ -51737,17 +51736,17 @@
 				size = 1767
 			}
 			create_pop = {
-				culture = neo-australia_colony-anjilu_nurs
+				culture = australian_alshamali
 				religion = converted_dynamic_faith_102
 				size = 167
 			}
 			create_pop = {
-				culture = neo-australia_colony-australian_alshamali
+				culture = australian_alshamali
 				religion = converted_dynamic_faith_102
 				size = 3457
 			}
 			create_pop = {
-				culture = neo-australia_colony-australian_alshamali
+				culture = australian_alshamali
 				religion = animist
 				size = 15285
 			}
@@ -52842,7 +52841,7 @@
 				size = 2093
 			}
 			create_pop = {
-				culture = neo-peru_colony-faykinghian
+				culture = neo-peru_colony-south_american_alshamali
 				religion = converted_dynamic_faith_102
 				size = 862
 			}
@@ -52857,7 +52856,7 @@
 				size = 1860
 			}
 			create_pop = {
-				culture = neo-peru_colony-faykinghian
+				culture = neo-peru_colony-south_american_alshamali
 				religion = converted_dynamic_faith_102
 				size = 779
 			}
@@ -52960,17 +52959,17 @@
 				size = 644
 			}
 			create_pop = {
-				culture = neo-australia_colony-anjilu_nurs
+				culture = australian_alshamali
 				religion = converted_dynamic_faith_102
 				size = 172
 			}
 			create_pop = {
-				culture = neo-australia_colony-australian_alshamali
+				culture = australian_alshamali
 				religion = converted_dynamic_faith_102
 				size = 612
 			}
 			create_pop = {
-				culture = neo-australia_colony-australian_alshamali
+				culture = australian_alshamali
 				religion = zoroastrian
 				size = 5324
 			}
@@ -52980,17 +52979,17 @@
 				size = 797
 			}
 			create_pop = {
-				culture = neo-australia_colony-anjilu_nurs
+				culture = australian_alshamali
 				religion = converted_dynamic_faith_102
 				size = 187
 			}
 			create_pop = {
-				culture = neo-australia_colony-australian_alshamali
+				culture = australian_alshamali
 				religion = converted_dynamic_faith_102
 				size = 879
 			}
 			create_pop = {
-				culture = neo-australia_colony-australian_alshamali
+				culture = australian_alshamali
 				religion = zoroastrian
 				size = 6356
 			}
@@ -53005,17 +53004,17 @@
 				size = 66
 			}
 			create_pop = {
-				culture = neo-australia_colony-anjilu_nurs
+				culture = australian_alshamali
 				religion = converted_dynamic_faith_102
 				size = 157
 			}
 			create_pop = {
-				culture = neo-australia_colony-australian_alshamali
+				culture = australian_alshamali
 				religion = converted_dynamic_faith_102
 				size = 707
 			}
 			create_pop = {
-				culture = neo-australia_colony-australian_alshamali
+				culture = australian_alshamali
 				religion = zoroastrian
 				size = 6008
 			}
@@ -53378,12 +53377,12 @@
 				size = 4
 			}
 			create_pop = {
-				culture = neo-texas_colony-biritani
+				culture = neo-texas_colony-north_american_alshamali
 				religion = converted_dynamic_faith_102
 				size = 37
 			}
 			create_pop = {
-				culture = neo-texas_colony-biritani
+				culture = neo-texas_colony-north_american_alshamali
 				religion = totemism
 				size = 55
 			}
@@ -53403,12 +53402,12 @@
 				size = 5
 			}
 			create_pop = {
-				culture = neo-texas_colony-biritani
+				culture = neo-texas_colony-north_american_alshamali
 				religion = converted_dynamic_faith_102
 				size = 40
 			}
 			create_pop = {
-				culture = neo-texas_colony-biritani
+				culture = neo-texas_colony-north_american_alshamali
 				religion = totemism
 				size = 84
 			}
@@ -53525,12 +53524,12 @@
 				size = 223
 			}
 			create_pop = {
-				culture = neo-texas_colony-biritani
+				culture = neo-texas_colony-north_american_alshamali
 				religion = converted_dynamic_faith_102
 				size = 140
 			}
 			create_pop = {
-				culture = neo-texas_colony-biritani
+				culture = neo-texas_colony-north_american_alshamali
 				religion = totemism
 				size = 24
 			}
@@ -56938,12 +56937,12 @@
 				size = 2
 			}
 			create_pop = {
-				culture = neo-brazil_colony-faykinghian
+				culture = neo-brazil_colony-south_american_alshamali
 				religion = converted_dynamic_faith_102
 				size = 977
 			}
 			create_pop = {
-				culture = neo-brazil_colony-faykinghian
+				culture = neo-brazil_colony-south_american_alshamali
 				religion = converted_dynamic_faith_102
 				pop_type = slaves
 				size = 9
@@ -56982,12 +56981,12 @@
 				size = 2
 			}
 			create_pop = {
-				culture = neo-brazil_colony-faykinghian
+				culture = neo-brazil_colony-south_american_alshamali
 				religion = converted_dynamic_faith_102
 				size = 911
 			}
 			create_pop = {
-				culture = neo-brazil_colony-faykinghian
+				culture = neo-brazil_colony-south_american_alshamali
 				religion = converted_dynamic_faith_102
 				pop_type = slaves
 				size = 9
@@ -57015,12 +57014,12 @@
 				size = 21
 			}
 			create_pop = {
-				culture = neo-brazil_colony-faykinghian
+				culture = neo-brazil_colony-south_american_alshamali
 				religion = converted_dynamic_faith_102
 				size = 858
 			}
 			create_pop = {
-				culture = neo-brazil_colony-faykinghian
+				culture = neo-brazil_colony-south_american_alshamali
 				religion = converted_dynamic_faith_102
 				pop_type = slaves
 				size = 8
@@ -57048,12 +57047,12 @@
 				size = 27
 			}
 			create_pop = {
-				culture = neo-brazil_colony-faykinghian
+				culture = neo-brazil_colony-south_american_alshamali
 				religion = converted_dynamic_faith_102
 				size = 1965
 			}
 			create_pop = {
-				culture = neo-brazil_colony-faykinghian
+				culture = neo-brazil_colony-south_american_alshamali
 				religion = converted_dynamic_faith_102
 				pop_type = slaves
 				size = 19
@@ -58082,12 +58081,12 @@
 				size = 3
 			}
 			create_pop = {
-				culture = neo-usa_south_colony-anjilu_nurs
+				culture = neo-usa_south_colony-north_american_alshamali
 				religion = converted_dynamic_faith_102
 				size = 2579
 			}
 			create_pop = {
-				culture = neo-usa_south_colony-anjilu_nurs
+				culture = neo-usa_south_colony-north_american_alshamali
 				religion = converted_dynamic_faith_102
 				pop_type = slaves
 				size = 14
@@ -58142,12 +58141,12 @@
 				size = 39
 			}
 			create_pop = {
-				culture = neo-usa_south_colony-anjilu_nurs
+				culture = neo-usa_south_colony-north_american_alshamali
 				religion = converted_dynamic_faith_102
 				size = 6869
 			}
 			create_pop = {
-				culture = neo-usa_south_colony-anjilu_nurs
+				culture = neo-usa_south_colony-north_american_alshamali
 				religion = converted_dynamic_faith_102
 				pop_type = slaves
 				size = 38
@@ -58329,12 +58328,12 @@
 				size = 8
 			}
 			create_pop = {
-				culture = neo-usa_south_colony-anjilu_nurs
+				culture = neo-usa_south_colony-north_american_alshamali
 				religion = converted_dynamic_faith_102
 				size = 7458
 			}
 			create_pop = {
-				culture = neo-usa_south_colony-anjilu_nurs
+				culture = neo-usa_south_colony-north_american_alshamali
 				religion = converted_dynamic_faith_102
 				pop_type = slaves
 				size = 42
@@ -59256,17 +59255,17 @@
 				size = 352
 			}
 			create_pop = {
-				culture = neo-australia_colony-anjilu_nurs
+				culture = australian_alshamali
 				religion = converted_dynamic_faith_102
 				size = 129
 			}
 			create_pop = {
-				culture = neo-australia_colony-australian_alshamali
+				culture = australian_alshamali
 				religion = converted_dynamic_faith_102
 				size = 330
 			}
 			create_pop = {
-				culture = neo-australia_colony-australian_alshamali
+				culture = australian_alshamali
 				religion = zoroastrian
 				size = 3073
 			}
@@ -59276,17 +59275,17 @@
 				size = 340
 			}
 			create_pop = {
-				culture = neo-australia_colony-anjilu_nurs
+				culture = australian_alshamali
 				religion = converted_dynamic_faith_102
 				size = 81
 			}
 			create_pop = {
-				culture = neo-australia_colony-australian_alshamali
+				culture = australian_alshamali
 				religion = converted_dynamic_faith_102
 				size = 288
 			}
 			create_pop = {
-				culture = neo-australia_colony-australian_alshamali
+				culture = australian_alshamali
 				religion = zoroastrian
 				size = 2667
 			}
@@ -60140,7 +60139,7 @@
 				size = 3078
 			}
 			create_pop = {
-				culture = neo-caribbean_colony-north_shamalian
+				culture = neo-caribbean_colony-alkubiu
 				religion = converted_dynamic_faith_102
 				size = 1172
 			}
@@ -60155,7 +60154,7 @@
 				size = 3145
 			}
 			create_pop = {
-				culture = neo-caribbean_colony-faransan
+				culture = neo-caribbean_colony-alkubiu
 				religion = converted_dynamic_faith_102
 				size = 1469
 			}
@@ -60170,12 +60169,12 @@
 				size = 2626
 			}
 			create_pop = {
-				culture = neo-caribbean_colony-faransan
+				culture = neo-caribbean_colony-alkubiu
 				religion = converted_dynamic_faith_102
 				size = 2258
 			}
 			create_pop = {
-				culture = neo-caribbean_colony-faransan
+				culture = neo-caribbean_colony-alkubiu
 				religion = hurufi
 				size = 617
 			}
@@ -60190,7 +60189,7 @@
 				size = 4024
 			}
 			create_pop = {
-				culture = neo-caribbean_colony-shamalian
+				culture = neo-caribbean_colony-alkubiu
 				religion = converted_dynamic_faith_102
 				size = 1808
 			}
@@ -60205,7 +60204,7 @@
 				size = 3051
 			}
 			create_pop = {
-				culture = neo-caribbean_colony-anjilu_nurs
+				culture = neo-caribbean_colony-alkubiu
 				religion = converted_dynamic_faith_102
 				size = 2315
 			}
@@ -60220,7 +60219,7 @@
 				size = 3711
 			}
 			create_pop = {
-				culture = neo-caribbean_colony-anjilu_nurs
+				culture = neo-caribbean_colony-alkubiu
 				religion = converted_dynamic_faith_102
 				size = 2852
 			}
@@ -60235,7 +60234,7 @@
 				size = 2831
 			}
 			create_pop = {
-				culture = neo-caribbean_colony-north_shamalian
+				culture = neo-caribbean_colony-alkubiu
 				religion = converted_dynamic_faith_102
 				size = 970
 			}
@@ -60270,7 +60269,7 @@
 				size = 2353
 			}
 			create_pop = {
-				culture = neo-caribbean_colony-biritani
+				culture = neo-caribbean_colony-alkubiu
 				religion = converted_dynamic_faith_102
 				size = 622
 			}
@@ -60300,12 +60299,12 @@
 				size = 740
 			}
 			create_pop = {
-				culture = neo-caribbean_colony-south_american_alshamali
+				culture = neo-caribbean_colony-alkubiu
 				religion = converted_dynamic_faith_102
 				size = 75680
 			}
 			create_pop = {
-				culture = neo-caribbean_colony-north_shamalian
+				culture = neo-caribbean_colony-alkubiu
 				religion = converted_dynamic_faith_102
 				size = 2987
 			}
@@ -60315,7 +60314,7 @@
 				size = 2632
 			}
 			create_pop = {
-				culture = neo-caribbean_colony-faransan
+				culture = neo-caribbean_colony-alkubiu
 				religion = converted_dynamic_faith_102
 				size = 963
 			}
@@ -60325,7 +60324,7 @@
 				size = 61770
 			}
 			create_pop = {
-				culture = neo-caribbean_colony-jabric
+				culture = neo-caribbean_colony-alkubiu
 				religion = converted_dynamic_faith_102
 				size = 1897
 			}
@@ -61001,7 +61000,7 @@
 				size = 58
 			}
 			create_pop = {
-				culture = neo-usa_north_colony-faykinghian
+				culture = neo-usa_north_colony-north_american_alshamali
 				religion = converted_dynamic_faith_102
 				size = 213
 			}
@@ -62263,7 +62262,7 @@
 				size = 365
 			}
 			create_pop = {
-				culture = neo-mexico_colony-biritani
+				culture =neo-mexico_colony-north_american_alshamali
 				religion = converted_dynamic_faith_102
 				size = 1249
 			}
@@ -62873,23 +62872,23 @@
 				size = 7
 			}
 			create_pop = {
-				culture = neo-colombia_colony-anjilu_nurs
+				culture = neo-colombia_colony-south_american_alshamali
 				religion = converted_dynamic_faith_102
 				size = 3030
 			}
 			create_pop = {
-				culture = neo-colombia_colony-anjilu_nurs
+				culture = neo-colombia_colony-south_american_alshamali
 				religion = converted_dynamic_faith_102
 				pop_type = slaves
 				size = 6
 			}
 			create_pop = {
-				culture = neo-colombia_colony-askulandi
+				culture = neo-colombia_colony-south_american_alshamali
 				religion = converted_dynamic_faith_102
 				size = 1838
 			}
 			create_pop = {
-				culture = neo-colombia_colony-askulandi
+				culture = neo-colombia_colony-south_american_alshamali
 				religion = converted_dynamic_faith_102
 				pop_type = slaves
 				size = 4
@@ -62917,12 +62916,12 @@
 				size = 6
 			}
 			create_pop = {
-				culture = neo-colombia_colony-anjilu_nurs
+				culture = neo-colombia_colony-south_american_alshamali
 				religion = converted_dynamic_faith_102
 				size = 1980
 			}
 			create_pop = {
-				culture = neo-colombia_colony-anjilu_nurs
+				culture = neo-colombia_colony-south_american_alshamali
 				religion = converted_dynamic_faith_102
 				pop_type = slaves
 				size = 4
@@ -62944,12 +62943,12 @@
 				size = 88
 			}
 			create_pop = {
-				culture = neo-colombia_colony-anjilu_saksunia
+				culture = neo-colombia_colony-south_american_alshamali
 				religion = converted_dynamic_faith_102
 				size = 752
 			}
 			create_pop = {
-				culture = neo-colombia_colony-anjilu_saksunia
+				culture = neo-colombia_colony-south_american_alshamali
 				religion = converted_dynamic_faith_102
 				pop_type = slaves
 				size = 2
@@ -62966,12 +62965,12 @@
 				size = 10
 			}
 			create_pop = {
-				culture = neo-colombia_colony-north_shamalian
+				culture = neo-colombia_colony-south_american_alshamali
 				religion = converted_dynamic_faith_102
 				size = 1967
 			}
 			create_pop = {
-				culture = neo-colombia_colony-north_shamalian
+				culture = neo-colombia_colony-south_american_alshamali
 				religion = converted_dynamic_faith_102
 				pop_type = slaves
 				size = 4
@@ -62999,12 +62998,12 @@
 				size = 7
 			}
 			create_pop = {
-				culture = neo-colombia_colony-north_shamalian
+				culture = neo-colombia_colony-south_american_alshamali
 				religion = converted_dynamic_faith_102
 				size = 2578
 			}
 			create_pop = {
-				culture = neo-colombia_colony-north_shamalian
+				culture = neo-colombia_colony-south_american_alshamali
 				religion = converted_dynamic_faith_102
 				pop_type = slaves
 				size = 5
@@ -63032,12 +63031,12 @@
 				size = 9
 			}
 			create_pop = {
-				culture = neo-colombia_colony-north_shamalian
+				culture = neo-colombia_colony-south_american_alshamali
 				religion = converted_dynamic_faith_102
 				size = 1836
 			}
 			create_pop = {
-				culture = neo-colombia_colony-north_shamalian
+				culture = neo-colombia_colony-south_american_alshamali
 				religion = converted_dynamic_faith_102
 				pop_type = slaves
 				size = 4
@@ -63065,23 +63064,23 @@
 				size = 2
 			}
 			create_pop = {
-				culture = neo-colombia_colony-biritani
+				culture = neo-colombia_colony-south_american_alshamali
 				religion = converted_dynamic_faith_102
 				size = 327
 			}
 			create_pop = {
-				culture = neo-colombia_colony-biritani
+				culture = neo-colombia_colony-south_american_alshamali
 				religion = converted_dynamic_faith_102
 				pop_type = slaves
 				size = 1
 			}
 			create_pop = {
-				culture = neo-colombia_colony-north_american_alshamali
+				culture = neo-colombia_colony-south_american_alshamali
 				religion = converted_dynamic_faith_102
 				size = 471
 			}
 			create_pop = {
-				culture = neo-colombia_colony-north_american_alshamali
+				culture = neo-colombia_colony-south_american_alshamali
 				religion = converted_dynamic_faith_102
 				pop_type = slaves
 				size = 1
@@ -63109,17 +63108,17 @@
 				size = 1
 			}
 			create_pop = {
-				culture = neo-colombia_colony-biritani
+				culture = neo-colombia_colony-south_american_alshamali
 				religion = converted_dynamic_faith_102
 				size = 210
 			}
 			create_pop = {
-				culture = neo-colombia_colony-north_american_alshamali
+				culture = neo-colombia_colony-south_american_alshamali
 				religion = converted_dynamic_faith_102
 				size = 324
 			}
 			create_pop = {
-				culture = neo-colombia_colony-north_american_alshamali
+				culture = neo-colombia_colony-south_american_alshamali
 				religion = converted_dynamic_faith_102
 				pop_type = slaves
 				size = 1
@@ -63147,12 +63146,12 @@
 				size = 9
 			}
 			create_pop = {
-				culture = neo-colombia_colony-north_shamalian
+				culture = neo-colombia_colony-south_american_alshamali
 				religion = converted_dynamic_faith_102
 				size = 1757
 			}
 			create_pop = {
-				culture = neo-colombia_colony-north_shamalian
+				culture = neo-colombia_colony-south_american_alshamali
 				religion = converted_dynamic_faith_102
 				pop_type = slaves
 				size = 4
@@ -63182,23 +63181,23 @@
 				size = 13
 			}
 			create_pop = {
-				culture = neo-colombia_colony-north_shamalian
+				culture = neo-colombia_colony-south_american_alshamali
 				religion = converted_dynamic_faith_102
 				size = 2420
 			}
 			create_pop = {
-				culture = neo-colombia_colony-north_shamalian
+				culture = neo-colombia_colony-south_american_alshamali
 				religion = converted_dynamic_faith_102
 				pop_type = slaves
 				size = 5
 			}
 			create_pop = {
-				culture = neo-colombia_colony-alkubiu
+				culture = neo-caribbean_colony-alkubiu
 				religion = converted_dynamic_faith_102
 				size = 92773
 			}
 			create_pop = {
-				culture = neo-colombia_colony-alkubiu
+				culture = neo-caribbean_colony-alkubiu
 				religion = converted_dynamic_faith_102
 				pop_type = slaves
 				size = 187
