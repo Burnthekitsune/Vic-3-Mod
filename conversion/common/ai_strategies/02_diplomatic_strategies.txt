@@ -1684,7 +1684,7 @@ ai_strategy_unify_mexico = {
 	
 		if = {
 			limit = { 
-				scope:target_country = { can_form_nation = ETH }
+				scope:target_country = { can_form_nation = MXC }
 			}
 			add = 25
 		}
