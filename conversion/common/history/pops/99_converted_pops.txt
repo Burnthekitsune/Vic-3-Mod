@@ -3214,6 +3214,12 @@
 				size = 496
 			}
 			create_pop = {
+				culture = neo-texas_colony-north_american_alshamali
+				religion = converted_dynamic_faith_102
+				pop_type = slaves
+				size = 514
+			}
+			create_pop = {
 				culture = navajo
 				religion = totemism
 				size = 52
@@ -50462,6 +50468,12 @@
 				culture = oodham
 				religion = totemism
 				size = 16687
+			}
+			create_pop = {
+				culture = neo-texas_colony-north_american_alshamali
+				religion = converted_dynamic_faith_102
+				pop_type = slaves
+				size = 310
 			}
 			create_pop = {
 				culture = apache
