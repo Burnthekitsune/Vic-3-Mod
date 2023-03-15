@@ -3285,7 +3285,7 @@ frencharab = {
 fulbe = {
 	color = { 64 118 135 }
 	religion = "converted_dynamic_faith_103"
-	traits = { african_heritage west_african_culture_group }
+	traits = { african_heritage west_african_culture_group haalpulaar }
 	male_common_first_names = { Abdullahi Abubakar Ahmadu Alfa Amadu Balobo Dan Malam Muhammed Seku Tidiani Tukur Umar Usman Yaqub Yusufu }
 	female_common_first_names = { Aisha Asmau Hadiza Saraki Turai }
 	noble_last_names = { Bayero Denianke Ribadu Saraki Toorodi dan_Fodio }
@@ -8134,56 +8134,3 @@ zulu = {
 	}
 	graphics = african
 }
-
-fulbe={
-	color= hsv{ 0.54 0.52 0.53 }
-	religion = sunni
-	traits = { west_african_culture_group african_heritage haalpulaar }
-	male_common_first_names={
-		Abdullahi
-		Abubakar
-		Ahmadu
-		Alfa
-		Amadu
-		Balobo
-		Dan
-		Malam
-		Muhammed
-		Seku
-		Tidiani
-		Tukur
-		Umar
-		Usman
-		Yaqub
-		Yusufu
-	}
-	female_common_first_names = {
-		Aisha
-		Asmau
-		Hadiza
-		Saraki
-		Turai
-	}	
-	noble_last_names = {
-		Bayero
-		dan_Fodio
-		Denianke
-		Ribadu
-		Saraki
-		Toorodi
-	}
-	common_last_names={
-		Amadu
-		Bello
-		Dadi
-		Fodio
-		Ibrahim
-		Sa_id_Tall
-		zaki
-	}
-	ethnicities = {
-		1 = african
-	}
-	graphics = african
-}
-
