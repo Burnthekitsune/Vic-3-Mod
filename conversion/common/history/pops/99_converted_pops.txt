@@ -46271,23 +46271,6 @@
 				size = 9064
 			}
 		}
-		region_state:X42 = {
-			create_pop = {
-				culture = mayan
-				religion = mesoamerican_religion
-				size = 5531
-			}
-			create_pop = {
-				culture = mayan
-				religion = converted_dynamic_faith_102
-				size = 1916
-			}
-			create_pop = {
-				culture = neo-mexico_colony-north_american_alshamali
-				religion = converted_dynamic_faith_102
-				size = 5941
-			}
-		}
 		region_state:X43 = {
 			create_pop = {
 				culture = chichimecan
@@ -46310,17 +46293,17 @@
 				size = 496
 			}
 			create_pop = {
-				culture = neo-mexico_colony-north_american_alshamali
+				culture = neo-texas_colony-north_american_alshamali
 				religion = converted_dynamic_faith_102
 				size = 18517
 			}
 			create_pop = {
-				culture = neo-mexico_colony-north_american_alshamali
+				culture = neo-texas_colony-north_american_alshamali
 				religion = totemism
 				size = 2839
 			}
 			create_pop = {
-				culture = neo-mexico_colony-north_american_alshamali
+				culture = neo-texas_colony-north_american_alshamali
 				religion = nahuatl
 				size = 19223
 			}
@@ -46350,7 +46333,7 @@
 				size = 430
 			}
 			create_pop = {
-				culture = neo-mexico_colony-north_american_alshamali
+				culture = neo-texas_colony-north_american_alshamali
 				religion = totemism
 				size = 11733
 			}
@@ -46370,7 +46353,7 @@
 				size = 3616
 			}
 			create_pop = {
-				culture = neo-mexico_colony-north_american_alshamali
+				culture = neo-texas_colony-north_american_alshamali
 				religion = converted_dynamic_faith_102
 				size = 19193
 			}
@@ -46437,6 +46420,21 @@
 				culture = mayan
 				religion = totemism
 				size = 10586
+			}
+			create_pop = {
+				culture = mayan
+				religion = mesoamerican_religion
+				size = 5531
+			}
+			create_pop = {
+				culture = mayan
+				religion = converted_dynamic_faith_102
+				size = 1916
+			}
+			create_pop = {
+				culture = neo-texas_colony-north_american_alshamali
+				religion = converted_dynamic_faith_102
+				size = 5941
 			}
 		}
 	}

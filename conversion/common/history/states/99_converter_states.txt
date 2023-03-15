@@ -2070,7 +2070,7 @@
 			owned_provinces = { x0C1D7F x1714EE x23B4D0 x2E5E47 x3126CA x31C481 x3556E5 x3CDD1A x4070C0 x4407A0 x552AD8 x5B1199 x5CD014 x65ECBE x6E31DE x7BCB55 x7FA347 x88BDEA x8C16F9 x9088D5 x976584 xA03000 xAAF2AF xB06E20 xC000F0 xC60D66 xD0761D xDAE3CC xE3533E xE58A3D xE740E5 xED77FB xF0B481 xF41CC0 xFE627B }
 		}
 		add_homeland = metis
-		add_homeland = neo-usa_south_colony-north_american_alshamali
+		add_homeland = neo-usa_south_colony-anjilu_nurs
 		add_homeland = neo-usa_south_colony-sicilian
 	}
 	s:STATE_FORMOSA = {
@@ -5357,10 +5357,6 @@
 			owned_provinces = { x1B9AEE x1CC654 x54B95F x7F00A8 xD69138 xE1E8AB xFC72E1 xFEC6A5 }
 		}
 		create_state = {
-			country = c:X42
-			owned_provinces = { x3A264E xE96480 xF01B64 xF32D13 xF33EC5 }
-		}
-		create_state = {
 			country = c:X43
 			owned_provinces = { x00879A x00B001 x059C97 x08C98F x0DA7FA x1BD480 x1C58D1 x20360A x4C9B4D x4FF638 x592CDF x6EDB2C x766F08 x8030C0 x9486AD x9C099B xA20ABD xA98620 xB13782 xB65993 xBCFFF7 xC03001 xC1EF57 xC202B5 xCAEB7A xDDC3A9 xDDE205 xE4E032 xE86EA3 xF468A1 }
 		}
@@ -5370,7 +5366,7 @@
 		}
 		create_state = {
 			country = c:X64
-			owned_provinces = { x50EF80 x654D48 x883E5B xA164AB xA995BC xC68684 xDEEEB0 }
+			owned_provinces = { x3A264E xE96480 xF01B64 xF32D13 xF33EC5 x50EF80 x654D48 x883E5B xA164AB xA995BC xC68684 xDEEEB0 }
 		}
 		add_homeland = chichimecan
 		add_homeland = mayan
