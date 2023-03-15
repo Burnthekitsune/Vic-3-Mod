@@ -5505,22 +5505,6 @@ neo-texas_colony-persian = {
 	graphics = generic
 }
 
-neo-usa_north_colony-anjilu_nurs = {
-	color = { 59 90 146 }
-	religion = "converted_dynamic_faith_102"
-	traits = { alshamali_culture_group alshamali_language european_heritage }
-	male_common_first_names = { eu4_Abbad eu4_Ailred eu4_Ali eu4_Amir eu4_Arncytel eu4_Arthwr eu4_Asaph eu4_Ayman eu4_Balthere eu4_Basir eu4_Beornwulf eu4_Burgrad eu4_Cearl eu4_Cenrad eu4_Ceolwulf eu4_Ealdmund eu4_Eormenred eu4_Eormenric eu4_Faris eu4_Frode eu4_Galind eu4_Haidar eu4_Hakam eu4_Halvdan eu4_Harald eu4_Husam eu4_Khaliq eu4_Ma_n eu4_Mansur eu4_Muhammad eu4_Nasr eu4_Osrad eu4_Osric eu4_Qasim eu4_Ragnar eu4_Sa_d eu4_Salrad eu4_Samir eu4_Sigfrid eu4_Styrbjarn eu4_Suleyman eu4_Tiotmund eu4_Umar eu4_Wiglaf }
-	female_common_first_names = { eu4_Abda eu4_Ahu eu4_Aiza eu4_Aliya eu4_Burgfled eu4_Ceolfled eu4_Cwenburg eu4_Daniyah eu4_Eanswith eu4_Ecgwyn eu4_Ethelgifu eu4_Ethelreda eu4_Fahima eu4_Fahra eu4_Ghada eu4_Heregyth eu4_Isra eu4_Kera eu4_Khadija eu4_Layla eu4_Mildrith eu4_Nadia eu4_Naila eu4_Octreda eu4_Raisa eu4_Umm eu4_Wulfrun }
-	noble_last_names = { eu4_Ailredsen eu4_Ari eu4_Basiring eu4_Cenrading eu4_Eorling eu4_Hayles eu4_Holmwick eu4_Leicester eu4_Ma_ning eu4_Mansuring eu4_Muhammading eu4_Osrading eu4_Osradsen eu4_Osricsen eu4_Qasiming eu4_Sagasdatter eu4_Skagen eu4_Snjalli eu4_Tiotmundsen eu4_Ulfreksfjord eu4_ibn_Beornwulf eu4_ibn_Burgrad eu4_ibn_Ceolfled eu4_ibn_Osrad eu4_ibn_Salrad }
-	common_last_names = { eu4_Ailredsen eu4_Ari eu4_Basiring eu4_Cenrading eu4_Eorling eu4_Hayles eu4_Holmwick eu4_Leicester eu4_Ma_ning eu4_Mansuring eu4_Muhammading eu4_Osrading eu4_Osradsen eu4_Osricsen eu4_Qasiming eu4_Sagasdatter eu4_Skagen eu4_Snjalli eu4_Tiotmundsen eu4_Ulfreksfjord eu4_ibn_Beornwulf eu4_ibn_Burgrad eu4_ibn_Ceolfled eu4_ibn_Osrad eu4_ibn_Salrad }
-	male_regal_first_names = { eu4_Abbad eu4_Ailred eu4_Ali eu4_Amir eu4_Arncytel eu4_Arthwr eu4_Asaph eu4_Ayman eu4_Balthere eu4_Basir eu4_Beornwulf eu4_Burgrad eu4_Cearl eu4_Cenrad eu4_Ceolwulf eu4_Ealdmund eu4_Eormenred eu4_Eormenric eu4_Faris eu4_Frode eu4_Galind eu4_Haidar eu4_Hakam eu4_Halvdan eu4_Harald eu4_Husam eu4_Khaliq eu4_Ma_n eu4_Mansur eu4_Muhammad eu4_Nasr eu4_Osrad eu4_Osric eu4_Qasim eu4_Ragnar eu4_Sa_d eu4_Salrad eu4_Samir eu4_Sigfrid eu4_Styrbjarn eu4_Suleyman eu4_Tiotmund eu4_Umar eu4_Wiglaf }
-	female_regal_first_names = { eu4_Abda eu4_Ahu eu4_Aiza eu4_Aliya eu4_Burgfled eu4_Ceolfled eu4_Cwenburg eu4_Daniyah eu4_Eanswith eu4_Ecgwyn eu4_Ethelgifu eu4_Ethelreda eu4_Fahima eu4_Fahra eu4_Ghada eu4_Heregyth eu4_Isra eu4_Kera eu4_Khadija eu4_Layla eu4_Mildrith eu4_Nadia eu4_Naila eu4_Octreda eu4_Raisa eu4_Umm eu4_Wulfrun }
-	ethnicities = {
-		1 = caucasian
-	}
-	graphics = european
-}
-
 neo-usa_north_colony-north_american_alshamali = {
 	color = { 173 150 117 }
 	religion = "converted_dynamic_faith_102"
