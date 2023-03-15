@@ -1946,6 +1946,24 @@
 			10 = { set_strategy = ai_strategy_progressive_agenda }
 		}
 	}
+	c:X86 = {
+		random_list = {
+			50 = { set_strategy = ai_strategy_industrial_expansion }
+			20 = { set_strategy = ai_strategy_placate_population }
+			20 = { set_strategy = ai_strategy_agricultural_expansion }
+			10 = { set_strategy = ai_strategy_plantation_economy }
+		}
+		random_list = {
+			60 = { set_strategy = ai_strategy_armed_isolationism }
+			30 = { set_strategy = ai_strategy_maintain_power_balance }
+			10 = { set_strategy = ai_strategy_territorial_expansion }
+		}
+		random_list = {
+			70 = { set_strategy = ai_strategy_nationalist_agenda }
+			10 = { set_strategy = ai_strategy_conservative_agenda }
+			10 = { set_strategy = ai_strategy_reactionary_agenda }
+		}
+	}
 	c:X89 = {
 		random_list = {
 			50 = { set_strategy = ai_strategy_industrial_expansion }

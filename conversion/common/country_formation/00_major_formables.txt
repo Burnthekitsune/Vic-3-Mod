@@ -70,3 +70,32 @@ SCA = {
 	}
 }
 
+MXC = {
+	use_culture_states = yes
+	is_major_formation = yes
+	unification_play = dp_unify_mexico
+	leadership_play = dp_leadership_mexico
+	required_states_fraction = 0.63
+	ai_will_do = { has_technology_researched = romanticism }
+	possible = {
+		OR = {
+			country_has_primary_culture = cu:maya
+			country_has_primary_culture = cu:zapotec
+			country_has_primary_culture = cu:neo-mexico_colony-north_american_alshamali
+			country_has_primary_culture = cu:neo-texas_colony-north_american_alshamali
+			country_has_primary_culture = cu:apache
+			country_has_primary_culture = cu:navajo
+		}
+		any_country = {
+			OR = {
+				country_has_primary_culture = cu:maya
+				country_has_primary_culture = cu:zapotec
+				country_has_primary_culture = cu:neo-mexico_colony-north_american_alshamali
+				country_has_primary_culture = cu:neo-texas_colony-north_american_alshamali
+				country_has_primary_culture = cu:apache
+				country_has_primary_culture = cu:navajo
+			}
+			has_technology_researched = romanticism
+		}
+	}
+}
