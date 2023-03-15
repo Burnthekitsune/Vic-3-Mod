@@ -1349,20 +1349,18 @@
 				religion = jewish
 				size = 5452
 			}
-		}
-		region_state:W17 = {
 			create_pop = {
-				culture = south_german
+				culture = faransan
 				religion = catholic
 				size = 41055
 			}
 			create_pop = {
-				culture = south_german
+				culture = faransan
 				religion = animist
 				size = 21006
 			}
 			create_pop = {
-				culture = south_german
+				culture = faransan
 				religion = converted_dynamic_faith_102
 				size = 135581
 			}
@@ -1377,18 +1375,18 @@
 				size = 3167
 			}
 			create_pop = {
-				culture = south_german
-				religion = catholic
+				culture = faransan
+				religion = converted_dynamic_faith_102
 				size = 49747
 			}
 			create_pop = {
-				culture = south_german
+				culture = faransan
 				religion = converted_dynamic_faith_102
 				size = 163757
 			}
 			create_pop = {
-				culture = south_german
-				religion = ibadi
+				culture = faransan
+				religion = converted_dynamic_faith_102
 				size = 23667
 			}
 			create_pop = {
@@ -1397,17 +1395,17 @@
 				size = 2646
 			}
 			create_pop = {
-				culture = south_german
-				religion = catholic
+				culture = faransan
+				religion = converted_dynamic_faith_102
 				size = 103049
 			}
 			create_pop = {
-				culture = south_german
-				religion = animist
+				culture = faransan
+				religion = converted_dynamic_faith_102
 				size = 43158
 			}
 			create_pop = {
-				culture = south_german
+				culture = faransan
 				religion = converted_dynamic_faith_102
 				size = 313761
 			}
