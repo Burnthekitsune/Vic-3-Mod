@@ -9330,3 +9330,9 @@ ZUL = {
 	religion = animist
 	capital = STATE_ZULULAND
 }
+
+MXC = {
+	color = { 10 153 76 }
+	country_type = recognized
+	tier = empire
+}
