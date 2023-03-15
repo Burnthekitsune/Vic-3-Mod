@@ -5789,7 +5789,7 @@
 		}
 	}
 	s:STATE_BEIJING = {
-		region_state:W34 = {
+		region_state:W90 = {
 			create_pop = {
 				culture = han
 				religion = mahayana
@@ -5805,8 +5805,6 @@
 				religion = mahayana
 				size = 1291964
 			}
-		}
-		region_state:W90 = {
 			create_pop = {
 				culture = mongol
 				religion = gelugpa
@@ -5847,8 +5845,6 @@
 				religion = converted_dynamic_faith_102
 				size = 1557855
 			}
-		}
-		region_state:X78 = {
 			create_pop = {
 				culture = han
 				religion = mahayana
@@ -5884,8 +5880,6 @@
 				religion = converted_dynamic_faith_102
 				size = 86002
 			}
-		}
-		region_state:X82 = {
 			create_pop = {
 				culture = mongol
 				religion = gelugpa
@@ -21224,7 +21218,7 @@
 				size = 18087
 			}
 		}
-		region_state:W90 = {
+		region_state:X82 = {
 			create_pop = {
 				culture = mongol
 				religion = gelugpa
@@ -21240,8 +21234,6 @@
 				religion = converted_dynamic_faith_102
 				size = 1669
 			}
-		}
-		region_state:X78 = {
 			create_pop = {
 				culture = manchu
 				religion = mahayana
@@ -21257,8 +21249,6 @@
 				religion = converted_dynamic_faith_102
 				size = 2599
 			}
-		}
-		region_state:X82 = {
 			create_pop = {
 				culture = mongol
 				religion = gelugpa
@@ -41928,7 +41918,7 @@
 		}
 	}
 	s:STATE_OUTER_MANCHURIA = {
-		region_state:W40 = {
+		region_state:X78 = {
 			create_pop = {
 				culture = yakut
 				religion = tengri_pagan
@@ -41949,8 +41939,6 @@
 				religion = converted_dynamic_faith_106
 				size = 835
 			}
-		}
-		region_state:X78 = {
 			create_pop = {
 				culture = manchu
 				religion = tengri_pagan
@@ -48868,8 +48856,6 @@
 				religion = converted_dynamic_faith_102
 				size = 176000
 			}
-		}
-		region_state:X82 = {
 			create_pop = {
 				culture = mongol
 				religion = gelugpa
@@ -55028,7 +55014,7 @@
 				size = 468
 			}
 			create_pop = {
-				culture = faykinghian
+				culture = east_asian_alshamali
 				religion = converted_dynamic_faith_102
 				size = 136
 			}
@@ -55127,8 +55113,6 @@
 				religion = zoroastrian
 				size = 28779
 			}
-		}
-		region_state:X78 = {
 			create_pop = {
 				culture = evenk
 				religion = tengri_pagan
