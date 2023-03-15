@@ -373,7 +373,7 @@
 		}
 		add_homeland = apache
 		add_homeland = navajo
-		add_homeland = neo-texas_colony-north_american_alshamali
+		add_homeland = neo-mexico_colony-faykinghian
 		add_homeland = oodham
 		add_homeland = pueblo
 		add_claim = c:X47
@@ -567,7 +567,7 @@
 			country = c:X83
 			owned_provinces = { x0418C4 x0D1D9D x11D494 x1E47C8 x205040 x21AA9D x247143 x249043 x3FF655 x567116 x57EBCB x5B4ABD x6320AE x657B7B x7546F8 x90DF58 x9F7207 xA1B232 xB0A278 xBC4223 xBED6FE xC42EA6 xC642C3 xD34672 xD4D12E xD5E26E xDD6E50 xF8AB7F }
 		}
-		add_homeland = neo-mexico_colony-north_american_alshamali
+		add_homeland = neo-mexico_colony-faykinghian
 	}
 	s:STATE_BAJIO = {
 		create_state = {
@@ -1067,7 +1067,7 @@
 			owned_provinces = { xF16E88 }
 		}
 		add_homeland = hokan
-		add_homeland = neo-usa_north_colony-north_american_alshamali
+		add_homeland = neo-mexico_colony-faykinghian
 		add_homeland = neo-usa_north_colony-persian
 		add_homeland = oodham
 		add_homeland = paiute
@@ -4790,7 +4790,7 @@
 		}
 		add_homeland = algonquian
 		add_homeland = apache
-		add_homeland = neo-texas_colony-north_american_alshamali
+		add_homeland = neo-usa_south_colony-north_american_alshamali
 	}
 	s:STATE_OMAN = {
 		create_state = {
@@ -5363,7 +5363,7 @@
 		}
 		add_homeland = chichimecan
 		add_homeland = mayan
-		add_homeland = neo-mexico_colony-north_american_alshamali
+		add_homeland = neo-texas_colony-north_american_alshamali
 		add_claim = c:X30
 		add_claim = c:X48
 	}
@@ -5850,7 +5850,7 @@
 			owned_provinces = { x03709A x0A3CB6 x8646F0 xA2A7AB xCC0672 }
 		}
 		add_homeland = apache
-		add_homeland = neo-mexico_colony-north_american_alshamali
+		add_homeland = neo-mexico_colony-faykinghian
 		add_homeland = oodham
 		add_claim = c:X47
 	}
