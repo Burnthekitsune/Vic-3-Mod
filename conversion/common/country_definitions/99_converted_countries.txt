@@ -7892,7 +7892,7 @@ W81 = {
 
 W82 = {
 	color = { 162 0 130 }
-	country_type = decentralized
+	country_type = recognized
 	tier = city_state
 	cultures = { maori }
 	religion = animist
