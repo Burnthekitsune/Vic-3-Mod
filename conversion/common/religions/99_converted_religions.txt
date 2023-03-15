@@ -3,6 +3,7 @@ adamites = {
 	texture = "gfx/interface/icons/religion_icons/protestant.dds"
 	traits = { christian }
 	color = { 153 204 153 }
+	taboos = { luxury_clothes }
 }
 alawite = {
 	texture = "gfx/interface/icons/religion_icons/sunni.dds"
@@ -87,7 +88,7 @@ cathar = {
 }
 catholic = {
 	texture = "gfx/interface/icons/religion_icons/catholic.dds"
-	traits = { christian }
+	traits = { christian edict }
 	color = { 204 153 102 }
 }
 caucasian_pagan = {
@@ -102,14 +103,15 @@ celtiberian_pagan = {
 }
 converted_dynamic_faith_102 = {
 	texture = "gfx/interface/icons/religion_icons/sunni.dds"
-	traits = { muslim }
+	traits = { muslim pals }
 	color = { 172 172 172 }
 	taboos = { liquor wine }
 }
 converted_dynamic_faith_103 = {
 	texture = "gfx/interface/icons/religion_icons/animist.dds"
-	traits = { animist }
+	traits = { animist roogan }
 	color = { 50 190 104 }
+	taboos = { opium }
 }
 converted_dynamic_faith_104 = {
 	texture = "gfx/interface/icons/religion_icons/animist.dds"
@@ -123,8 +125,9 @@ converted_dynamic_faith_105 = {
 }
 converted_dynamic_faith_106 = {
 	texture = "gfx/interface/icons/religion_icons/animist.dds"
-	traits = { animist }
+	traits = { roogan pals }
 	color = { 61 139 174 }
+	taboos = { opium tobacco }
 }
 cybelene = {
 	texture = "gfx/interface/icons/religion_icons/animist.dds"
@@ -351,7 +354,7 @@ nestorian = {
 }
 norse_pagan_reformed = {
 	texture = "gfx/interface/icons/religion_icons/animist.dds"
-	traits = { animist }
+	traits = { animist edict }
 	color = { 191 191 191 }
 }
 oriental_orthodox = {
