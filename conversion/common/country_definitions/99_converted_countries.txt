@@ -8516,7 +8516,7 @@ X41 = {
 }
 
 X42 = {
-	color = { 128 128 128 }
+	color = { 64 64 64 }
 	country_type = recognized
 	tier = kingdom
 	cultures = { neo-mexico_colony-north_american_alshamali }
@@ -8525,7 +8525,7 @@ X42 = {
 }
 
 X43 = {
-	color = { 50 173 192 }
+	color = { 20 203 202 }
 	country_type = recognized
 	tier = kingdom
 	cultures = { neo-texas_colony-north_american_alshamali }
