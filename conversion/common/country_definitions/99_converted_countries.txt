@@ -6972,7 +6972,7 @@ V49 = {
 
 V50 = {
 	color = { 158 118 120 }
-	country_type = decentralized
+	country_type = unrecognized
 	tier = principality
 	cultures = { zapotec }
 	religion = mesoamerican_religion
@@ -7847,7 +7847,7 @@ W76 = {
 
 W77 = {
 	color = { 148 149 21 }
-	country_type = decentralized
+	country_type = unrecognized
 	tier = principality
 	cultures = { mixtec }
 	religion = nahuatl
@@ -7856,7 +7856,7 @@ W77 = {
 
 W78 = {
 	color = { 48 49 121 }
-	country_type = decentralized
+	country_type = unrecognized
 	tier = city_state
 	cultures = { nahua }
 	religion = mesoamerican_religion
@@ -8490,7 +8490,7 @@ X38 = {
 
 X39 = {
 	color = { 58 18 220 }
-	country_type = decentralized
+	country_type = unrecognized
 	tier = principality
 	cultures = { mixtec }
 	religion = mesoamerican_religion
