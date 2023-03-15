@@ -7516,7 +7516,7 @@ W40 = {
 	color = { 30 160 203 }
 	country_type = recognized
 	tier = hegemony
-	cultures = { muraa }
+	cultures = { muraa dynamic-greek-culture-num4 }
 	religion = converted_dynamic_faith_106
 	capital = STATE_KAZAN
 }
