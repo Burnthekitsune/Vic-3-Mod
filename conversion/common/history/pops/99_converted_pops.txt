@@ -3214,7 +3214,7 @@
 				size = 496
 			}
 			create_pop = {
-				culture = neo-texas_colony-north_american_alshamali
+				culture = neo-mexico_colony-faykinghian
 				religion = converted_dynamic_faith_102
 				pop_type = slaves
 				size = 514
@@ -9432,7 +9432,7 @@
 				size = 27
 			}
 			create_pop = {
-				culture = neo-usa_north_colony-north_american_alshamali
+				culture = neo-mexico_colony-faykinghian
 				religion = converted_dynamic_faith_102
 				size = 537
 			}
