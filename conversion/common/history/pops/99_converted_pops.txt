@@ -46813,44 +46813,40 @@
 		}
 	}
 	s:STATE_SAHARA = {
-		region_state:TUA = {
+		region_state:X85 = {
 			create_pop = {
 				culture = berber
-				religion = sunni
+				religion = converted_dynamic_faith_102
 				size = 2455
 			}
 			create_pop = {
 				culture = tuareg
-				religion = sunni
+				religion = converted_dynamic_faith_102
 				size = 24545
 			}
 			create_pop = {
 				culture = berber
-				religion = sunni
+				religion = converted_dynamic_faith_102
 				pop_type = slaves
 				size = 2455
 			}
-		}
-		region_state:X10 = {
 			create_pop = {
-				culture = janubian
+				culture = south_african_alshamali
 				religion = converted_dynamic_faith_102
 				size = 5004
 			}
 			create_pop = {
-				culture = janubian
+				culture = south_african_alshamali
 				religion = converted_dynamic_faith_102
 				size = 10265
 			}
-		}
-		region_state:X85 = {
 			create_pop = {
 				culture = dynamic-berber-galician-culture-num1
 				religion = converted_dynamic_faith_102
 				size = 364
 			}
 			create_pop = {
-				culture = janubian
+				culture = south_african_alshamali
 				religion = converted_dynamic_faith_102
 				size = 200
 			}
