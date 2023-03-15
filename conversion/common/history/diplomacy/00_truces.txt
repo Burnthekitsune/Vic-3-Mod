@@ -1721,10 +1721,6 @@
 			months = 4
 		}
 		create_truce = {
-			country = c:V49
-			months = 2
-		}
-		create_truce = {
 			country = c:V50
 			months = 61
 		}
