@@ -6917,7 +6917,7 @@
 				size = 23111
 			}
 			create_pop = {
-				culture = faykinghian
+				culture = indian_alshamali
 				religion = converted_dynamic_faith_102
 				size = 36948
 			}
