@@ -4940,6 +4940,8 @@
 			owned_provinces = { x0EC997 x136A0C x365E8F x605060 x60D060 xC9CBC0 xE05060 xE0D060 }
 		}
 		add_homeland = mashriqi
+		add_homeland = msir
+		add_claim = c:PAL
 	}
 	s:STATE_PANAMA = {
 		create_state = {
