@@ -6630,7 +6630,7 @@ V11 = {
 
 V12 = {
 	color = { 94 236 91 }
-	country_type = decentralized
+	country_type = recognized
 	tier = principality
 	cultures = { mayan }
 	religion = mesoamerican_religion
@@ -7892,7 +7892,7 @@ W81 = {
 
 W82 = {
 	color = { 162 0 130 }
-	country_type = decentralized
+	country_type = recognized
 	tier = city_state
 	cultures = { maori }
 	religion = animist
@@ -8481,7 +8481,7 @@ X37 = {
 
 X38 = {
 	color = { 194 236 91 }
-	country_type = decentralized
+	country_type = recognized
 	tier = principality
 	cultures = { mayan }
 	religion = mesoamerican_religion
@@ -8913,7 +8913,7 @@ X85 = {
 
 X86 = {
 	color = { 75 136 191 }
-	country_type = decentralized
+	country_type = recognized
 	tier = city_state
 	cultures = { mayan }
 	religion = converted_dynamic_faith_106
@@ -9331,3 +9331,13 @@ ZUL = {
 	capital = STATE_ZULULAND
 }
 
+NVJ = {
+	color = { 126 180 154 }
+
+	country_type = recognized
+
+	tier = principality
+	
+	cultures = { navajo }
+	capital = STATE_ARIZONA
+}

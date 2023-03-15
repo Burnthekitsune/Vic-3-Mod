@@ -337,6 +337,12 @@
 	}
 	c:W40 = {
 		create_diplomatic_pact = {
+			country = c:W82
+			type = puppet
+		}
+	}
+	c:W40 = {
+		create_diplomatic_pact = {
 			country = c:X38
 			type = puppet
 		}
