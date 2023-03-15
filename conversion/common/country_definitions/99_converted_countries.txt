@@ -2756,7 +2756,7 @@ IRE = {
 
 IRO = {
 	color = { 87 182 80 }
-	country_type = decentralized
+	country_type = unrecognized
 	tier = grand_principality
 	cultures = { iroquoian }
 	religion = totemism
@@ -4395,7 +4395,7 @@ NAG = {
 
 NAH = {
 	color = { 48 149 21 }
-	country_type = decentralized
+	country_type = unrecognizedd
 	tier = city_state
 	cultures = { nahua }
 	religion = converted_dynamic_faith_102
@@ -7361,7 +7361,7 @@ W22 = {
 
 W23 = {
 	color = { 78 149 191 }
-	country_type = decentralized
+	country_type = unrecognized
 	tier = city_state
 	cultures = { nahua }
 	religion = nahuatl
@@ -7793,7 +7793,7 @@ W70 = {
 
 W71 = {
 	color = { 158 18 20 }
-	country_type = decentralized
+	country_type = unrecognized
 	tier = city_state
 	cultures = { tarascan }
 	religion = converted_dynamic_faith_102
@@ -7838,7 +7838,7 @@ W75 = {
 
 W76 = {
 	color = { 58 118 120 }
-	country_type = decentralized
+	country_type = unrecognized
 	tier = principality
 	cultures = { mixtec }
 	religion = converted_dynamic_faith_102
@@ -8409,7 +8409,7 @@ X29 = {
 
 X30 = {
 	color = { 248 229 21 }
-	country_type = decentralized
+	country_type = unrecognized
 	tier = city_state
 	cultures = { chichimecan }
 	religion = totemism
@@ -8445,7 +8445,7 @@ X33 = {
 
 X34 = {
 	color = { 198 149 21 }
-	country_type = decentralized
+	country_type = unrecognized
 	tier = principality
 	cultures = { tarascan }
 	religion = converted_dynamic_faith_102
@@ -8562,7 +8562,7 @@ X46 = {
 
 X47 = {
 	color = { 180 179 100 }
-	country_type = decentralized
+	country_type = unrecognized
 	tier = grand_principality
 	cultures = { pueblo }
 	religion = totemism
@@ -8571,7 +8571,7 @@ X47 = {
 
 X48 = {
 	color = { 66 0 189 }
-	country_type = decentralized
+	country_type = unrecognized
 	tier = kingdom
 	cultures = { pueblo }
 	religion = totemism
@@ -8634,7 +8634,7 @@ X54 = {
 
 X55 = {
 	color = { 228 49 121 }
-	country_type = decentralized
+	country_type = unrecognized
 	tier = principality
 	cultures = { otomanguean }
 	religion = converted_dynamic_faith_102
@@ -8715,7 +8715,7 @@ X63 = {
 
 X64 = {
 	color = { 64 236 91 }
-	country_type = decentralized
+	country_type = unrecognized
 	tier = city_state
 	cultures = { mayan }
 	religion = totemism
