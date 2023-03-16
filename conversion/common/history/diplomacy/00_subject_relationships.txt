@@ -167,18 +167,6 @@
 			type = puppet
 		}
 	}
-	c:PER = {
-		create_diplomatic_pact = {
-			country = c:X79
-			type = puppet
-		}
-	}
-	c:PER = {
-		create_diplomatic_pact = {
-			country = c:X80
-			type = puppet
-		}
-	}
 	c:SCA = {
 		create_diplomatic_pact = {
 			country = c:HUN
