@@ -16630,6 +16630,14 @@
 		}
 	}
 	s:STATE_NORTH_ISLAND = {
+		region_state:W82 = {
+			create_building = {
+				building = "building_port"
+				level = 1
+				reserves = 1
+				activate_production_methods = { "pm_anchorage" }
+			}
+		}
 		region_state:AST = {
 			create_building = {
 				building = "building_construction_sector"
