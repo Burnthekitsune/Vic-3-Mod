@@ -381,12 +381,6 @@
 			months = 87
 		}
 	}
-	c:ICL = {
-		create_truce = {
-			country = c:X10
-			months = 59
-		}
-	}
 	c:KBA = {
 		create_truce = {
 			country = c:BNY
@@ -1105,10 +1099,6 @@
 			months = 13
 		}
 		create_truce = {
-			country = c:X10
-			months = 2
-		}
-		create_truce = {
 			country = c:X73
 			months = 13
 		}
@@ -1401,11 +1391,6 @@
 			months = 4
 		}
 	}
-	c:W34 = {
-		create_truce = {
-			country = c:X10
-			months = 2
-		}
 		create_truce = {
 			country = c:X89
 			months = 0
@@ -1713,20 +1698,12 @@
 			months = 61
 		}
 		create_truce = {
-			country = c:ICL
-			months = 59
-		}
-		create_truce = {
 			country = c:V23
 			months = 4
 		}
 		create_truce = {
 			country = c:V50
 			months = 61
-		}
-		create_truce = {
-			country = c:W34
-			months = 2
 		}
 		create_truce = {
 			country = c:W78
