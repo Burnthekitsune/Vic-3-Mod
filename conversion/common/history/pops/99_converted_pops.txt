@@ -787,7 +787,7 @@
 				size = 3516
 			}
 		}
-		region_state:X08 = {
+		region_state:X84 = {
 			create_pop = {
 				culture = athabaskan
 				religion = totemism
@@ -953,8 +953,6 @@
 				religion = catholic
 				size = 422
 			}
-		}
-		region_state:X84 = {
 			create_pop = {
 				culture = algonquian
 				religion = totemism
@@ -3165,7 +3163,7 @@
 		}
 	}
 	s:STATE_ARIZONA = {
-		region_state:CAL = {
+		region_state:X48 = {
 			create_pop = {
 				culture = apache
 				religion = totemism
@@ -11255,7 +11253,7 @@
 		}
 	}
 	s:STATE_CHIHUAHUA = {
-		region_state:CAL = {
+		region_state:X48 = {
 			create_pop = {
 				culture = apache
 				religion = totemism
@@ -11727,7 +11725,7 @@
 				size = 4941
 			}
 		}
-		region_state:CAL = {
+		region_state:X48 = {
 			create_pop = {
 				culture = navajo
 				religion = totemism
@@ -13844,7 +13842,7 @@
 		}
 	}
 	s:STATE_DURANGO = {
-		region_state:CAL = {
+		region_state:X48 = {
 			create_pop = {
 				culture = chichimecan
 				religion = animist
@@ -23951,7 +23949,7 @@
 		}
 	}
 	s:STATE_JALISCO = {
-		region_state:CAL = {
+		region_state:X48 = {
 			create_pop = {
 				culture = nahua
 				religion = nahuatl
@@ -33994,8 +33992,6 @@
 				religion = zoroastrian
 				size = 18977
 			}
-		}
-		region_state:X84 = {
 			create_pop = {
 				culture = algonquian
 				religion = totemism
@@ -35763,7 +35759,7 @@
 		}
 	}
 	s:STATE_NEW_MEXICO = {
-		region_state:CAL = {
+		region_state:X48 = {
 			create_pop = {
 				culture = navajo
 				religion = totemism
@@ -35789,8 +35785,6 @@
 				religion = totemism
 				size = 4284
 			}
-		}
-		region_state:X08 = {
 			create_pop = {
 				culture = pueblo
 				religion = totemism
@@ -47878,19 +47872,12 @@
 			create_pop = {
 				culture = north_italian
 				religion = converted_dynamic_faith_102
-				size = 112832
+				size = 256115
 			}
 			create_pop = {
 				culture = north_shamalian
 				religion = converted_dynamic_faith_102
-				size = 119151
-			}
-		}
-		region_state:X19 = {
-			create_pop = {
-				culture = french
-				religion = converted_dynamic_faith_102
-				size = 286567
+				size = 262434
 			}
 		}
 	}
@@ -49448,7 +49435,7 @@
 		}
 	}
 	s:STATE_SINALOA = {
-		region_state:CAL = {
+		region_state:X48 = {
 			create_pop = {
 				culture = nahua
 				religion = nahuatl
@@ -50457,7 +50444,7 @@
 		}
 	}
 	s:STATE_SONORA = {
-		region_state:CAL = {
+		region_state:X48 = {
 			create_pop = {
 				culture = oodham
 				religion = totemism
@@ -53409,7 +53396,7 @@
 		}
 	}
 	s:STATE_TEXAS = {
-		region_state:X08 = {
+		region_state:X48 = {
 			create_pop = {
 				culture = apache
 				religion = totemism

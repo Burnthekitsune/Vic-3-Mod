@@ -396,7 +396,7 @@
 		}
 	}
 	s:STATE_ALBERTA = {
-		region_state:X08 = {
+		region_state:X84 = {
 			create_building = {
 				building = "building_livestock_ranch"
 				level = 1
@@ -415,8 +415,6 @@
 				reserves = 1
 				activate_production_methods = { "pm_horizontal_drawer_cabinets" }
 			}
-		}
-		region_state:X84 = {
 			create_building = {
 				building = "building_construction_sector"
 				level = 1
@@ -1322,7 +1320,7 @@
 		}
 	}
 	s:STATE_ARIZONA = {
-		region_state:CAL = {
+		region_state:X48 = {
 			create_building = {
 				building = "building_barracks"
 				level = 1
@@ -5372,7 +5370,7 @@
 		}
 	}
 	s:STATE_CHIHUAHUA = {
-		region_state:CAL = {
+		region_state:X48 = {
 			create_building = {
 				building = "building_construction_sector"
 				level = 1
@@ -6372,7 +6370,7 @@
 		}
 	}
 	s:STATE_DURANGO = {
-		region_state:CAL = {
+		region_state:X48 = {
 			create_building = {
 				building = "building_construction_sector"
 				level = 2
@@ -14823,7 +14821,7 @@
 		region_state:X08 = {
 			create_building = {
 				building = "building_construction_sector"
-				level = 1
+				level = 2
 				reserves = 1
 				activate_production_methods = { }
 			}
@@ -14832,14 +14830,6 @@
 				level = 2
 				reserves = 1
 				activate_production_methods = { "pm_cannon_artillery" "pm_line_infantry" }
-			}
-		}
-		region_state:X84 = {
-			create_building = {
-				building = "building_construction_sector"
-				level = 1
-				reserves = 1
-				activate_production_methods = { }
 			}
 			create_building = {
 				building = "building_barracks"
@@ -15642,7 +15632,7 @@
 		}
 	}
 	s:STATE_NEW_MEXICO = {
-		region_state:CAL = {
+		region_state:X48 = {
 			create_building = {
 				building = "building_barracks"
 				level = 1
@@ -19599,8 +19589,6 @@
 				reserves=1
 				activate_production_methods={ "pm_steam_trains" "pm_wooden_passenger_carriages" }
 			}
-		}
-		region_state:X19 = {
 			create_building = {
 				building = "building_barracks"
 				level = 1
@@ -19618,12 +19606,6 @@
 				level = 1
 				reserves = 1
 				activate_production_methods = { "pm_lathe" }
-			}
-			create_building = {
-				building = "building_iron_mine"
-				level = 1
-				reserves = 1
-				activate_production_methods = { "pm_picks_and_shovels_building_iron_mine" }
 			}
 		}
 	}
@@ -20472,7 +20454,7 @@
 		}
 	}
 	s:STATE_SINALOA = {
-		region_state:CAL = {
+		region_state:X48 = {
 			create_building = {
 				building = "building_barracks"
 				level = 3
@@ -20850,7 +20832,7 @@
 		}
 	}
 	s:STATE_SONORA = {
-		region_state:CAL = {
+		region_state:X48 = {
 			create_building = {
 				building = "building_naval_base"
 				level = 1
@@ -22064,7 +22046,7 @@
 		}
 	}
 	s:STATE_TEXAS = {
-		region_state:X08 = {
+		region_state:X48 = {
 			create_building = {
 				building = "building_construction_sector"
 				level = 1
