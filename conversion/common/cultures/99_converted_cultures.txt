@@ -4788,10 +4788,10 @@ mayan = {
 	color = { 130 129 140 }
 	religion = "mesoamerican_religion"
 	traits = { indigenous_american_heritage native_mesoamerican_culture_group }
-	male_common_first_names = { Agustin Akbal Alejandro Andres Anibal Antonio Armando Bernardo Carlos Crescencio Cristobal_2 Cuautehmoc Diego Felipe Gaspar Hernando Hilario Humberto Ignacio Jacinto Jesus Luis Marcial Martin_2 Miguel Ramiro Rodolfo Rolando Santiago Yumil }
-	female_common_first_names = { Ana Catarina Concepcion Cristina Elvia Felipa Maria Paula Ramona Rigoberta Rosalina Thelma }
-	noble_last_names = { Ay Ceel Chan Chi Pat Pec Poot }
-	common_last_names = { Ak_ab_al Cal Canek Canul Carrillo Ceh Chee Choc Coc Curruchic Ixquiac Kan Lopez Manzanero Mas Menchu Merida Mes Osorio Pek Pop Puk Shal Sho Tecu Teul Tuyuc Xicara Xiloj }
+	male_common_first_names = { Akbal Ahmok Anibal Arana Cuautehmoc Yumil Zotz Balam_Quitze Chaan_Muan Kan_Bahlun_Mo Kukumatz Mochcouoh Nohochacyum Pacal Pacal_Balam }
+	female_common_first_names = { Ana Namox_Chel Sacnite Itzel }
+	noble_last_names = { Ay Ceel Chan Chi Pat Pec Chacmultun }
+	common_last_names = { Ak_ab_al Cal Canek Canul Ceh Chee Choc Coc Curruchic Ixquiac Kan Mes Pek Pop Puk Shal Sho Tecu Teul Tuyuc Xicara Xiloj }
 	ethnicities = {
 		1 = native_american
 	}
@@ -8072,4 +8072,20 @@ zulu = {
 		1 = african
 	}
 	graphics = african
+}
+
+chowinikob = {
+	color = { 30 160 203 }
+	religion = "converted_dynamic_faith_106"
+	traits = { european_heritage haalpulaar native_mesoamerican_culture_group }
+	male_common_first_names = { Akbal Anibal Ahkinxoc Cuautehmoc Yumil Zotz Barakaaharoog Poriin Skaaruhan Hiba Epilogi_Touroog }
+	female_common_first_names = { Ana Sacnite Neda Selene Neapania Esin }
+	male_regal_first_names = { Jegan Haidar Helias Mahecor }
+	female_regal_first_names = { Maha Cinsay Bashira }
+	noble_last_names = { Collel Saran Hede Traghan Silla Philokales Kalamanos }
+	common_last_names = { Mbeddaajibuur Agapimeni_tou_Roog Sothike_apo_ton_Roog Roog_me_Yperaspizetai Ak_ab_al Cal Canek Canul Ceh Chee Choc Coc Curruchic Ixquiac Kan Mas Mes Pek Pop Puk Shal Sho Tecu Teul Tuyuc Xicara Xiloj Ay Ceel Chan Chi Pat Pec }
+	ethnicities = {
+		1 = native_american
+	}
+	graphics = european
 }

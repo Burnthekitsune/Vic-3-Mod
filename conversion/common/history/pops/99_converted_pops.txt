@@ -11200,6 +11200,24 @@
 				religion = mesoamerican_religion
 				size = 29083
 			}
+			create_pop = {
+				culture = chowinikob
+				religion = mesoamerican_religion
+				size = 451
+				pop_type = aristocrats
+			}
+			create_pop = {
+				culture = chowinikob
+				religion = mesoamerican_religion
+				size = 8840
+				pop_type = peasants
+			}
+			create_pop = {
+				culture = chowinikob
+				religion = converted_dynamic_faith_106
+				size = 4587
+				pop_type = peasants
+			}
 		}
 		region_state:V50 = {
 			create_pop = {
@@ -19414,6 +19432,18 @@
 				religion = mesoamerican_religion
 				size = 53120
 			}
+			create_pop = {
+				culture = chowinikob
+				religion = mesoamerican_religion
+				size = 4578
+				pop_type = aristocrats
+			}
+			create_pop = {
+				culture = chowinikob
+				religion = converted_dynamic_faith_106
+				size = 7613
+				pop_type = peasants
+			}
 		}
 		region_state:X86 = {
 			create_pop = {
@@ -19425,6 +19455,30 @@
 				culture = mayan
 				religion = converted_dynamic_faith_106
 				size = 74383
+			}
+			create_pop = {
+				culture = chowinikob
+				religion = converted_dynamic_faith_106
+				size = 755
+				pop_type = aristocrats
+			}
+			create_pop = {
+				culture = chowinikob
+				religion = converted_dynamic_faith_106
+				size = 147
+				pop_type = clerks
+			}
+			create_pop = {
+				culture = chowinikob
+				religion = converted_dynamic_faith_106
+				size = 328
+				pop_type = bureaucrats
+			}
+			create_pop = {
+				culture = chowinikob
+				religion = mesoamerican_religion
+				size = 2772
+				pop_type = laborers
 			}
 		}
 	}
@@ -62003,6 +62057,30 @@
 				religion = mesoamerican_religion
 				size = 74123
 			}
+			create_pop = {
+				culture = chowinikob
+				religion = mesoamerican_religion
+				size = 1360
+				pop_type = aristocrats
+			}
+			create_pop = {
+				culture = chowinikob
+				religion = mesoamerican_religion
+				size = 3780
+				pop_type = clerks
+			}
+			create_pop = {
+				culture = chowinikob
+				religion = mesoamerican_religion
+				size = 824
+				pop_type = bureaucrats
+			}
+			create_pop = {
+				culture = chowinikob
+				religion = converted_dynamic_faith_106
+				size = 12441
+				pop_type = laborers
+			}
 		}
 		region_state:X38 = {
 			create_pop = {
@@ -62014,6 +62092,30 @@
 				culture = mayan
 				religion = mesoamerican_religion
 				size = 4455
+			}
+			create_pop = {
+				culture = chowinikob
+				religion = mesoamerican_religion
+				size = 1349
+				pop_type = aristocrats
+			}
+			create_pop = {
+				culture = chowinikob
+				religion = mesoamerican_religion
+				size = 3092
+				pop_type = clerks
+			}
+			create_pop = {
+				culture = chowinikob
+				religion = mesoamerican_religion
+				size = 1851
+				pop_type = bureaucrats
+			}
+			create_pop = {
+				culture = chowinikob
+				religion = converted_dynamic_faith_106
+				size = 6418
+				pop_type = laborers
 			}
 			create_pop = {
 				culture = mayan

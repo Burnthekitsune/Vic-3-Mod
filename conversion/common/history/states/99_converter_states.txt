@@ -1296,6 +1296,7 @@
 		}
 		add_homeland = mayan
 		add_homeland = zapotec
+		add_homeland = chowinikob
 	}
 	s:STATE_CHIHUAHUA = {
 		create_state = {
@@ -2323,6 +2324,7 @@
 			owned_provinces = { x42124E xD030C0 }
 		}
 		add_homeland = mayan
+		add_homeland = chowinikob
 		add_homeland = neo-central_america_colony-north_american_alshamali
 	}
 	s:STATE_GUAVIARE = {
@@ -7283,6 +7285,7 @@
 			owned_provinces = { x2C4E34 x51E4B6 x54250B x69E5AF x90AC14 xB598B9 xE68FD8 }
 		}
 		add_homeland = mayan
+		add_homeland = chowinikob
 		add_homeland = neo-central_america_colony-north_american_alshamali
 	}
 	s:STATE_YUKON_TERRITORY = {
