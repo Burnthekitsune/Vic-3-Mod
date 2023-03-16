@@ -48,7 +48,7 @@
 			first_name = "Abdallah"
 			last_name = "Haesteining"
 			heir = yes
-			culture = cu:faykinghian
+			culture = cu:east_asian_alshamali
 			religion = rel:converted_dynamic_faith_102
 			birth_date = 1828.9.26
 			traits = {
@@ -62,7 +62,7 @@
 			ruler = yes
 			is_general = yes
 			commander_rank = commander_rank_3
-			culture = cu:faykinghian
+			culture = cu:east_asian_alshamali
 			religion = rel:converted_dynamic_faith_102
 			birth_date = 1802.4.14
 			traits = {

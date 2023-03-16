@@ -4,7 +4,7 @@
 			first_name = "Ayyub"
 			last_name = "Haesteining"
 			heir = yes
-			culture = cu:faykinghian
+			culture = cu:east_asian_alshamali
 			religion = rel:converted_dynamic_faith_102
 			birth_date = 1830.3.3
 			traits = {
@@ -29,7 +29,7 @@
 			ruler = yes
 			is_general = yes
 			commander_rank = commander_rank_3
-			culture = cu:faykinghian
+			culture = cu:east_asian_alshamali
 			religion = rel:converted_dynamic_faith_102
 			birth_date = 1794.1.7
 			traits = {

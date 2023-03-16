@@ -7288,7 +7288,7 @@
 				size = 1296
 			}
 			create_pop = {
-				culture = anjilu_nurs
+				culture = australian_alshamali
 				religion = converted_dynamic_faith_102
 				size = 2933
 			}
@@ -9624,7 +9624,7 @@
 				size = 12707
 			}
 			create_pop = {
-				culture = faykinghian
+				culture = south_african_alshamali
 				religion = converted_dynamic_faith_102
 				size = 8287
 			}
@@ -14270,7 +14270,7 @@
 				size = 1845
 			}
 			create_pop = {
-				culture = anjilu_nurs
+				culture = australian_alshamali
 				religion = converted_dynamic_faith_102
 				size = 3438
 			}
@@ -15354,7 +15354,7 @@
 				size = 377
 			}
 			create_pop = {
-				culture = anjilu_nurs
+				culture = australian_alshamali
 				religion = converted_dynamic_faith_102
 				size = 256
 			}
@@ -27082,7 +27082,7 @@
 				size = 29783
 			}
 			create_pop = {
-				culture = faykinghian
+				culture = australian_alshamali
 				religion = converted_dynamic_faith_102
 				size = 19276
 			}
@@ -33706,7 +33706,7 @@
 				size = 1514
 			}
 			create_pop = {
-				culture = anjilu_nurs
+				culture = malaysian_alshamali
 				religion = converted_dynamic_faith_102
 				size = 3936
 			}
@@ -36974,7 +36974,7 @@
 				size = 8743
 			}
 			create_pop = {
-				culture = faykinghian
+				culture = south_african_alshamali
 				religion = converted_dynamic_faith_102
 				size = 5026
 			}
@@ -37029,7 +37029,7 @@
 				size = 4845
 			}
 			create_pop = {
-				culture = faykinghian
+				culture = south_african_alshamali
 				religion = converted_dynamic_faith_102
 				size = 1997
 			}
@@ -37054,7 +37054,7 @@
 				size = 17636
 			}
 			create_pop = {
-				culture = faykinghian
+				culture = south_african_alshamali
 				religion = converted_dynamic_faith_102
 				size = 1632
 			}
@@ -39198,12 +39198,12 @@
 				size = 15
 			}
 			create_pop = {
-				culture = anjilu_nurs
+				culture = malaysian_alshamali
 				religion = converted_dynamic_faith_102
 				size = 10103
 			}
 			create_pop = {
-				culture = anjilu_nurs
+				culture = malaysian_alshamali
 				religion = converted_dynamic_faith_102
 				pop_type = slaves
 				size = 7
@@ -40040,7 +40040,7 @@
 				size = 530
 			}
 			create_pop = {
-				culture = faykinghian
+				culture = east_asian_alshamali
 				religion = converted_dynamic_faith_102
 				size = 154
 			}
@@ -41928,7 +41928,7 @@
 				size = 544
 			}
 			create_pop = {
-				culture = faykinghian
+				culture = east_asian_alshamali
 				religion = converted_dynamic_faith_102
 				size = 158
 			}
@@ -49920,7 +49920,7 @@
 				size = 1429
 			}
 			create_pop = {
-				culture = anjilu_nurs
+				culture = australian_alshamali
 				religion = converted_dynamic_faith_102
 				size = 3234
 			}
@@ -52591,7 +52591,7 @@
 				size = 8600
 			}
 			create_pop = {
-				culture = anjilu_nurs
+				culture = australian_alshamali
 				religion = converted_dynamic_faith_102
 				size = 3267
 			}
@@ -52606,7 +52606,7 @@
 				size = 5692
 			}
 			create_pop = {
-				culture = anjilu_nurs
+				culture = australian_alshamali
 				religion = converted_dynamic_faith_102
 				size = 9329
 			}
@@ -54927,7 +54927,7 @@
 				size = 4428
 			}
 			create_pop = {
-				culture = faykinghian
+				culture = south_african_alshamali
 				religion = converted_dynamic_faith_102
 				size = 9591
 			}
@@ -54952,7 +54952,7 @@
 				size = 21772
 			}
 			create_pop = {
-				culture = faykinghian
+				culture = south_african_alshamali
 				religion = converted_dynamic_faith_102
 				size = 2015
 			}
@@ -58726,7 +58726,7 @@
 				size = 60719
 			}
 			create_pop = {
-				culture = faykinghian
+				culture = south_african_alshamali
 				religion = converted_dynamic_faith_102
 				size = 22655
 			}
@@ -58741,7 +58741,7 @@
 				size = 8803
 			}
 			create_pop = {
-				culture = faykinghian
+				culture = south_african_alshamali
 				religion = converted_dynamic_faith_102
 				size = 3628
 			}
@@ -60448,7 +60448,7 @@
 				size = 771
 			}
 			create_pop = {
-				culture = anjilu_nurs
+				culture = australian_alshamali
 				religion = converted_dynamic_faith_102
 				size = 1126
 			}
@@ -63245,7 +63245,7 @@
 				size = 18926
 			}
 			create_pop = {
-				culture = faykinghian
+				culture = south_african_alshamali
 				religion = converted_dynamic_faith_102
 				size = 7061
 			}

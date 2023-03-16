@@ -7939,7 +7939,7 @@ W87 = {
 	color = { 178 34 34 }
 	country_type = recognized
 	tier = principality
-	cultures = { faykinghian }
+	cultures = { east_asian_alshamali }
 	religion = converted_dynamic_faith_102
 	capital = STATE_ZHEJIANG
 }
@@ -7948,7 +7948,7 @@ W88 = {
 	color = { 0 240 0 }
 	country_type = recognized
 	tier = principality
-	cultures = { faykinghian }
+	cultures = { malaysian_alshamali }
 	religion = converted_dynamic_faith_102
 	capital = STATE_NORTH_BORNEO
 }
@@ -7957,7 +7957,7 @@ W89 = {
 	color = { 196 191 61 }
 	country_type = recognized
 	tier = principality
-	cultures = { faykinghian }
+	cultures = { malaysian_alshamali }
 	religion = converted_dynamic_faith_102
 	capital = STATE_CELEBES
 }
@@ -7966,7 +7966,7 @@ W90 = {
 	color = { 60 60 255 }
 	country_type = recognized
 	tier = principality
-	cultures = { faykinghian }
+	cultures = { east_asian_alshamali }
 	religion = converted_dynamic_faith_102
 	capital = STATE_SHANDONG
 }
@@ -7975,7 +7975,7 @@ W91 = {
 	color = { 0 200 150 }
 	country_type = recognized
 	tier = principality
-	cultures = { faykinghian }
+	cultures = { malaysian_alshamali }
 	religion = converted_dynamic_faith_102
 	capital = STATE_MINDANAO
 }
@@ -7984,7 +7984,7 @@ W92 = {
 	color = { 220 138 57 }
 	country_type = recognized
 	tier = principality
-	cultures = { faykinghian }
+	cultures = { australian_alshamali }
 	religion = converted_dynamic_faith_102
 	capital = STATE_KYUSHU
 }
@@ -7993,7 +7993,7 @@ W93 = {
 	color = { 0 175 0 }
 	country_type = recognized
 	tier = principality
-	cultures = { faykinghian }
+	cultures = { south_african_alshamali }
 	religion = converted_dynamic_faith_102
 	capital = STATE_TRANSVAAL
 }
@@ -8002,7 +8002,7 @@ W94 = {
 	color = { 100 230 20 }
 	country_type = recognized
 	tier = principality
-	cultures = { faykinghian }
+	cultures = { east_asian_alshamali }
 	religion = converted_dynamic_faith_102
 	capital = STATE_GUANGDONG
 }
@@ -8834,7 +8834,7 @@ X77 = {
 	color = { 244 196 48 }
 	country_type = unrecognized
 	tier = principality
-	cultures = { korean }
+	cultures = { east_asian_alshamali korean }
 	religion = converted_dynamic_faith_102
 	capital = STATE_PYONGYANG
 }
@@ -8843,7 +8843,7 @@ X78 = {
 	color = { 77 207 157 }
 	country_type = unrecognized
 	tier = principality
-	cultures = { manchu }
+	cultures = { east_asian_alshamali manchu }
 	religion = converted_dynamic_faith_102
 	capital = STATE_SOUTHERN_MANCHURIA
 }
@@ -8870,7 +8870,7 @@ X81 = {
 	color = { 220 20 60 }
 	country_type = unrecognized
 	tier = principality
-	cultures = { japanese }
+	cultures = { east_asian_alshamali japanese }
 	religion = converted_dynamic_faith_102
 	capital = STATE_KANSAI
 }
@@ -8879,7 +8879,7 @@ X82 = {
 	color = { 137 135 136 }
 	country_type = unrecognized
 	tier = principality
-	cultures = { mongol }
+	cultures = { east_asian_alshamali mongol }
 	religion = converted_dynamic_faith_102
 	capital = STATE_HINGGAN
 }
