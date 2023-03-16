@@ -10841,36 +10841,36 @@
 			create_pop = {
 				culture = teda
 				religion = sunni
-				size = 108904
+				size = 6904
 			}
 			create_pop = {
 				culture = bedouin
 				religion = sunni
-				size = 20000
+				size = 4000
 			}
 			create_pop = {
 				culture = teda
 				religion = sunni
 				pop_type = slaves
-				size = 5000
+				size = 1000
 			}
 			create_pop = {
 				culture = equatorial_bantu
 				religion = animist
 				pop_type = slaves
-				size = 6000
+				size = 2000
 			}
 		}
 		region_state:V27 = {
 			create_pop = {
 				culture = dynamic-kanuri-zaghawa-culture-num1
 				religion = zoroastrian
-				size = 19044
+				size = 119044
 			}
 			create_pop = {
 				culture = dynamic-kanuri-zaghawa-culture-num1
 				religion = converted_dynamic_faith_106
-				size = 24894
+				size = 264894
 			}
 			create_pop = {
 				culture = teda
@@ -10880,7 +10880,7 @@
 			create_pop = {
 				culture = teda
 				religion = converted_dynamic_faith_106
-				size = 4041
+				size = 9041
 			}
 			create_pop = {
 				culture = maghrebi
@@ -10901,7 +10901,19 @@
 		region_state:V68 = {
 			create_pop = {
 				culture = teda
-				size = 249444
+				size = 9444
+			}
+		}
+		region_state:KOS = {
+			create_pop = {
+				culture = dynamic-kanuri-zaghawa-culture-num1
+				religion = zoroastrian
+				size = 5432
+			}
+			create_pop = {
+				culture = teda
+				religion = zoroastrian
+				size = 4022
 			}
 		}
 	}

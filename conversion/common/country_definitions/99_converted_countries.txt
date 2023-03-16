@@ -9336,3 +9336,12 @@ MXC = {
 	country_type = recognized
 	tier = empire
 }
+
+KOS = {
+	color = { 20 255 128 }
+	country_type = recognized
+	tier = kingdom
+	cultures = { dynamic-kanuri-zaghawa-culture-num1 }
+	religion = zoroastrian
+	capital = STATE_CHAD
+}
