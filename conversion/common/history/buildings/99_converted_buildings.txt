@@ -8888,6 +8888,14 @@
 				activate_production_methods = { }
 			}
 		}
+		region_state:X10 = {
+			create_building = {
+				building = "building_port"
+				level = 1
+				reserves = 1
+				activate_production_methods = { }
+			}
+		}
 	}
 	s:STATE_GUANGXI = {
 		region_state:DAI = {

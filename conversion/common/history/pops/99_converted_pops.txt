@@ -19201,37 +19201,74 @@
 			create_pop = {
 				culture = yue
 				religion = mahayana
-				size = 1273699
+				size = 1018959
 			}
 			create_pop = {
 				culture = yue
 				religion = converted_dynamic_faith_102
-				size = 818257
+				size = 654606
 			}
 			create_pop = {
 				culture = min
 				religion = mahayana
-				size = 1539417
+				size = 1231534
 			}
 			create_pop = {
 				culture = min
 				religion = converted_dynamic_faith_102
-				size = 1033124
+				size = 826499
 			}
 			create_pop = {
 				culture = yue
 				religion = mahayana
-				size = 719913
+				size = 575930
 			}
 			create_pop = {
 				culture = yue
 				religion = converted_dynamic_faith_102
-				size = 434432
+				size = 347546
 			}
 			create_pop = {
 				culture = yue
 				religion = mahayana
-				size = 148416
+				size = 118733
+			}
+		}
+		region_state:X10 = {
+			create_pop = {
+				culture = yue
+				religion = mahayana
+				size = 254740
+			}
+			create_pop = {
+				culture = yue
+				religion = converted_dynamic_faith_102
+				size = 163651
+			}
+			create_pop = {
+				culture = min
+				religion = mahayana
+				size = 307883
+			}
+			create_pop = {
+				culture = min
+				religion = converted_dynamic_faith_102
+				size = 206625
+			}
+			create_pop = {
+				culture = yue
+				religion = mahayana
+				size = 143983
+			}
+			create_pop = {
+				culture = yue
+				religion = converted_dynamic_faith_102
+				size = 86886
+			}
+			create_pop = {
+				culture = yue
+				religion = mahayana
+				size = 29683
 			}
 		}
 		region_state:W94 = {
@@ -27394,7 +27431,7 @@
 				size = 53635
 			}
 		}
-		region_state:W34 = {
+		region_state:W35 = {
 			create_pop = {
 				culture = lao
 				religion = animist

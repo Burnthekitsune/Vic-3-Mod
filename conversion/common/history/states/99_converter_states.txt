@@ -2283,11 +2283,17 @@
 	s:STATE_GUANGDONG = {
 		create_state = {
 			country = c:W34
-			owned_provinces = { x260389 x2C4C48 x3131E0 x475968 x477755 x489AB0 x4E581C x7131E0 x85E0D4 x8C9358 x9A21B1 xA9B6D4 xC77200 xF0B061 xF98B04 xFEBFD5 }
+			owned_provinces = { xF0B061 x260389 x2C4C48 x3131E0 x475968 x477755 x489AB0 x4E581C x7131E0 x85E0D4 x8C9358 x9A21B1 xA9B6D4 xC77200 xF98B04 xFEBFD5 }
 		}
 		create_state = {
 			country = c:W94
-			owned_provinces = { x156AC0 x19FD82 x2BDE7B x30B0E0 x62BF42 xA92B88 xB031E0 xB0B061 xCB457A xDC137A }
+			owned_provinces = { x156AC0 x19FD82 x2BDE7B x30B0E0 x62BF42 xA92B88 xCB457A xDC137A xB0B061 }
+		}
+		create_state = {
+			country = c:X10
+			owned_provinces = { xB031E0 }
+			state_type = unincorporated
+			state_type = treaty_port
 		}
 		add_homeland = min
 		add_homeland = yue
@@ -3258,7 +3264,7 @@
 			owned_provinces = { x02CE70 x7E2810 x9751B6 x9EFC82 xB07020 xB246DC }
 		}
 		create_state = {
-			country = c:W34
+			country = c:W35
 			owned_provinces = { x578898 x61478F x625009 xDE87E1 xEAEF3A xED7937 }
 		}
 		create_state = {
