@@ -2168,7 +2168,6 @@
 		}
 		add_homeland = dynamic-fulani-culture-num1
 		add_homeland = dynamic-fulani-culture-num2
-		add_homeland = dynamic-greek-culture-num4
 		add_homeland = fulbe
 		add_homeland = wolof
 	}
@@ -3421,6 +3420,7 @@
 		}
 		add_homeland = misri
 		add_homeland = teda
+		add_homeland = dynamic-berber-fulani-culture-num1
 	}
 	s:STATE_LIBYAN_DESERT = {
 		create_state = {
@@ -3433,6 +3433,7 @@
 		}
 		add_homeland = bedouin
 		add_homeland = teda
+		add_homeland = dynamic-berber-fulani-culture-num1
 	}
 	s:STATE_LIMA = {
 		create_state = {
@@ -4911,7 +4912,6 @@
 			owned_provinces = { x05AF2A x064C0C x081330 x0A6F02 x0DEFAA x1110E0 x119060 x1622C1 x1659B8 x22D546 x281C77 x291801 x2AD7EB x34A317 x37C83B x3921D3 x3BD5AF x3D2745 x40E064 x477B47 x48B5C1 x4E40D7 x5051A0 x505ABF x50D09F x51E372 x531EE3 x583B5E x59CF4B x6516B9 x6C8962 x6E2718 x7C3FD8 x7EB3BB x80D945 x87DD49 x889E8E x8B7291 x91CA6F x91E205 x9266A1 x93455F x95B3FC x96E7A9 x98907F xA286FE xA42F37 xA6FB18 xAAB357 xAD963A xADFCBB xAE0018 xAEAED9 xB03D4B xB354F7 xB42598 xB4574B xB5CA43 xB5EEFE xB6B510 xB78BE4 xB99FF2 xC06BCE xC438ED xC9BC55 xCF50A0 xD1320A xD28E66 xD36F0B xD4E488 xD5B946 xE373B7 xECC181 }
 		}
 		add_homeland = bambara
-		add_homeland = dynamic-berber-fulani-culture-num1
 		add_homeland = dynamic-hausa-nupe-culture-num1
 		add_homeland = dynamic-kanuri-zaghawa-culture-num1
 	}
@@ -6451,6 +6451,7 @@
 		add_homeland = bedouin
 		add_homeland = maghrebi
 		add_homeland = teda
+		add_homeland = dynamic-berber-fulani-culture-num1
 	}
 	s:STATE_TUCUMAN = {
 		create_state = {
