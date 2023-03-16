@@ -44,7 +44,8 @@
 		}
 
 		create_character = {
-			first_name = "Vecas_Cania"
+			first_name = "Vecas"
+			last_name = "Cania"
 			is_general = yes
 			culture = cu:north_italian
 			commander_rank = commander_rank_3
@@ -55,7 +56,8 @@
 		}
 
 		create_character = {
-			first_name = "Hakam_Sarkis"
+			first_name = "Hakam"
+			last_name = "Sarkis"
 			is_general = yes
 			culture = cu:alyunania
 			commander_rank = commander_rank_4
@@ -66,7 +68,8 @@
 		}
 
 		create_character = {
-			first_name = "Henotikon_Taid"
+			first_name = "Henotikon"
+			last_name = "Taid"
 			is_general = yes
 			culture = cu:dynamic-bulgarian-greek-culture-num1
 			commander_rank = commander_rank_4
@@ -77,7 +80,8 @@
 		}
 
 		create_character = {
-			first_name = "Gejopal_Bahadur"
+			first_name = "Gejopal"
+			last_name = "Bahadur"
 			culture = cu:north_italian
 			is_general = yes
 			commander_rank = commander_rank_4
@@ -88,7 +92,8 @@
 		}
 
 		create_character = {
-			first_name = "Maha_Xiphias"
+			first_name = "Maha"
+			last_name = "Xiphias"
 			is_general = yes
 			culture = cu:dynamic-greek-culture-num4
 			commander_rank = commander_rank_2
@@ -100,7 +105,7 @@
 
 		create_character = {
 			first_name = "Helias"
-			last_name = "Apostolos Neopania Auchi Kehinde"
+			last_name = "Apostolos_Neopania_Auchi_Kehinde"
 			is_general = yes
 			culture = cu:dynamic-greek-culture-num4
 			commander_rank = commander_rank_3
@@ -119,6 +124,19 @@
 			birth_date = 1799.05.19
 			traits = {
 				celebrity_commander direct firebrand charismatic
+			}
+		}
+		create_character = {
+			first_name = "Helias"
+			last_name = "Mahan"
+			is_admiral = yes
+			hq = region_italy
+			culture = cu:muraa
+			religion = rel:converted_dynamic_faith_106
+			commander_rank = commander_rank_2
+			birth_date = 1792.02.10
+			traits = {
+				dockyard_organizer persistent meticulous
 			}
 		}
 	}
