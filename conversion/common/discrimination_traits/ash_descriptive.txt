@@ -1,5 +1,12 @@
-alshamali_culture_group = {
-}
-
-alshamali_language = {
-}
+alshamali_culture_group = { } # Should be not used
+alshamali_language = { }
+iberian_alshamali = { }
+african_alshamali = { }
+central_american_alshamali = { }
+north_african_alshamali = { }
+eastern_alshamali = { }
+british_alshamali = { }
+french_alshamali = { }
+north_american_alshamali = { }
+south_american_alshamali = { }
+far_east_alshamali = { }

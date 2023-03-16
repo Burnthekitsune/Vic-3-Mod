@@ -50888,7 +50888,7 @@
 	s:STATE_SOUTH_ATLANTIC_ISLANDS = {
 		region_state:W40 = {
 			create_pop = {
-				culture = biritani
+				culture = aleasifa
 				religion = converted_dynamic_faith_102
 				size = 681
 			}
@@ -50898,12 +50898,12 @@
 				size = 15
 			}
 			create_pop = {
-				culture = south_african_alshamali
+				culture = aleasifa
 				religion = converted_dynamic_faith_102
 				size = 428
 			}
 			create_pop = {
-				culture = south_african_alshamali
+				culture = aleasifa
 				religion = converted_dynamic_faith_106
 				size = 742
 			}
@@ -50920,22 +50920,22 @@
 				size = 2493
 			}
 			create_pop = {
-				culture = faykinghian
+				culture = neo-argentine_colony-south_american_alshamal
 				religion = converted_dynamic_faith_102
 				size = 1583
 			}
 			create_pop = {
-				culture = south_american_alshamali
+				culture = neo-argentine_colony-south_american_alshamal
 				religion = converted_dynamic_faith_102
 				size = 3761
 			}
 			create_pop = {
-				culture = faykinghian
+				culture = neo-argentine_colony-south_american_alshamal
 				religion = converted_dynamic_faith_102
 				size = 505
 			}
 			create_pop = {
-				culture = south_american_alshamali
+				culture = neo-argentine_colony-south_american_alshamal
 				religion = converted_dynamic_faith_102
 				size = 2943
 			}
