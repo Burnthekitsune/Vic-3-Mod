@@ -7461,10 +7461,10 @@ W33 = {
 W34 = {
 	color = { 179 128 104 }
 	country_type = unrecognized
-	tier = hegemony
+	tier = empire
 	cultures = { han }
 	religion = mahayana
-	capital = STATE_ZHILI
+	capital = STATE_CHONGQING
 }
 
 W35 = {
