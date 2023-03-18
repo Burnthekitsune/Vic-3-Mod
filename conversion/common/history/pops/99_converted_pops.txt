@@ -19233,8 +19233,6 @@
 				religion = mahayana
 				size = 118733
 			}
-		}
-		region_state:X10 = {
 			create_pop = {
 				culture = yue
 				religion = mahayana
@@ -62991,7 +62989,7 @@
 				size = 1589671
 			}
 		}
-		region_state:W90 = {
+		region_state:X10 = {
 			create_pop = {
 				culture = han
 				religion = mahayana

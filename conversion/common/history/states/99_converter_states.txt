@@ -2287,13 +2287,7 @@
 		}
 		create_state = {
 			country = c:W94
-			owned_provinces = { x156AC0 x19FD82 x2BDE7B x30B0E0 x62BF42 xA92B88 xCB457A xDC137A xB0B061 }
-		}
-		create_state = {
-			country = c:X10
-			owned_provinces = { xB031E0 }
-			state_type = unincorporated
-			state_type = treaty_port
+			owned_provinces = { xB031E0 x156AC0 x19FD82 x2BDE7B x30B0E0 x62BF42 xA92B88 xCB457A xDC137A xB0B061 }
 		}
 		add_homeland = min
 		add_homeland = yue
@@ -7447,11 +7441,13 @@
 	s:STATE_ZHILI = {
 		create_state = {
 			country = c:W34
-			owned_provinces = { x0970D9 x0FEECE x115101 x1AB7C6 x1F637F x215101 x43043A x480190 x4E770A x5CFC15 x5DA25B x5E5C94 x680507 x6850DA x76B0CC x81A01A x83E0CF x905101 xA08982 xAD4A5C xD8F037 xDBD047 xE0D001 xE5DAD3 xF54194 xF7D611 xF9A4A2 }
+			owned_provinces = { xD09080 x0970D9 x0FEECE x115101 x1AB7C6 x1F637F x215101 x43043A x480190 x4E770A x5CFC15 x5DA25B x5E5C94 x680507 x6850DA x76B0CC x81A01A x83E0CF x905101 xA08982 xAD4A5C xDBD047 xE0D001 xE5DAD3 xF54194 xF7D611 xF9A4A2 }
 		}
 		create_state = {
-			country = c:W90
-			owned_provinces = { xD09080 }
+			country = c:X10
+			owned_provinces = { xD8F037 }
+			state_type = unincorporated
+			state_type = treaty_port
 		}
 		add_homeland = han
 		add_claim = c:W34
