@@ -9684,7 +9684,7 @@
 	s:STATE_CAPE_VERDE = {
 		region_state:X10 = {
 			create_pop = {
-				culture = janubian
+				culture = aleasifa
 				religion = converted_dynamic_faith_102
 				size = 17129
 			}
@@ -37863,7 +37863,7 @@
 				size = 5466
 			}
 			create_pop = {
-				culture = janubian
+				culture = south_african_alshamali
 				religion = converted_dynamic_faith_102
 				size = 887
 			}
@@ -39753,6 +39753,18 @@
 				culture = inuit
 				religion = animist
 				size = 22980
+			}
+		}
+		region_state:X10 = {
+			create_pop = {
+				culture = inuit
+				religion = animist
+				size = 2298
+			}
+			create_pop = {
+				culture = neo-canada_colony-north_american_alshamali
+				religion = converted_dynamic_faith_102
+				size = 142
 			}
 		}
 	}
@@ -51344,7 +51356,7 @@
 				size = 3588
 			}
 			create_pop = {
-				culture = janubian
+				culture = south_african_alshamali
 				religion = converted_dynamic_faith_102
 				size = 11648
 			}
@@ -51364,7 +51376,7 @@
 				size = 3127
 			}
 			create_pop = {
-				culture = anjilu_nurs
+				culture = south_african_alshamali
 				religion = converted_dynamic_faith_102
 				size = 9902
 			}
