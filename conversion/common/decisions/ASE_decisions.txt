@@ -1,22 +1,31 @@
 nunavut_colony = {
 	is_shown = {
 		this = c:X10
-		NOT = { this = c:X10 } # Until I fix this
 		NOT = { has_variable = nunavut_colony_decision }
 	}
 	
 	possible = {
-		country_or_subject_owns_entire_state_region = s:STATE_NUNAVUT
+		country_or_subject_owns_entire_state_region = STATE_NUNAVUT
 	}
 	
 	when_taken = {
 		s:STATE_NUNAVUT = {
-			remove_claim = X10
-			add_claim = ONT
+			remove_claim = c:X10
+			add_claim = c:ONT
 			add_homeland = neo-canada_colony-north_american_alshamali
-			set_state_owner = ONT
-			set_state_type = incorporated
+			convert_population = { target = rel:converted_dynamic_faith_102 value = 0.5 }
+			change_pop_culture = { target = cu:neo-canada_colony-north_american_alshamali value = 0.33 }
 		}
+		random_state = {
+			limit = {
+				state_region = s:STATE_NUNAVUT
+				owner = c:X10
+			}
+			set_state_owner = c:ONT
+		}
+		set_variable = {
+			name = nunavut_colony_decision
+		} 
 		
 	}
 	
