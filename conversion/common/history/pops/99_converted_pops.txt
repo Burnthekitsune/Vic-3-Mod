@@ -37598,7 +37598,7 @@
 		}
 	}
 	s:STATE_NORTHERN_TRANSYLVANIA = {
-		region_state:SCA = {
+		region_state:HUN = {
 			create_pop = {
 				culture = dynamic-hungarian-russian_culture-culture-num1
 				religion = orthodox

@@ -4444,7 +4444,7 @@
 	}
 	s:STATE_NORTHERN_TRANSYLVANIA = {
 		create_state = {
-			country = c:SCA
+			country = c:HUN
 			owned_provinces = { x3161A0 x4884E0 x6E6896 x73F00B xAF609F }
 		}
 		create_state = {

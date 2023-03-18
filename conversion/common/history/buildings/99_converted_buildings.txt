@@ -16201,7 +16201,7 @@
 		}
 	}
 	s:STATE_NORTHERN_TRANSYLVANIA = {
-		region_state:SCA = {
+		region_state:HUN = {
 			create_building = {
 				building = "building_barracks"
 				level = 1
@@ -19031,7 +19031,7 @@
 		}
 	}
 	s:STATE_SAMARA = {
-		region_state:V37 = {
+		region_state:V22 = {
 			create_building = {
 				building = "building_livestock_ranch"
 				level = 1
