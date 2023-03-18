@@ -1621,23 +1621,6 @@
 		}
 	}
 	s:STATE_AMAZONAS = {
-		region_state:GCO = {
-			create_pop = {
-				culture = cariban
-				religion = animist
-				size = 52
-			}
-			create_pop = {
-				culture = guajiro
-				religion = animist
-				size = 6
-			}
-			create_pop = {
-				culture = neo-brazil_colony-south_american_alshamali
-				religion = converted_dynamic_faith_102
-				size = 404
-			}
-		}
 		region_state:V55 = {
 			create_pop = {
 				culture = amazonian
@@ -1704,6 +1687,21 @@
 				culture = neo-brazil_colony-south_american_alshamali
 				religion = converted_dynamic_faith_102
 				size = 4090
+			}
+			create_pop = {
+				culture = cariban
+				religion = animist
+				size = 52
+			}
+			create_pop = {
+				culture = guajiro
+				religion = animist
+				size = 6
+			}
+			create_pop = {
+				culture = neo-brazil_colony-south_american_alshamali
+				religion = converted_dynamic_faith_102
+				size = 404
 			}
 		}
 	}
@@ -19623,7 +19621,7 @@
 		}
 	}
 	s:STATE_GUAYANA = {
-		region_state:FRA = {
+		region_state:GCO = {
 			create_pop = {
 				culture = french
 				religion = catholic
@@ -19639,8 +19637,6 @@
 				religion = catholic
 				size = 3323
 			}
-		}
-		region_state:GCO = {
 			create_pop = {
 				culture = guajiro
 				religion = animist
@@ -31530,8 +31526,6 @@
 				religion = converted_dynamic_faith_102
 				size = 14146
 			}
-		}
-		region_state:X28 = {
 			create_pop = {
 				culture = guarani
 				religion = animist
@@ -40993,8 +40987,6 @@
 				religion = catholic
 				size = 166
 			}
-		}
-		region_state:X84 = {
 			create_pop = {
 				culture = cree
 				religion = totemism
@@ -42878,14 +42870,6 @@
 				religion = converted_dynamic_faith_102
 				size = 3654
 			}
-		}
-		region_state:V55 = {
-			create_pop = {
-				culture = amazonian
-				size = 12726
-			}
-		}
-		region_state:X28 = {
 			create_pop = {
 				culture = quechua
 				religion = inti
@@ -42930,6 +42914,12 @@
 				culture = neo-peru_colony-south_american_alshamali
 				religion = converted_dynamic_faith_102
 				size = 6062
+			}
+		}
+		region_state:V55 = {
+			create_pop = {
+				culture = amazonian
+				size = 12726
 			}
 		}
 	}

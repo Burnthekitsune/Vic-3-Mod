@@ -14001,7 +14001,7 @@
 		region_state:X20 = {
 			create_building = {
 				building = "building_barracks"
-				level = 1
+				level = 3
 				reserves = 1
 				activate_production_methods = { "pm_line_infantry" "pm_mobile_artillery" }
 			}
@@ -14010,14 +14010,6 @@
 				level = 1
 				reserves = 1
 				activate_production_methods = { }
-			}
-		}
-		region_state:X28 = {
-			create_building = {
-				building = "building_barracks"
-				level = 2
-				reserves = 1
-				activate_production_methods = { "pm_cannon_artillery" "pm_line_infantry" }
 			}
 			create_building = {
 				building = "building_construction_sector"
@@ -17115,8 +17107,6 @@
 				reserves = 1
 				activate_production_methods = { "pm_horizontal_drawer_cabinets" }
 			}
-		}
-		region_state:X84 = {
 			create_building = {
 				building = "building_logging_camp"
 				level = 1
@@ -17643,15 +17633,7 @@
 		region_state:GCO = {
 			create_building = {
 				building = "building_barracks"
-				level = 1
-				reserves = 1
-				activate_production_methods = { "pm_cannon_artillery" "pm_line_infantry" }
-			}
-		}
-		region_state:X28 = {
-			create_building = {
-				building = "building_barracks"
-				level = 2
+				level = 3
 				reserves = 1
 				activate_production_methods = { "pm_cannon_artillery" "pm_line_infantry" }
 			}
