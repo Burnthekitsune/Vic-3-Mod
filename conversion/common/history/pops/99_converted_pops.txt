@@ -5833,17 +5833,17 @@
 			create_pop = {
 				culture = han
 				religion = mahayana
-				size = 1939471
+				size = 939471
 			}
 			create_pop = {
 				culture = han
 				religion = converted_dynamic_faith_102
-				size = 1153746
+				size = 153746
 			}
 			create_pop = {
 				culture = east_asian_alshamali
 				religion = converted_dynamic_faith_102
-				size = 1557855
+				size = 3557855
 			}
 			create_pop = {
 				culture = han
@@ -21301,8 +21301,8 @@
 				size = 19013
 			}
 			create_pop = {
-				culture = han
-				religion = mahayana
+				culture = east_asian_alshamali
+				religion = converted_dynamic_faith_102
 				size = 5427
 			}
 			create_pop = {
@@ -24822,7 +24822,7 @@
 				size = 574826
 			}
 			create_pop = {
-				culture = japanese
+				culture = east_asian_alshamali
 				religion = converted_dynamic_faith_102
 				size = 369335
 			}
@@ -37261,8 +37261,6 @@
 				religion = converted_dynamic_faith_102
 				size = 59246
 			}
-		}
-		region_state:X82 = {
 			create_pop = {
 				culture = mongol
 				religion = tengri_pagan
@@ -42017,12 +42015,12 @@
 			create_pop = {
 				culture = east_asian_alshamali
 				religion = converted_dynamic_faith_102
-				size = 158
+				size = 15886
 			}
 			create_pop = {
 				culture = east_asian_alshamali
 				religion = converted_dynamic_faith_102
-				size = 598
+				size = 59886
 			}
 			create_pop = {
 				culture = east_asian_alshamali
@@ -44902,7 +44900,7 @@
 				size = 217685
 			}
 			create_pop = {
-				culture = korean
+				culture = east_asian_alshamali
 				religion = converted_dynamic_faith_102
 				size = 201803
 			}
@@ -50832,8 +50830,6 @@
 				religion = converted_dynamic_faith_102
 				size = 338073
 			}
-		}
-		region_state:X82 = {
 			create_pop = {
 				culture = mongol
 				religion = gelugpa
@@ -62890,7 +62886,12 @@
 			create_pop = {
 				culture = han
 				religion = mahayana
-				size = 673798
+				size = 336899
+			}
+			create_pop = {
+				culture = east_asian_alshamali
+				religion = converted_dynamic_faith_102
+				size = 336899
 			}
 			create_pop = {
 				culture = han

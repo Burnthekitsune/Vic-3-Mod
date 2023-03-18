@@ -2730,44 +2730,30 @@
 		}
 	}
 	s:STATE_BEIJING = {
-		region_state:W34 = {
+		region_state:W90 = {
 			create_building = {
 				building = "building_construction_sector"
-				level = 2
+				level = 6
 				reserves = 1
 				activate_production_methods = { }
 			}
 			create_building = {
 				building = "building_barracks"
-				level = 5
+				level = 46
 				reserves = 1
 				activate_production_methods = { "pm_cannon_artillery" "pm_irregular_infantry" }
 			}
 			create_building = {
 				building = "building_livestock_ranch"
-				level = 2
+				level = 4
 				reserves = 1
 				activate_production_methods = { }
 			}
 			create_building = {
 				building = "building_paper_mills"
-				level = 2
+				level = 8
 				reserves = 1
 				activate_production_methods = { "pm_pulp_pressing" }
-			}
-		}
-		region_state:W90 = {
-			create_building = {
-				building = "building_barracks"
-				level = 27
-				reserves = 1
-				activate_production_methods = { "pm_mobile_artillery" "pm_skirmish_infantry" }
-			}
-			create_building = {
-				building = "building_livestock_ranch"
-				level = 2
-				reserves = 1
-				activate_production_methods = { }
 			}
 			create_building = {
 				building = "building_tea_plantation"
@@ -2777,13 +2763,13 @@
 			}
 			create_building = {
 				building = "building_wheat_farm"
-				level = 29
+				level = 32
 				reserves = 1
 				activate_production_methods = { "pm_no_secondary" }
 			}
 			create_building = {
 				building = "building_silk_plantation"
-				level = 6
+				level = 7
 				reserves = 1
 				activate_production_methods = { }
 			}
@@ -2795,7 +2781,7 @@
 			}
 			create_building = {
 				building = "building_cotton_plantation"
-				level = 29
+				level = 31
 				reserves = 1
 				activate_production_methods = { }
 			}
@@ -2812,12 +2798,6 @@
 				activate_production_methods = { }
 			}
 			create_building = {
-				building = "building_paper_mills"
-				level = 5
-				reserves = 1
-				activate_production_methods = { }
-			}
-			create_building = {
 				building = "building_food_industry"
 				level = 6
 				reserves = 1
@@ -2825,27 +2805,13 @@
 			}
 			create_building = {
 				building = "building_government_administration"
-				level = 15
+				level = 19
 				reserves = 1
 				activate_production_methods = { "pm_horizontal_drawer_cabinets" }
 			}
 			create_building = {
 				building = "building_port"
-				level = 1
-				reserves = 1
-				activate_production_methods = { }
-			}
-		}
-		region_state:X78 = {
-			create_building = {
-				building = "building_barracks"
-				level = 6
-				reserves = 1
-				activate_production_methods = { "pm_cannon_artillery" "pm_irregular_infantry" }
-			}
-			create_building = {
-				building = "building_construction_sector"
-				level = 2
+				level = 5
 				reserves = 1
 				activate_production_methods = { }
 			}
@@ -2854,56 +2820,6 @@
 				level = 8
 				reserves = 1
 				activate_production_methods = { "pm_no_naval_theory" }
-			}
-			create_building = {
-				building = "building_paper_mills"
-				level = 1
-				reserves = 1
-				activate_production_methods = { }
-			}
-			create_building = {
-				building = "building_port"
-				level = 4
-				reserves = 1
-				activate_production_methods = { }
-			}
-		}
-		region_state:X82 = {
-			create_building = {
-				building = "building_construction_sector"
-				level = 2
-				reserves = 1
-				activate_production_methods = { }
-			}
-			create_building = {
-				building = "building_barracks"
-				level = 8
-				reserves = 1
-				activate_production_methods = { "pm_irregular_infantry" "pm_no_artillery" }
-			}
-			create_building = {
-				building = "building_silk_plantation"
-				level = 1
-				reserves = 1
-				activate_production_methods = { }
-			}
-			create_building = {
-				building = "building_wheat_farm"
-				level = 3
-				reserves = 1
-				activate_production_methods = { "pm_no_secondary" }
-			}
-			create_building = {
-				building = "building_cotton_plantation"
-				level = 2
-				reserves = 1
-				activate_production_methods = { }
-			}
-			create_building = {
-				building = "building_government_administration"
-				level = 4
-				reserves = 1
-				activate_production_methods = { "pm_horizontal_drawer_cabinets" }
 			}
 		}
 	}
@@ -16143,13 +16059,13 @@
 		region_state:X78 = {
 			create_building = {
 				building = "building_wheat_farm"
-				level = 2
+				level = 4
 				reserves = 1
 				activate_production_methods = { "pm_citrus_orchards" }
 			}
 			create_building = {
 				building = "building_cotton_plantation"
-				level = 1
+				level = 4
 				reserves = 1
 				activate_production_methods = { }
 			}
@@ -16159,26 +16075,11 @@
 				reserves = 1
 				activate_production_methods = { "pm_cannon_artillery" "pm_irregular_infantry" }
 			}
-		}
-		region_state:X82 = {
-			create_building = {
-				building = "building_wheat_farm"
-				level = 2
-				reserves = 1
-				activate_production_methods = { "pm_no_secondary" }
-			}
 			create_building = {
 				building = "building_logging_camp"
 				level = 1
 				reserves = 1
 				activate_production_methods = { "pm_simple_forestry" }
-			}
-			create_building = {
-				building = "building_cotton_plantation"
-				level = 3
-				reserves = 1
-				activate_production_methods = { }
-			}
 			create_building = {
 				building = "building_paper_mills"
 				level = 1
@@ -21020,26 +20921,6 @@
 			create_building = {
 				building = "building_government_administration"
 				level = 11
-				reserves = 1
-				activate_production_methods = { "pm_horizontal_drawer_cabinets" }
-			}
-		}
-		region_state:X82 = {
-			create_building = {
-				building = "building_barracks"
-				level = 5
-				reserves = 1
-				activate_production_methods = { "pm_irregular_infantry" "pm_no_artillery" }
-			}
-			create_building = {
-				building = "building_furniture_manufacturies"
-				level = 1
-				reserves = 1
-				activate_production_methods = { "pm_handcrafted_furniture" }
-			}
-			create_building = {
-				building = "building_government_administration"
-				level = 1
 				reserves = 1
 				activate_production_methods = { "pm_horizontal_drawer_cabinets" }
 			}
