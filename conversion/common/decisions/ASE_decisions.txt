@@ -1,6 +1,7 @@
 nunavut_colony = {
 	is_shown = {
 		this = c:X10
+		NOT = { this = c:X10 } # Until I fix this
 		NOT = { has_variable = nunavut_colony_decision }
 	}
 	
