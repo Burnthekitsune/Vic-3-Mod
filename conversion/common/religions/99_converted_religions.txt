@@ -115,8 +115,9 @@ converted_dynamic_faith_103 = {
 }
 converted_dynamic_faith_104 = {
 	texture = "gfx/interface/icons/religion_icons/animist.dds"
-	traits = { animist }
+	traits = { animist edict }
 	color = { 49 45 49 }
+	taboos = { meat wine }
 }
 converted_dynamic_faith_105 = {
 	texture = "gfx/interface/icons/religion_icons/animist.dds"

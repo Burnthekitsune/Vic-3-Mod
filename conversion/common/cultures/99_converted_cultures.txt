@@ -2114,6 +2114,7 @@ dynamic-fulani-culture-num3 = {
 
 dynamic-greek-culture-num4 = {
 	color = { 173 148 71 }
+	obsessions = { tea }
 	religion = "converted_dynamic_faith_106"
 	traits = { european_heritage greek_culture haalpulaar }
 	male_common_first_names = { el_Abestoles el_Achilleas el_Achilles el_Adamantios el_Adonis el_Agapios el_Agias el_Aiakos el_Aineias el_Aiolos el_Aleda el_Alekos el_Alexander el_Alexandros el_Alexios el_Alexiou el_Alexis el_Ambrosios el_Anakletos el_Anastasios el_Anastassios el_Andonios el_Andreas el_Andros el_Angelo el_Angelos el_Aniketos el_Anninos el_Antonios el_Antonis el_Apostolis el_Apostolos el_Argyros el_Ari el_Arion el_Aris el_Aristides el_Aristotelis el_Arsenios el_Athan el_Athanasios el_Athanassios el_Athinagoras el_Athones el_Augustinos el_Bikos el_Boreas el_Carolos el_Charalambos el_Charalampos el_Charilaos el_Christodoulos el_Christoforos el_Christos el_Chrysostomos el_Cletus el_Constandinos el_Constantinos el_Cosmo el_Costa el_Costas el_Crist el_Damianos el_Demetri el_Demetrios el_Demetris el_Demosthenes el_Dighenis el_Dimitri el_Dimitrios el_Dimitris el_Dino el_Dion el_Dionysios el_Dionyssios el_Doxiadis el_Drymiotes el_Efstathios el_Efstratios el_Efthimios el_Eleftherios el_Elias el_Emmanouil el_Emmanuel el_Emmanuil el_Epameinondas el_Epaminondas el_Evangelos el_Evgenios el_Evis el_Evripides el_Fanos el_Filipas el_Fotis el_George el_Georges el_Georghios el_Georgios el_Gerasimos el_Giannis el_Giatas el_Giorgos el_Glafkos el_Gondikas el_Gregorios el_Grigorios el_Grigoris el_Haralambos el_Harrys el_Herakles el_Hermes el_Hippocrates el_Hristos el_Iacovos el_Iakovos el_Iannis el_Iason el_Ignatios el_Ilias el_Ioannes el_Ioannis el_Isaakios el_Isidoros el_Kalinikos el_Kharilaos el_Kimon el_Kleanthe el_Koinos el_Konstandinos el_Konstantinos el_Kosmas el_Kosta el_Kostantinos el_Kostas el_Kris el_Kristion el_Kymon el_Kypros el_Kyriacos el_Kyriakos el_Lambro el_Lambros el_Laurentios el_Lazaros el_Leandros el_Lefteris el_Leo el_Leonidas el_Leontios el_Loukas el_Loukianos el_Makarios el_Makis el_Manolis el_Manos el_Marinos el_Marios el_Marko el_Markos el_Martinos el_Matthaios el_Maximos el_Metrophanes el_Michail el_Michalis el_Milos el_Miltiades el_Miltos el_Moris el_Myron el_Nathanael el_Nektarios el_Neophytos el_Nickolas el_Nico el_Nicolaon el_Nicolas el_Nikodemos el_Nikolaos el_Odysseas el_Odysseus el_Orestis el_Orion el_Othon el_Panagiote el_Panagiotis el_Panayiotis el_Panayotis el_Panicos el_Panos el_Pantelis el_Paulos el_Pausanias el_Pavlos el_Pericles el_Periklis el_Petros el_Philippos el_Photios el_Platon el_Polyvios el_Prokopios el_Rhigas el_Romanos el_Samaras el_Savas el_Savvas el_Sebastianos el_Sergios el_Silvanos el_Simos el_Skyros el_Socrates el_Solon el_Sophocles el_Sotirios el_Sotiris el_Spiridon el_Spiro el_Spyridon el_Spyros el_Stamatis el_Stathis el_Stavros el_Stefanos el_Stelios el_Stephanos el_Sterghios el_Stratis el_Stratos el_Stylianos el_Tasos el_Tassos el_Tataki el_Thaddaios el_Thanasios el_Thanasis el_Thanos el_Themestoclis el_Theodore el_Theodoros el_Theodosios el_Theofanis el_Theologos el_Theophanis el_Thrasyvoulos el_Timotheos el_Titos el_Triandafillos el_Tzannas el_Vaggelis el_Vaios el_Valerios el_Vangelis el_Vardis el_Vasileios el_Vasilios el_Vasilis el_Vassilios el_Vassilis el_Xenophon el_Yannas el_Yanni el_Yannis el_Yiannis el_Yiannos el_Yiorgos el_Yioryios el_Zacharias el_Zaharias el_Zenon }
@@ -5149,6 +5150,7 @@ munda = {
 
 muraa = {
 	color = { 111 219 84 }
+	obsessions = { porcelain }
 	religion = "converted_dynamic_faith_106"
 	traits = { european_heritage finnic }
 	male_common_first_names = { yrk_Ervko yrk_Igney yrk_Iriko yrk_Khasavako yrk_Koka yrk_Myusena yrk_Natena yrk_Neleyko yrk_Noley yrk_Nolyako yrk_Osi yrk_Petrako yrk_Serakone yrk_Sevtya yrk_Vavlya yrk_Vesako }
@@ -5717,7 +5719,7 @@ north_shamalian = {
 
 norwegian = {
 	color = { 135 69 100 }
-	religion = "converted_dynamic_faith_102"
+	religion = "converted_dynamic_faith_104"
 	traits = { european_heritage scandinavian_culture_group }
 	male_common_first_names = { Adrian Alfred Amund Anders Andreas Arne Arve August Bernhard Bernt Birger Bj_Orn Blostrup Carl Caspar Christen Christian Christopher Cort Dagfin Eggert Einar Elias Emil Erich Erik Fordel Fredrik Georg Gerhard Gustav Haakon Hans Hans_Magne Harald Herman Ingvald Ivar J_Orgen Jacob Johan Johannes Jon Karl Knud Lauritz Ludvig Magne Mathias Nils Ogmund Olaf Olav Ole Osvald Otto Palme Peter Petter Roar Sigurd Theodor Thomas Zacharias }
 	female_common_first_names = { Alette Alvide Ane Anna Anne Augusta Barbara Bertha Berthe Birgitte Camilla Catharina Christiane Christine Conradine Dorothea Eldrid Elen Elisabeth Elise Ermegaard Gustava Halldis Hanna Helga Hendrikke Hermana Hilchen Inga Ingebor Ingeborg Inger Irene Jacobine Jensenette Jensine Johanne Josephine Karen Kari Karoline Kristine Lucia Maren Margrethe Maria Marie Marit Martha Marthe Nicoline Oline Petra Petrine Ragnhild Sanna Sara Sigrid Siri Sophie Susanne Thea Tora }
@@ -8077,7 +8079,7 @@ zulu = {
 chowinikob = {
 	color = { 30 160 203 }
 	religion = "converted_dynamic_faith_106"
-	traits = { european_heritage indigenous_american_heritage haalpulaar native_mesoamerican_culture_group }
+	traits = { european_heritage haalpulaar native_mesoamerican_culture_group }
 	male_common_first_names = { Akbal Anibal Ahkinxoc Cuautehmoc Yumil Zotz Barakaaharoog Poriin Skaaruhan Hiba Epilogi_Touroog }
 	female_common_first_names = { Ana Sacnite Neda Selene Neapania Esin }
 	male_regal_first_names = { Jegan Haidar Helias Mahecor }
