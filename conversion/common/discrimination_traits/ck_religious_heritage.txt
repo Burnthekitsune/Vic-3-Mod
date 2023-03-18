@@ -25,3 +25,6 @@ legalist = {}
 warmonger = {}
 cannibalistic = {}
 sacrificer = {}
+edict = {}
+roogan = {}
+pals = {}
