@@ -11568,8 +11568,6 @@
 				religion = zoroastrian
 				size = 1108
 			}
-		}
-		region_state:X33 = {
 			create_pop = {
 				culture = yakut
 				religion = tengri_pagan
@@ -11590,8 +11588,6 @@
 				religion = tengri_pagan
 				size = 359
 			}
-		}
-		region_state:X62 = {
 			create_pop = {
 				culture = yakut
 				religion = tengri_pagan
@@ -35182,53 +35178,11 @@
 		}
 	}
 	s:STATE_NENETSIA = {
-		region_state:L02 = {
+		region_state:V37 = {
 			create_pop = {
 				culture = ugrian
 				religion = animist
-				size = 18102
-			}
-		}
-		region_state:M02 = {
-			create_pop = {
-				culture = ugrian
-				religion = animist
-				size = 18102
-			}
-		}
-		region_state:P02 = {
-			create_pop = {
-				culture = ugrian
-				religion = animist
-				size = 18102
-			}
-		}
-		region_state:V04 = {
-			create_pop = {
-				culture = ugrian
-				religion = animist
-				size = 18102
-			}
-		}
-		region_state:V05 = {
-			create_pop = {
-				culture = ugrian
-				religion = animist
-				size = 18102
-			}
-		}
-		region_state:V08 = {
-			create_pop = {
-				culture = ugrian
-				religion = animist
-				size = 18102
-			}
-		}
-		region_state:Z01 = {
-			create_pop = {
-				culture = ugrian
-				religion = animist
-				size = 18102
+				size = 138102
 			}
 		}
 	}
@@ -39890,7 +39844,7 @@
 		}
 	}
 	s:STATE_OB = {
-		region_state:N18 = {
+		region_state:V37 = {
 			create_pop = {
 				culture = ugrian
 				religion = animist
@@ -39900,9 +39854,16 @@
 				culture = siberian
 				religion = animist
 				size = 345
+			}create_pop = {
+				culture = ugrian
+				religion = animist
+				size = 6237
 			}
-		}
-		region_state:V37 = {
+			create_pop = {
+				culture = siberian
+				religion = animist
+				size = 345
+			}
 			create_pop = {
 				culture = ostyaki
 				religion = tengri_pagan
@@ -46971,7 +46932,7 @@
 		}
 	}
 	s:STATE_SAMARA = {
-		region_state:V37 = {
+		region_state:V22 = {
 			create_pop = {
 				culture = tatar
 				religion = zoroastrian
@@ -56531,14 +56492,12 @@
 		}
 	}
 	s:STATE_UPPER_YENISEYSK = {
-		region_state:A17 = {
+		region_state:W40 = {
 			create_pop = {
 				culture = ugrian
 				religion = animist
 				size = 7980
 			}
-		}
-		region_state:D11 = {
 			create_pop = {
 				culture = siberian
 				religion = animist
@@ -56549,8 +56508,6 @@
 				religion = animist
 				size = 12478
 			}
-		}
-		region_state:E04 = {
 			create_pop = {
 				culture = siberian
 				religion = animist
@@ -56561,29 +56518,21 @@
 				religion = animist
 				size = 8356
 			}
-		}
-		region_state:E05 = {
 			create_pop = {
 				culture = ugrian
 				religion = animist
 				size = 17980
 			}
-		}
-		region_state:N18 = {
 			create_pop = {
 				culture = ugrian
 				religion = animist
 				size = 10000
 			}
-		}
-		region_state:S20 = {
 			create_pop = {
 				culture = ugrian
 				religion = animist
 				size = 1629
 			}
-		}
-		region_state:W40 = {
 			create_pop = {
 				culture = yakut
 				religion = tengri_pagan
@@ -56782,7 +56731,7 @@
 			create_pop = {
 				culture = tatar
 				religion = zoroastrian
-				size = 3280
+				size = 3580
 			}
 		}
 		region_state:V37 = {
