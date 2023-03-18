@@ -1,0 +1,25 @@
+nunavut_colony = {
+	is_shown = {
+		this = c:X10
+		NOT = { has_variable = nunavut_colony_decision }
+	}
+	
+	possible = {
+		country_or_subject_owns_entire_state_region = s:STATE_NUNAVUT
+	}
+	
+	when_taken = {
+		s:STATE_NUNAVUT = {
+			remove_claim = X10
+			add_claim = ONT
+			add_homeland = neo-canada_colony-north_american_alshamali
+			set_state_owner = ONT
+			set_state_type = incorporated
+		}
+		
+	}
+	
+	ai_chance = {
+		base = 100
+	}
+}
