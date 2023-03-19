@@ -1185,6 +1185,8 @@
  MXC_ADJ: "Mexican"
  KOS: "Dazaga"
  KOS_ADJ: "Dazagan"
+ CW1: "Shun"
+ CW1_ADJ: "Shun"
  
  #New localization files fail, so this will be here I guess
  nunavut_colony:0 "Nunavut Colony"

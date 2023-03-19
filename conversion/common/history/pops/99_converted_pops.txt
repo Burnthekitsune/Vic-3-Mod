@@ -53776,7 +53776,7 @@
 				size = 1793
 			}
 		}
-		region_state:W34 = {
+		region_state:CW1 = {
 			create_pop = {
 				culture = dynamic-tocharian-uyghur-culture-num1
 				religion = gelugpa

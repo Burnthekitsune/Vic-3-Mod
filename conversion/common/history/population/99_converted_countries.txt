@@ -1287,4 +1287,8 @@
 		effect_starting_pop_literacy_baseline = yes
 		effect_starting_pop_wealth_low = yes
 	}
+	c:CW1 = {
+		effect_starting_pop_literacy_high = yes
+		effect_starting_pop_wealth_low = yes
+	}
 }

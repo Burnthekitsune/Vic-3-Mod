@@ -9345,3 +9345,12 @@ KOS = {
 	religion = zoroastrian
 	capital = STATE_CHAD
 }
+
+CW1 = {
+	color = { 10 102 204 }
+	country_type = unrecognized
+	tier = kingdom
+	cultures = { dynamic-tocharian-uyghur-culture-num1 }
+	religion = nestorian
+	capital = STATE_TIANSHAN
+}
