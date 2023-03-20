@@ -8793,6 +8793,9 @@
 		ig:ig_trade_unions = {
 			set_ig_bolstering = yes
  		}
+		trigger_event = {
+			id = ase_event.1
+		}
 	}
 	c:X14 = {
 		add_technology_researched = admiralty

@@ -9,12 +9,14 @@ nunavut_colony = {
 	}
 	
 	when_taken = {
+		change_variable = {
+			name = colonial_power
+			add = 1
+		}
 		s:STATE_NUNAVUT = {
 			remove_claim = c:X10
 			add_claim = c:ONT
 			add_homeland = neo-canada_colony-north_american_alshamali
-			convert_population = { target = rel:converted_dynamic_faith_102 value = 0.5 }
-			change_pop_culture = { target = cu:neo-canada_colony-north_american_alshamali value = 0.33 }
 		}
 		random_state = {
 			limit = {

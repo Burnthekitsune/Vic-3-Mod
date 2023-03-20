@@ -7732,7 +7732,7 @@ W64 = {
 	color = { 0 60 133 }
 	country_type = recognized
 	tier = city_state
-	cultures = { shamalian }
+	cultures = { shamalian north_shamalian }
 	religion = converted_dynamic_faith_102
 	capital = STATE_AQUITAINE
 }

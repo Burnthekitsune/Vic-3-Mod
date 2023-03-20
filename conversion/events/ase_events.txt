@@ -1,0 +1,71 @@
+namespace = ase_event
+
+ase_event.1 = { # Intro
+	placement = root
+	type = country_event
+	title = ase_event.1.t
+	desc = ase_event.1.d
+	flavor = ase_event.1.f
+	icon = "gfx/interface/icons/event_icons/event_skull.dds"
+	
+	event_image = {
+		video = "gfx/event_pictures/middleeast_courtroom_upheaval.bk2"
+	}
+	
+	duration = 3
+	
+	immediate = {
+		add_journal_entry = {
+			type = je_house_of_cards
+			target = this
+		}
+		add_journal_entry = {
+			type = je_ase_authority
+			target = this
+		}
+		add_journal_entry = {
+			type = je_caliph_authority
+			target = this
+		}
+		add_journal_entry = {
+			type = je_china_authority
+			target = this
+		}
+		add_journal_entry = {
+			type = je_america_authority
+			target = this
+		}
+		add_journal_entry = {
+			type = je_france_authority
+			target = this
+		}
+	}
+	
+	trigger = {
+	}
+	
+	option = {
+		name = ase_event.1.a
+		set_variable = {
+			name = caliph_power
+			value = 7
+		}
+		set_variable = {
+			name = ase_authority
+			value = 8
+		}
+		set_variable = {
+			name = colonial_power
+			value = 5
+		}
+		set_variable = {
+			name = french_power
+			value = 5
+		}
+		set_variable = {
+			name = chinese_power
+			value = 5
+		}
+		set_variable = ase_ready
+	}
+}

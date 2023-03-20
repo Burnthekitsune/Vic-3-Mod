@@ -1189,6 +1189,25 @@
  CW1_ADJ: "Shun"
  
  #New localization files fail, so this will be here I guess
- nunavut_colony:0 "Nunavut Colony"
- nunavut_colony_desc:0 "It is time to add Nunavut to our colony!"
- nunavut_colony_tooltip:0 "Nunavut would make more sense to be ruled by Kandada"
+ nunavut_colony: "Nunavut Colony"
+ nunavut_colony_desc: "It is time to add Nunavut to our colony!"
+ nunavut_colony_tooltip: "Nunavut would make more sense to be ruled by Kandada"
+ 
+ ash_authority: "Alshamali Empire Authority"
+ je_house_of_cards: "A House of Cards."
+ je_house_of_cards_reason: "The Empire is on shakey ground. Pushback on the absolute power, the split roles of the monarch, and over a hundred million subjects. Unless stuff is gotten in order, this can all fall like a house of cards."
+ je_ase_authority: "House of Cards: Authority"
+ je_ase_authority_reason: "The Monarchy is the center of out system, their authory is vital to maintain power"
+ je_caliph_authority: "House of Cards: Caliphate"
+ je_caliph_authority_reason: "We are the true Caliph, we must prove this to maintain power."
+ je_china_authority: "House of Cards: China"
+ je_china_authority_reason: "Recently we have been making moves into China, with trade companies leading the way. We cannot afford to lose such an economic boon."
+ je_america_authority: "House of Cards: Americia"
+ je_america_authority_reason: "The heart of our Empire, the New World. So many vast tracts of open land, but also some radicals. If we can tame their fervor, we can maintain our power."
+ je_france_authority: "House of Cards: France"
+ je_france_authority_reason: "Across the mountains, is one of the richest parts of our Empire, but also the most stubborn. Revolution, military might, and semi-independant rulers. We must take complete control or isk it all."
+ 
+ ase_event.1.t: "A House of Cards"
+ ase_event.1.d: "An Empire as vast as ours is a struggle to maintain, we have many pressing issues if we wish to survive."
+ ase_event.1.a: "We must prevail!"
+ ase_event.1.f: "Triumph or fail, the empire will never be the same."
