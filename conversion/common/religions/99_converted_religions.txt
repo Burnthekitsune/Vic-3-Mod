@@ -102,7 +102,7 @@ celtiberian_pagan = {
 	color = { 51 179 51 }
 }
 converted_dynamic_faith_102 = {
-	texture = "gfx/interface/icons/religion_icons/sunni.dds"
+	texture = "gfx/interface/icons/religion_icons/nur.dds"
 	traits = { muslim pals }
 	color = { 172 172 172 }
 	taboos = { liquor wine }
