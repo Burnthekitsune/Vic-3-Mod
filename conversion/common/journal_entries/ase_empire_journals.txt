@@ -24,9 +24,10 @@ je_ase_authority = {
 	complete = {
 		has_variable = ase_ready
 		OR = {
-			has_variable = absolute_authority
-			has_variable = reformed_monarchy
-			has_variable = the_republic
+			NOT = { custom_tooltip = ase_min_authority }
+			NOT = { custom_tooltip = ase_max_authority }
+			var:ase_authority = 0
+			var:ase_authority = 10
 		}
 	}
 	
@@ -55,9 +56,10 @@ je_caliph_authority = {
 	complete = {
 		has_variable = ase_ready
 		OR = {
-			has_variable = caliph_affirmed
-			has_variable = caliph_lost
-			has_variable = caliph_reformed
+			NOT = { custom_tooltip = ase_min_caliph }
+			NOT = { custom_tooltip = ase_max_caliph }
+			var:caliph_power = 0
+			var:caliph_power = 10
 		}
 	}
 	
@@ -84,9 +86,10 @@ je_china_authority = {
 	complete = {
 		has_variable = ase_ready
 		OR = {
-			has_variable = chinese_dominance
-			has_variable = chinese_stalemate
-			has_variable = chinese_withdraw
+			NOT = { custom_tooltip = ase_min_china }
+			NOT = { custom_tooltip = ase_max_china }
+			var:chinese_power = 0
+			var:chinese_power = 10
 		}
 	}
 	
@@ -113,11 +116,12 @@ je_america_authority = {
 
 	complete = {
 		has_variable = ase_ready
+		has_variable = ase_ready
 		OR = {
-			has_variable = new_world_controlled
-			has_variable = new_world_north_controlled
-			has_variable = new_world_south_controlled
-			has_variable = new_world_lost
+			NOT = { custom_tooltip = ase_min_america }
+			NOT = { custom_tooltip = ase_max_america }
+			var:colonial_power = 0
+			var:colonial_power = 10
 		}
 	}
 	
@@ -143,10 +147,12 @@ je_france_authority = {
 
 	complete = {
 		has_variable = ase_ready
+		has_variable = ase_ready
 		OR = {
-			has_variable = france_triumph
-			has_variable = france_failure
-			has_variable = france_compromise
+			NOT = { custom_tooltip = ase_min_france }
+			NOT = { custom_tooltip = ase_max_france }
+			var:french_power = 0
+			var:french_power = 10
 		}
 	}
 	

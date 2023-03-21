@@ -48,11 +48,11 @@ ase_event.1 = { # Intro
 		name = ase_event.1.a
 		set_variable = {
 			name = caliph_power
-			value = 7
+			value = 6
 		}
 		set_variable = {
 			name = ase_authority
-			value = 8
+			value = 7
 		}
 		set_variable = {
 			name = colonial_power
