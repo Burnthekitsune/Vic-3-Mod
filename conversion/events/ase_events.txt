@@ -39,6 +39,69 @@ ase_event.1 = { # Intro
 			type = je_france_authority
 			target = this
 		}
+		set_variable = {
+			name = caliph_power
+			value = 0
+		}
+		set_variable = {
+			name = ase_authority
+			value = 0
+		}
+		set_variable = {
+			name = colonial_power
+			value = 0
+		}
+		set_variable = {
+			name = french_power
+			value = 0
+		}
+		set_variable = {
+			name = chinese_power
+			value = 0
+		}
+		set_variable = {
+			name = north_favor
+			value = 0
+		}
+		set_variable = {
+			name = south_favor
+			value = 0
+		}
+		clamp_variable = {
+			name = caliph_power
+			max = 10
+			min = 0
+		}
+		clamp_variable = {
+			name = ase_authority
+			max = 10
+			min = 0
+		}
+		clamp_variable = {
+			name = colonial_power
+			max = 10
+			min = 0
+		}
+		clamp_variable = {
+			name = french_power
+			max = 10
+			min = 0
+		}
+		clamp_variable = {
+			name = chinese_power
+			max = 10
+			min = 0
+		}
+		clamp_variable = {
+			name = north_favor
+			max = 5
+			min = 0
+		}
+		clamp_variable = {
+			name = south_favor
+			max = 5
+			min = 0
+		}
 	}
 	
 	trigger = {
@@ -46,68 +109,33 @@ ase_event.1 = { # Intro
 	
 	option = {
 		name = ase_event.1.a
-		set_variable = {
+		change_variable = {
 			name = caliph_power
-			value = 6
+			add = 6
 		}
-		set_variable = {
+		change_variable = {
 			name = ase_authority
-			value = 7
+			add = 7
 		}
-		set_variable = {
+		change_variable = {
 			name = colonial_power
-			value = 5
+			add = 5
 		}
-		set_variable = {
+		change_variable = {
 			name = french_power
-			value = 5
+			add = 5
 		}
-		set_variable = {
+		change_variable = {
 			name = chinese_power
-			value = 5
+			add = 5
 		}
-		set_variable = {
+		change_variable = {
 			name = north_favor
-			value = 2
+			add = 2
 		}
-		set_variable = {
+		change_variable = {
 			name = south_favor
-			value = 2
-		}
-		clamp_variable = {
-			name = caliph_power
-			max = 10
-			min = 0
-		}
-		clamp_variable = {
-			name = ase_authority
-			max = 10
-			min = 0
-		}
-		clamp_variable = {
-			name = colonial_power
-			max = 10
-			min = 0
-		}
-		clamp_variable = {
-			name = french_power
-			max = 10
-			min = 0
-		}
-		clamp_variable = {
-			name = chinese_power
-			max = 10
-			min = 0
-		}
-		clamp_variable = {
-			name = north_favor
-			max = 5
-			min = 0
-		}
-		clamp_variable = {
-			name = south_favor
-			max = 5
-			min = 0
+			add = 2
 		}
 		set_variable = ase_ready
 	}
