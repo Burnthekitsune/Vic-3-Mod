@@ -315,11 +315,11 @@ je_america_authority = {
 			}
 			set_variable = ase_colonial_turmoil
 			add_journal_entry = {
-				key = je_north_favor
+				type = je_north_favor
 				target = this
 			}
 			add_journal_entry = {
-				key = je_south_favor
+				type = je_south_favor
 				target = this
 			}
 			if = {
@@ -337,7 +337,7 @@ je_america_authority = {
 			}
 			c:X42 = {
 				annex = c:X83
-				add_primary_culture = neo-mexico_colony-faykinghian
+				add_primary_culture = cu:neo-mexico_colony-faykinghian
 			}
 		}
 	}
