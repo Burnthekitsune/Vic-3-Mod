@@ -13995,7 +13995,7 @@
 			create_pop = {
 				culture = pashtun
 				religion = zoroastrian
-				size = 279423
+				size = 179423
 			}
 			create_pop = {
 				culture = pashtun
@@ -23483,7 +23483,7 @@
 			create_pop = {
 				culture = persian
 				religion = zoroastrian
-				size = 313440
+				size = 913440
 			}
 			create_pop = {
 				culture = persian
@@ -59211,7 +59211,7 @@
 			create_pop = {
 				culture = dynamic-tajik-culture-num1
 				religion = zoroastrian
-				size = 352934
+				size = 252934
 			}
 			create_pop = {
 				culture = pashtun
@@ -59246,17 +59246,17 @@
 			create_pop = {
 				culture = tajik
 				religion = zoroastrian
-				size = 257347
+				size = 157347
 			}
 			create_pop = {
 				culture = pashtun
 				religion = zoroastrian
-				size = 154408
+				size = 114408
 			}
 			create_pop = {
 				culture = pashtun
 				religion = zoroastrian
-				size = 161761
+				size = 111761
 			}
 		}
 	}
