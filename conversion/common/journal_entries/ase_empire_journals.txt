@@ -285,7 +285,7 @@ je_america_authority = {
 			}
 			c:X42 = {
 				annex = c:X83
-				add_primary_culture = neo-mexico_colony-faykinghian
+				add_primary_culture = cu:neo-mexico_colony-faykinghian
 			}
 		}
 		if = {
@@ -338,6 +338,14 @@ je_america_authority = {
 			c:X42 = {
 				annex = c:X83
 				add_primary_culture = cu:neo-mexico_colony-faykinghian
+			}
+			change_variable = {
+				name = north_favor
+				add = 2
+			}
+			change_variable = {
+				name = south_favor
+				add = 2
 			}
 		}
 	}

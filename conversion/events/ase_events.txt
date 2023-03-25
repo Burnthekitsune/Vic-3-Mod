@@ -129,14 +129,6 @@ ase_event.1 = { # Intro
 			name = chinese_power
 			add = 5
 		}
-		change_variable = {
-			name = north_favor
-			add = 2
-		}
-		change_variable = {
-			name = south_favor
-			add = 2
-		}
 		set_variable = ase_ready
 	}
 }
