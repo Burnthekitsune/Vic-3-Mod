@@ -28198,6 +28198,21 @@
 				religion = mahayana
 				size = 33138
 			}
+			create_pop = {
+				culture = kachin
+				religion = animist
+				size = 14195
+			}
+			create_pop = {
+				culture = kachin
+				religion = theravada
+				size = 19331
+			}
+			create_pop = {
+				culture = kachin
+				religion = mahayana
+				size = 19997
+			}
 		}
 		region_state:BHU = {
 			create_pop = {
@@ -28303,21 +28318,6 @@
 			}
 		}
 		region_state:X14 = {
-			create_pop = {
-				culture = kachin
-				religion = animist
-				size = 14195
-			}
-			create_pop = {
-				culture = kachin
-				religion = theravada
-				size = 19331
-			}
-			create_pop = {
-				culture = kachin
-				religion = mahayana
-				size = 19997
-			}
 		}
 	}
 	s:STATE_LIBERIA = {
