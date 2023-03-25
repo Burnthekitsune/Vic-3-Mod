@@ -3,7 +3,13 @@
 	
 	complete = {
 		has_variable = ase_turmoil_france_over
-		has_variable = ase_turmoil_america_over
+		OR = {
+			has_variable = ase_turmoil_america_over
+			AND = {
+				has_variable = ase_turmoil_north_america_over
+				has_variable = ase_turmoil_south_america_over
+			}
+		}
 		has_variable = ase_turmoil_china_over
 		has_variable = ase_turmoil_caliph_over
 		has_variable = ase_turmoil_monarchy_over
@@ -250,16 +256,47 @@ je_america_authority = {
 	}
 	
 	on_complete = {
-		set_variable = ase_turmoil_america_over
 		if = {
 			limit = {
 				var:colonial_power = 0
+			}
+			change_variable = { 
+				name = ase_authority
+				subtract = 3
+			}
+			change_variable = { 
+				name = caliph_power
+				subtract = 3
+			}
+			set_variable = ase_turmoil_america_over
+			c:GCO = {
+				annex = c:NIC
+				annex = c:X20
+				annex = c:X28
+				annex = c:X24
+				change_tag = ARG
+			}
+			c:NEN = {
+				annex = c:X29
+				annex = c:WIN
+				annex = c:X84
+				annex = c:ONT
+				change_tag = LOU
 			}
 		}
 		if = {
 			limit = {
 				var:colonial_power = 10
 			}
+			change_variable = { 
+				name = ase_authority
+				add = 2
+			}
+			change_variable = { 
+				name = caliph_power
+				add = 1
+			}
+			set_variable = ase_turmoil_america_over
 		}
 		if = {
 			limit = {
@@ -267,6 +304,36 @@ je_america_authority = {
 					var:colonial_power = 10
 					var:colonial_power = 0
 				}
+			}
+			change_variable = { 
+				name = ase_authority
+				subtract = 1
+			}
+			set_variable = ase_colonial_turmoil
+			add_journal_entry = {
+				key = je_north_favor
+				target = this
+			}
+			add_journal_entry = {
+				key = je_south_favor
+				target = this
+			}
+			if = {
+				limit = {
+					var:colonial_power > 6
+				}
+				change_variable = { 
+					name = north_favor
+					add = 1
+				}
+				change_variable = { 
+					name = south_favor
+					add = 1
+				}
+			}
+			c:X42 = {
+				annex = c:X83
+				add_primary_culture = neo-mexico_colony-faykinghian
 			}
 		}
 	}
@@ -377,6 +444,162 @@ je_france_authority = {
 	
 	goal_add_value = {
 		add = 10
+	}
+	
+	progressbar = yes
+	weight = 10000
+	should_be_pinned_by_default = yes
+}
+
+je_north_favor = {
+icon = "gfx/interface/icons/event_icons/event_map.dds"
+
+	complete = {
+		has_variable = ase_colonial_turmoil
+		OR = {
+			NOT = { custom_tooltip = ase_min_colonial_favor_north }
+			NOT = { custom_tooltip = ase_max_colonial_favor_north }
+			var:north_favor = 0
+			var:north_favor = 5
+		}
+	}
+	
+	on_complete = {
+		set_variable = ase_turmoil_north_america_over
+		if = {
+			limit = {
+				var:north_favor = 0
+			}
+			change_variable = { 
+				name = south
+				subtract = 1
+			}
+			c:NEN = {
+				annex = c:X29
+				annex = c:WIN
+				annex = c:X84
+				annex = c:ONT
+				change_tag = LOU
+			}
+		}
+		if = {
+			limit = {
+				var:north_favor = 5
+			}
+			change_variable = { 
+				name = south_favor
+				add = 1
+			}
+		}
+		if = {
+			limit = {
+				NOT = {
+					var:north_favor = 5
+					var:north_favor = 0
+				}
+			}
+			c:X84 = {
+				make_independent = yes
+			}
+			c:ONT = {
+				make_independent = yes
+			}
+			c:X29 = {
+				make_independent = yes
+			}
+			c:NEN = {
+				make_independent = yes
+			}
+			c:WIN = {
+				make_independent = yes
+			}
+		}
+	}
+	
+	current_value = {
+		value = var:north_favor
+	}
+	
+	goal_add_value = {
+		add = 5
+	}
+	
+	progressbar = yes
+	weight = 10000
+	should_be_pinned_by_default = yes
+}
+
+je_south_favor = {
+icon = "gfx/interface/icons/event_icons/event_map.dds"
+
+	complete = {
+		has_variable = ase_colonial_turmoil
+		OR = {
+			NOT = { custom_tooltip = ase_min_colonial_favor_south }
+			NOT = { custom_tooltip = ase_max_colonial_favor_south }
+			var:south_favor = 0
+			var:south_favor = 5
+		}
+	}
+	
+	on_complete = {
+		set_variable = ase_turmoil_south_america_over
+		if = {
+			limit = {
+				var:south_favor = 0
+			}
+			change_variable = { 
+				name = north_favor
+				subtract = 1
+			}
+			c:GCO = {
+				annex = c:NIC
+				annex = c:X20
+				annex = c:X28
+				annex = c:X24
+				change_tag = ARG
+			}
+		}
+		if = {
+			limit = {
+				var:south_favor = 5
+			}
+			change_variable = { 
+				name = north_favor
+				add = 1
+			}
+		}
+		if = {
+			limit = {
+				NOT = {
+					var:south_favor = 5
+					var:south_favor = 0
+				}
+			}
+			c:NIC = {
+				make_independent = yes
+			}
+			c:GCO = {
+				make_independent = yes
+			}
+			c:X28 = {
+				make_independent = yes
+			}
+			c:X20 = {
+				make_independent = yes
+			}
+			c:X24 = {
+				make_independent = yes
+			}
+		}
+	}
+	
+	current_value = {
+		value = var:south_favor
+	}
+	
+	goal_add_value = {
+		add = 5
 	}
 	
 	progressbar = yes

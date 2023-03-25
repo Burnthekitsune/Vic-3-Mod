@@ -66,6 +66,14 @@ ase_event.1 = { # Intro
 			name = chinese_power
 			value = 5
 		}
+		set_variable = {
+			name = north_favor
+			value = 2
+		}
+		set_variable = {
+			name = south_favor
+			value = 2
+		}
 		clamp_variable = {
 			name = caliph_power
 			max = 10
@@ -89,6 +97,16 @@ ase_event.1 = { # Intro
 		clamp_variable = {
 			name = chinese_power
 			max = 10
+			min = 0
+		}
+		clamp_variable = {
+			name = north_favor
+			max = 5
+			min = 0
+		}
+		clamp_variable = {
+			name = south_favor
+			max = 5
 			min = 0
 		}
 		set_variable = ase_ready

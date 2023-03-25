@@ -1,0 +1,60 @@
+﻿ARG = {
+	dynamic_country_name = {
+		name = dyn_c_argen
+		adjective = dyn_c_argen_adj
+		
+		trigger = {
+			country_has_accepted_religion = converted_dynamic_faith_102
+		}
+	}
+}
+LOU = {
+	dynamic_country_name = {
+		name = dyn_c_lou
+		adjective = dyn_c_lou_adj
+		
+		trigger = {
+			country_has_accepted_religion = converted_dynamic_faith_102
+		}
+	}
+}
+gco = {
+	dynamic_country_name = {
+		name = dyn_c_gco
+		adjective = dyn_c_lou_gco
+		
+		trigger = {
+			country_has_accepted_religion = converted_dynamic_faith_102
+		}
+	}
+}
+NEN = {
+	dynamic_country_name = {
+		name = dyn_c_nen
+		adjective = dyn_c_nen_adj
+		
+		trigger = {
+			country_has_accepted_religion = converted_dynamic_faith_102
+		}
+	}
+}
+ONT = {
+	dynamic_country_name = {
+		name = dyn_c_ont
+		adjective = dyn_c_lou_ont
+		
+		trigger = {
+			country_has_accepted_religion = converted_dynamic_faith_102
+		}
+	}
+}
+NIC = {
+	dynamic_country_name = {
+		name = dyn_c_nic
+		adjective = dyn_c_lou_nic
+		
+		trigger = {
+			country_has_accepted_religion = converted_dynamic_faith_102
+		}
+	}
+}

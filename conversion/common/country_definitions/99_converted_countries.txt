@@ -340,8 +340,9 @@ ARA = {
 ARG = {
 	color = { 101 102 163 }
 	country_type = colonial
-	tier = kingdom
-	cultures = { platinean }
+	tier = empire
+	cultures = { neo-brazil_colony-south_american_alshamali neo-argentine_colony-south_american_alshamali neo-peru_colony-south_american_alshamali neo-colombia_colony-south_american_alshamali neo-central_america_colony-north_american_alshamali neo-argentine_colony-south_american_alshamali }
+	religion = converted_dynamic_faith_102
 	capital = STATE_BUENOS_AIRES
 }
 
@@ -968,8 +969,9 @@ BRU = {
 BRZ = {
 	color = { 38 155 83 }
 	country_type = colonial
-	tier = empire
-	cultures = { brazilian }
+	tier = principality
+	cultures = { neo-brazil_colony-south_american_alshamali neo-argentine_colony-south_american_alshamali neo-peru_colony-south_american_alshamali neo-colombia_colony-south_american_alshamali neo-central_america_colony-north_american_alshamali neo-argentine_colony-south_american_alshamali }
+	religion = converted_dynamic_faith_102
 	capital = STATE_RIO_DE_JANEIRO
 }
 
@@ -1221,8 +1223,9 @@ CAM = {
 CAN = {
 	color = { 94 117 55 }
 	country_type = colonial
-	tier = kingdom
-	cultures = { anglo_canadian franco_canadian }
+	tier = principality
+	cultures = { neo-canada_colony-north_american_alshamali neo-usa_north_colony-north_american_alshamali neo-usa_south_colony-north_american_alshamali neo-caribbean_colony-alkubiu }
+	religion = converted_dynamic_faith_102
 	capital = STATE_ONTARIO
 }
 
@@ -3667,8 +3670,9 @@ LOM = {
 LOU = {
 	color = { 53 52 144 }
 	country_type = colonial
-	tier = principality
-	cultures = { afro_antillean cajun }
+	tier = empire
+	cultures = { neo-canada_colony-north_american_alshamali neo-usa_north_colony-north_american_alshamali neo-usa_south_colony-north_american_alshamali neo-caribbean_colony-alkubiu }
+	religion = converted_dynamic_faith_102
 	capital = STATE_LOUISIANA
 }
 
@@ -4516,7 +4520,7 @@ NIC = {
 	color = { 255 61 80 }
 	country_type = colonial
 	tier = principality
-	cultures = { neo-central_america_colony-north_american_alshamali }
+	cultures = { neo-central_america_colony-north_american_alshamali neo-argentine_colony-south_american_alshamali }
 	religion = converted_dynamic_faith_102
 	capital = STATE_NICARAGUA
 }
