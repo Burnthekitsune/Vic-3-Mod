@@ -1,4 +1,4 @@
-nunavut_colony = {
+﻿nunavut_colony = {
 	is_shown = {
 		this = c:X10
 		NOT = { has_variable = nunavut_colony_decision }

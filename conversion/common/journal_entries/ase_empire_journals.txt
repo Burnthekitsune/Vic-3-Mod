@@ -1,4 +1,4 @@
-je_house_of_cards = {
+﻿je_house_of_cards = {
 	icon = "gfx/interface/icons/event_icons/event_default.dds"
 	
 	complete = {
@@ -34,6 +34,59 @@ je_ase_authority = {
 	
 	on_complete = {
 		set_variable = ase_turmoil_monarchy_over
+		if = {
+			limit = {
+				var:ase_authority = 0
+			}
+			change_variable = { 
+				name = caliph_power
+				subtract = 3
+			}
+			change_variable = { 
+				name = colonial_power
+				subtract = 3
+			}
+			change_variable = { 
+				name = french_power
+				subtract = 3
+			}
+			change_variable = { 
+				name = chinese_power
+				subtract = 3
+			}
+			activate_law = law_type:law_parliamentary_republic
+			activate_law = law_type:law_census_voting
+		}
+		if = {
+			limit = {
+				var:ase_authority = 10
+			}
+			change_variable = { 
+				name = caliph_power
+				add = 3
+			}
+			change_variable = { 
+				name = colonial_power
+				add = 3
+			}
+			change_variable = { 
+				name = french_power
+				add = 3
+			}
+			change_variable = { 
+				name = chinese_power
+				add = 3
+			}
+		}
+		if = {
+			limit = {
+				NOT = {
+					var:ase_authority = 10
+					var:ase_authority = 0
+				}
+			}
+			activate_law = law_type:law_census_voting
+		}
 	}
 	
 	current_value = {
@@ -65,6 +118,60 @@ je_caliph_authority = {
 	
 	on_complete = {
 		set_variable = ase_turmoil_caliph_over
+		if = {
+			limit = {
+				var:caliph_power = 0
+			}
+			change_variable = { 
+				name = ase_authority
+				subtract = 3
+			}
+			change_variable = { 
+				name = colonial_power
+				subtract = 2
+			}
+			change_variable = { 
+				name = french_power
+				subtract = 2
+			}
+			change_variable = { 
+				name = chinese_power
+				subtract = 1
+			}
+		}
+		if = {
+			limit = {
+				var:caliph_power = 10
+			}
+			change_variable = { 
+				name = ase_authority
+				add = 3
+			}
+			change_variable = { 
+				name = colonial_power
+				add = 2
+			}
+			change_variable = { 
+				name = french_power
+				add = 2
+			}
+			change_variable = { 
+				name = chinese_power
+				add = 2
+			}
+		}
+		if = {
+			limit = {
+				NOT = {
+					var:caliph_power = 10
+					var:caliph_power = 0
+				}
+			}
+			change_variable = { 
+				name = ase_authority
+				subtract = 1
+			}
+		}
 	}
 	
 	current_value = {
@@ -95,6 +202,24 @@ je_china_authority = {
 	
 	on_complete = {
 		set_variable = ase_turmoil_china_over
+		if = {
+			limit = {
+				var:chinese_power = 0
+			}
+		}
+		if = {
+			limit = {
+				var:chinese_power = 10
+			}
+		}
+		if = {
+			limit = {
+				NOT = {
+					var:chinese_power = 10
+					var:chinese_power = 0
+				}
+			}
+		}
 	}
 	
 	current_value = {
@@ -116,7 +241,6 @@ je_america_authority = {
 
 	complete = {
 		has_variable = ase_ready
-		has_variable = ase_ready
 		OR = {
 			NOT = { custom_tooltip = ase_min_america }
 			NOT = { custom_tooltip = ase_max_america }
@@ -127,6 +251,24 @@ je_america_authority = {
 	
 	on_complete = {
 		set_variable = ase_turmoil_america_over
+		if = {
+			limit = {
+				var:colonial_power = 0
+			}
+		}
+		if = {
+			limit = {
+				var:colonial_power = 10
+			}
+		}
+		if = {
+			limit = {
+				NOT = {
+					var:colonial_power = 10
+					var:colonial_power = 0
+				}
+			}
+		}
 	}
 	
 	current_value = {
@@ -160,29 +302,71 @@ je_france_authority = {
 		set_variable = ase_turmoil_france_over
 		if = {
 			limit = {
-				has_variable = france_triumph
+				var:french_power = 0
+			}
+			c:FRA = {
+				make_independent = yes
+			}
+			c:BRI = {
+				make_independent = yes
+			}
+			create_country = {
+				tag = W64
+				origin = this
+				state = s:STATE_AQUITAINE.region_state:X10
+				state = s:STATE_POITOU.region_state:X10
+				state = s:STATE_LOIRE.region_state:X10
+				state = s:STATE_LIMOUSIN.region_state:X10
+				state = s:STATE_ARMAGNAC.region_state:X10
+				state = s:STATE_BURGUNDY.region_state:X10
+				state = s:STATE_AUVERGNE.region_state:X10
+				state = s:STATE_LANGUEDOC.region_state:X10
+				state = s:STATE_PROVENCE.region_state:X10
+				state = s:STATE_RHONE.region_state:X10
+				state = s:STATE_SAVOY.region_state:X10
+			}
+			change_variable = { 
+				name = ase_authority
+				subtract = 3
+			}
+			change_variable = { 
+				name = caliph_power
+				subtract = 3
+			}
+		}
+		if = {
+			limit = {
+				var:french_power = 10
 			}
 			annex = c:FRA
 			annex = c:BRI
+			change_variable = { 
+				name = ase_authority
+				add = 1
+			}
+			change_variable = { 
+				name = caliph_power
+				add = 1
+			}
 		}
 		if = {
 			limit = {
-				has_variable = france_failure
+				NOT = {
+					var:french_power = 10
+					var:french_power = 0
+				}
 			}
 			c:FRA = {
-				make_independent = true
+				make_independent = yes
+				annex = c:BRI
 			}
-			c:BRI = {
-				make_independent = true
+			change_variable = { 
+				name = ase_authority
+				subtract = 1
 			}
-			# release Shamali
-		}
-		if = {
-			limit = {
-				has_variable = france_compromise
-			}
-			FRA = {
-				make_independent = true
+			change_variable = { 
+				name = caliph_power
+				subtract = 1
 			}
 		}
 	}

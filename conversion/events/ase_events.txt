@@ -1,4 +1,4 @@
-namespace = ase_event
+﻿namespace = ase_event
 
 ase_event.1 = { # Intro
 	placement = root
@@ -65,6 +65,31 @@ ase_event.1 = { # Intro
 		set_variable = {
 			name = chinese_power
 			value = 5
+		}
+		clamp_variable = {
+			name = caliph_power
+			max = 10
+			min = 0
+		}
+		clamp_variable = {
+			name = ase_authority
+			max = 10
+			min = 0
+		}
+		clamp_variable = {
+			name = colonial_power
+			max = 10
+			min = 0
+		}
+		clamp_variable = {
+			name = french_power
+			max = 10
+			min = 0
+		}
+		clamp_variable = {
+			name = chinese_power
+			max = 10
+			min = 0
 		}
 		set_variable = ase_ready
 	}
