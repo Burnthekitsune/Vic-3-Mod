@@ -272,7 +272,7 @@
 	c:X10 = {
 		create_diplomatic_pact = {
 			country = c:W57
-			type = puppet
+			type = dominion
 		}
 	}
 	c:X10 = {

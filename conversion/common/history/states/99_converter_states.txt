@@ -5041,6 +5041,7 @@
 		add_homeland = shamalian
 		add_claim = c:LOM
 		add_claim = c:V23
+		add_claim = c:W57
 	}
 	s:STATE_POITOU = {
 		create_state = {
