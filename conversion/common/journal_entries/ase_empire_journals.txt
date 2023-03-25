@@ -283,6 +283,10 @@ je_america_authority = {
 				annex = c:ONT
 				change_tag = LOU
 			}
+			c:X42 = {
+				annex = c:X83
+				add_primary_culture = neo-mexico_colony-faykinghian
+			}
 		}
 		if = {
 			limit = {
