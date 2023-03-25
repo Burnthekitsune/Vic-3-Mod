@@ -121,6 +121,30 @@
 	}
 	c:W34 = {
 		create_diplomatic_pact = {
+			country = c:CW2
+			type = vassal
+		}
+	}
+	c:W34 = {
+		create_diplomatic_pact = {
+			country = c:CW3
+			type = vassal
+		}
+	}
+	c:W34 = {
+		create_diplomatic_pact = {
+			country = c:CW4
+			type = personal_union
+		}
+	}
+	c:W34 = {
+		create_diplomatic_pact = {
+			country = c:CW1
+			type = customs_union
+		}
+	}
+	c:W34 = {
+		create_diplomatic_pact = {
 			country = c:DAI
 			type = tributary
 		}

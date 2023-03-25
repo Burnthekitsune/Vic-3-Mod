@@ -27421,7 +27421,7 @@
 				size = 53635
 			}
 		}
-		region_state:W35 = {
+		region_state:CW4 = {
 			create_pop = {
 				culture = lao
 				religion = animist
@@ -36357,7 +36357,7 @@
 				size = 57977
 			}
 		}
-		region_state:W34 = {
+		region_state:CW2 = {
 			create_pop = {
 				culture = tibetan
 				religion = gelugpa
@@ -44972,7 +44972,7 @@
 				size = 17885
 			}
 		}
-		region_state:W34 = {
+		region_state:CW2 = {
 			create_pop = {
 				culture = tibetan
 				religion = gelugpa
@@ -62245,7 +62245,7 @@
 				size = 917069
 			}
 		}
-		region_state:W34 = {
+		region_state:CW3 = {
 			create_pop = {
 				culture = yi
 				religion = theravada

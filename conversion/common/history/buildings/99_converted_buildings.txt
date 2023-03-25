@@ -18465,7 +18465,7 @@
 				activate_production_methods = { "pm_cannon_artillery" "pm_irregular_infantry" }
 			}
 		}
-		region_state:W34 = {
+		region_state:CW2 = {
 			create_building = {
 				building = "building_construction_sector"
 				level = 2
@@ -25283,7 +25283,7 @@
 				activate_production_methods = { }
 			}
 		}
-		region_state:W34 = {
+		region_state:CW3 = {
 			create_building = {
 				building = "building_construction_sector"
 				level = 2

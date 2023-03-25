@@ -9358,3 +9358,30 @@ CW1 = {
 	religion = nestorian
 	capital = STATE_TIANSHAN
 }
+
+CW2 = {
+	color = { 235 190 10 }
+	country_type = unrecognized
+	tier = kingdom
+	cultures = { tibetan }
+	religion = mahayana
+	capital = STATE_QINGHAI
+}
+
+CW3 = {
+	color = { 19 205 106 }
+	country_type = unrecognized
+	tier = principality
+	cultures = { yi yue }
+	religion = theravada
+	capital = STATE_YUNNAN
+}
+
+CW4 = {
+	color = { 238 150 226 }
+	country_type = unrecognized
+	tier = city_state
+	cultures = { lao }
+	religion = theravada
+	capital = STATE_LAOS
+}
