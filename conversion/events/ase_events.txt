@@ -105,6 +105,11 @@ ase_event.1 = { # Intro
 		add_modifier = {
 			name = efficient_bureaucracy
 		}
+		s:STATE_ANDALUSIA.region_state:X10 = {
+			add_modifier = {
+				name = beacon_city
+			}
+		}	
 	}
 	
 	trigger = {

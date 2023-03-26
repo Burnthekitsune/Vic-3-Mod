@@ -1249,3 +1249,6 @@
  adjective = dyn_c_nic_adj: "Nykaraghwan"
  dyn_c_ont: "Ragnarr's Land"
  adjective = dyn_c_ont_adj: "Ragnarr"
+ 
+ beacon_city: "Grand Capital"
+ beacon_city_adj: "Grand Capital"
