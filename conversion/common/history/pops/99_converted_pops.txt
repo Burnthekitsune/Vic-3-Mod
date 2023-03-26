@@ -39702,13 +39702,6 @@
 				size = 11980
 			}
 		}
-		region_state:Q01 = {
-			create_pop = {
-				culture = inuit
-				religion = animist
-				size = 22980
-			}
-		}
 		region_state:X10 = {
 			create_pop = {
 				culture = inuit
@@ -39719,6 +39712,11 @@
 				culture = neo-canada_colony-north_american_alshamali
 				religion = converted_dynamic_faith_102
 				size = 142
+			}
+			create_pop = {
+				culture = inuit
+				religion = animist
+				size = 22980
 			}
 		}
 	}
