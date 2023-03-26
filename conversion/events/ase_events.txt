@@ -102,6 +102,9 @@ ase_event.1 = { # Intro
 			max = 5
 			min = 0
 		}
+		add_modifier = {
+			name = efficient_bureaucracy
+		}
 	}
 	
 	trigger = {

@@ -1,0 +1,3 @@
+﻿efficient_bureaucracy = {
+	country_bureaucracy_mult = 0.2
+}
