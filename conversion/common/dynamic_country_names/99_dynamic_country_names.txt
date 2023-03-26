@@ -21,7 +21,7 @@ LOU = {
 GCO = {
 	dynamic_country_name = {
 		name = dyn_c_gco
-		adjective = dyn_c_lou_gco
+		adjective = dyn_c_gco_adj
 		
 		trigger = {
 			country_has_accepted_religion = converted_dynamic_faith_102
@@ -41,7 +41,7 @@ NEN = {
 ONT = {
 	dynamic_country_name = {
 		name = dyn_c_ont
-		adjective = dyn_c_lou_ont
+		adjective = dyn_c_ont_adj
 		
 		trigger = {
 			country_has_accepted_religion = converted_dynamic_faith_102
