@@ -3963,6 +3963,8 @@
 	}
 	c:V12 = {
 		add_technology_researched = enclosure
+		add_technology_researched = international_trade
+		add_technology_researched = stock_exchange
 		add_technology_researched = manufacturies
 		add_technology_researched = navigation
 		add_technology_researched = standing_army
@@ -3975,8 +3977,8 @@
 		activate_law = law_type:law_autocracy
 		activate_law = law_type:law_closed_borders
 		activate_law = law_type:law_debt_slavery
-		activate_law = law_type:law_isolationism
-		activate_law = law_type:law_land_based_taxation
+		activate_law = law_type:law_protectionism
+		activate_law = law_type:law_consumption_based_taxation
 		activate_law = law_type:law_local_police
 		activate_law = law_type:law_monarchy
 		activate_law = law_type:law_national_supremacy
@@ -3990,26 +3992,7 @@
 		activate_law = law_type:law_right_of_assembly
 		activate_law = law_type:law_serfdom
 		activate_law = law_type:law_state_religion
-		activate_law = law_type:law_traditionalism
-		ig:ig_armed_forces = {
-			set_ig_bolstering = yes
- 		}
-		ig:ig_devout = {
-			set_ig_bolstering = yes
- 		}
-		ig:ig_trade_unions = {
-			set_ig_bolstering = yes
- 		}
-		ig:ig_intelligentsia = {
-			set_ig_suppression = yes
-		}
-		ig:ig_landowners = {
-			add_ideology = ideology_pro_slavery
- 		}
-		ig:ig_rural_folk = {
-			remove_ideology = ideology_isolationist
- 			add_ideology = ideology_isolationist_expansionism
- 		}
+		activate_law = law_type:law_laissez_faire
 	}
 	c:V18 = {
 		add_technology_researched = academia
