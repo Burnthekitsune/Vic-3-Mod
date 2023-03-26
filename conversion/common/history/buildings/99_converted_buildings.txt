@@ -12158,6 +12158,20 @@
 				activate_production_methods = { }
 			}
 		}
+		region_state:CW4 = {
+			create_building = {
+				building = "building_university"
+				level = 1
+				reserves = 1
+				activate_production_methods = { }
+			}
+			create_building = {
+				building = "building_tea_plantation"
+				level = 1
+				reserves = 1
+				activate_production_methods = { }
+			}
+		}
 		region_state:X14 = {
 			create_building = {
 				building = "building_barracks"
