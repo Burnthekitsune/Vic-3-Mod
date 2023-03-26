@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:CW3 = {
+		create_character = {
+			first_name = "Zhao"
+			last_name = "Zhang"
+			ruler = yes
+			culture = cu:yue
+			religion = rel:theravada
+			birth_date = 1802.7.14
+			traits = {
+				cruel 
+			}
+		}
+
+	}
+}
