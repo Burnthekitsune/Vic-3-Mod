@@ -167,6 +167,7 @@
 		}
 		add_homeland = alsaahilian
 		add_homeland = maghrebi
+		add_claim = c:X10
 	}
 	s:STATE_ALSACE_LORRAINE = {
 		create_state = {
@@ -209,6 +210,7 @@
 		add_homeland = alsaahilian
 		add_homeland = faykinghian
 		add_homeland = janubian
+		add_claim = c:X10
 	}
 	s:STATE_AMAZONAS = {
 		create_state = {
@@ -1440,6 +1442,7 @@
 		}
 		add_homeland = alsaahilian
 		add_homeland = maghrebi
+		add_claim = c:X10
 	}
 	s:STATE_CORRIENTES = {
 		create_state = {
@@ -1861,6 +1864,8 @@
 		add_homeland = berber
 		add_homeland = dynamic-berber-fulani-culture-num1
 		add_homeland = tuareg
+		add_claim = c:X10
+		add_claim = c:V27
 	}
 	s:STATE_EAST_SLOVAKIA = {
 		create_state = {
@@ -2730,6 +2735,7 @@
 		}
 		add_homeland = alsaahilian
 		add_homeland = janubian
+		add_claim = c:X10
 	}
 	s:STATE_IONIAN_ISLANDS = {
 		create_state = {
@@ -6243,6 +6249,7 @@
 		}
 		add_homeland = alsaahilian
 		add_homeland = janubian
+		add_claim = c:X10
 	}
 	s:STATE_TOBOLSK = {
 		create_state = {
