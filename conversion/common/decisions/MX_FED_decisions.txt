@@ -1,0 +1,502 @@
+﻿centralize_federation = {
+	is_shown = {
+		this = c:X42
+		NOT = { has_variable = fed_centralized }
+	}
+	
+	possible = {
+		has_technology_researched = nationalism
+	}
+	
+	when_taken = {
+	if = {
+		limit = {
+			c:X55 = {
+				is_subject_of = c:X42
+			}
+		}
+		annex = c:X55
+	}
+	if = {
+		limit = {
+			c:W71 = {
+				is_subject_of = c:X42
+			}
+		}
+		annex = c:W71
+	}
+	if = {
+		limit = {
+			c:X34 = {
+				is_subject_of = c:X42
+			}
+		}
+		annex = c:X34
+	}
+	if = {
+		limit = {
+			c:W76 = {
+				is_subject_of = c:X42
+			}
+		}
+		annex = c:W76
+	}
+	if = {
+		limit = {
+			c:W23 = {
+				is_subject_of = c:X42
+			}
+		}
+		annex = c:W23
+	}
+	if = {
+		limit = {
+			c:NAH = {
+				is_subject_of = c:X42
+			}
+		}
+		annex = c:NAH
+	}
+	if = {
+		limit = {
+			c:X64 = {
+				is_subject_of = c:X42
+			}
+		}
+		annex = c:X64
+	}
+	if = {
+		limit = {
+			c:X30 = {
+				is_subject_of = c:X42
+			}
+		}
+		annex = c:X30
+	}
+	if = {
+		limit = {
+			c:W77 = {
+				is_subject_of = c:X42
+			}
+		}
+		annex = c:W77
+	}
+	if = {
+		limit = {
+			c:X39 = {
+				is_subject_of = c:X42
+			}
+		}
+		annex = c:X39
+	}
+	if = {
+		limit = {
+			c:V50 = {
+				is_subject_of = c:X42
+			}
+		}
+		annex = c:V50
+	}
+	if = {
+		limit = {
+			c:W78 = {
+				is_subject_of = c:X42
+			}
+		}
+		annex = c:W78
+	}
+	add_primary_culture = cu:nahua
+	add_primary_culture = cu:tarascan
+	add_primary_culture = cu:mixtec
+	add_primary_culture = cu:otomanguean
+	set_variable = {
+			name = fed_centralized
+		} 
+	}
+	
+	ai_chance = {
+		base = 100
+	}
+}
+
+sway_tlaxcala = {
+	is_shown = {
+		this = c:X42
+		NOT = { has_variable = swayed_tlaxcala }
+		NOT = { has_variable = sway_cooldown }
+		c:W77 = {
+			exists = yes
+		}
+	}
+	
+	possible = {
+		has_variable = fed_centralized
+		influence > 500
+		c:W77 = {
+			OR = {
+				is_direct_subject_of = c:V50
+				aggressive_diplomatic_plays_permitted = yes
+			}
+		}
+	}
+	
+	when_taken = {
+		annex = c:W77
+		set_variable = {
+			name = swayed_tlaxcala
+		} 
+		set_variable = {
+			name = sway_cooldown
+			days = 365
+		}
+		change_relations = {
+			tcountry = c:V50
+			value = -25
+		} 
+	}
+	
+	ai_chance = {
+		base = 100
+	}
+}
+
+sway_coixtlahuaca = {
+	is_shown = {
+		this = c:X42
+		NOT = { has_variable = swayed_coixtlahuaca }
+		NOT = { has_variable = sway_cooldown }
+		c:X39 = {
+			exists = yes
+		}
+	}
+	
+	possible = {
+		has_variable = fed_centralized
+		influence > 500
+		c:X39 = {
+			OR = {
+				is_direct_subject_of = c:V50
+				aggressive_diplomatic_plays_permitted = yes
+			}
+		}
+	}
+	
+	when_taken = {
+		annex = c:X39
+		set_variable = {
+			name = swayed_coixtlahuaca
+		} 
+		set_variable = {
+			name = sway_cooldown
+			days = 365
+		}
+		change_relations = {
+			tcountry = c:V50
+			value = -25
+		} 
+	}
+	
+	ai_chance = {
+		base = 100
+	}
+}
+
+sway_totonac = {
+	is_shown = {
+		this = c:X42
+		NOT = { has_variable = swayed_totonac }
+		NOT = { has_variable = sway_cooldown }
+		c:W78 = {
+			exists = yes
+		}
+	}
+	
+	possible = {
+		has_variable = fed_centralized
+		influence > 500
+		c:W78 = {
+			OR = {
+				is_direct_subject_of = c:V50
+				aggressive_diplomatic_plays_permitted = yes
+			}
+		}
+	}
+	
+	when_taken = {
+		annex = c:W78
+		set_variable = {
+			name = swayed_totonac
+		} 
+		set_variable = {
+			name = sway_cooldown
+			days = 365
+		}
+		change_relations = {
+			tcountry = c:V50
+			value = -25
+		} 
+	}
+	
+	ai_chance = {
+		base = 100
+	}
+}
+
+sway_huastec = {
+	is_shown = {
+		this = c:X42
+		NOT = { has_variable = swayed_huastec }
+		NOT = { has_variable = sway_cooldown }
+		c:X64 = {
+			exists = yes
+		}
+	}
+	
+	possible = {
+		has_variable = fed_centralized
+		influence > 500
+		c:X64 = {
+			OR = {
+				is_direct_subject_of = c:X43
+				aggressive_diplomatic_plays_permitted = yes
+			}
+		}
+	}
+	
+	when_taken = {
+		annex = c:X64
+		set_variable = {
+			name = swayed_huastec
+		} 
+		set_variable = {
+			name = sway_cooldown
+			days = 365
+		}
+		change_relations = {
+			tcountry = c:X43
+			value = -25
+		} 
+	}
+	
+	ai_chance = {
+		base = 100
+	}
+}
+
+sway_chichimeca = {
+	is_shown = {
+		this = c:X42
+		NOT = { has_variable = swayed_chichimeca }
+		NOT = { has_variable = sway_cooldown }
+		c:X30 = {
+			exists = yes
+		}
+	}
+	
+	possible = {
+		has_variable = fed_centralized
+		influence > 500
+		c:X30 = {
+			OR = {
+				is_direct_subject_of = c:X43
+				aggressive_diplomatic_plays_permitted = yes
+			}
+		}
+	}
+	
+	when_taken = {
+		annex = c:X30
+		set_variable = {
+			name = swayed_chichimeca
+		} 
+		set_variable = {
+			name = sway_cooldown
+			days = 365
+		}
+		change_relations = {
+			tcountry = c:X43
+			value = -25
+		} 
+	}
+	
+	ai_chance = {
+		base = 100
+	}
+}
+
+invade_zapotec = {
+	is_shown = {
+		this = c:X42
+		NOT = { has_variable = invaded_zapotec }
+		c:W78 = {
+			exists = no
+		}
+		c:X39 = {
+			exists = no
+		}
+		c:W77 = {
+			exists = no
+		}
+		c:V50 = {
+			exists = yes
+		}
+	}
+	
+	possible = {
+		NOT = { is_diplomatic_play_committed_participant = yes }
+		c:V50 = {
+			aggressive_diplomatic_plays_permitted = yes
+		}
+	}
+	
+	when_taken = {
+		add_primary_culture = cu:zapotec
+		create_diplomatic_play = {
+			name = zap_war
+			target_state = s:STATE_MEXICO.region_state:V50
+			war = yes
+			type = dp_annex_war
+			
+			add_war_goal = {
+				holder = c:V50
+				type = conquer_state
+				target_state = s:STATE_MEXICO.region_state:X42
+			}
+			add_war_goal = {
+				holder = c:V50
+				type = conquer_state
+				target_state = s:STATE_OAXACA.region_state:X42
+			}
+			
+		}
+		set_variable = {
+			name = invaded_zapotec
+		} 
+	}
+	
+	
+	ai_chance = {
+		base = 100
+	}
+}
+
+accept_zapotec = {
+	is_shown = {
+		this = c:X42
+		NOT = { has_variable = invaded_zapotec }
+		c:V50 = {
+			exists = no
+		}
+	}
+	
+	possible = {
+		has_state_in_state_region = STATE_CHIAPAS
+	}
+	
+	when_taken = {
+		set_variable = {
+			name = invaded_zapotec
+		}
+		add_primary_culture = cu:zapotec
+	}
+	
+	ai_chance = {
+		base = 100
+	}
+}
+
+invade_coahuiltecia = {
+	is_shown = {
+		this = c:X42
+		NOT = { has_variable = invaded_coahuiltecia }
+		c:X43 = {
+			exists = yes
+		}
+		c:X30 = {
+			exists = no
+		}
+		c:X64 = {
+			exists = yes
+		}
+	}
+	
+	possible = {
+		NOT = { is_diplomatic_play_committed_participant = yes }
+		c:X43 = {
+			aggressive_diplomatic_plays_permitted = yes
+		}
+	}
+	
+	when_taken = {
+		add_primary_culture = cu:neo-texas_colony-north_american_alshamali
+		create_diplomatic_play = {
+			name = coa_war
+			target_state = s:STATE_RIO_GRANDE.region_state:X43
+			war = yes
+			type = dp_annex_war
+			
+			add_war_goal = {
+				holder = c:X43
+				type = conquer_state
+				target_state = s:STATE_RIO_GRANDE.region_state:X42
+			}
+			
+		}
+		set_variable = {
+			name = invaded_coahuiltecia
+		} 
+	}
+	
+	
+	ai_chance = {
+		base = 100
+	}
+}
+
+accept_coahuiltecan = {
+	is_shown = {
+		this = c:X42
+		NOT = { has_variable = invaded_coahuiltecia }
+		c:V50 = {
+			exists = no
+		}
+	}
+	
+	possible = {
+		has_state_in_state_region = s:STATE_TEXAS
+	}
+	
+	when_taken = {
+		set_variable = {
+			name = invaded_coahuiltecia
+		}
+		add_primary_culture = cu:neo-texas_colony-north_american_alshamali
+	}
+	
+	ai_chance = {
+		base = 100
+	}
+}
+
+accept_chichimeca = {
+	is_shown = {
+		this = c:X42
+		NOT = { has_variable = accepted_chichimeca }
+		has_state_in_state_region = s:STATE_RIO_GRANDE
+	}
+	
+	possible = {
+		has_state_in_state_region = s:STATE_RIO_GRANDE
+	}
+	
+	when_taken = {
+		set_variable = {
+			name = accepted_chichimeca
+		}
+		add_primary_culture = cu:chichimecan
+	}
+	
+	ai_chance = {
+		base = 100
+	}
+}
