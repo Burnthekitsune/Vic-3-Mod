@@ -619,7 +619,7 @@
 		activate_law = law_type:law_censorship
 		activate_law = law_type:law_census_voting
 		activate_law = law_type:law_colonial_exploitation
-		activate_law = law_type:law_debt_slavery
+		activate_law = law_type:law_slavery_banned
 		activate_law = law_type:law_interventionism
 		activate_law = law_type:law_isolationism
 		activate_law = law_type:law_local_police
@@ -1292,7 +1292,7 @@
 		activate_law = law_type:law_appointed_bureaucrats
 		activate_law = law_type:law_autocracy
 		activate_law = law_type:law_colonial_exploitation
-		activate_law = law_type:law_debt_slavery
+		activate_law = law_type:law_slavery_banned
 		activate_law = law_type:law_interventionism
 		activate_law = law_type:law_local_police
 		activate_law = law_type:law_migration_controls
