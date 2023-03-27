@@ -6549,6 +6549,10 @@
 		activate_law = law_type:law_serfdom
 		activate_law = law_type:law_debt_slavery
 		activate_law = law_type:law_freedom_of_conscience
+		add_modifier = {
+			name = tenth_cycle
+			months = 38
+		}
 		ig:ig_armed_forces = {
 			set_ig_bolstering = yes
  		}

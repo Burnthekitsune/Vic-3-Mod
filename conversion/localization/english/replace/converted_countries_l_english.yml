@@ -1288,3 +1288,12 @@
  
  beacon_city: "Grand Capital"
  beacon_city_adj: "Grand Capital"
+
+ tenth_cycle: "Tenth Cycle"
+ tenth_cycle_adj: "Tenth Cycle"
+ eleventh_cycle: "Eleventh Cycle"
+ eleventh_cycle_adj: "Eleventh Cycle"
+ muraa.1.t: "End of a Cycle"
+ muraa.1.d: "A tired populace begs for peace as the wheel turns and a new cycle begins."
+ muraa.1.f: "After sixty years of war the tenth cycle of the epirote calendar has come to an end with a greatly expanded Muraa. Six decades of war have left the people tired and the they plead for the aristocracy to consolidate."
+ muraa_event.1.a: "With time the people will grow fond of war again."

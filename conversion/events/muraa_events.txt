@@ -1,0 +1,38 @@
+namespace = muraa_cycle
+
+GLOBAL = {
+	c:W40 = {
+		trigger_event = {
+			id = mcycle.1
+			months = 36
+		}
+	}
+}
+
+mcycle.1 = {
+	type = country_event
+	title = muraa.1.t
+	desc = muraa.1.d
+	flavor = muraa.1.f
+
+	event_image = {
+		video = "gfx/event_pictures/middleeast_battlefield_trenches.bk2"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/middleeast/battlefield_trenches"
+
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+
+	duration = 3
+
+	option = {
+		name = muraa_event.1.a						
+        	default_option = yes
+		remove_modifier = tenth_cycle
+		add_modifier = { 
+			name = eleventh_cycle
+			months = 60
+		}
+	}
+}
