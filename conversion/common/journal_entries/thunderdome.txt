@@ -25,11 +25,11 @@ je_yucatan_unification = {
 			has_variable = je_unification_progress
 		}
 		calc_true_if = {
-			owns_entire_state_region = STATE_YUCATAN
-			owns_entire_state_region = STATE_GUATEMALA
-			owns_entire_state_region = STATE_CHIAPAS
-			owns_entire_state_region = STATE_VERACRUZ
-			owns_entire_state_region = STATE_OAXACA
+			country_or_subject_owns_entire_state_region = STATE_YUCATAN
+			country_or_subject_owns_entire_state_region = STATE_GUATEMALA
+			country_or_subject_owns_entire_state_region = STATE_CHIAPAS
+			country_or_subject_owns_entire_state_region = STATE_VERACRUZ
+			country_or_subject_owns_entire_state_region = STATE_OAXACA
 			amount >= 4
 		}
 	}
@@ -70,7 +70,7 @@ je_mexican_unification = {
 	}
 
 	possible = {
-		country_rank >= rank_value:major_power
+		country_rank >= rank_value:minor_power
 		has_technology_researched = romanticism
 		OR = {
 			is_subject = yes
@@ -84,25 +84,25 @@ je_mexican_unification = {
 		}
 		calc_true_if = {
 			amount >= 16
-			owns_entire_state_region = STATE_YUCATAN
-			owns_entire_state_region = STATE_GUATEMALA
-			owns_entire_state_region = STATE_CHIAPAS
-			owns_entire_state_region = STATE_VERACRUZ
-			owns_entire_state_region = STATE_OAXACA
-			owns_entire_state_region = STATE_GUERRERO
-			owns_entire_state_region = STATE_MEXICO
-			owns_entire_state_region = STATE_JALISCO
-			owns_entire_state_region = STATE_BAJIO
-			owns_entire_state_region = STATE_RIO_GRANDE
-			owns_entire_state_region = STATE_ZACATECAS
-			owns_entire_state_region = STATE_DURANGO
-			owns_entire_state_region = STATE_CHIHUAHUA
-			owns_entire_state_region = STATE_SINALOA
-			owns_entire_state_region = STATE_SONORA
-			owns_entire_state_region = STATE_BAJA_CALIFORNIA
-			owns_entire_state_region = STATE_ARIZONA
-			owns_entire_state_region = STATE_NEW_MEXICO
-			owns_entire_state_region = STATE_TEXAS
+			country_or_subject_owns_entire_state_region = STATE_YUCATAN
+			country_or_subject_owns_entire_state_region = STATE_GUATEMALA
+			country_or_subject_owns_entire_state_region = STATE_CHIAPAS
+			country_or_subject_owns_entire_state_region = STATE_VERACRUZ
+			country_or_subject_owns_entire_state_region = STATE_OAXACA
+			country_or_subject_owns_entire_state_region = STATE_GUERRERO
+			country_or_subject_owns_entire_state_region = STATE_MEXICO
+			country_or_subject_owns_entire_state_region = STATE_JALISCO
+			country_or_subject_owns_entire_state_region = STATE_BAJIO
+			country_or_subject_owns_entire_state_region = STATE_RIO_GRANDE
+			country_or_subject_owns_entire_state_region = STATE_ZACATECAS
+			country_or_subject_owns_entire_state_region = STATE_DURANGO
+			country_or_subject_owns_entire_state_region = STATE_CHIHUAHUA
+			country_or_subject_owns_entire_state_region = STATE_SINALOA
+			country_or_subject_owns_entire_state_region = STATE_SONORA
+			country_or_subject_owns_entire_state_region = STATE_BAJA_CALIFORNIA
+			country_or_subject_owns_entire_state_region = STATE_ARIZONA
+			country_or_subject_owns_entire_state_region = STATE_NEW_MEXICO
+			country_or_subject_owns_entire_state_region = STATE_TEXAS
 		}
 	}
 
