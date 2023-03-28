@@ -8091,3 +8091,19 @@ chowinikob = {
 	}
 	graphics = european
 }
+
+tangut = {
+	color = { 210 210 197 }
+	religion = "gelugpa"
+	traits = { east_asian_heritage tibetan_language sinosphere }
+	male_common_first_names = { tgz_Bin tgz_Bo tgz_An_Si tgz_Po_Yan tgz_Bi tgz_Qi tgz_Kairen tgz_Xiaojing tgt_Wetsji tgt_Butsji tgt_Rjir tgc_3682 tgc_36822899 tgc_5121 tgc_51215414 tgc_2866 tgc_2937 tgc_2029 tgc_2017 tgc_2083 tgc_5351 }
+	female_common_first_names = { tgz_Chang tgz_Tong_Er tgt_Rejr tgt_Nej tgc_4818 tgc_3777 tgc_1211 tgc_1256 tgc_3438 tgc_3738 tgc_34381433 tgc_0330 tgc_5414 }
+	male_regal_first_names = { tgc_5917 tgc_59762512 }
+	female_regal_first_names = { tgc_5832 }
+	noble_last_names = { tgz_Wangyal tgt_Mjinja tgt_Bjij tgt_Engwo tgt_Gwe tgc_0357 tgc_0386 tgc_0387 tgc_3424 }
+	common_last_names = { tgz_Long tgz_Jing tgz_Cao tgz_Li tgz_Cui tgz_Song tgz_Yu tgz_Xu tgz_Weiming tgt_Dzasa tgt_Shatra tgt_Miyao tgt_Minyak tgt_Ren tgt_Mihou tgt_Liej tgc_0131 tgc_0137 tgc_0244 tgc_0273 tgc_0283 tgc_0298 tgc_0307 }
+	ethnicities = {
+		1 = central_asian
+	}
+	graphics = asian
+}

@@ -48565,6 +48565,11 @@
 				size = 1653572
 			}
 			create_pop = {
+				culture = tangut
+				religion = gelugpa
+				size = 653572
+			}
+			create_pop = {
 				culture = han
 				religion = mahayana
 				size = 2528993
