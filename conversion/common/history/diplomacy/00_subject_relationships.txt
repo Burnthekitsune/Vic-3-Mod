@@ -344,7 +344,7 @@
 	c:W40 = {
 		create_diplomatic_pact = {
 			country = c:V12
-			type = puppet
+			type = dominion
 		}
 	}
 	c:W40 = {
@@ -353,13 +353,13 @@
 			type = puppet
 		}
 	}
-	c:W40 = {
+	c:V12 = {
 		create_diplomatic_pact = {
 			country = c:X38
 			type = puppet
 		}
 	}
-	c:W40 = {
+	c:V12 = {
 		create_diplomatic_pact = {
 			country = c:X86
 			type = puppet
