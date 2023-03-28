@@ -226,3 +226,16 @@ QHM = {
 		}
 	}
 }
+YCM = {
+	pattern = "pattern_solid.tga"
+	color1 = "pink"
+	colored_emblem={
+		color1=white
+		color2=blue_light
+		texture="ce_tricolor_horizontal_fifth.dds"
+		instance={
+			position={ 0.5 0.5 }
+			scale={ 1 1 }
+		}
+	}
+}

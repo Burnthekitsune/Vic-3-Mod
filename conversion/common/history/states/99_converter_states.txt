@@ -1292,6 +1292,7 @@
 		add_homeland = mayan
 		add_homeland = zapotec
 		add_homeland = chowinikob
+		add_claim = c:V12
 	}
 	s:STATE_CHIHUAHUA = {
 		create_state = {
@@ -4698,6 +4699,7 @@
 		add_homeland = neo-mexico_colony-north_american_alshamali
 		add_homeland = zapotec
 		add_claim = c:W76
+		add_claim = c:V12
 	}
 	s:STATE_OB = {
 		create_state = {

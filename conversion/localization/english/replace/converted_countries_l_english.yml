@@ -1195,6 +1195,8 @@
  CW4_ADJ: "Luang Namthan"
  QHM: "K'ak' Q'a'm Ja"
  QHM_ADJ: "Jamaril"
+ YCM: "Yucatan Confederation"
+ YCM_ADJ: "Yucatan"
  
  #New localization files fail, so this will be here I guess
  nunavut_colony: "Nunavut Colony"
@@ -1291,6 +1293,7 @@
  beacon_city: "Grand Capital"
  beacon_city_adj: "Grand Capital"
 
+ #Zaracas stuff I dont know where to put
  tenth_cycle: "Tenth Cycle"
  tenth_cycle_adj: "Tenth Cycle"
  eleventh_cycle: "Eleventh Cycle"
@@ -1299,3 +1302,18 @@
  muraa.1.d: "A tired populace begs for peace as the wheel turns and a new cycle begins."
  muraa.1.f: "After sixty years of war the tenth cycle of the epirote calendar has come to an end with a greatly expanded Muraa. Six decades of war have left the people tired and the they plead for the aristocracy to consolidate."
  muraa_event.1.a: "With time the people will grow fond of war again."
+
+ #Thunderdome loc
+ yucatan_unification_popularity: "Yucatan Unifier"
+ yucatan_unification_popularity_adj: "Yucatan Unifier"
+ yucatan_unification.1.t: "Yucatan Unification"
+ yucatan_unification.1.d1: "The various Maya states have long pledged allegiance to the great powers of the continent and beyond, perhaps it is time to unite for a common cause?"
+ yucatan_unification.1.d2: "Despite harsh setbacks the Zapotec people have managed to unite Yucatan under one banner, and the various Maya polities are pledging their support behind a common union."
+ yucatan_unification.1.f: "Today representatives from the Maya polities and Zapotec tribes have met in the old city of Mayapan with the goal of forging the alliance into a new league that will rival the other powers in Mexico and beyond. Time will tell if this new Mayapan will be able to last."
+ yucatan_unification.1.a: "Here's to us!"
+ yucatan_unification.3.t: "The Black Prince"
+ yucatan_unification.3.d: "A scion of the fallen Kalamanos dynasty has has risen to a prominent position among the [ROOT.GetCountry.GetAdjectiveNoFormatting] nobility and offers his services to our great state."
+ yucatan_unification.3.f: "A wise man once said "Heaven brings forth innumerable things to nurture man. Man has nothing good with which to recompense Heaven.""
+ yucatan_unification.3.a: ""Kill. Kill. Kill. Kill. Kill. Kill. Kill.""
+ yucatan_unification.3.b: "This gentleman seems a bit too bloodthirsty to be trusted"
+ je_yucatan_unification: "Second League of Mayapan"

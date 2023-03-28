@@ -9339,6 +9339,7 @@ MXC = {
 	color = { 10 153 76 }
 	country_type = recognized
 	tier = empire
+	capital = STATE_MEXICO
 }
 
 KOS = {
@@ -9393,4 +9394,12 @@ QHM = {
 	cultures = { mayan }
 	religion = mesoamerican_religion
 	capital = STATE_VERACRUZ
+}
+
+YCM = {
+	color = { 235 224 255 }
+	country_type = recognized
+	tier = kingdom
+	cultures = { mayan zapotec }
+	capital = STATE_YUCATAN
 }

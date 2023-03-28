@@ -18,3 +18,8 @@ eleventh_cycle = {
 	state_radicals_from_sol_change_mult = 0.10
 	state_loyalists_from_sol_change_mult = -0.10
 }
+
+yucatan_unification_popularity = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	character_popularity_add = 30
+}
