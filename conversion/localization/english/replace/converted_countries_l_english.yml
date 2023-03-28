@@ -1193,6 +1193,8 @@
  CW3_ADJ: "Yunnanese"
  CW4: "Luang Namtha"
  CW4_ADJ: "Luang Namthan"
+ QHM: "K'ak' Q'a'm Ja"
+ QHM_ADJ: "Jamaril"
  
  #New localization files fail, so this will be here I guess
  nunavut_colony: "Nunavut Colony"

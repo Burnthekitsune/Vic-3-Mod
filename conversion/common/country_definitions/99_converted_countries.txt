@@ -9385,3 +9385,12 @@ CW4 = {
 	religion = theravada
 	capital = STATE_LAOS
 }
+
+QHM = {
+	color = { 235 224 255 }
+	country_type = unrecognized
+	tier = city_state
+	cultures = { mayan }
+	religion = mesoamerican_religion
+	capital = STATE_VERACRUZ
+}

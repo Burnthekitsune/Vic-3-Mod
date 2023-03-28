@@ -57804,7 +57804,7 @@
 				size = 34373
 			}
 		}
-		region_state:X38 = {
+		region_state:QHM = {
 			create_pop = {
 				culture = mayan
 				religion = mesoamerican_religion

@@ -6710,7 +6710,7 @@
 			owned_provinces = { x447790 x4BF28B }
 		}
 		create_state = {
-			country = c:X38
+			country = c:QHM
 			owned_provinces = { x8A6294 }
 		}
 		create_state = {

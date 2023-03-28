@@ -365,6 +365,11 @@
 			type = puppet
 		}
 	}
+	c:V12 = {
+		create_diplomatic_pact = {
+			country = c:QHM
+			type = puppet
+		}
 	c:W40 = {
 		create_diplomatic_pact = {
 			country = c:X72

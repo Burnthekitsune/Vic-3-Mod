@@ -1,0 +1,18 @@
+CHARACTERS = {
+	c:QHM = {
+		create_character = {
+			first_name = "Chaan_Muan"
+			last_name = "Canul"
+			ruler = yes
+			is_general = yes
+			commander_rank = commander_rank_1
+			culture = cu:mayan
+			religion = rel:mesoamerican_religion
+			birth_date = 1752.9.17
+			traits = {
+				direct pious
+			}
+		}
+
+	}
+}
