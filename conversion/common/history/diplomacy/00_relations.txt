@@ -672,6 +672,7 @@
 		set_relations = { country = c:X83 value = 10 }
 		set_relations = { country = c:X84 value = 10 }
 		set_relations = { country = c:X85 value = 10 }
+		set_relations = { country = c:X19 value = 50 }
 	}
 	c:X14 = {
 		set_relations = { country = c:DAI value = 75 }
@@ -693,6 +694,7 @@
 		set_relations = { country = c:V23 value = 50 }
 		set_relations = { country = c:V45 value = 75 }
 		set_relations = { country = c:V48 value = -200 }
+		set_relations = { country = c:X10 value = 50 }
 	}
 	c:X20 = {
 		set_relations = { country = c:X10 value = 35 }

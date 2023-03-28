@@ -217,11 +217,11 @@
 	}
 	c:X19 = {
 		create_diplomatic_pact = {
-			country = c:SCA
+			country = c:X10
 			type = defensive_pact
 		}
 	}
-	c:SCA = {
+	c:X10 = {
 		create_diplomatic_pact = {
 			country = c:X19
 			type = defensive_pact
@@ -380,18 +380,6 @@
 	c:X66 = {
 		create_diplomatic_pact = {
 			country = c:X49
-			type = defensive_pact
-		}
-	}
-	c:GBR = {
-		create_diplomatic_pact = {
-			country = c:X19
-			type = defensive_pact
-		}
-	}
-	c:X19 = {
-		create_diplomatic_pact = {
-			country = c:GBR
 			type = defensive_pact
 		}
 	}
@@ -968,12 +956,6 @@
 	c:V48 = {
 		create_diplomatic_pact = {
 			country = c:V23
-			type = defensive_pact
-		}
-	}
-	c:V23 = {
-		create_diplomatic_pact = {
-			country = c:X19
 			type = defensive_pact
 		}
 	}
