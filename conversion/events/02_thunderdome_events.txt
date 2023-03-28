@@ -1,1 +1,247 @@
 namespace = thunderdome
+
+# Mexican Unification
+thunderdome.1 = {
+	type = country_event
+	placement = ROOT
+
+	title = thunderdome.1.t
+	desc = thunderdome.1.d
+	flavor = thunderdome.1.f
+
+	event_image = {
+		video = "gfx/event_pictures/unspecific_military_parade.bk2"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/unspecific/military_parade"
+
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+
+	duration = 3
+
+	trigger = {
+	}
+
+	option = {
+		name = thunderdome.1.a
+		default_option = yes
+		if = {
+			limit = {
+				NOR = {
+					has_claim = s:STATE_YUCATAN
+					owns_entire_state_region = STATE_YUCATAN 
+				}
+			}
+			s:STATE_YUCATAN = {
+				add_claim = ROOT
+			}
+		}
+		if = {
+			limit = {
+				NOR = {
+					has_claim = s:STATE_GUATEMALA
+					owns_entire_state_region = STATE_GUATEMALA
+				}
+			}
+			s:STATE_GUATEMALA = {
+				add_claim = ROOT
+			}
+		}
+		if = {
+			limit = {
+				NOR = {
+					has_claim = s:STATE_CHIAPAS
+					owns_entire_state_region = STATE_CHIAPAS
+				}
+			}
+			s:STATE_CHIAPAS = {
+				add_claim = ROOT
+			}
+		}
+		if = {
+			limit = {
+				NOR = {
+					has_claim = s:STATE_VERACRUZ
+					owns_entire_state_region = STATE_VERACRUZ
+				}
+			}
+			s:STATE_VERACRUZ = {
+				add_claim = ROOT
+			}
+		}
+		if = {
+			limit = {
+				NOR = {
+					has_claim = s:STATE_OAXACA
+					owns_entire_state_region = STATE_OAXACA
+				}
+			}
+			s:STATE_OAXACA = {
+				add_claim = ROOT
+			}
+		}
+		if = {
+			limit = {
+				NOR = {
+					has_claim = s:STATE_GUERRERO
+					owns_entire_state_region = STATE_GUERRERO
+				}
+			}
+			s:STATE_GUERRERO = {
+				add_claim = ROOT
+			}
+		}
+		if = {
+			limit = {
+				NOR = {
+					has_claim = s:STATE_MEXICO
+					owns_entire_state_region = STATE_MEXICO
+				}
+			}
+			s:STATE_MEXICO = {
+				add_claim = ROOT
+			}
+		}
+		if = {
+			limit = {
+				NOR = {
+					has_claim = s:STATE_JALISCO
+					owns_entire_state_region = STATE_JALISCO
+				}
+			}
+			s:STATE_JALISCO = {
+				add_claim = ROOT
+			}
+		}
+		if = {
+			limit = {
+				NOR = {
+					has_claim = s:STATE_BAJIO
+					owns_entire_state_region = STATE_BAJIO
+				}
+			}
+			s:STATE_BAJIO = {
+				add_claim = ROOT
+			}
+		}
+		if = {
+			limit = {
+				NOR = {
+					has_claim = s:STATE_RIO_GRANDE
+					owns_entire_state_region = STATE_RIO_GRANDE
+				}
+			}
+			s:STATE_RIO_GRANDE = {
+				add_claim = ROOT
+			}
+		}
+		if = {
+			limit = {
+				NOR = {
+					has_claim = s:STATE_ZACATECAS
+					owns_entire_state_region = STATE_ZACATECAS
+				}
+			}
+			s:STATE_ZACATECAS = {
+				add_claim = ROOT
+			}
+		}
+		if = {
+			limit = {
+				NOR = {
+					has_claim = s:STATE_DURANGO
+					owns_entire_state_region = STATE_DURANGO
+				}
+			}
+			s:STATE_DURANGO = {
+				add_claim = ROOT
+			}
+		}
+		if = {
+			limit = {
+				NOR = {
+					has_claim = s:STATE_CHIHUAHUA
+					owns_entire_state_region = STATE_CHIHUAHUA
+				}
+			}
+			s:STATE_CHIHUAHUA = {
+				add_claim = ROOT
+			}
+		}
+		if = {
+			limit = {
+				NOR = {
+					has_claim = s:STATE_SINALOA
+					owns_entire_state_region = STATE_SINALOA
+				}
+			}
+			s:STATE_SINALOA = {
+				add_claim = ROOT
+			}
+		}
+		if = {
+			limit = {
+				NOR = {
+					has_claim = s:STATE_SONORA
+					owns_entire_state_region = STATE_SONORA
+				}
+			}
+			s:STATE_SONORA = {
+				add_claim = ROOT
+			}
+		}
+		if = {
+			limit = {
+				NOR = {
+					has_claim = s:STATE_BAJA_CALIFORNIA
+					owns_entire_state_region = STATE_BAJA_CALIFORNIA
+				}
+			}
+			s:STATE_BAJA_CALIFORNIA = {
+				add_claim = ROOT
+			}
+		}
+		if = {
+			limit = {
+				NOR = {
+					has_claim = s:STATE_ARIZONA
+					owns_entire_state_region = STATE_ARIZONA
+				}
+			}
+			s:STATE_ARIZONA = {
+				add_claim = ROOT
+			}
+		}
+		if = {
+			limit = {
+				NOR = {
+					has_claim = s:STATE_NEW_MEXICO
+					owns_entire_state_region = STATE_NEW_MEXICO
+				}
+			}
+			s:STATE_NEW_MEXICO = {
+				add_claim = ROOT
+			}
+		}
+		if = {
+			limit = {
+				NOR = {
+					has_claim = s:STATE_TEXAS
+					owns_entire_state_region = STATE_TEXAS
+				}
+			}
+			s:STATE_TEXAS = {
+				add_claim = ROOT
+			}
+		}
+		give_claims = {
+			state_region = STATE_TEXAS
+		}
+		ruler = {
+			add_modifier = {
+				name = mexican_unifier_ruler
+			}
+		}
+	}
+}

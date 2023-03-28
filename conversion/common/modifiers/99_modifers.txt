@@ -23,3 +23,8 @@ yucatan_unification_popularity = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
 	character_popularity_add = 30
 }
+
+mexican_unifier_ruler = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
+	character_popularity_add = 65
+}

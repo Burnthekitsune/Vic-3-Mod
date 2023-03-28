@@ -14,7 +14,10 @@ je_yucatan_unification = {
 	possible = {
 		country_rank >= rank_value:minor_power
 		has_technology_researched = nationalism
-		is_subject = no
+		OR = {
+			is_subject = yes
+			is_subject = no
+		}
 	}
 
 	complete = {
@@ -52,21 +55,27 @@ je_yucatan_unification = {
 	weight = 100
 }
 
-je_german_unification = {
+je_mexican_unification = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 
 	is_shown_when_inactive = {
 		OR = {
-			country_has_primary_culture = cu:north_german
-			country_has_primary_culture = cu:south_german
+			country_has_primary_culture = cu:maya
+			country_has_primary_culture = cu:zapotec
+			country_has_primary_culture = cu:neo-mexico_colony-north_american_alshamali
+			country_has_primary_culture = cu:neo-texas_colony-north_american_alshamali
+			country_has_primary_culture = cu:apache
+			country_has_primary_culture = cu:navajo
 		}
-		NOT = { country_has_primary_culture = cu:hungarian }
 	}
 
 	possible = {
 		country_rank >= rank_value:major_power
-		has_technology_researched = pan-nationalism
-		is_subject = no
+		has_technology_researched = romanticism
+		OR = {
+			is_subject = yes
+			is_subject = no
+		}
 	}
 
 	complete = {
@@ -74,52 +83,38 @@ je_german_unification = {
 			has_variable = je_unification_progress
 		}
 		calc_true_if = {
-			amount >= 17
-			owns_entire_state_region = STATE_POMERANIA
-			owns_entire_state_region = STATE_ELBE
-			owns_entire_state_region = STATE_WESTPHALIA
-			owns_entire_state_region = STATE_ANHALT
-			owns_entire_state_region = STATE_RHINELAND
-			owns_entire_state_region = STATE_NORTH_RHINE
-			owns_entire_state_region = STATE_SCHLESWIG_HOLSTEIN
-			owns_entire_state_region = STATE_HANNOVER
-			owns_entire_state_region = STATE_BRUNSWICK
-			owns_entire_state_region = STATE_SAXONY
-			owns_entire_state_region = STATE_HESSE
-			owns_entire_state_region = STATE_MECKLENBURG
-			owns_entire_state_region = STATE_SILESIA
-			owns_entire_state_region = STATE_WEST_PRUSSIA
-			owns_entire_state_region = STATE_EAST_PRUSSIA
-			owns_entire_state_region = STATE_POSEN
-			owns_entire_state_region = STATE_ALSACE_LORRAINE
-			owns_entire_state_region = STATE_WURTTEMBERG
-			owns_entire_state_region = STATE_BADEN
-			owns_entire_state_region = STATE_BAVARIA
-			owns_entire_state_region = STATE_FRANCONIA
-		}
-	}
-
-	on_monthly_pulse = {
-		events = {
-			german_unification.2 # confederation
-		}
-		effect = {
-			if = { 
-				limit = { NOT = { has_variable = je_unification_progress } } 
-				set_variable = je_unification_progress
-			}
+			amount >= 16
+			owns_entire_state_region = STATE_YUCATAN
+			owns_entire_state_region = STATE_GUATEMALA
+			owns_entire_state_region = STATE_CHIAPAS
+			owns_entire_state_region = STATE_VERACRUZ
+			owns_entire_state_region = STATE_OAXACA
+			owns_entire_state_region = STATE_GUERRERO
+			owns_entire_state_region = STATE_MEXICO
+			owns_entire_state_region = STATE_JALISCO
+			owns_entire_state_region = STATE_BAJIO
+			owns_entire_state_region = STATE_RIO_GRANDE
+			owns_entire_state_region = STATE_ZACATECAS
+			owns_entire_state_region = STATE_DURANGO
+			owns_entire_state_region = STATE_CHIHUAHUA
+			owns_entire_state_region = STATE_SINALOA
+			owns_entire_state_region = STATE_SONORA
+			owns_entire_state_region = STATE_BAJA_CALIFORNIA
+			owns_entire_state_region = STATE_ARIZONA
+			owns_entire_state_region = STATE_NEW_MEXICO
+			owns_entire_state_region = STATE_TEXAS
 		}
 	}
 
 	on_complete = {
-		trigger_event = { id = german_unification.4 } # German Unification
+		trigger_event = { id = thunderdome.1 } # Mexican Unification
 		remove_variable = je_unification_progress
 	}
 
 	status_desc = {
 		first_valid = {
 			triggered_desc = {
-				desc = je_german_status
+				desc = je_mexican_status
 				trigger = {
 					OR = {
 						country_tier = kingdom
