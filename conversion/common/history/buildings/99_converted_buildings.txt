@@ -8806,32 +8806,6 @@
 		}
 	}
 	s:STATE_GUANGXI = {
-		region_state:DAI = {
-			create_building = {
-				building = "building_tobacco_plantation"
-				level = 1
-				reserves = 1
-				activate_production_methods = { }
-			}
-			create_building = {
-				building = "building_dye_plantation"
-				level = 1
-				reserves = 1
-				activate_production_methods = { }
-			}
-			create_building = {
-				building = "building_banana_plantation"
-				level = 1
-				reserves = 1
-				activate_production_methods = { }
-			}
-			create_building = {
-				building = "building_barracks"
-				level = 16
-				reserves = 1
-				activate_production_methods = { "pm_cannon_artillery" "pm_irregular_infantry" }
-			}
-		}
 		region_state:W34 = {
 			create_building = {
 				building = "building_barracks"
@@ -25245,26 +25219,6 @@
 		}
 	}
 	s:STATE_YUNNAN = {
-		region_state:DAI = {
-			create_building = {
-				building = "building_construction_sector"
-				level = 1
-				reserves = 1
-				activate_production_methods = { }
-			}
-			create_building = {
-				building = "building_barracks"
-				level = 1
-				reserves = 1
-				activate_production_methods = { "pm_cannon_artillery" "pm_irregular_infantry" }
-			}
-			create_building = {
-				building = "building_opium_plantation"
-				level = 1
-				reserves = 1
-				activate_production_methods = { }
-			}
-		}
 		region_state:W32 = {
 			create_building = {
 				building = "building_construction_sector"

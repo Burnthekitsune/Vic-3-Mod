@@ -6918,7 +6918,7 @@
 			}
 			create_pop = {
 				culture = indian_alshamali
-				religion = converted_dynamic_faith_102
+				religion = zoroastrian
 				size = 36948
 			}
 			create_pop = {
@@ -6928,7 +6928,7 @@
 			}
 			create_pop = {
 				culture = indian_alshamali
-				religion = zoroastrian
+				religion = converted_dynamic_faith_102
 				size = 110398
 			}
 			create_pop = {
@@ -19322,7 +19322,7 @@
 		}
 	}
 	s:STATE_GUANGXI = {
-		region_state:DAI = {
+		region_state:W34 = {
 			create_pop = {
 				culture = vietnamese
 				religion = mahayana
@@ -19333,8 +19333,6 @@
 				religion = converted_dynamic_faith_102
 				size = 640330
 			}
-		}
-		region_state:W34 = {
 			create_pop = {
 				culture = zhuang
 				religion = mahayana
@@ -38058,7 +38056,7 @@
 		}
 	}
 	s:STATE_NORTH_BORNEO = {
-		region_state:BRU = {
+		region_state:W88 = {
 			create_pop = {
 				culture = dayak
 				religion = animist
@@ -38085,8 +38083,6 @@
 				religion = sunni
 				size = 3340
 			}
-		}
-		region_state:W88 = {
 			create_pop = {
 				culture = bornean
 				religion = sunni
@@ -62214,7 +62210,7 @@
 		}
 	}
 	s:STATE_YUNNAN = {
-		region_state:DAI = {
+		region_state:W32 = {
 			create_pop = {
 				culture = lao
 				religion = animist
@@ -62240,8 +62236,6 @@
 				religion = mahayana
 				size = 183414
 			}
-		}
-		region_state:W32 = {
 			create_pop = {
 				culture = shan
 				religion = theravada
