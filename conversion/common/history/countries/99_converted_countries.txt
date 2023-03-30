@@ -6559,18 +6559,6 @@
 		ig:ig_devout = {
 			set_ig_bolstering = yes
  		}
-		ig:ig_industrialists = {
-			set_ig_bolstering = yes
- 		}
-		ig:ig_landowners = {
-			set_ig_bolstering = yes
- 		}
-		ig:ig_intelligentsia = {
-			set_ig_suppression = yes
-		}
-		ig:ig_petty_bourgeoisie = {
-			set_ig_suppression = yes
-		}
 		ig:ig_landowners = {
 			add_ideology = ideology_pious
  		}
