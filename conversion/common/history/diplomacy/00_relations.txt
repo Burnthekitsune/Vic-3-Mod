@@ -673,6 +673,10 @@
 		set_relations = { country = c:X84 value = 10 }
 		set_relations = { country = c:X85 value = 10 }
 		set_relations = { country = c:X19 value = 50 }
+		set_relations = { country = c:X15 value = 100 }
+	}
+	c:X15 = {
+		set_relations = { country = c:X10 value = 100 }
 	}
 	c:X14 = {
 		set_relations = { country = c:DAI value = 75 }
