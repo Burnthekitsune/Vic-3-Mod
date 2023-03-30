@@ -1233,6 +1233,14 @@
  CYA_ADJ: "Yao"
  NBA: "Nine Banner Alliance"
  NBA_ADJ: "Nine Banner"
+ MR1: "Kingdom of Riben"
+ MR1_ADJ: "Ribenese"
+ MR2: "Khanate of Menggu"
+ MR2_ADJ: "Menggulian"
+ MR3: "Khanate of Jin"
+ MR3_ADJ: "Jin"
+ MR4: "Chaoxian Circuit"
+ MR4_ADJ: "Chaoxian"
 
  #New localization files fail, so this will be here I guess
  nunavut_colony: "Nunavut Colony"

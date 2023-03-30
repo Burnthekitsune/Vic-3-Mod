@@ -9502,7 +9502,7 @@ CM5 = {
 	religion = mahayana
 	capital = STATE_CHONGQING
 }
-#XXXXXXXXX
+
 CZ1 = {
 	color = { 21 28 84 }
 	country_type = unrecognized
@@ -9564,4 +9564,40 @@ NBA = {
 	cultures = { han }
 	religion = mahayana
 	capital = STATE_JIANGSU
+}
+
+MR1 = {
+	color = { 119 55 83 }
+	country_type = recognized
+	tier = kingdom
+	cultures = { japanese }
+	religion = shinto
+	capital = STATE_KYUSHU
+}
+
+MR2 = {
+	color = { 119 55 83 }
+	country_type = recognized
+	tier = grand_principality
+	cultures = { mongol }
+	religion = hindu
+	capital = STATE_URGA
+}
+
+MR3 = {
+	color = { 119 55 83 }
+	country_type = recognized
+	tier = principality
+	cultures = { manchu }
+	religion = mahayana
+	capital = STATE_SOUTHERN_MANCHURIA
+}
+
+MR4 = {
+	color = { 119 55 83 }
+	country_type = recognized
+	tier = principality
+	cultures = { korean }
+	religion = mahayana
+	capital = STATE_YANGSEO
 }
