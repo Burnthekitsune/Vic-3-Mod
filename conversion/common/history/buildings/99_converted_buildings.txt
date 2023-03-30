@@ -566,7 +566,7 @@
 		}
 	}
 	s:STATE_ALGIERS = {
-		region_state:V27 = {
+		region_state:X10 = {
 			create_building = {
 				building = "building_barracks"
 				level = 1
@@ -614,6 +614,12 @@
 				level = 1
 				reserves = 1
 				activate_production_methods = { }
+			}
+			create_building={
+				building="building_railway"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_steam_trains" "pm_wooden_passenger_carriages" }
 			}
 		}
 	}
@@ -700,27 +706,13 @@
 		}
 	}
 	s:STATE_AL_RIF = {
-		region_state:V27 = {
-			create_building = {
-				building = "building_barracks"
-				level = 1
-				reserves = 1
-				activate_production_methods = { "pm_line_infantry" "pm_mobile_artillery" }
-			}
+		region_state:X10 = {
 			create_building={
 				building="building_railway"
 				level=1
 				reserves=1
 				activate_production_methods={ "pm_steam_trains" "pm_wooden_passenger_carriages" }
 			}
-			create_building = {
-				building = "building_port"
-				level = 1
-				reserves = 1
-				activate_production_methods = { "pm_basic_port" }
-			}
-		}
-		region_state:X10 = {
 			create_building = {
 				building = "building_university"
 				level = 1
@@ -729,7 +721,7 @@
 			}
 			create_building = {
 				building = "building_barracks"
-				level = 5
+				level = 6
 				reserves = 1
 				activate_production_methods = { "pm_mobile_artillery" "pm_skirmish_infantry" }
 			}
@@ -741,7 +733,7 @@
 			}
 			create_building = {
 				building = "building_port"
-				level = 1
+				level = 2
 				reserves = 1
 				activate_production_methods = { }
 			}
@@ -5668,7 +5660,7 @@
 		}
 	}
 	s:STATE_CONSTANTINE = {
-		region_state:V27 = {
+		region_state:X10 = {
 			create_building = {
 				building = "building_livestock_ranch"
 				level = 1
@@ -5680,6 +5672,12 @@
 				level = 1
 				reserves = 1
 				activate_production_methods = { "pm_pulp_pressing" }
+			}
+			create_building={
+				building="building_railway"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_steam_trains" "pm_wooden_passenger_carriages" }
 			}
 		}
 	}
@@ -7070,6 +7068,16 @@
 				level = 1
 				reserves = 1
 				activate_production_methods = { }
+			}
+		}
+	}
+	s:STATE_EAST_SAHARA = {
+		region_state:X10 = {
+			create_building={
+					building="building_railway"
+					level=1
+					reserves=1
+					activate_production_methods={ "pm_steam_trains" "pm_wooden_passenger_carriages" }
 			}
 		}
 	}
@@ -22038,12 +22046,10 @@
 		region_state:V27 = {
 			create_building = {
 				building = "building_livestock_ranch"
-				level = 2
+				level = 3
 				reserves = 1
 				activate_production_methods = { }
 			}
-		}
-		region_state:X85 = {
 			create_building = {
 				building = "building_livestock_ranch"
 				level = 1
@@ -22053,7 +22059,7 @@
 		}
 	}
 	s:STATE_TLEMCEN = {
-		region_state:V27 = {
+		region_state:X10 = {
 			create_building = {
 				building = "building_university"
 				level = 1
@@ -22083,6 +22089,12 @@
 				level = 1
 				reserves = 1
 				activate_production_methods = { }
+			}
+			create_building={
+				building="building_railway"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_steam_trains" "pm_wooden_passenger_carriages" }
 			}
 		}
 	}

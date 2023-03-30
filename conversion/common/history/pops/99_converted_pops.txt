@@ -1252,7 +1252,7 @@
 		}
 	}
 	s:STATE_ALGIERS = {
-		region_state:V27 = {
+		region_state:X10 = {
 			create_pop = {
 				culture = alsaahilian
 				religion = converted_dynamic_faith_102
@@ -1530,7 +1530,7 @@
 		}
 	}
 	s:STATE_AL_RIF = {
-		region_state:V27 = {
+		region_state:X10 = {
 			create_pop = {
 				culture = alsaahilian
 				religion = converted_dynamic_faith_102
@@ -1566,8 +1566,6 @@
 				religion = jewish
 				size = 807
 			}
-		}
-		region_state:X10 = {
 			create_pop = {
 				culture = faykinghian
 				religion = converted_dynamic_faith_102
@@ -12107,7 +12105,7 @@
 		}
 	}
 	s:STATE_CONSTANTINE = {
-		region_state:V27 = {
+		region_state:X10 = {
 			create_pop = {
 				culture = maghrebi
 				religion = converted_dynamic_faith_106
@@ -15572,7 +15570,7 @@
 				size = 7345
 			}
 		}
-		region_state:V27 = {
+		region_state:X10 = {
 			create_pop = {
 				culture = berber
 				religion = converted_dynamic_faith_106
@@ -23103,7 +23101,7 @@
 		}
 	}
 	s:STATE_INNER_MOROCCO = {
-		region_state:V27 = {
+		region_state:X10 = {
 			create_pop = {
 				culture = alsaahilian
 				religion = converted_dynamic_faith_102
@@ -23153,8 +23151,6 @@
 				pop_type = slaves
 				size = 2
 			}
-		}
-		region_state:X10 = {
 			create_pop = {
 				culture = janubian
 				religion = converted_dynamic_faith_102
@@ -46852,7 +46848,7 @@
 		}
 	}
 	s:STATE_SAHARA = {
-		region_state:X85 = {
+		region_state:V27 = {
 			create_pop = {
 				culture = berber
 				religion = converted_dynamic_faith_102
@@ -54016,8 +54012,6 @@
 				religion = converted_dynamic_faith_106
 				size = 4691
 			}
-		}
-		region_state:X85 = {
 			create_pop = {
 				culture = dynamic-fulani-culture-num1
 				religion = converted_dynamic_faith_102
@@ -54031,7 +54025,7 @@
 		}
 	}
 	s:STATE_TLEMCEN = {
-		region_state:V27 = {
+		region_state:X10 = {
 			create_pop = {
 				culture = alsaahilian
 				religion = converted_dynamic_faith_102
@@ -54248,8 +54242,6 @@
 				religion = jewish
 				size = 97
 			}
-		}
-		region_state:X10 = {
 			create_pop = {
 				culture = janubian
 				religion = converted_dynamic_faith_102
