@@ -124,9 +124,7 @@ sway_tlaxcala = {
 		this = c:X42
 		NOT = { has_variable = swayed_tlaxcala }
 		NOT = { has_variable = sway_cooldown }
-		c:W77 = {
-			exists = yes
-		}
+		exists = c:W77
 	}
 	
 	possible = {
@@ -165,9 +163,7 @@ sway_coixtlahuaca = {
 		this = c:X42
 		NOT = { has_variable = swayed_coixtlahuaca }
 		NOT = { has_variable = sway_cooldown }
-		c:X39 = {
-			exists = yes
-		}
+		exists = c:X39
 	}
 	
 	possible = {
@@ -206,9 +202,7 @@ sway_totonac = {
 		this = c:X42
 		NOT = { has_variable = swayed_totonac }
 		NOT = { has_variable = sway_cooldown }
-		c:W78 = {
-			exists = yes
-		}
+		exists = c:W78
 	}
 	
 	possible = {
@@ -247,9 +241,7 @@ sway_huastec = {
 		this = c:X42
 		NOT = { has_variable = swayed_huastec }
 		NOT = { has_variable = sway_cooldown }
-		c:X64 = {
-			exists = yes
-		}
+		exists = c:X64
 	}
 	
 	possible = {
@@ -288,9 +280,7 @@ sway_chichimeca = {
 		this = c:X42
 		NOT = { has_variable = swayed_chichimeca }
 		NOT = { has_variable = sway_cooldown }
-		c:X30 = {
-			exists = yes
-		}
+		exists = c:X30
 	}
 	
 	possible = {
@@ -328,18 +318,13 @@ invade_zapotec = {
 	is_shown = {
 		this = c:X42
 		NOT = { has_variable = invaded_zapotec }
-		c:W78 = {
-			exists = no
+		NOT = { has_variable = war_cooldown }
+		NOT = {
+			exists = c:W78
+			exists = c:X39
+			exists = c:W77
 		}
-		c:X39 = {
-			exists = no
-		}
-		c:W77 = {
-			exists = no
-		}
-		c:V50 = {
-			exists = yes
-		}
+		exists = c:V50
 	}
 	
 	possible = {
@@ -384,8 +369,8 @@ accept_zapotec = {
 	is_shown = {
 		this = c:X42
 		NOT = { has_variable = invaded_zapotec }
-		c:V50 = {
-			exists = no
+		NOT = {
+			exists = c:V50
 		}
 	}
 	
@@ -396,6 +381,10 @@ accept_zapotec = {
 	when_taken = {
 		set_variable = {
 			name = invaded_zapotec
+		}
+		set_variable = {
+			name = war_cooldown
+			days = 3650
 		}
 		add_primary_culture = cu:zapotec
 	}
@@ -409,14 +398,11 @@ invade_coahuiltecia = {
 	is_shown = {
 		this = c:X42
 		NOT = { has_variable = invaded_coahuiltecia }
-		c:X43 = {
-			exists = yes
-		}
-		c:X30 = {
-			exists = no
-		}
-		c:X64 = {
-			exists = yes
+		NOT = { has_variable = war_cooldown }
+			exists = c:X43
+		NOT = {
+			exists = c:X30
+			exists = c:X64 
 		}
 	}
 	
@@ -444,7 +430,11 @@ invade_coahuiltecia = {
 		}
 		set_variable = {
 			name = invaded_coahuiltecia
-		} 
+		}
+		set_variable = {
+			name = war_cooldown
+			days = 3650
+		}
 	}
 	
 	
@@ -457,9 +447,7 @@ accept_coahuiltecan = {
 	is_shown = {
 		this = c:X42
 		NOT = { has_variable = invaded_coahuiltecia }
-		c:V50 = {
-			exists = no
-		}
+		NOT = { exists = c:V50 }
 	}
 	
 	possible = {
