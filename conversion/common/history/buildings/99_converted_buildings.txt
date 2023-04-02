@@ -13162,8 +13162,8 @@
 		}
 	}
 	s:STATE_LOWER_EGYPT = {
-		region_state:EGY = {
-			create_building = {
+		region_state:V27 = {
+				create_building = {
 				building = "building_wheat_farm"
 				level = 3
 				reserves = 1
@@ -13193,8 +13193,6 @@
 				reserves = 1
 				activate_production_methods = { "pm_pot_stills" }
 			}
-		}
-		region_state:V27 = {
 			create_building = {
 				building = "building_naval_base"
 				level = 4
@@ -14279,8 +14277,6 @@
 				reserves = 1
 				activate_production_methods = { }
 			}
-		}
-		region_state:V27 = {
 			create_building = {
 				building = "building_naval_base"
 				level = 1
@@ -20324,17 +20320,10 @@
 		region_state:V27 = {
 			create_building = {
 				building = "building_port"
-				level = 1
+				level = 2
 				reserves = 1
 				activate_production_methods = { "pm_basic_port" }
-			}
-		}
-		region_state:V46 = {
-			create_building = {
-				building = "building_port"
-				level = 1
-				reserves = 1
-				activate_production_methods = { "pm_basic_port" }
+			
 			}
 		}
 	}
@@ -23163,7 +23152,7 @@
 		}
 	}
 	s:STATE_UPPER_EGYPT = {
-		region_state:EGY = {
+		region_state:V27 = {
 			create_building = {
 				building = "building_livestock_ranch"
 				level = 1

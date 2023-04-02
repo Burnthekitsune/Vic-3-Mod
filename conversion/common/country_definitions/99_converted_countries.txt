@@ -1831,7 +1831,7 @@ EGY = {
 	tier = kingdom
 	cultures = { msir }
 	religion = converted_dynamic_faith_102
-	capital = STATE_LOWER_EGYPT
+	capital = STATE_BLUE_NILE
 }
 
 EI1 = {

@@ -15858,7 +15858,7 @@
 		}
 	}
 	s:STATE_EGYPTIAN_DESERT = {
-		region_state:EGY = {
+		region_state:V27 = {
 			create_pop = {
 				culture = misri
 				religion = converted_dynamic_faith_102
@@ -29486,7 +29486,7 @@
 		}
 	}
 	s:STATE_LOWER_EGYPT = {
-		region_state:EGY = {
+		region_state:V27 = {
 			create_pop = {
 				culture = misri
 				religion = converted_dynamic_faith_102
@@ -29514,8 +29514,6 @@
 				religion = jewish
 				size = 9488
 			}
-		}
-		region_state:V27 = {
 			create_pop = {
 				culture = misri
 				religion = converted_dynamic_faith_102
@@ -31564,7 +31562,7 @@
 		}
 	}
 	s:STATE_MATRUH = {
-		region_state:EGY = {
+		region_state:V27 = {
 			create_pop = {
 				culture = misri
 				religion = converted_dynamic_faith_102
@@ -31585,8 +31583,6 @@
 				religion = converted_dynamic_faith_102
 				size = 151
 			}
-		}
-		region_state:V27 = {
 			create_pop = {
 				culture = misri
 				religion = converted_dynamic_faith_102
@@ -32274,7 +32270,7 @@
 		}
 	}
 	s:STATE_MIDDLE_EGYPT = {
-		region_state:EGY = {
+		region_state:V27 = {
 			create_pop = {
 				culture = misri
 				religion = converted_dynamic_faith_102
@@ -32410,8 +32406,6 @@
 				religion = jewish
 				size = 612
 			}
-		}
-		region_state:V27 = {
 			create_pop = {
 				culture = misri
 				religion = converted_dynamic_faith_102
@@ -49406,8 +49400,6 @@
 				religion = converted_dynamic_faith_106
 				size = 1861
 			}
-		}
-		region_state:V46 = {
 			create_pop = {
 				culture = misri
 				religion = converted_dynamic_faith_102
@@ -56389,7 +56381,7 @@
 		}
 	}
 	s:STATE_UPPER_EGYPT = {
-		region_state:EGY = {
+		region_state:V27 = {
 			create_pop = {
 				culture = misri
 				religion = converted_dynamic_faith_102
