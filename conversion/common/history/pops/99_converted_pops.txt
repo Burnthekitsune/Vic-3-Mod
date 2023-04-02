@@ -39655,13 +39655,6 @@
 		}
 	}
 	s:STATE_NUNAVUT = {
-		region_state:A05 = {
-			create_pop = {
-				culture = inuit
-				religion = animist
-				size = 11980
-			}
-		}
 		region_state:D04 = {
 			create_pop = {
 				culture = athabaskan
@@ -39681,14 +39674,17 @@
 				size = 11980
 			}
 		}
-		region_state:N08 = {
+		region_state:X10 = {
 			create_pop = {
 				culture = inuit
 				religion = animist
 				size = 11980
 			}
-		}
-		region_state:X10 = {
+			create_pop = {
+				culture = inuit
+				religion = animist
+				size = 11980
+			}
 			create_pop = {
 				culture = inuit
 				religion = animist
