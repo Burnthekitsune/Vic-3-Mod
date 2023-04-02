@@ -1036,3 +1036,243 @@ ase_event.27 = { # Fail
 }
 
 # Colony Authority 
+
+ase_event.30 = {
+	placement = root
+	type = country_event
+	title = ase_event.30.t
+	desc = ase_event.30.d
+	icon = "gfx/interface/icons/event_icons/event_default.dds"
+	
+	event_image = {
+		video = "gfx/event_pictures/europenorthamerica_political_extremism.bk2"
+	}
+	
+	duration = 5
+	
+	option = {
+		name = ase_event.30.a
+		change_variable = {
+			name = colonial_power
+			subtract = 1
+		}
+		ai_chance = {
+			base = 100
+		}
+	}
+	
+	option = {
+		name = ase_event.30.b
+		change_variable = {
+			name = colonial_power
+			add = 1
+		}
+		c:NEN = {
+		create_diplomatic_play = {
+			name = hau_war
+			target_state = s:STATE_NEW_YORK.region_state:IRO
+			war = yes
+			type = dp_annex_war
+			
+			add_war_goal = {
+				holder = c:IRO
+				type = conquer_state
+				target_state = s:STATE_NEW_YORK.region_state:NEN
+			}
+			add_war_goal = {
+				holder = c:IRO
+				type = conquer_state
+				target_state = s:STATE_PENNSYLVANIA.region_state:NEN
+			}
+			
+		}
+		}
+		ai_chance = {
+			base = 100
+		}
+	}
+}
+
+ase_event.31 = {
+	placement = root
+	type = country_event
+	title = ase_event.31.t
+	desc = ase_event.31.d
+	icon = "gfx/interface/icons/event_icons/event_default.dds"
+	
+	event_image = {
+		video = "gfx/event_pictures/europenorthamerica_political_extremism.bk2"
+	}
+	
+	duration = 5
+	
+	immediate = {
+		set_variable = {
+			name = colonial_hoc_done
+		}
+		set_variable = {
+			name = colonial_hoc_cooldown
+			days = 365
+		}
+	}
+	
+	option = {
+		name = ase_event.31.a
+		change_variable = {
+			name = colonial_power
+			subtract = 3
+		}
+		ai_chance = {
+			base = 100
+		}
+	}
+	option = {
+		name = ase_event.31.b
+		change_variable = {
+			name = colonial_power
+			add = 1
+		}
+		add_treasury = -100000
+		c:NEN = {
+			add_treasury = 10000
+		}
+		c:X84 = {
+			add_treasury = 10000
+		}
+		c:ONT = {
+			add_treasury = 10000
+		}
+		c:X29 = {
+			add_treasury = 10000
+		}
+		c:WIN = {
+			add_treasury = 10000
+		}
+		c:NIC = {
+			add_treasury = 10000
+		}
+		c:GCO = {
+			add_treasury = 10000
+		}
+		c:X20 = {
+			add_treasury = 10000
+		}
+		c:X28 = {
+			add_treasury = 10000
+		}
+		c:X24 = {
+			add_treasury = 10000
+		}
+		ai_chance = {
+			base = 100
+		}
+	}
+	option = {
+		name = ase_event.31.c
+		change_variable = {
+			name = colonial_power
+			add = 2
+		}
+		add_treasury = -200000
+		c:NEN = {
+			add_treasury = 20000
+		}
+		c:X84 = {
+			add_treasury = 20000
+		}
+		c:ONT = {
+			add_treasury = 20000
+		}
+		c:X29 = {
+			add_treasury = 20000
+		}
+		c:WIN = {
+			add_treasury = 20000
+		}
+		c:NIC = {
+			add_treasury = 20000
+		}
+		c:GCO = {
+			add_treasury = 20000
+		}
+		c:X20 = {
+			add_treasury = 20000
+		}
+		c:X28 = {
+			add_treasury = 20000
+		}
+		c:X24 = {
+			add_treasury = 20000
+		}
+		ai_chance = {
+			base = 100
+		}
+	}
+}
+
+# Colony Results
+ase_event.32 = { #Pass
+	placement = root
+	type = country_event
+	title = ase_event.32.t
+	desc = ase_event.32.d
+	icon = "gfx/interface/icons/event_icons/event_default.dds"
+	
+	event_image = {
+		video = "gfx/event_pictures/europenorthamerica_political_extremism.bk2"
+	}
+	
+	duration = 5
+	
+	option = {
+		name = ase_event.32.a
+		
+		ai_chance = {
+			base = 100
+		}
+	}
+}
+
+ase_event.33 = { # Compromise
+	placement = root
+	type = country_event
+	title = ase_event.33.t
+	desc = ase_event.33.d
+	icon = "gfx/interface/icons/event_icons/event_default.dds"
+	
+	event_image = {
+		video = "gfx/event_pictures/europenorthamerica_political_extremism.bk2"
+	}
+	
+	duration = 5
+	
+	option = {
+		name = ase_event.33.a
+		
+		ai_chance = {
+			base = 100
+		}
+	}
+}
+
+ase_event.34 = { # Fail
+	placement = root
+	type = country_event
+	title = ase_event.34.t
+	desc = ase_event.34.d
+	icon = "gfx/interface/icons/event_icons/event_default.dds"
+	
+	event_image = {
+		video = "gfx/event_pictures/europenorthamerica_political_extremism.bk2"
+	}
+	
+	duration = 5
+	
+	option = {
+		name = ase_event.34.a
+		
+		ai_chance = {
+			base = 100
+		}
+	}
+}

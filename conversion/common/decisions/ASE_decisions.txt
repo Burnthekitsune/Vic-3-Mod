@@ -86,3 +86,54 @@ allow_elections = {
 		base = 0
 	}
 }
+
+burmuda_customs = {
+	is_shown = {
+		this = c:X10
+		NOT = { has_variable = burmuda_union }
+	}
+	possible = {
+		c:X15 = {
+			is_junior_in_customs_union = yes
+		}
+	}
+	when_taken = {
+		change_variable = {
+			name = colonial_power
+			add = 1
+		}
+		set_variable = {
+			name = burmuda_union
+		} 
+	}
+	ai_chance = {
+		base = 100
+	}
+}
+
+sell_baja = {
+	is_shown = {
+		this = c:X10
+		NOT = { has_variable = sold_baja }
+		c:X83 = {
+			is_direct_subject_of = c:X10
+		}
+	}
+	
+	possible = {
+		always = yes
+	}
+	when_taken = {
+		c:X42 = {
+			annex = c:X83
+			add_primary_culture = cu:neo-mexico_colony-faykinghian
+		}
+		change_variable = {
+			name = colonial_power
+			add = 2
+		}
+	}
+	ai_chance = {
+		base = 100
+	}
+}

@@ -278,7 +278,9 @@ je_america_authority = {
 			NOT = { custom_tooltip = ase_max_america }
 			var:colonial_power = 0
 			var:colonial_power = 10
+			has_variable = colonial_hoc_done
 		}
+		NOT = { has_variable = colonial_hoc_cooldown }
 	}
 	
 	on_complete = {
@@ -286,6 +288,7 @@ je_america_authority = {
 			limit = {
 				var:colonial_power = 0
 			}
+			trigger_event = ase_authority.34
 			change_variable = { 
 				name = ase_authority
 				subtract = 3
@@ -318,6 +321,7 @@ je_america_authority = {
 			limit = {
 				var:colonial_power = 10
 			}
+			trigger_event = ase_authority.32
 			change_variable = { 
 				name = ase_authority
 				add = 2
@@ -335,6 +339,7 @@ je_america_authority = {
 					var:colonial_power = 0
 				}
 			}
+			trigger_event = ase_authority.33
 			change_variable = { 
 				name = ase_authority
 				subtract = 1
