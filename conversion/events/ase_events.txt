@@ -1436,6 +1436,12 @@ ase_event.42 = {
 				value = 0.1
 			}
 		}
+		s:STATE_JIANGXI.region_state:W34 = {
+			convert_population = {
+				target = rel:converted_dynamic_faith_102
+				value = 0.1
+			}
+		}
 		s:STATE_NANJING.region_state:W34 = {
 			convert_population = {
 				target = rel:converted_dynamic_faith_102
@@ -1536,7 +1542,7 @@ ase_event.43 = {
 		}
 	}
 	option = {
-		name = ase_event.43.a
+		name = ase_event.43.b
 		change_variable = {
 			name = chinese_power
 			subtract = 1

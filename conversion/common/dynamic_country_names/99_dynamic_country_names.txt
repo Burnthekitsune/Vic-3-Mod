@@ -65,7 +65,11 @@ W87 = {
 		adjective = dyn_c_w87_adj
 		
 		trigger = {
-			has_variable = companies_united
+			NOT = {
+				exists = c:W90
+				exists = c:W94
+				is_subject = yes
+			}
 		}
 	}
 	
@@ -74,7 +78,11 @@ W87 = {
 		adjective = dyn_c_w87_adj
 		
 		trigger = {
-			has_variable = companies_independant
+			NOT = {
+				exists = c:W90
+				exists = c:W94
+				is_subject = no
+			}
 		}
 	}
 }
