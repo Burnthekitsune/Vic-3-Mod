@@ -3516,12 +3516,8 @@
 	}
 	s:STATE_LOWER_EGYPT = {
 		create_state = {
-			country = c:EGY
-			owned_provinces = { x5011E0 xC09060 }
-		}
-		create_state = {
 			country = c:V27
-			owned_provinces = { x2050A0 x409060 x48E2A5 x50D0E0 x6F13AD x7ABE4B xA0D020 xC37990 xD050E0 xF47AAA }
+			owned_provinces = { x5011E0 xC09060 x2050A0 x409060 x48E2A5 x50D0E0 x6F13AD x7ABE4B xA0D020 xC37990 xD050E0 xF47AAA }
 		}
 		add_homeland = misri
 		add_homeland = msir
