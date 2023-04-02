@@ -91,7 +91,7 @@
 		}
 		
 		trigger_event = {
-			id = aseevent.42
+			id = aseevent.43
 			days = 4200
 		}
 	}
