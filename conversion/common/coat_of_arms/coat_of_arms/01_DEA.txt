@@ -247,7 +247,7 @@ V27 = {
 		texture="ce_sun_philippines.dds"
 		instance={
 			position={ 0.5 0.3 }
-			scale={ 1 1 }
+			scale={ 0.7 0.7 }
 		}
 	}
 	colored_emblem={
@@ -255,7 +255,7 @@ V27 = {
 		texture="ce_stripe_bottom_raised.dds"
 		instance={
 			position={ 0.5 0.5 }
-			scale={ 1 1 }
+			scale={ 1 0.5 }
 		}
 	}
 }
