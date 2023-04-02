@@ -248,7 +248,7 @@ ase_event.4 = {
 			add = 1
 		}
 		change_relations = {
-			tcountry = c:W17
+			country = c:W17
 			value = -50
 		}
 		ai_chance = {
@@ -270,7 +270,7 @@ ase_event.4 = {
 			set_state_owner = c:W17
 		}
 		change_relations = {
-			tcountry = c:W17
+			country = c:W17
 			value = 50
 		}
 		ai_chance = {
@@ -520,7 +520,7 @@ ase_event.11 = {
 		}
 		add_modifier = {
 			name = poltical_turmoil
-			monts = 12
+			months = 12
 		}
 		ai_chance = {
 			base = 100
@@ -568,7 +568,7 @@ ase_event.12 = {
 			add = 1
 		}
 		change_relations = {
-			tcountry = c:GBR
+			country = c:GBR
 			value = -50
 		}
 		ai_chance = {
@@ -582,7 +582,7 @@ ase_event.12 = {
 			add = 1
 		}
 		change_relations = {
-			tcountry = c:W17
+			country = c:W17
 			value = -50
 		}
 		ai_chance = {
@@ -596,7 +596,7 @@ ase_event.12 = {
 			add = 1
 		}
 		change_relations = {
-			tcountry = c:SCA
+			country = c:SCA
 			value = -50
 		}
 		ai_chance = {
@@ -703,23 +703,23 @@ ase_event.20 = {
 			add = 2
 		}
 		change_relations = {
-			tcountry = c:SCA
+			country = c:SCA
 			value = -20
 		}
 		change_relations = {
-			tcountry = c:GBR
+			country = c:GBR
 			value = -20
 		}
 		change_relations = {
-			tcountry = c:EGY
+			country = c:EGY
 			value = -20
 		}
 		change_relations = {
-			tcountry = c:W17
+			country = c:W17
 			value = -20
 		}
 		change_relations = {
-			tcountry = c:V23
+			country = c:V23
 			value = -20
 		}
 		ai_chance = {
@@ -754,7 +754,7 @@ ase_event.21 = {
 			}
 			add_modifier = {
 				name = recent_conversion
-				monts = 60
+				months = 60
 			}
 		}
 		s:STATE_SOUTH_MADAGASCAR.region_state:X10 = {
@@ -764,7 +764,7 @@ ase_event.21 = {
 			}
 			add_modifier = {
 				name = recent_conversion
-				monts = 60
+				months = 60
 			}
 		}
 		ai_chance = {
@@ -815,7 +815,7 @@ ase_event.22 = {
 			}
 			add_modifier = {
 				name = recent_conversion
-				monts = 24
+				months = 24
 			}
 		}
 		s:STATE_TLEMCEN.region_state:X10 = {
@@ -825,7 +825,7 @@ ase_event.22 = {
 			}
 			add_modifier = {
 				name = recent_conversion
-				monts = 24
+				months = 24
 			}
 		}
 		s:STATE_CONSTANTINE.region_state:X10 = {
@@ -835,7 +835,7 @@ ase_event.22 = {
 			}
 			add_modifier = {
 				name = recent_conversion
-				monts = 24
+				months = 24
 			}
 		}
 		s:STATE_EAST_SAHARA.region_state:X10 = {
@@ -845,7 +845,7 @@ ase_event.22 = {
 			}
 			add_modifier = {
 				name = recent_conversion
-				monts = 24
+				months = 24
 			}
 		}
 		change_variable = {
@@ -878,7 +878,7 @@ ase_event.23 = {
 			add = 1
 		}
 		change_relations = {
-			tcountry = c:W34
+			country = c:W34
 			value = -50
 		}
 		c:DAI = {
@@ -937,15 +937,19 @@ ase_event.24 = {
 			add_homeland = indian_alshamali
 		}
 		s:STATE_NORTH_MADAGASCAR.region_state:X10 = {
-			change_pop_culture  = {
+			every_scope_pop = {
+			change_pop_culture = {
 				target = cu:indian_alshamali
 				value = 0.1
 			}
+			}
 		}
 		s:STATE_SOUTH_MADAGASCAR.region_state:X10 = {
-			change_pop_culture  = {
+			every_scope_pop = {
+			change_pop_culture = {
 				target = cu:indian_alshamali
 				value = 0.1
+			}
 			}
 		}
 		ai_chance = {
