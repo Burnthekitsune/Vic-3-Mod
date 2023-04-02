@@ -1,1 +1,1 @@
-namespace = three_many_chinas
+namespace = threemanychinas
