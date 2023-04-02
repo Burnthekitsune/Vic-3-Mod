@@ -229,7 +229,9 @@ je_china_authority = {
 			NOT = { custom_tooltip = ase_max_china }
 			var:chinese_power = 0
 			var:chinese_power = 10
+			has_variable = china_hoc_done
 		}
+		NOT = { has_variable = china_hoc_cooldown }
 	}
 	
 	on_complete = {

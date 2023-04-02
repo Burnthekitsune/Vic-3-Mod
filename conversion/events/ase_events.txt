@@ -1508,6 +1508,16 @@ ase_event.43 = {
 	
 	duration = 5
 	
+	immediate = {
+		set_variable = {
+			name = china_hoc_done
+		}
+		set_variable = {
+			name = china_hoc_cooldown
+			days = 365
+		}
+	}
+	
 	option = {
 		name = ase_event.43.a
 		change_variable = {
