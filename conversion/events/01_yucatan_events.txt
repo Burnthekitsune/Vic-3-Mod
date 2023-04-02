@@ -1,27 +1,27 @@
-namespace = second_mayapan
+﻿namespace = yucatanunification
 
-yucatan_unification.1 = {
+yucatanunification.1 = {
 	type = country_event
 	placement = ROOT
 
-	title = yucatan_unification.1.t
+	title = yucatanunification.1.t
 	desc = {
 		first_valid = {
 			triggered_desc = {
-				desc = yucatan_unification.1.d1
+				desc = yucatanunification.1.d1
 				trigger = {
 					country_has_primary_culture = cu:mayan
 				}
 			}
 			triggered_desc = {
-				desc = yucatan_unification.1.d2
+				desc = yucatanunification.1.d2
 				trigger = {
 					country_has_primary_culture = cu:zapotec
 				}
 			}
 		}
 	}
-	flavor = yucatan_unification.1.f
+	flavor = yucatanunification.1.f
 
 	event_image = {
 		video = "gfx/event_pictures/unspecific_signed_contract.bk2"
@@ -41,7 +41,7 @@ yucatan_unification.1 = {
 	}
 
 	option = {
-		name = yucatan_unification.1.a
+		name = yucatanunification.1.a
 		default_option = yes
 		every_interest_group = {
 			limit = {
@@ -70,13 +70,13 @@ yucatan_unification.1 = {
 
 
 # Biscarp
-yucatan_unification.2 = {
+yucatanunification.2 = {
 	type = country_event
 	placement = ROOT
 
-	title = yucatan_unification.3.t
-	desc = yucatan_unification.3.d
-	flavor = yucatan_unification.3.f
+	title = yucatanunification.3.t
+	desc = yucatanunification.3.d
+	flavor = yucatanunification.3.f
 
 	gui_window = event_window_1char_tabloid
 
@@ -118,7 +118,7 @@ yucatan_unification.2 = {
 	}
 
 	option = {
-		name = yucatan_unification.3.a
+		name = yucatanunification.3.a
 		default_option = yes
 		show_as_tooltip = {
 			create_character = {
@@ -142,7 +142,7 @@ yucatan_unification.2 = {
 		}
 	}
 	option = {
-		name = yucatan_unification.3.b
+		name = yucatanunification.3.b
 		default_option = yes
 		show_as_tooltip = {
 			create_character = {

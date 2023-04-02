@@ -1,11 +1,11 @@
-﻿namespace = ase_event
+﻿namespace = aseevent
 
-ase_event.1 = { # Intro
+aseevent.1 = { # Intro
 	placement = root
 	type = country_event
-	title = ase_event.1.t
-	desc = ase_event.1.d
-	flavor = ase_event.1.f
+	title = aseevent.1.t
+	desc = aseevent.1.d
+	flavor = aseevent.1.f
 	icon = "gfx/interface/icons/event_icons/event_default.dds"
 	
 	event_image = {
@@ -113,7 +113,7 @@ ase_event.1 = { # Intro
 	}
 	
 	option = {
-		name = ase_event.1.a
+		name = aseevent.1.a
 		change_variable = {
 			name = caliph_power
 			add = 6
@@ -143,11 +143,11 @@ ase_event.1 = { # Intro
 
 # France
 
-ase_event.2 = {
+aseevent.2 = {
 	placement = root
 	type = country_event
-	title = ase_event.2.t
-	desc = ase_event.2.d
+	title = aseevent.2.t
+	desc = aseevent.2.d
 	icon = "gfx/interface/icons/event_icons/event_default.dds"
 	
 	event_image = {
@@ -157,7 +157,7 @@ ase_event.2 = {
 	duration = 5
 	
 	option = {
-		name = ase_event.2.a
+		name = aseevent.2.a
 		change_variable = {
 			name = french_power
 			add = 1
@@ -172,7 +172,7 @@ ase_event.2 = {
 	}
 	
 	option = {
-		name = ase_event.2.b
+		name = aseevent.2.b
 		change_variable = {
 			name = french_power
 			add = 2
@@ -183,11 +183,11 @@ ase_event.2 = {
 	}
 }
 
-ase_event.3 = {
+aseevent.3 = {
 	placement = root
 	type = country_event
-	title = ase_event.3.t
-	desc = ase_event.3.d
+	title = aseevent.3.t
+	desc = aseevent.3.d
 	icon = "gfx/interface/icons/event_icons/event_default.dds"
 	
 	event_image = {
@@ -197,7 +197,7 @@ ase_event.3 = {
 	duration = 5
 	
 	option = {
-		name = ase_event.3.a
+		name = aseevent.3.a
 		change_variable = {
 			name = french_power
 			subtract = 2
@@ -207,7 +207,7 @@ ase_event.3 = {
 		}
 	}
 	option = {
-		name = ase_event.3.b
+		name = aseevent.3.b
 		change_variable = {
 			name = ase_authority
 			subtract = 2
@@ -217,7 +217,7 @@ ase_event.3 = {
 		}
 	}
 	option = {
-		name = ase_event.3.c
+		name = aseevent.3.c
 		change_variable = {
 			name = caliph_power
 			subtract = 2
@@ -228,11 +228,11 @@ ase_event.3 = {
 	}
 }
 
-ase_event.4 = {
+aseevent.4 = {
 	placement = root
 	type = country_event
-	title = ase_event.4.t
-	desc = ase_event.4.d
+	title = aseevent.4.t
+	desc = aseevent.4.d
 	icon = "gfx/interface/icons/event_icons/event_default.dds"
 	
 	event_image = {
@@ -242,7 +242,7 @@ ase_event.4 = {
 	duration = 5
 	
 	option = {
-		name = ase_event.4.a
+		name = aseevent.4.a
 		change_variable = {
 			name = french_power
 			add = 1
@@ -258,7 +258,7 @@ ase_event.4 = {
 	
 	option = {
 		name =
-		ase_event.4.b
+		aseevent.4.b
 		change_variable = {
 			name = french_power
 			subtract = 1
@@ -279,11 +279,11 @@ ase_event.4 = {
 	}
 }
 
-ase_event.5 = {
+aseevent.5 = {
 	placement = root
 	type = country_event
-	title = ase_event.5.t
-	desc = ase_event.5.d
+	title = aseevent.5.t
+	desc = aseevent.5.d
 	icon = "gfx/interface/icons/event_icons/event_default.dds"
 	
 	event_image = {
@@ -293,7 +293,7 @@ ase_event.5 = {
 	duration = 5
 	
 	option = {
-		name = ase_event.5.a
+		name = aseevent.5.a
 		if = {
 			limit = {
 				has_law = law_type:law_autocracy
@@ -320,11 +320,11 @@ ase_event.5 = {
 	}
 }
 
-ase_event.6 = {
+aseevent.6 = {
 	placement = root
 	type = country_event
-	title = ase_event.6.t
-	desc = ase_event.6.d
+	title = aseevent.6.t
+	desc = aseevent.6.d
 	icon = "gfx/interface/icons/event_icons/event_default.dds"
 	
 	event_image = {
@@ -344,7 +344,7 @@ ase_event.6 = {
 	}
 	
 	option = {
-		name = ase_event.6.a
+		name = aseevent.6.a
 		change_variable = {
 			name = french_power
 			subtract = 2
@@ -359,7 +359,7 @@ ase_event.6 = {
 	}
 	
 	option = {
-		name = ase_event.6.b
+		name = aseevent.6.b
 		change_variable = {
 			name = french_power
 			add = 1
@@ -371,7 +371,7 @@ ase_event.6 = {
 	}
 	
 	option = {
-		name = ase_event.6.c
+		name = aseevent.6.c
 		change_variable = {
 			name = french_power
 			add = 2
@@ -383,7 +383,7 @@ ase_event.6 = {
 	}
 	
 	option = {
-		name = ase_event.6.e
+		name = aseevent.6.e
 		change_variable = {
 			name = french_power
 			add = 3
@@ -397,11 +397,11 @@ ase_event.6 = {
 
 # French Results
 
-ase_event.7 = { #Pass
+aseevent.7 = { #Pass
 	placement = root
 	type = country_event
-	title = ase_event.7.t
-	desc = ase_event.7.d
+	title = aseevent.7.t
+	desc = aseevent.7.d
 	icon = "gfx/interface/icons/event_icons/event_default.dds"
 	
 	event_image = {
@@ -411,7 +411,7 @@ ase_event.7 = { #Pass
 	duration = 5
 	
 	option = {
-		name = ase_event.7.a
+		name = aseevent.7.a
 		
 		ai_chance = {
 			base = 100
@@ -419,11 +419,11 @@ ase_event.7 = { #Pass
 	}
 }
 
-ase_event.8 = { # Compromise
+aseevent.8 = { # Compromise
 	placement = root
 	type = country_event
-	title = ase_event.8.t
-	desc = ase_event.8.d
+	title = aseevent.8.t
+	desc = aseevent.8.d
 	icon = "gfx/interface/icons/event_icons/event_default.dds"
 	
 	event_image = {
@@ -433,7 +433,7 @@ ase_event.8 = { # Compromise
 	duration = 5
 	
 	option = {
-		name = ase_event.8.a
+		name = aseevent.8.a
 		
 		ai_chance = {
 			base = 100
@@ -441,11 +441,11 @@ ase_event.8 = { # Compromise
 	}
 }
 
-ase_event.9 = { # Fail
+aseevent.9 = { # Fail
 	placement = root
 	type = country_event
-	title = ase_event.9.t
-	desc = ase_event.9.d
+	title = aseevent.9.t
+	desc = aseevent.9.d
 	icon = "gfx/interface/icons/event_icons/event_default.dds"
 	
 	event_image = {
@@ -455,7 +455,7 @@ ase_event.9 = { # Fail
 	duration = 5
 	
 	option = {
-		name = ase_event.9.a
+		name = aseevent.9.a
 		
 		ai_chance = {
 			base = 100
@@ -464,11 +464,11 @@ ase_event.9 = { # Fail
 }
 
 # Authority
-ase_event.10 = {
+aseevent.10 = {
 	placement = root
 	type = country_event
-	title = ase_event.10.t
-	desc = ase_event.10.d
+	title = aseevent.10.t
+	desc = aseevent.10.d
 	icon = "gfx/interface/icons/event_icons/event_default.dds"
 	
 	event_image = {
@@ -478,7 +478,7 @@ ase_event.10 = {
 	duration = 5
 	
 	option = {
-		name = ase_event.10.a
+		name = aseevent.10.a
 		change_variable = {
 			name = ase_authority
 			subtract = 1
@@ -489,11 +489,11 @@ ase_event.10 = {
 	}
 }
 
-ase_event.11 = {
+aseevent.11 = {
 	placement = root
 	type = country_event
-	title = ase_event.11.t
-	desc = ase_event.11.d
+	title = aseevent.11.t
+	desc = aseevent.11.d
 	icon = "gfx/interface/icons/event_icons/event_default.dds"
 	
 	event_image = {
@@ -503,7 +503,7 @@ ase_event.11 = {
 	duration = 5
 	
 	option = {
-		name = ase_event.11.a
+		name = aseevent.11.a
 		change_variable = {
 			name = ase_authority
 			subtract = 1
@@ -513,7 +513,7 @@ ase_event.11 = {
 		}
 	}
 	option = {
-		name = ase_event.11.b
+		name = aseevent.11.b
 		change_variable = {
 			name = ase_authority
 			add = 1
@@ -528,11 +528,11 @@ ase_event.11 = {
 	}
 }
 
-ase_event.12 = {
+aseevent.12 = {
 	placement = root
 	type = country_event
-	title = ase_event.12.t
-	desc = ase_event.12.d
+	title = aseevent.12.t
+	desc = aseevent.12.d
 	icon = "gfx/interface/icons/event_icons/event_default.dds"
 	
 	event_image = {
@@ -552,7 +552,7 @@ ase_event.12 = {
 	}
 	
 	option = {
-		name = ase_event.12.a
+		name = aseevent.12.a
 		change_variable = {
 			name = ase_authority
 			subtract = 1
@@ -562,7 +562,7 @@ ase_event.12 = {
 		}
 	}
 	option = {
-		name = ase_event.12.b
+		name = aseevent.12.b
 		change_variable = {
 			name = ase_authority
 			add = 1
@@ -576,7 +576,7 @@ ase_event.12 = {
 		}
 	}
 	option = {
-		name = ase_event.12.c
+		name = aseevent.12.c
 		change_variable = {
 			name = ase_authority
 			add = 1
@@ -590,7 +590,7 @@ ase_event.12 = {
 		}
 	}
 	option = {
-		name = ase_event.12.e
+		name = aseevent.12.e
 		change_variable = {
 			name = ase_authority
 			add = 1
@@ -606,11 +606,11 @@ ase_event.12 = {
 }
 
 #Authority Results
-ase_event.13 = { #Pass
+aseevent.13 = { #Pass
 	placement = root
 	type = country_event
-	title = ase_event.13.t
-	desc = ase_event.13.d
+	title = aseevent.13.t
+	desc = aseevent.13.d
 	icon = "gfx/interface/icons/event_icons/event_default.dds"
 	
 	event_image = {
@@ -620,7 +620,7 @@ ase_event.13 = { #Pass
 	duration = 5
 	
 	option = {
-		name = ase_event.13.a
+		name = aseevent.13.a
 		
 		ai_chance = {
 			base = 100
@@ -628,11 +628,11 @@ ase_event.13 = { #Pass
 	}
 }
 
-ase_event.14 = { # Compromise
+aseevent.14 = { # Compromise
 	placement = root
 	type = country_event
-	title = ase_event.14.t
-	desc = ase_event.14.d
+	title = aseevent.14.t
+	desc = aseevent.14.d
 	icon = "gfx/interface/icons/event_icons/event_default.dds"
 	
 	event_image = {
@@ -642,7 +642,7 @@ ase_event.14 = { # Compromise
 	duration = 5
 	
 	option = {
-		name = ase_event.14.a
+		name = aseevent.14.a
 		
 		ai_chance = {
 			base = 100
@@ -650,11 +650,11 @@ ase_event.14 = { # Compromise
 	}
 }
 
-ase_event.15 = { # Fail
+aseevent.15 = { # Fail
 	placement = root
 	type = country_event
-	title = ase_event.15.t
-	desc = ase_event.15.d
+	title = aseevent.15.t
+	desc = aseevent.15.d
 	icon = "gfx/interface/icons/event_icons/event_default.dds"
 	
 	event_image = {
@@ -664,7 +664,7 @@ ase_event.15 = { # Fail
 	duration = 5
 	
 	option = {
-		name = ase_event.15.a
+		name = aseevent.15.a
 		
 		ai_chance = {
 			base = 100
@@ -673,11 +673,11 @@ ase_event.15 = { # Fail
 }
 
 # Caliph
-ase_event.20 = {
+aseevent.20 = {
 	placement = root
 	type = country_event
-	title = ase_event.20.t
-	desc = ase_event.20.d
+	title = aseevent.20.t
+	desc = aseevent.20.d
 	icon = "gfx/interface/icons/event_icons/event_default.dds"
 	
 	event_image = {
@@ -687,7 +687,7 @@ ase_event.20 = {
 	duration = 5
 	
 	option = {
-		name = ase_event.20.a
+		name = aseevent.20.a
 		change_variable = {
 			name = caliph_power
 			subtract = 1
@@ -697,7 +697,7 @@ ase_event.20 = {
 		}
 	}
 	option = {
-		name = ase_event.20.b
+		name = aseevent.20.b
 		change_variable = {
 			name = caliph_power
 			add = 2
@@ -728,11 +728,11 @@ ase_event.20 = {
 	}
 }
 
-ase_event.21 = {
+aseevent.21 = {
 	placement = root
 	type = country_event
-	title = ase_event.21.t
-	desc = ase_event.21.d
+	title = aseevent.21.t
+	desc = aseevent.21.d
 	icon = "gfx/interface/icons/event_icons/event_default.dds"
 	
 	event_image = {
@@ -742,7 +742,7 @@ ase_event.21 = {
 	duration = 5
 	
 	option = {
-		name = ase_event.21.a
+		name = aseevent.21.a
 		change_variable = {
 			name = caliph_power
 			add = 1
@@ -772,7 +772,7 @@ ase_event.21 = {
 		}
 	}
 	option = {
-		name = ase_event.21.a
+		name = aseevent.21.a
 		change_variable = {
 			name = caliph_power
 			subtract = 1
@@ -783,11 +783,11 @@ ase_event.21 = {
 	}
 }
 
-ase_event.22 = {
+aseevent.22 = {
 	placement = root
 	type = country_event
-	title = ase_event.22.t
-	desc = ase_event.22.d
+	title = aseevent.22.t
+	desc = aseevent.22.d
 	icon = "gfx/interface/icons/event_icons/event_default.dds"
 	
 	event_image = {
@@ -797,7 +797,7 @@ ase_event.22 = {
 	duration = 5
 	
 	option = {
-		name = ase_event.22.a
+		name = aseevent.22.a
 		change_variable = {
 			name = caliph_power
 			subtract = 1
@@ -807,7 +807,7 @@ ase_event.22 = {
 		}
 	}
 	option = {
-		name = ase_event.22.b
+		name = aseevent.22.b
 		s:STATE_ALGIERS.region_state:X10 = {
 			convert_population = {
 				target = rel:converted_dynamic_faith_102
@@ -858,11 +858,11 @@ ase_event.22 = {
 	}
 }
 
-ase_event.23 = {
+aseevent.23 = {
 	placement = root
 	type = country_event
-	title = ase_event.23.t
-	desc = ase_event.23.d
+	title = aseevent.23.t
+	desc = aseevent.23.d
 	icon = "gfx/interface/icons/event_icons/event_default.dds"
 	
 	event_image = {
@@ -872,7 +872,7 @@ ase_event.23 = {
 	duration = 5
 	
 	option = {
-		name = ase_event.23.a
+		name = aseevent.23.a
 		change_variable = {
 			name = caliph_power
 			add = 1
@@ -890,7 +890,7 @@ ase_event.23 = {
 	}
 	
 	option = {
-		name = ase_event.23.b
+		name = aseevent.23.b
 		change_variable = {
 			name = caliph_power
 			subtract = 1
@@ -901,11 +901,11 @@ ase_event.23 = {
 	}
 }
 
-ase_event.24 = {
+aseevent.24 = {
 	placement = root
 	type = country_event
-	title = ase_event.24.t
-	desc = ase_event.24.d
+	title = aseevent.24.t
+	desc = aseevent.24.d
 	icon = "gfx/interface/icons/event_icons/event_default.dds"
 	
 	event_image = {
@@ -925,7 +925,7 @@ ase_event.24 = {
 	}
 	
 	option = {
-		name = ase_event.24.a
+		name = aseevent.24.a
 		change_variable = {
 			name = caliph_power
 			add = 1
@@ -957,7 +957,7 @@ ase_event.24 = {
 		}
 	}
 	option = {
-		name = ase_event.24.b
+		name = aseevent.24.b
 		change_variable = {
 			name = caliph_power
 			subtract = 1
@@ -969,11 +969,11 @@ ase_event.24 = {
 }
 
 # Caliph Results
-ase_event.25 = { #Pass
+aseevent.25 = { #Pass
 	placement = root
 	type = country_event
-	title = ase_event.25.t
-	desc = ase_event.25.d
+	title = aseevent.25.t
+	desc = aseevent.25.d
 	icon = "gfx/interface/icons/event_icons/event_default.dds"
 	
 	event_image = {
@@ -983,7 +983,7 @@ ase_event.25 = { #Pass
 	duration = 5
 	
 	option = {
-		name = ase_event.25.a
+		name = aseevent.25.a
 		
 		ai_chance = {
 			base = 100
@@ -991,11 +991,11 @@ ase_event.25 = { #Pass
 	}
 }
 
-ase_event.26 = { # Compromise
+aseevent.26 = { # Compromise
 	placement = root
 	type = country_event
-	title = ase_event.26.t
-	desc = ase_event.26.d
+	title = aseevent.26.t
+	desc = aseevent.26.d
 	icon = "gfx/interface/icons/event_icons/event_default.dds"
 	
 	event_image = {
@@ -1005,7 +1005,7 @@ ase_event.26 = { # Compromise
 	duration = 5
 	
 	option = {
-		name = ase_event.26.a
+		name = aseevent.26.a
 		
 		ai_chance = {
 			base = 100
@@ -1013,11 +1013,11 @@ ase_event.26 = { # Compromise
 	}
 }
 
-ase_event.27 = { # Fail
+aseevent.27 = { # Fail
 	placement = root
 	type = country_event
-	title = ase_event.27.t
-	desc = ase_event.27.d
+	title = aseevent.27.t
+	desc = aseevent.27.d
 	icon = "gfx/interface/icons/event_icons/event_default.dds"
 	
 	event_image = {
@@ -1027,7 +1027,7 @@ ase_event.27 = { # Fail
 	duration = 5
 	
 	option = {
-		name = ase_event.27.a
+		name = aseevent.27.a
 		
 		ai_chance = {
 			base = 100
@@ -1037,11 +1037,11 @@ ase_event.27 = { # Fail
 
 # Colony Authority 
 
-ase_event.30 = {
+aseevent.30 = {
 	placement = root
 	type = country_event
-	title = ase_event.30.t
-	desc = ase_event.30.d
+	title = aseevent.30.t
+	desc = aseevent.30.d
 	icon = "gfx/interface/icons/event_icons/event_default.dds"
 	
 	event_image = {
@@ -1051,7 +1051,7 @@ ase_event.30 = {
 	duration = 5
 	
 	option = {
-		name = ase_event.30.a
+		name = aseevent.30.a
 		change_variable = {
 			name = colonial_power
 			subtract = 1
@@ -1062,7 +1062,7 @@ ase_event.30 = {
 	}
 	
 	option = {
-		name = ase_event.30.b
+		name = aseevent.30.b
 		change_variable = {
 			name = colonial_power
 			add = 1
@@ -1093,11 +1093,11 @@ ase_event.30 = {
 	}
 }
 
-ase_event.31 = {
+aseevent.31 = {
 	placement = root
 	type = country_event
-	title = ase_event.31.t
-	desc = ase_event.31.d
+	title = aseevent.31.t
+	desc = aseevent.31.d
 	icon = "gfx/interface/icons/event_icons/event_default.dds"
 	
 	event_image = {
@@ -1117,7 +1117,7 @@ ase_event.31 = {
 	}
 	
 	option = {
-		name = ase_event.31.a
+		name = aseevent.31.a
 		change_variable = {
 			name = colonial_power
 			subtract = 3
@@ -1127,7 +1127,7 @@ ase_event.31 = {
 		}
 	}
 	option = {
-		name = ase_event.31.b
+		name = aseevent.31.b
 		change_variable = {
 			name = colonial_power
 			add = 1
@@ -1168,7 +1168,7 @@ ase_event.31 = {
 		}
 	}
 	option = {
-		name = ase_event.31.c
+		name = aseevent.31.c
 		change_variable = {
 			name = colonial_power
 			add = 2
@@ -1211,11 +1211,11 @@ ase_event.31 = {
 }
 
 # Colony Results
-ase_event.32 = { #Pass
+aseevent.32 = { #Pass
 	placement = root
 	type = country_event
-	title = ase_event.32.t
-	desc = ase_event.32.d
+	title = aseevent.32.t
+	desc = aseevent.32.d
 	icon = "gfx/interface/icons/event_icons/event_default.dds"
 	
 	event_image = {
@@ -1225,7 +1225,7 @@ ase_event.32 = { #Pass
 	duration = 5
 	
 	option = {
-		name = ase_event.32.a
+		name = aseevent.32.a
 		
 		ai_chance = {
 			base = 100
@@ -1233,11 +1233,11 @@ ase_event.32 = { #Pass
 	}
 }
 
-ase_event.33 = { # Compromise
+aseevent.33 = { # Compromise
 	placement = root
 	type = country_event
-	title = ase_event.33.t
-	desc = ase_event.33.d
+	title = aseevent.33.t
+	desc = aseevent.33.d
 	icon = "gfx/interface/icons/event_icons/event_default.dds"
 	
 	event_image = {
@@ -1247,7 +1247,7 @@ ase_event.33 = { # Compromise
 	duration = 5
 	
 	option = {
-		name = ase_event.33.a
+		name = aseevent.33.a
 		
 		ai_chance = {
 			base = 100
@@ -1255,11 +1255,11 @@ ase_event.33 = { # Compromise
 	}
 }
 
-ase_event.34 = { # Fail
+aseevent.34 = { # Fail
 	placement = root
 	type = country_event
-	title = ase_event.34.t
-	desc = ase_event.34.d
+	title = aseevent.34.t
+	desc = aseevent.34.d
 	icon = "gfx/interface/icons/event_icons/event_default.dds"
 	
 	event_image = {
@@ -1269,7 +1269,7 @@ ase_event.34 = { # Fail
 	duration = 5
 	
 	option = {
-		name = ase_event.34.a
+		name = aseevent.34.a
 		
 		ai_chance = {
 			base = 100
@@ -1279,11 +1279,11 @@ ase_event.34 = { # Fail
 
 # China Authority
 
-ase_event.40 = {
+aseevent.40 = {
 	placement = root
 	type = country_event
-	title = ase_event.40.t
-	desc = ase_event.40.d
+	title = aseevent.40.t
+	desc = aseevent.40.d
 	icon = "gfx/interface/icons/event_icons/event_default.dds"
 	
 	event_image = {
@@ -1293,7 +1293,7 @@ ase_event.40 = {
 	duration = 5
 	
 	option = {
-		name = ase_event.40.a
+		name = aseevent.40.a
 		change_variable = {
 			name = chinese_power
 			subtract = 1
@@ -1303,7 +1303,7 @@ ase_event.40 = {
 		}
 	}
 	option = {
-		name = ase_event.40.b
+		name = aseevent.40.b
 		change_variable = {
 			name = chinese_power
 			add = 1
@@ -1315,11 +1315,11 @@ ase_event.40 = {
 	}
 }
 
-ase_event.41 = {
+aseevent.41 = {
 	placement = root
 	type = country_event
-	title = ase_event.41.t
-	desc = ase_event.41.d
+	title = aseevent.41.t
+	desc = aseevent.41.d
 	icon = "gfx/interface/icons/event_icons/event_default.dds"
 	
 	event_image = {
@@ -1329,7 +1329,7 @@ ase_event.41 = {
 	duration = 5
 	
 	option = {
-		name = ase_event.41.a
+		name = aseevent.41.a
 		change_variable = {
 			name = chinese_power
 			subtract = 1
@@ -1344,7 +1344,7 @@ ase_event.41 = {
 	}
 	
 	option = {
-		name = ase_event.41.b
+		name = aseevent.41.b
 		change_variable = {
 			name = chinese_power
 			add = 1
@@ -1362,11 +1362,11 @@ ase_event.41 = {
 	}
 }
 
-ase_event.42 = {
+aseevent.42 = {
 	placement = root
 	type = country_event
-	title = ase_event.42.t
-	desc = ase_event.42.d
+	title = aseevent.42.t
+	desc = aseevent.42.d
 	icon = "gfx/interface/icons/event_icons/event_default.dds"
 	
 	event_image = {
@@ -1469,7 +1469,7 @@ ase_event.42 = {
 	}
 	
 	option = {
-		name = ase_event.42.a
+		name = aseevent.42.a
 		change_variable = {
 			name = chinese_power
 			add = 1
@@ -1490,7 +1490,7 @@ ase_event.42 = {
 	}
 	
 	option = {
-		name = ase_event.42.b
+		name = aseevent.42.b
 		change_variable = {
 			name = chinese_power
 			subtract = 1
@@ -1501,11 +1501,11 @@ ase_event.42 = {
 	}
 }
 
-ase_event.43 = {
+aseevent.43 = {
 	placement = root
 	type = country_event
-	title = ase_event.43.t
-	desc = ase_event.43.d
+	title = aseevent.43.t
+	desc = aseevent.43.d
 	icon = "gfx/interface/icons/event_icons/event_default.dds"
 	
 	event_image = {
@@ -1525,7 +1525,7 @@ ase_event.43 = {
 	}
 	
 	option = {
-		name = ase_event.43.a
+		name = aseevent.43.a
 		change_variable = {
 			name = chinese_power
 			add = 1
@@ -1542,7 +1542,7 @@ ase_event.43 = {
 		}
 	}
 	option = {
-		name = ase_event.43.b
+		name = aseevent.43.b
 		change_variable = {
 			name = chinese_power
 			subtract = 1
@@ -1554,11 +1554,11 @@ ase_event.43 = {
 }
 
 # China Results
-ase_event.44 = { #Pass
+aseevent.44 = { #Pass
 	placement = root
 	type = country_event
-	title = ase_event.44.t
-	desc = ase_event.44.d
+	title = aseevent.44.t
+	desc = aseevent.44.d
 	icon = "gfx/interface/icons/event_icons/event_default.dds"
 	
 	event_image = {
@@ -1568,7 +1568,7 @@ ase_event.44 = { #Pass
 	duration = 5
 	
 	option = {
-		name = ase_event.44.a
+		name = aseevent.44.a
 		
 		ai_chance = {
 			base = 100
@@ -1576,11 +1576,11 @@ ase_event.44 = { #Pass
 	}
 }
 
-ase_event.45 = { # Compromise
+aseevent.45 = { # Compromise
 	placement = root
 	type = country_event
-	title = ase_event.45.t
-	desc = ase_event.45.d
+	title = aseevent.45.t
+	desc = aseevent.45.d
 	icon = "gfx/interface/icons/event_icons/event_default.dds"
 	
 	event_image = {
@@ -1590,7 +1590,7 @@ ase_event.45 = { # Compromise
 	duration = 5
 	
 	option = {
-		name = ase_event.45.a
+		name = aseevent.45.a
 		
 		ai_chance = {
 			base = 100
@@ -1598,11 +1598,11 @@ ase_event.45 = { # Compromise
 	}
 }
 
-ase_event.46 = { # Fail
+aseevent.46 = { # Fail
 	placement = root
 	type = country_event
-	title = ase_event.46.t
-	desc = ase_event.46.d
+	title = aseevent.46.t
+	desc = aseevent.46.d
 	icon = "gfx/interface/icons/event_icons/event_default.dds"
 	
 	event_image = {
@@ -1612,7 +1612,7 @@ ase_event.46 = { # Fail
 	duration = 5
 	
 	option = {
-		name = ase_event.46.a
+		name = aseevent.46.a
 		
 		ai_chance = {
 			base = 100

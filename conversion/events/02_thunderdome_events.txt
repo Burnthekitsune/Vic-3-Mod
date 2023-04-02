@@ -1,4 +1,4 @@
-namespace = thunderdome
+﻿namespace = thunderdome
 
 # Mexican Unification
 thunderdome.1 = {

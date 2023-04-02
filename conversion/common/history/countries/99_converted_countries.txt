@@ -8845,7 +8845,7 @@
 			set_ig_bolstering = yes
  		}
 		trigger_event = {
-			id = ase_event.1
+			id = aseevent.1
 		}
 	}
 	c:X14 = {

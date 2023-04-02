@@ -1,4 +1,4 @@
-je_yucatan_unification = {
+﻿je_yucatan_unification = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 
 	is_shown_when_inactive = {
@@ -36,7 +36,7 @@ je_yucatan_unification = {
 
 	on_monthly_pulse = {
 		events = {
-			yucatan_unification.2 # Biscarp
+			yucatanunification.2 # Biscarp
 		}
 		effect = {
 			if = { 
@@ -47,7 +47,7 @@ je_yucatan_unification = {
 	}
 
 	on_complete = {
-		trigger_event = { id = yucatan_unification.1 } # Yucatan Confederation
+		trigger_event = { id = yucatanunification.1 } # Yucatan Confederation
 		remove_variable = je_unification_progress
 	}
 
@@ -60,7 +60,7 @@ je_mexican_unification = {
 
 	is_shown_when_inactive = {
 		OR = {
-			country_has_primary_culture = cu:maya
+			country_has_primary_culture = cu:mayan
 			country_has_primary_culture = cu:zapotec
 			country_has_primary_culture = cu:neo-mexico_colony-north_american_alshamali
 			country_has_primary_culture = cu:neo-texas_colony-north_american_alshamali

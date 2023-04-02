@@ -46,7 +46,7 @@ je_ase_authority = {
 			limit = {
 				var:ase_authority = 0
 			}
-			trigger_event = ase_event.15
+			trigger_event = aseevent.15
 			change_variable = { 
 				name = caliph_power
 				subtract = 3
@@ -70,7 +70,7 @@ je_ase_authority = {
 			limit = {
 				var:ase_authority = 10
 			}
-			trigger_event = ase_event.13
+			trigger_event = aseevent.13
 			change_variable = { 
 				name = caliph_power
 				add = 3
@@ -89,7 +89,7 @@ je_ase_authority = {
 			}
 		}
 		if = {
-			trigger_event = ase_event.14
+			trigger_event = aseevent.14
 			limit = {
 				NOT = {
 					var:ase_authority = 10
@@ -151,7 +151,7 @@ je_caliph_authority = {
 			limit = {
 				var:caliph_power = 0
 			}
-			trigger_event = ase_event.27
+			trigger_event = aseevent.27
 			change_variable = { 
 				name = ase_authority
 				subtract = 3
@@ -173,7 +173,7 @@ je_caliph_authority = {
 			limit = {
 				var:caliph_power = 10
 			}
-			trigger_event = ase_event.25
+			trigger_event = aseevent.25
 			change_variable = { 
 				name = ase_authority
 				add = 3
@@ -198,7 +198,7 @@ je_caliph_authority = {
 					var:caliph_power = 0
 				}
 			}
-			trigger_event = ase_event.26
+			trigger_event = aseevent.26
 			change_variable = { 
 				name = ase_authority
 				subtract = 1
@@ -239,7 +239,7 @@ je_china_authority = {
 		if = {
 			limit = {
 				var:chinese_power = 0
-				trigger_event = ase_event.46
+				trigger_event = aseevent.46
 				c:W87 = {
 					make_independent = yes
 					annex = c:W90
@@ -257,7 +257,7 @@ je_china_authority = {
 			limit = {
 				var:chinese_power = 10
 			}
-			trigger_event = ase_event.44
+			trigger_event = aseevent.44
 			set_variable = {
 				name = chinese_domination
 			}
@@ -277,7 +277,7 @@ je_china_authority = {
 					var:chinese_power = 0
 				}
 			}
-			trigger_event = ase_event.45
+			trigger_event = aseevent.45
 			s:STATE_ZHILI.region_state:X10 = {
 				set_state_owner = c:W34
 			}
@@ -318,7 +318,7 @@ je_america_authority = {
 			limit = {
 				var:colonial_power = 0
 			}
-			trigger_event = ase_authority.34
+			trigger_event = aseevent.34
 			change_variable = { 
 				name = ase_authority
 				subtract = 3
@@ -351,7 +351,7 @@ je_america_authority = {
 			limit = {
 				var:colonial_power = 10
 			}
-			trigger_event = ase_authority.32
+			trigger_event = aseevent.32
 			change_variable = { 
 				name = ase_authority
 				add = 2
@@ -369,7 +369,7 @@ je_america_authority = {
 					var:colonial_power = 0
 				}
 			}
-			trigger_event = ase_authority.33
+			trigger_event = aseevent.33
 			change_variable = { 
 				name = ase_authority
 				subtract = 1
@@ -453,7 +453,7 @@ je_france_authority = {
 			limit = {
 				var:french_power = 0
 			}
-			trigger_event = ase_event.9
+			trigger_event = aseevent.9
 			c:FRA = {
 				make_independent = yes
 			}
@@ -488,7 +488,7 @@ je_france_authority = {
 			limit = {
 				var:french_power = 10
 			}
-			trigger_event = ase_event.7
+			trigger_event = aseevent.7
 			annex = c:FRA
 			annex = c:BRI
 			change_variable = { 
@@ -507,7 +507,7 @@ je_france_authority = {
 					var:french_power = 0
 				}
 			}
-			trigger_event = ase_event.8
+			trigger_event = aseevent.8
 			c:FRA = {
 				make_independent = yes
 				annex = c:BRI
