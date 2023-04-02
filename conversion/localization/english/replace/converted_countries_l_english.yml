@@ -1518,3 +1518,9 @@
  thunderdome.1.d: "Great Mexico is finally united and will take it's rightful place as a world power."
  thunderdome.1.f: "Many lives were lost for this day, years were spent planning and funds vanished into the maws of the dream of Mexico. Today we have managed to unite the polities of the region under one banner and with that achievment the future of the american continent will be ours to forge."
  thunderdome.1.a: "Three Hurrahs for Mexico!"
+ 
+ #Gabes Interest Group change pool
+ig_frontier_nobility: "Frontier Nobility"
+ig_frontier_nobility_desc: "Those mainly lesser nobles who without enough sway to be assigned the administration of core territories are stuck in the military's rank structure." 
+ig_noble_bureaucrats: "Noble Bureaucrats"
+ig_noble_bureaucrats_desc: "The backbone of the conservative state bureaucracy, these nobles serve as governors and mayors under the directions of the monarch.
