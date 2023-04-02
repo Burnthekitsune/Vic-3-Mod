@@ -1276,3 +1276,330 @@ ase_event.34 = { # Fail
 		}
 	}
 }
+
+# China Authority
+
+ase_event.40 = {
+	placement = root
+	type = country_event
+	title = ase_event.40.t
+	desc = ase_event.40.d
+	icon = "gfx/interface/icons/event_icons/event_default.dds"
+	
+	event_image = {
+		video = "gfx/event_pictures/europenorthamerica_political_extremism.bk2"
+	}
+	
+	duration = 5
+	
+	option = {
+		name = ase_event.40.a
+		change_variable = {
+			name = chinese_power
+			subtract = 1
+		}
+		ai_chance = {
+			base = 100
+		}
+	}
+	option = {
+		name = ase_event.40.b
+		change_variable = {
+			name = chinese_power
+			add = 1
+		}
+		add_treasury = -100000
+		ai_chance = {
+			base = 100
+		}
+	}
+}
+
+ase_event.41 = {
+	placement = root
+	type = country_event
+	title = ase_event.41.t
+	desc = ase_event.41.d
+	icon = "gfx/interface/icons/event_icons/event_default.dds"
+	
+	event_image = {
+		video = "gfx/event_pictures/europenorthamerica_political_extremism.bk2"
+	}
+	
+	duration = 5
+	
+	option = {
+		name = ase_event.41.a
+		change_variable = {
+			name = chinese_power
+			subtract = 1
+		}
+		change_relations = {
+			country = c:W34
+			value = 20
+		}
+		ai_chance = {
+			base = 100
+		}
+	}
+	
+	option = {
+		name = ase_event.41.b
+		change_variable = {
+			name = chinese_power
+			add = 1
+		}
+		change_relations = {
+			country = c:W34
+			value = -50
+		}
+		s:STATE_GUANGDONG.region_state:W34 = {
+			set_state_owner = c:W94
+		}
+		ai_chance = {
+			base = 100
+		}
+	}
+}
+
+ase_event.42 = {
+	placement = root
+	type = country_event
+	title = ase_event.42.t
+	desc = ase_event.42.d
+	icon = "gfx/interface/icons/event_icons/event_default.dds"
+	
+	event_image = {
+		video = "gfx/event_pictures/europenorthamerica_political_extremism.bk2"
+	}
+	
+	duration = 5
+	
+	immediate = {
+		s:STATE_GUANGXI.region_state:W34 = {
+			convert_population = {
+				target = rel:converted_dynamic_faith_102
+				value = 0.1
+			}
+		}
+		s:STATE_GUANGDONG.region_state:W34 = {
+			convert_population = {
+				target = rel:converted_dynamic_faith_102
+				value = 0.1
+			}
+		}
+		s:STATE_GUANGDONG.region_state:W94 = {
+			convert_population = {
+				target = rel:converted_dynamic_faith_102
+				value = 0.1
+			}
+		}
+		s:STATE_SHAOZHOU.region_state:W34 = {
+			convert_population = {
+				target = rel:converted_dynamic_faith_102
+				value = 0.1
+			}
+		}
+		s:STATE_FUJIAN.region_state:W34 = {
+			convert_population = {
+				target = rel:converted_dynamic_faith_102
+				value = 0.1
+			}
+		}
+		s:STATE_HINGGAN.region_state:W34 = {
+			convert_population = {
+				target = rel:converted_dynamic_faith_102
+				value = 0.1
+			}
+		}
+		s:STATE_SHANXI.region_state:W34 = {
+			convert_population = {
+				target = rel:converted_dynamic_faith_102
+				value = 0.1
+			}
+		}
+		s:STATE_ZHILI.region_state:W34 = {
+			convert_population = {
+				target = rel:converted_dynamic_faith_102
+				value = 0.1
+			}
+		}
+		s:STATE_SHANDONG.region_state:W34 = {
+			convert_population = {
+				target = rel:converted_dynamic_faith_102
+				value = 0.1
+			}
+		}
+		s:STATE_JIANGSU.region_state:W34 = {
+			convert_population = {
+				target = rel:converted_dynamic_faith_102
+				value = 0.1
+			}
+		}
+		s:STATE_NANJING.region_state:W34 = {
+			convert_population = {
+				target = rel:converted_dynamic_faith_102
+				value = 0.1
+			}
+		}
+		s:STATE_NORTHERN_ANHUI.region_state:W34 = {
+			convert_population = {
+				target = rel:converted_dynamic_faith_102
+				value = 0.1
+			}
+		}
+		s:STATE_SOUTHERN_ANHUI.region_state:W34 = {
+			convert_population = {
+				target = rel:converted_dynamic_faith_102
+				value = 0.1
+			}
+		}
+		s:STATE_ZHEJIANG.region_state:W34 = {
+			convert_population = {
+				target = rel:converted_dynamic_faith_102
+				value = 0.1
+			}
+		}
+	}
+	
+	option = {
+		name = ase_event.42.a
+		change_variable = {
+			name = chinese_power
+			add = 1
+		}
+		change_relations = {
+			country = c:W34
+			value = -25
+		}
+		c:W34 = {
+			add_radicals = {
+				value = very_large_radicals
+				religion = rel:converted_dynamic_faith_102
+			}
+		}
+		ai_chance = {
+			base = 100
+		}
+	}
+	
+	option = {
+		name = ase_event.42.b
+		change_variable = {
+			name = chinese_power
+			subtract = 1
+		}
+		ai_chance = {
+			base = 100
+		}
+	}
+}
+
+ase_event.43 = {
+	placement = root
+	type = country_event
+	title = ase_event.43.t
+	desc = ase_event.43.d
+	icon = "gfx/interface/icons/event_icons/event_default.dds"
+	
+	event_image = {
+		video = "gfx/event_pictures/europenorthamerica_political_extremism.bk2"
+	}
+	
+	duration = 5
+	
+	option = {
+		name = ase_event.43.a
+		change_variable = {
+			name = chinese_power
+			add = 1
+		}
+		c:W87 = {
+			annex = c:W90
+			annex = c:W94
+			set_variable = {
+				name = companies_united
+			}
+		}
+		ai_chance = {
+			base = 100
+		}
+	}
+	option = {
+		name = ase_event.43.a
+		change_variable = {
+			name = chinese_power
+			subtract = 1
+		}
+		ai_chance = {
+			base = 100
+		}
+	}
+}
+
+# China Results
+ase_event.44 = { #Pass
+	placement = root
+	type = country_event
+	title = ase_event.44.t
+	desc = ase_event.44.d
+	icon = "gfx/interface/icons/event_icons/event_default.dds"
+	
+	event_image = {
+		video = "gfx/event_pictures/europenorthamerica_political_extremism.bk2"
+	}
+	
+	duration = 5
+	
+	option = {
+		name = ase_event.44.a
+		
+		ai_chance = {
+			base = 100
+		}
+	}
+}
+
+ase_event.45 = { # Compromise
+	placement = root
+	type = country_event
+	title = ase_event.45.t
+	desc = ase_event.45.d
+	icon = "gfx/interface/icons/event_icons/event_default.dds"
+	
+	event_image = {
+		video = "gfx/event_pictures/europenorthamerica_political_extremism.bk2"
+	}
+	
+	duration = 5
+	
+	option = {
+		name = ase_event.45.a
+		
+		ai_chance = {
+			base = 100
+		}
+	}
+}
+
+ase_event.46 = { # Fail
+	placement = root
+	type = country_event
+	title = ase_event.46.t
+	desc = ase_event.46.d
+	icon = "gfx/interface/icons/event_icons/event_default.dds"
+	
+	event_image = {
+		video = "gfx/event_pictures/europenorthamerica_political_extremism.bk2"
+	}
+	
+	duration = 5
+	
+	option = {
+		name = ase_event.46.a
+		
+		ai_chance = {
+			base = 100
+		}
+	}
+}

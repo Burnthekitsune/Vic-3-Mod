@@ -132,8 +132,33 @@ sell_baja = {
 			name = colonial_power
 			add = 2
 		}
+		set_variable = {
+			name = sold_baja
+		}
 	}
 	ai_chance = {
 		base = 100
+	}
+}
+
+chinese_revolt = {
+	is_shown = {
+		this = c:X10
+		exists = c:CR1
+		NOT = { has_variable = chinese_revolts }
+	}
+	possible = {
+		c:CR1 = {
+			is_war_participant = yes
+		}
+	}
+	when_taken = {
+		change_variable = {
+			name = chinese_power
+			add = 1
+		}
+		set_variable = {
+			name = chinese_revolts
+		}
 	}
 }

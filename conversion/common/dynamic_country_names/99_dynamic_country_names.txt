@@ -58,3 +58,23 @@ NIC = {
 		}
 	}
 }
+
+W87 = {
+	dynamic_country_name = {
+		name = dyn_c_w87
+		adjective = dyn_c_w87_adj
+		
+		trigger = {
+			has_variable = companies_united
+		}
+	}
+	
+	dynamic_country_name = {
+		name = dyn_c_w87_2
+		adjective = dyn_c_w87_adj
+		
+		trigger = {
+			has_variable = companies_independant
+		}
+	}
+}

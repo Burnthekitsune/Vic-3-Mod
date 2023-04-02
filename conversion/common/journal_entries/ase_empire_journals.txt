@@ -237,11 +237,35 @@ je_china_authority = {
 		if = {
 			limit = {
 				var:chinese_power = 0
+				trigger_event = ase_event.46
+				c:W87 = {
+					make_independent = yes
+					annex = c:W90
+					annex = c:W94
+					s:STATE_ZHILI.region_state:X10 = {
+						set_state_owner = c:W87
+					}
+					set_variable = {
+						name = companies_independant
+					}
+				}
 			}
 		}
 		if = {
 			limit = {
 				var:chinese_power = 10
+			}
+			trigger_event = ase_event.44
+			set_variable = {
+				name = chinese_domination
+			}
+			change_variable = { 
+				name = ase_authority
+				add = 2
+			}
+			change_variable = { 
+				name = caliph_power
+				add = 2
 			}
 		}
 		if = {
@@ -250,6 +274,10 @@ je_china_authority = {
 					var:chinese_power = 10
 					var:chinese_power = 0
 				}
+			}
+			trigger_event = ase_event.45
+			s:STATE_ZHILI.region_state:X10 = {
+				set_state_owner = c:W34
 			}
 		}
 	}
