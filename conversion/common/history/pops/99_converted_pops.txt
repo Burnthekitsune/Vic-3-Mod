@@ -54594,7 +54594,7 @@
 			create_pop = {
 				culture = vietnamese
 				religion = mahayana
-				size = 140241
+				size = 120241
 			}
 			create_pop = {
 				culture = vietnamese
@@ -54605,7 +54605,7 @@
 			create_pop = {
 				culture = vietnamese
 				religion = converted_dynamic_faith_102
-				size = 86275
+				size = 106275
 			}
 			create_pop = {
 				culture = vietnamese
@@ -54736,7 +54736,7 @@
 			}
 			create_pop = {
 				culture = vietnamese
-				religion = mahayana
+				religion = converted_dynamic_faith_102
 				size = 217456
 			}
 			create_pop = {
