@@ -5560,7 +5560,7 @@
 		}
 	}
 	s:STATE_COLORADO = {
-		region_state:X08 = {
+		region_state:A19 = {
 			create_building = {
 				building = "building_barracks"
 				level = 1
@@ -10178,7 +10178,7 @@
 		}
 	}
 	s:STATE_IDAHO = {
-		region_state:X08 = {
+		region_state:A19 = {
 			create_building = {
 				building = "building_barracks"
 				level = 2
@@ -11098,7 +11098,7 @@
 		}
 	}
 	s:STATE_KANSAS = {
-		region_state:X08 = {
+		region_state:A19 = {
 			create_building = {
 				building = "building_construction_sector"
 				level = 1
@@ -14724,7 +14724,7 @@
 		}
 	}
 	s:STATE_MONTANA = {
-		region_state:X08 = {
+		region_state:A19 = {
 			create_building = {
 				building = "building_construction_sector"
 				level = 2
@@ -15404,7 +15404,7 @@
 		}
 	}
 	s:STATE_NEBRASKA = {
-		region_state:X08 = {
+		region_state:A19 = {
 			create_building = {
 				building = "building_construction_sector"
 				level = 1
@@ -16867,7 +16867,7 @@
 		}
 	}
 	s:STATE_OKLAHOMA = {
-		region_state:X08 = {
+		region_state:A19 = {
 			create_building = {
 				building = "building_construction_sector"
 				level = 1
@@ -17015,7 +17015,7 @@
 		}
 	}
 	s:STATE_OREGON = {
-		region_state:X08 = {
+		region_state:CAL = {
 			create_building = {
 				building = "building_naval_base"
 				level = 1
@@ -24964,7 +24964,7 @@
 		}
 	}
 	s:STATE_WYOMING = {
-		region_state:X08 = {
+		region_state:A19 = {
 			create_building = {
 				building = "building_construction_sector"
 				level = 1

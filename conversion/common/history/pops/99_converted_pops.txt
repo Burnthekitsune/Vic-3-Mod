@@ -11741,7 +11741,7 @@
 				size = 16000
 			}
 		}
-		region_state:X08 = {
+		region_state:A19 = {
 			create_pop = {
 				culture = pueblo
 				religion = totemism
@@ -22345,7 +22345,7 @@
 				size = 2105
 			}
 		}
-		region_state:X08 = {
+		region_state:A19 = {
 			create_pop = {
 				culture = penutian
 				religion = totemism
@@ -24884,7 +24884,7 @@
 		}
 	}
 	s:STATE_KANSAS = {
-		region_state:X08 = {
+		region_state:A19 = {
 			create_pop = {
 				culture = caddoan
 				religion = totemism
@@ -33904,7 +33904,7 @@
 				size = 400
 			}
 		}
-		region_state:X08 = {
+		region_state:A19 = {
 			create_pop = {
 				culture = algonquian
 				religion = totemism
@@ -34904,7 +34904,7 @@
 		}
 	}
 	s:STATE_NEBRASKA = {
-		region_state:X08 = {
+		region_state:A19 = {
 			create_pop = {
 				culture = caddoan
 				religion = totemism
@@ -35020,8 +35020,6 @@
 				religion = zoroastrian
 				size = 5659
 			}
-		}
-		region_state:X29 = {
 			create_pop = {
 				culture = caddoan
 				religion = totemism
@@ -40127,7 +40125,7 @@
 		}
 	}
 	s:STATE_OKLAHOMA = {
-		region_state:X08 = {
+		region_state:A19 = {
 			create_pop = {
 				culture = apache
 				religion = totemism
@@ -41020,7 +41018,7 @@
 				size = 3704
 			}
 		}
-		region_state:X08 = {
+		region_state:CAL = {
 			create_pop = {
 				culture = penutian
 				religion = totemism
@@ -57158,7 +57156,7 @@
 				size = 41071
 			}
 		}
-		region_state:X08 = {
+		region_state:A19 = {
 			create_pop = {
 				culture = paiute
 				religion = totemism
@@ -61149,7 +61147,7 @@
 				size = 6000
 			}
 		}
-		region_state:X08 = {
+		region_state:A19 = {
 			create_pop = {
 				culture = paiute
 				religion = totemism
@@ -61270,8 +61268,6 @@
 				religion = zoroastrian
 				size = 2128
 			}
-		}
-		region_state:X84 = {
 			create_pop = {
 				culture = algonquian
 				religion = totemism

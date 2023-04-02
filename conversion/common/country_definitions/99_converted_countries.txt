@@ -153,6 +153,15 @@ A18 = {
 	capital = STATE_KUBAN
 }
 
+A19 = {
+	color = { 97 255 139 }
+	country_type = colonial
+	tier = kingdom
+	cultures = { neo-usa_north_colony-persian }
+	religion = zoroastrian
+	capital = STATE_WYOMING
+}
+
 ABS = {
 	color = { 199 102 22 }
 	country_type = decentralized

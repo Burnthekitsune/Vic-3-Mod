@@ -520,4 +520,10 @@
 			type = puppet
 		}
 	}
+	c:X08 = {
+		create_diplomatic_pact = {
+			country = c:A19
+			type = puppet
+		}
+	}
 }
