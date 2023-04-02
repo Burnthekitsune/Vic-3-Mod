@@ -4,5 +4,95 @@
 			id = ase_event.2
 			days = 10
 		}
+		
+		trigger_event = {
+			id = ase_event.20
+			days = 200
+		}
+		
+		trigger_event = {
+			id = ase_event.40
+			days = 365
+		}
+		
+		trigger_event = {
+			id = ase_event.30
+			days = 1000
+		}
+		
+		trigger_event = {
+			id = ase_event.22
+			days = 1200
+		}
+		
+		trigger_event = {
+			id = ase_event.10
+			days = 1400
+		}
+		
+		trigger_event = {
+			id = ase_event.3
+			days = 1600
+		}
+		
+		trigger_event = {
+			id = ase_event.4
+			days = 1800
+		}
+		
+		trigger_event = {
+			id = ase_event.11
+			days = 2000
+		}
+		
+		trigger_event = {
+			id = ase_event.41
+			days = 2300
+		}
+		
+		trigger_event = {
+			id = ase_event.42
+			days = 2400
+		}
+		
+		trigger_event = {
+			id = ase_event.5
+			days = 2600
+		}
+		
+		trigger_event = {
+			id = ase_event.6
+			days = 2800
+		}
+		
+		trigger_event = {
+			id = ase_event.23
+			days = 3000
+		}
+		
+		trigger_event = {
+			id = ase_event.21
+			days = 3200
+		}
+		
+		trigger_event = {
+			id = ase_event.12
+			days = 3400
+		}
+		
+		trigger_event = {
+			id = ase_event.24
+			days = 3600
+		}
+		
+		trigger_event = {
+			id = ase_event.31
+			days = 4000
+		}
+		
+		trigger_event = {
+			id = ase_event.42
+			days = 4200
+		}
 	}
 }
