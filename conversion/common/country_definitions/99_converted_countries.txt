@@ -6774,6 +6774,10 @@ V27 = {
 	cultures = { maghrebi }
 	religion = converted_dynamic_faith_106
 	capital = STATE_TUNISIA
+	ig_armed_forces:0 "Frontier Nobility"
+	ig_armed_forces_desc:0 "Those mainly lesser nobles who without enough sway to be assigned the administration of core territories are stuck in the military's rank structure." 
+	ig_landowners:0 "Noble Bureaucrats"
+	ig_landowners_desc:0 "The backbone of the conservative state bureaucracy, these nobles serve as governors and mayors under the directions of the monarch."
 }
 
 V28 = {
