@@ -59,3 +59,30 @@ burgundy_customs = {
 		base = 100
 	}
 }
+
+allow_elections = {
+	is_shown = {
+		this = c:X10
+		NOT = { has_variable = elections_allowed }
+	}
+	possible = {
+		has_law = law_type:law_autocracy
+	}
+	when_taken = {
+		change_variable = {
+			name = colonial_power
+			add = 1
+		}
+		change_variable = {
+			name = ase_authority
+			add = 1
+		}
+		activate_law = law_type:law_census_voting
+		set_variable = {
+			name = elections_allowed
+		}
+	}
+	ai_chance = {
+		base = 0
+	}
+}

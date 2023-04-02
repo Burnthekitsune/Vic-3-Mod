@@ -148,7 +148,6 @@ ase_event.2 = {
 	type = country_event
 	title = ase_event.2.t
 	desc = ase_event.2.d
-	flavor = ase_event.2.f
 	icon = "gfx/interface/icons/event_icons/event_default.dds"
 	
 	event_image = {
@@ -189,7 +188,6 @@ ase_event.3 = {
 	type = country_event
 	title = ase_event.3.t
 	desc = ase_event.3.d
-	flavor = ase_event.3.f
 	icon = "gfx/interface/icons/event_icons/event_default.dds"
 	
 	event_image = {
@@ -235,7 +233,6 @@ ase_event.4 = {
 	type = country_event
 	title = ase_event.4.t
 	desc = ase_event.4.d
-	flavor = ase_event.4.f
 	icon = "gfx/interface/icons/event_icons/event_default.dds"
 	
 	event_image = {
@@ -285,7 +282,6 @@ ase_event.5 = {
 	type = country_event
 	title = ase_event.5.t
 	desc = ase_event.5.d
-	flavor = ase_event.5.f
 	icon = "gfx/interface/icons/event_icons/event_default.dds"
 	
 	event_image = {
@@ -327,7 +323,6 @@ ase_event.6 = {
 	type = country_event
 	title = ase_event.6.t
 	desc = ase_event.6.d
-	flavor = ase_event.6.f
 	icon = "gfx/interface/icons/event_icons/event_default.dds"
 	
 	event_image = {
@@ -405,7 +400,6 @@ ase_event.7 = { #Pass
 	type = country_event
 	title = ase_event.7.t
 	desc = ase_event.7.d
-	flavor = ase_event.7.f
 	icon = "gfx/interface/icons/event_icons/event_default.dds"
 	
 	event_image = {
@@ -428,7 +422,6 @@ ase_event.8 = { # Compromise
 	type = country_event
 	title = ase_event.8.t
 	desc = ase_event.8.d
-	flavor = ase_event.8.f
 	icon = "gfx/interface/icons/event_icons/event_default.dds"
 	
 	event_image = {
@@ -451,7 +444,6 @@ ase_event.9 = { # Fail
 	type = country_event
 	title = ase_event.9.t
 	desc = ase_event.9.d
-	flavor = ase_event.9.f
 	icon = "gfx/interface/icons/event_icons/event_default.dds"
 	
 	event_image = {
@@ -462,6 +454,215 @@ ase_event.9 = { # Fail
 	
 	option = {
 		name = ase_event.9.a
+		
+		ai_chance = {
+			base = 100
+		}
+	}
+}
+
+# Authority
+ase_event.10 = {
+	placement = root
+	type = country_event
+	title = ase_event.10.t
+	desc = ase_event.10.d
+	icon = "gfx/interface/icons/event_icons/event_default.dds"
+	
+	event_image = {
+		video = "gfx/event_pictures/europenorthamerica_political_extremism.bk2"
+	}
+	
+	duration = 5
+	
+	option = {
+		name = ase_event.10.a
+		change_variable = {
+			name = ase_authority
+			subtract = 1
+		}
+		ai_chance = {
+			base = 100
+		}
+	}
+}
+
+ase_event.11 = {
+	placement = root
+	type = country_event
+	title = ase_event.11.t
+	desc = ase_event.11.d
+	icon = "gfx/interface/icons/event_icons/event_default.dds"
+	
+	event_image = {
+		video = "gfx/event_pictures/europenorthamerica_political_extremism.bk2"
+	}
+	
+	duration = 5
+	
+	option = {
+		name = ase_event.11.a
+		change_variable = {
+			name = ase_authority
+			subtract = 1
+		}
+		ai_chance = {
+			base = 10
+		}
+	}
+	option = {
+		name = ase_event.11.b
+		change_variable = {
+			name = ase_authority
+			add = 1
+		}
+		add_modifier = {
+			name = poltical_turmoil
+			monts = 12
+		}
+		ai_chance = {
+			base = 100
+		}
+	}
+}
+
+ase_event.12 = {
+	placement = root
+	type = country_event
+	title = ase_event.12.t
+	desc = ase_event.12.d
+	icon = "gfx/interface/icons/event_icons/event_default.dds"
+	
+	event_image = {
+		video = "gfx/event_pictures/europenorthamerica_political_extremism.bk2"
+	}
+	
+	duration = 5
+	
+	immediate = }
+		set_variable = {
+			name = authority_hoc_done
+		}
+		set_variable = {
+			name = authority_hoc_cooldown
+			days = 365
+		}
+	}
+	
+	option = {
+		name = ase_event.12.a
+		change_variable = {
+			name = ase_authority
+			subtract = 1
+		}
+		ai_chance = {
+			base = 100
+		}
+	}
+	option = {
+		name = ase_event.12.b
+		change_variable = {
+			name = ase_authority
+			add = 1
+		}
+		change_relations = {
+			tcountry = c:GBR
+			value = -50
+		}
+		ai_chance = {
+			base = 100
+		}
+	}
+	option = {
+		name = ase_event.12.c
+		change_variable = {
+			name = ase_authority
+			add = 1
+		}
+		change_relations = {
+			tcountry = c:W17
+			value = -50
+		}
+		ai_chance = {
+			base = 100
+		}
+	}
+	option = {
+		name = ase_event.12.d
+		change_variable = {
+			name = ase_authority
+			add = 1
+		}
+		change_relations = {
+			tcountry = c:SCA
+			value = -50
+		}
+		ai_chance = {
+			base = 100
+		}
+	}
+}
+
+#Authority Results
+ase_event.13 = { #Pass
+	placement = root
+	type = country_event
+	title = ase_event.13.t
+	desc = ase_event.13.d
+	icon = "gfx/interface/icons/event_icons/event_default.dds"
+	
+	event_image = {
+		video = "gfx/event_pictures/europenorthamerica_political_extremism.bk2"
+	}
+	
+	duration = 5
+	
+	option = {
+		name = ase_event.13.a
+		
+		ai_chance = {
+			base = 100
+		}
+	}
+}
+
+ase_event.14 = { # Compromise
+	placement = root
+	type = country_event
+	title = ase_event.14.t
+	desc = ase_event.14.d
+	icon = "gfx/interface/icons/event_icons/event_default.dds"
+	
+	event_image = {
+		video = "gfx/event_pictures/europenorthamerica_political_extremism.bk2"
+	}
+	
+	duration = 5
+	
+	option = {
+		name = ase_event.14.a
+		
+		ai_chance = {
+			base = 100
+		}
+	}
+}
+
+ase_event.15 = { # Fail
+	placement = root
+	type = country_event
+	title = ase_event.15.t
+	desc = ase_event.15.d
+	icon = "gfx/interface/icons/event_icons/event_default.dds"
+	
+	event_image = {
+		video = "gfx/event_pictures/europenorthamerica_political_extremism.bk2"
+	}
+	
+	duration = 5
+	
+	option = {
+		name = ase_event.15.a
 		
 		ai_chance = {
 			base = 100

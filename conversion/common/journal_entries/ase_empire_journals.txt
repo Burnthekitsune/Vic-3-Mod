@@ -34,7 +34,9 @@ je_ase_authority = {
 			NOT = { custom_tooltip = ase_max_authority }
 			var:ase_authority = 0
 			var:ase_authority = 10
+			has_variable = authority_hoc_done
 		}
+		NOT = { has_variable = authority_hoc_cooldown }
 	}
 	
 	
@@ -44,6 +46,7 @@ je_ase_authority = {
 			limit = {
 				var:ase_authority = 0
 			}
+			trigger_event = ase_event.15
 			change_variable = { 
 				name = caliph_power
 				subtract = 3
@@ -67,29 +70,47 @@ je_ase_authority = {
 			limit = {
 				var:ase_authority = 10
 			}
+			trigger_event = ase_event.13
 			change_variable = { 
 				name = caliph_power
 				add = 3
 			}
 			change_variable = { 
 				name = colonial_power
-				add = 3
+				add = 1
 			}
 			change_variable = { 
 				name = french_power
-				add = 3
+				add = 1
 			}
 			change_variable = { 
 				name = chinese_power
-				add = 3
+				add = 1
 			}
 		}
 		if = {
+			trigger_event = ase_event.14
 			limit = {
 				NOT = {
 					var:ase_authority = 10
 					var:ase_authority = 0
 				}
+			}
+			change_variable = { 
+				name = caliph_power
+				subtract = 1
+			}
+			change_variable = { 
+				name = colonial_power
+				subtract = 1
+			}
+			change_variable = { 
+				name = french_power
+				subtract = 1
+			}
+			change_variable = { 
+				name = chinese_power
+				subtract = 1
 			}
 			activate_law = law_type:law_census_voting
 		}
@@ -392,6 +413,7 @@ je_france_authority = {
 			limit = {
 				var:french_power = 0
 			}
+			trigger_event = ase_event.9
 			c:FRA = {
 				make_independent = yes
 			}
@@ -426,6 +448,7 @@ je_france_authority = {
 			limit = {
 				var:french_power = 10
 			}
+			trigger_event = ase_event.7
 			annex = c:FRA
 			annex = c:BRI
 			change_variable = { 
@@ -444,6 +467,7 @@ je_france_authority = {
 					var:french_power = 0
 				}
 			}
+			trigger_event = ase_event.8
 			c:FRA = {
 				make_independent = yes
 				annex = c:BRI
