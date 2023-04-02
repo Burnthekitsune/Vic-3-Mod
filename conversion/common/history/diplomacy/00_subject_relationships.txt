@@ -514,4 +514,10 @@
 			type = dominion
 		}
 	}
+	c:V27 = {
+		create_diplomatic_pact = {
+			country = c:EGY
+			type = puppet
+		}
+	}
 }
