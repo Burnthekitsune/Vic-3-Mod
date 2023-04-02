@@ -1322,8 +1322,8 @@
  ase_event.1.a: "We must prevail!"
  ase_event.1.f: "Triumph or fail, the empire will never be the same."
  
- ase_event.2.t: "Enforce Breton Control "
- ase_event.2.d: "The revolution in Birttany has leak to talks of independance."
+ ase_event.2.t: "Enforce Breton Control"
+ ase_event.2.d: "The revolution in Birttany has lead to talks of independance."
  ase_event.2.a: "Crack Down on it."
  ase_event.2.b: "Subvert the talks."
  ase_event.3.t: "Chafing French Rule"
