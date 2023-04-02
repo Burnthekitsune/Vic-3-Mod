@@ -140,7 +140,9 @@ je_caliph_authority = {
 			NOT = { custom_tooltip = ase_max_caliph }
 			var:caliph_power = 0
 			var:caliph_power = 10
+			has_variable = caliph_hoc_done
 		}
+		NOT = { has_variable = caliph_hoc_cooldown }
 	}
 	
 	on_complete = {
@@ -149,6 +151,7 @@ je_caliph_authority = {
 			limit = {
 				var:caliph_power = 0
 			}
+			trigger_event = ase_event.27
 			change_variable = { 
 				name = ase_authority
 				subtract = 3
@@ -170,6 +173,7 @@ je_caliph_authority = {
 			limit = {
 				var:caliph_power = 10
 			}
+			trigger_event = ase_event.25
 			change_variable = { 
 				name = ase_authority
 				add = 3
@@ -194,6 +198,7 @@ je_caliph_authority = {
 					var:caliph_power = 0
 				}
 			}
+			trigger_event = ase_event.26
 			change_variable = { 
 				name = ase_authority
 				subtract = 1

@@ -263,9 +263,11 @@ ase_event.4 = {
 			name = french_power
 			subtract = 1
 		}
-		set_owner_of_provinces = {
-			country = c:W17
-			provinces = { x0141A0 x8080A0 } 
+		s:STATE_FLANDERS.region_state:FRA = {
+			set_state_owner = c:W17
+		}
+		s:STATE_WALLONIA.region_state:FRA = {
+			set_state_owner = c:W17
 		}
 		change_relations = {
 			tcountry = c:W17
@@ -331,7 +333,7 @@ ase_event.6 = {
 	
 	duration = 5
 	
-	immediate = }
+	immediate = {
 		set_variable = {
 			name = french_hoc_done
 		}
@@ -381,7 +383,7 @@ ase_event.6 = {
 	}
 	
 	option = {
-		name = ase_event.6.d
+		name = ase_event.6.e
 		change_variable = {
 			name = french_power
 			add = 3
@@ -539,7 +541,7 @@ ase_event.12 = {
 	
 	duration = 5
 	
-	immediate = }
+	immediate = {
 		set_variable = {
 			name = authority_hoc_done
 		}
@@ -588,7 +590,7 @@ ase_event.12 = {
 		}
 	}
 	option = {
-		name = ase_event.12.d
+		name = ase_event.12.e
 		change_variable = {
 			name = ase_authority
 			add = 1
@@ -669,3 +671,364 @@ ase_event.15 = { # Fail
 		}
 	}
 }
+
+# Caliph
+ase_event.20 = {
+	placement = root
+	type = country_event
+	title = ase_event.20.t
+	desc = ase_event.20.d
+	icon = "gfx/interface/icons/event_icons/event_default.dds"
+	
+	event_image = {
+		video = "gfx/event_pictures/europenorthamerica_political_extremism.bk2"
+	}
+	
+	duration = 5
+	
+	option = {
+		name = ase_event.20.a
+		change_variable = {
+			name = caliph_power
+			subtract = 1
+		}
+		ai_chance = {
+			base = 10
+		}
+	}
+	option = {
+		name = ase_event.20.b
+		change_variable = {
+			name = caliph_power
+			add = 2
+		}
+		change_relations = {
+			tcountry = c:SCA
+			value = -20
+		}
+		change_relations = {
+			tcountry = c:GBR
+			value = -20
+		}
+		change_relations = {
+			tcountry = c:EGY
+			value = -20
+		}
+		change_relations = {
+			tcountry = c:W17
+			value = -20
+		}
+		change_relations = {
+			tcountry = c:V23
+			value = -20
+		}
+		ai_chance = {
+			base = 100
+		}
+	}
+}
+
+ase_event.21 = {
+	placement = root
+	type = country_event
+	title = ase_event.21.t
+	desc = ase_event.21.d
+	icon = "gfx/interface/icons/event_icons/event_default.dds"
+	
+	event_image = {
+		video = "gfx/event_pictures/europenorthamerica_political_extremism.bk2"
+	}
+	
+	duration = 5
+	
+	option = {
+		name = ase_event.21.a
+		change_variable = {
+			name = caliph_power
+			add = 1
+		}
+		s:STATE_NORTH_MADAGASCAR.region_state:X10 = {
+			convert_population = {
+				target = rel:converted_dynamic_faith_102
+				value = 0.5
+			}
+			add_modifier = {
+				name = recent_conversion
+				monts = 60
+			}
+		}
+		s:STATE_SOUTH_MADAGASCAR.region_state:X10 = {
+			convert_population = {
+				target = rel:converted_dynamic_faith_102
+				value = 0.5
+			}
+			add_modifier = {
+				name = recent_conversion
+				monts = 60
+			}
+		}
+		ai_chance = {
+			base = 100
+		}
+	}
+	option = {
+		name = ase_event.21.a
+		change_variable = {
+			name = caliph_power
+			subtract = 1
+		}
+		ai_chance = {
+			base = 100
+		}
+	}
+}
+
+ase_event.22 = {
+	placement = root
+	type = country_event
+	title = ase_event.22.t
+	desc = ase_event.22.d
+	icon = "gfx/interface/icons/event_icons/event_default.dds"
+	
+	event_image = {
+		video = "gfx/event_pictures/europenorthamerica_political_extremism.bk2"
+	}
+	
+	duration = 5
+	
+	option = {
+		name = ase_event.22.a
+		change_variable = {
+			name = caliph_power
+			subtract = 1
+		}
+		ai_chance = {
+			base = 100
+		}
+	}
+	option = {
+		name = ase_event.22.b
+		s:STATE_ALGIERS.region_state:X10 = {
+			convert_population = {
+				target = rel:converted_dynamic_faith_102
+				value = 0.8
+			}
+			add_modifier = {
+				name = recent_conversion
+				monts = 24
+			}
+		}
+		s:STATE_TLEMCEN.region_state:X10 = {
+			convert_population = {
+				target = rel:converted_dynamic_faith_102
+				value = 0.8
+			}
+			add_modifier = {
+				name = recent_conversion
+				monts = 24
+			}
+		}
+		s:STATE_CONSTANTINE.region_state:X10 = {
+			convert_population = {
+				target = rel:converted_dynamic_faith_102
+				value = 0.8
+			}
+			add_modifier = {
+				name = recent_conversion
+				monts = 24
+			}
+		}
+		s:STATE_EAST_SAHARA.region_state:X10 = {
+			convert_population = {
+				target = rel:converted_dynamic_faith_102
+				value = 0.8
+			}
+			add_modifier = {
+				name = recent_conversion
+				monts = 24
+			}
+		}
+		change_variable = {
+			name = caliph_power
+			add = 1
+		}
+		ai_chance = {
+			base = 100
+		}
+	}
+}
+
+ase_event.23 = {
+	placement = root
+	type = country_event
+	title = ase_event.23.t
+	desc = ase_event.23.d
+	icon = "gfx/interface/icons/event_icons/event_default.dds"
+	
+	event_image = {
+		video = "gfx/event_pictures/europenorthamerica_political_extremism.bk2"
+	}
+	
+	duration = 5
+	
+	option = {
+		name = ase_event.23.a
+		change_variable = {
+			name = caliph_power
+			add = 1
+		}
+		change_relations = {
+			tcountry = c:W34
+			value = -50
+		}
+		c:DAI = {
+			make_independent = yes
+		}
+		ai_chance = {
+			base = 100
+		}
+	}
+	
+	option = {
+		name = ase_event.23.b
+		change_variable = {
+			name = caliph_power
+			subtract = 1
+		}
+		ai_chance = {
+			base = 10
+		}
+	}
+}
+
+ase_event.24 = {
+	placement = root
+	type = country_event
+	title = ase_event.24.t
+	desc = ase_event.24.d
+	icon = "gfx/interface/icons/event_icons/event_default.dds"
+	
+	event_image = {
+		video = "gfx/event_pictures/europenorthamerica_political_extremism.bk2"
+	}
+	
+	duration = 5
+	
+	immediate = {
+		set_variable = {
+			name = caliph_hoc_done
+		}
+		set_variable = {
+			name = caliph_hoc_cooldown
+			days = 365
+		}
+	}
+	
+	option = {
+		name = ase_event.24.a
+		change_variable = {
+			name = caliph_power
+			add = 1
+		}
+		s:STATE_NORTH_MADAGASCAR = {
+			add_homeland = indian_alshamali
+		}
+		s:STATE_SOUTH_MADAGASCAR = {
+			add_homeland = indian_alshamali
+		}
+		s:STATE_NORTH_MADAGASCAR.region_state:X10 = {
+			change_pop_culture  = {
+				target = cu:indian_alshamali
+				value = 0.1
+			}
+		}
+		s:STATE_SOUTH_MADAGASCAR.region_state:X10 = {
+			change_pop_culture  = {
+				target = cu:indian_alshamali
+				value = 0.1
+			}
+		}
+		ai_chance = {
+			base = 100
+		}
+	}
+	option = {
+		name = ase_event.24.b
+		change_variable = {
+			name = caliph_power
+			subtract = 1
+		}
+		ai_chance = {
+			base = 100
+		}
+	}
+}
+
+# Caliph Results
+ase_event.25 = { #Pass
+	placement = root
+	type = country_event
+	title = ase_event.25.t
+	desc = ase_event.25.d
+	icon = "gfx/interface/icons/event_icons/event_default.dds"
+	
+	event_image = {
+		video = "gfx/event_pictures/europenorthamerica_political_extremism.bk2"
+	}
+	
+	duration = 5
+	
+	option = {
+		name = ase_event.25.a
+		
+		ai_chance = {
+			base = 100
+		}
+	}
+}
+
+ase_event.26 = { # Compromise
+	placement = root
+	type = country_event
+	title = ase_event.26.t
+	desc = ase_event.26.d
+	icon = "gfx/interface/icons/event_icons/event_default.dds"
+	
+	event_image = {
+		video = "gfx/event_pictures/europenorthamerica_political_extremism.bk2"
+	}
+	
+	duration = 5
+	
+	option = {
+		name = ase_event.26.a
+		
+		ai_chance = {
+			base = 100
+		}
+	}
+}
+
+ase_event.27 = { # Fail
+	placement = root
+	type = country_event
+	title = ase_event.27.t
+	desc = ase_event.27.d
+	icon = "gfx/interface/icons/event_icons/event_default.dds"
+	
+	event_image = {
+		video = "gfx/event_pictures/europenorthamerica_political_extremism.bk2"
+	}
+	
+	duration = 5
+	
+	option = {
+		name = ase_event.27.a
+		
+		ai_chance = {
+			base = 100
+		}
+	}
+}
+
+# Colony Authority 
