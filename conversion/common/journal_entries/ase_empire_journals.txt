@@ -368,17 +368,26 @@ je_france_authority = {
 
 	complete = {
 		has_variable = ase_ready
-		has_variable = ase_ready
 		OR = {
 			NOT = { custom_tooltip = ase_min_france }
 			NOT = { custom_tooltip = ase_max_france }
 			var:french_power = 0
 			var:french_power = 10
+			has_variable = french_hoc_done
 		}
+		NOT = { has_variable = french_hoc_cooldown }
 	}
 	
 	on_complete = {
 		set_variable = ase_turmoil_france_over
+		if = {
+			limit = {
+				has_variable = burgundy_union
+			}
+			c:X19 = {
+				change_subject_type = subject_type_protectorate
+			}
+		}
 		if = {
 			limit = {
 				var:french_power = 0

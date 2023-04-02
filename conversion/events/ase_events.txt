@@ -6,10 +6,10 @@ ase_event.1 = { # Intro
 	title = ase_event.1.t
 	desc = ase_event.1.d
 	flavor = ase_event.1.f
-	icon = "gfx/interface/icons/event_icons/event_skull.dds"
+	icon = "gfx/interface/icons/event_icons/event_default.dds"
 	
 	event_image = {
-		video = "gfx/event_pictures/middleeast_courtroom_upheaval.bk2"
+		video = "gfx/event_pictures/europenorthamerica_political_extremism.bk2"
 	}
 	
 	duration = 3
@@ -112,9 +112,6 @@ ase_event.1 = { # Intro
 		}	
 	}
 	
-	trigger = {
-	}
-	
 	option = {
 		name = ase_event.1.a
 		change_variable = {
@@ -138,5 +135,336 @@ ase_event.1 = { # Intro
 			add = 5
 		}
 		set_variable = ase_ready
+		ai_chance = {
+			base = 100
+		}
+	}
+}
+
+# France
+
+ase_event.2 = {
+	placement = root
+	type = country_event
+	title = ase_event.2.t
+	desc = ase_event.2.d
+	flavor = ase_event.2.f
+	icon = "gfx/interface/icons/event_icons/event_default.dds"
+	
+	event_image = {
+		video = "gfx/event_pictures/europenorthamerica_political_extremism.bk2"
+	}
+	
+	duration = 5
+	
+	option = {
+		name = ase_event.2.a
+		change_variable = {
+			name = french_power
+			add = 1
+		}
+		change_variable = {
+			name = ase_authority
+			add = 1
+		}
+		ai_chance = {
+			base = 10
+		}
+	}
+	
+	option = {
+		name = ase_event.2.b
+		change_variable = {
+			name = french_power
+			add = 2
+		}
+		ai_chance = {
+			base = 100
+		}
+	}
+}
+
+ase_event.3 = {
+	placement = root
+	type = country_event
+	title = ase_event.3.t
+	desc = ase_event.3.d
+	flavor = ase_event.3.f
+	icon = "gfx/interface/icons/event_icons/event_default.dds"
+	
+	event_image = {
+		video = "gfx/event_pictures/europenorthamerica_political_extremism.bk2"
+	}
+	
+	duration = 5
+	
+	option = {
+		name = ase_event.3.a
+		change_variable = {
+			name = french_power
+			subtract = 2
+		}
+		ai_chance = {
+			base = 1
+		}
+	}
+	option = {
+		name = ase_event.3.b
+		change_variable = {
+			name = ase_authority
+			subtract = 2
+		}
+		ai_chance = {
+			base = 10
+		}
+	}
+	option = {
+		name = ase_event.3.c
+		change_variable = {
+			name = caliph_power
+			subtract = 2
+		}
+		ai_chance = {
+			base = 100
+		}
+	}
+}
+
+ase_event.4 = {
+	placement = root
+	type = country_event
+	title = ase_event.4.t
+	desc = ase_event.4.d
+	flavor = ase_event.4.f
+	icon = "gfx/interface/icons/event_icons/event_default.dds"
+	
+	event_image = {
+		video = "gfx/event_pictures/europenorthamerica_political_extremism.bk2"
+	}
+	
+	duration = 5
+	
+	option = {
+		name = ase_event.4.a
+		change_variable = {
+			name = french_power
+			add = 1
+		}
+		change_relations = {
+			tcountry = c:W17
+			value = -50
+		}
+		ai_chance = {
+			base = 100
+		}
+	}
+	
+	option = {
+		name =
+		ase_event.4.b
+		change_variable = {
+			name = french_power
+			subtract = 1
+		}
+		set_owner_of_provinces = {
+			country = c:W17
+			provinces = { x0141A0 x8080A0 } 
+		}
+		change_relations = {
+			tcountry = c:W17
+			value = 50
+		}
+		ai_chance = {
+			base = 10
+		}
+	}
+}
+
+ase_event.5 = {
+	placement = root
+	type = country_event
+	title = ase_event.5.t
+	desc = ase_event.5.d
+	flavor = ase_event.5.f
+	icon = "gfx/interface/icons/event_icons/event_default.dds"
+	
+	event_image = {
+		video = "gfx/event_pictures/europenorthamerica_political_extremism.bk2"
+	}
+	
+	duration = 5
+	
+	option = {
+		name = ase_event.5.a
+		if = {
+			limit = {
+				has_law = law_type:law_autocracy
+			}
+			change_variable = {
+				name = french_power
+				subtract = 2
+			}
+		}
+		if = {
+			limit = {
+				NOT = {
+					has_law = law_type:law_autocracy
+				}
+			}
+			change_variable = {
+				name = french_power
+				subtract = 1
+			}
+		}
+		ai_chance = {
+			base = 100
+		}
+	}
+}
+
+ase_event.6 = {
+	placement = root
+	type = country_event
+	title = ase_event.6.t
+	desc = ase_event.6.d
+	flavor = ase_event.6.f
+	icon = "gfx/interface/icons/event_icons/event_default.dds"
+	
+	event_image = {
+		video = "gfx/event_pictures/europenorthamerica_political_extremism.bk2"
+	}
+	
+	duration = 5
+	
+	immediate = }
+		set_variable = {
+			name = french_hoc_done
+		}
+		set_variable = {
+			name = french_hoc_cooldown
+			days = 365
+		}
+	}
+	
+	option = {
+		name = ase_event.6.a
+		change_variable = {
+			name = french_power
+			subtract = 2
+		}
+		change_variable = {
+			name = caliph_power
+			add = 1
+		}
+		ai_chance = {
+			base = 10
+		}
+	}
+	
+	option = {
+		name = ase_event.6.b
+		change_variable = {
+			name = french_power
+			add = 1
+		}
+		add_treasury = -50000
+		ai_chance = {
+			base = 100
+		}
+	}
+	
+	option = {
+		name = ase_event.6.c
+		change_variable = {
+			name = french_power
+			add = 2
+		}
+		add_treasury = -100000
+		ai_chance = {
+			base = 100
+		}
+	}
+	
+	option = {
+		name = ase_event.6.d
+		change_variable = {
+			name = french_power
+			add = 3
+		}
+		add_treasury = -150000
+		ai_chance = {
+			base = 50
+		}
+	}
+}
+
+# French Results
+
+ase_event.7 = { #Pass
+	placement = root
+	type = country_event
+	title = ase_event.7.t
+	desc = ase_event.7.d
+	flavor = ase_event.7.f
+	icon = "gfx/interface/icons/event_icons/event_default.dds"
+	
+	event_image = {
+		video = "gfx/event_pictures/europenorthamerica_political_extremism.bk2"
+	}
+	
+	duration = 5
+	
+	option = {
+		name = ase_event.7.a
+		
+		ai_chance = {
+			base = 100
+		}
+	}
+}
+
+ase_event.8 = { # Compromise
+	placement = root
+	type = country_event
+	title = ase_event.8.t
+	desc = ase_event.8.d
+	flavor = ase_event.8.f
+	icon = "gfx/interface/icons/event_icons/event_default.dds"
+	
+	event_image = {
+		video = "gfx/event_pictures/europenorthamerica_political_extremism.bk2"
+	}
+	
+	duration = 5
+	
+	option = {
+		name = ase_event.8.a
+		
+		ai_chance = {
+			base = 100
+		}
+	}
+}
+
+ase_event.9 = { # Fail
+	placement = root
+	type = country_event
+	title = ase_event.9.t
+	desc = ase_event.9.d
+	flavor = ase_event.9.f
+	icon = "gfx/interface/icons/event_icons/event_default.dds"
+	
+	event_image = {
+		video = "gfx/event_pictures/europenorthamerica_political_extremism.bk2"
+	}
+	
+	duration = 5
+	
+	option = {
+		name = ase_event.9.a
+		
+		ai_chance = {
+			base = 100
+		}
 	}
 }

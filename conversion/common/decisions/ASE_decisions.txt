@@ -35,3 +35,27 @@
 		base = 100
 	}
 }
+
+burgundy_customs = {
+	is_shown = {
+		this = c:X10
+		NOT = { has_variable = burgundy_union }
+	}
+	possible = {
+		c:X19 = {
+			is_junior_in_customs_union = yes
+		}
+	}
+	when_taken = {
+		change_variable = {
+			name = french_power
+			add = 1
+		}
+		set_variable = {
+			name = burgundy_union
+		} 
+	}
+	ai_chance = {
+		base = 100
+	}
+}
