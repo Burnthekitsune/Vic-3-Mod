@@ -51797,7 +51797,39 @@
 		}
 	}
 	s:STATE_SOUTH_MADAGASCAR = {
-		region_state:V49 = {
+		region_state:W40 = {
+			create_pop = {
+				culture = malagasy
+				religion = sunni
+				size = 9466
+			}
+			create_pop = {
+				culture = aleasifa
+				religion = converted_dynamic_faith_102
+				size = 14310
+			}
+			create_pop = {
+				culture = aleasifa
+				religion = converted_dynamic_faith_106
+				size = 20464
+			}
+			create_pop = {
+				culture = muraa
+				religion = converted_dynamic_faith_106
+				size = 27873
+			}
+		}
+		region_state:X10 = {
+			create_pop = {
+				culture = malagasy
+				religion = animist
+				size = 112677
+			}
+			create_pop = {
+				culture = malagasy
+				religion = animist
+				size = 96580
+			}
 			create_pop = {
 				culture = malagasy
 				religion = animist
@@ -51872,40 +51904,6 @@
 				culture = malagasy
 				religion = sunni
 				size = 41034
-			}
-		}
-		region_state:W40 = {
-			create_pop = {
-				culture = malagasy
-				religion = sunni
-				size = 9466
-			}
-			create_pop = {
-				culture = aleasifa
-				religion = converted_dynamic_faith_102
-				size = 14310
-			}
-			create_pop = {
-				culture = aleasifa
-				religion = converted_dynamic_faith_106
-				size = 20464
-			}
-			create_pop = {
-				culture = muraa
-				religion = converted_dynamic_faith_106
-				size = 27873
-			}
-		}
-		region_state:X10 = {
-			create_pop = {
-				culture = malagasy
-				religion = animist
-				size = 112677
-			}
-			create_pop = {
-				culture = malagasy
-				religion = animist
-				size = 96580
 			}
 		}
 	}
