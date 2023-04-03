@@ -10157,3 +10157,11 @@ ZUL = {
 		trigger = { coa_def_communist_flag_trigger = yes }
 	}
 }
+X10 = {
+	flag_definition = {
+		coa =  X10
+		subject_canton = X10
+		allow_overlord_canton = no
+		priority = 1
+	}
+}

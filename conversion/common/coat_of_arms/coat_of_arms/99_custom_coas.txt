@@ -89,3 +89,13 @@ X85_republic = { textured_emblem = { texture = "custom_export/X85_republic.tga" 
 X85_monarchy = { textured_emblem = { texture = "custom_export/X85_monarchy.tga" } }
 X85_fascist = { textured_emblem = { texture = "custom_export/X85_fascist.tga" } }
 X85_communist = { textured_emblem = { texture = "custom_export/X85_communist.tga" } }
+X10 = { 
+	pattern = "pattern_solid.tga"
+	color1 = "red"
+	color2 = "white"
+	
+	colored_emblem = {
+		texture = "ce_haesteining.dds"
+		color1 = color2
+	}
+}
