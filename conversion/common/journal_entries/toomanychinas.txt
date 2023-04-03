@@ -1,0 +1,33 @@
+je_too_many_chinas = {
+    icon = "gfx/interface/icons/event_icons/event_military.dds"
+    is_shown_when_inactive = {
+        exists = c:W34
+        THIS = c:W34
+    }
+    possible = {
+        any_state = {
+        	state_region = { is_homeland = cu:han }
+	        NOT = { owner = ROOT }
+        }
+    }
+    immediate = {
+        trigger_event = { id = threemanychinas.1 } # The Jingtu Movement
+    }
+    complete = {
+        NOT = {
+	        any_state = {
+	        	state_region = { is_homeland = cu:han }
+		        NOT = { owner = ROOT }
+	        }
+        }
+    }
+    on_complete = {
+        trigger_event = { id = threemanychinas.2 } # The Mandate of Heaven
+    }
+    timeout = 1825
+    on_timeout = {
+        trigger_event = { id = threemanychinas.3 } # The Qing and the Han
+    }
+    weight = 1000
+    should_be_pinned_by_default = yes
+}

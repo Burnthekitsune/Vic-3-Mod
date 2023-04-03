@@ -2,8 +2,8 @@
 	c:W34 = {
 		create_character = {
 			first_name = "Zhanjun"
-			last_name = "Wuo"
-			heir = yes
+			last_name = "Zhu"
+			ruler = yes
 			culture = cu:han
 			religion = rel:mahayana
 			birth_date = 1825.1.25

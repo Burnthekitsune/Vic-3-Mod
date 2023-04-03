@@ -9428,7 +9428,7 @@ CR1 = {
 	tier = empire
 	religion = mahayana
 	cultures = { han }
-	capital = STATE_CHINGQING
+	capital = STATE_CHONGQING
 }
 
 CR2 = {

@@ -1498,6 +1498,23 @@
  muraa.1.f: "After sixty years of war the tenth cycle of the epirote calendar has come to an end with a greatly expanded Muraa. Six decades of war have left the people tired and the they plead for the aristocracy to consolidate."
  muraa_event.1.a: "With time the people will grow fond of war again."
 
+ #TooManyChinas loc
+ threemanychinas.1.t: "The Jingtu Movement"
+ threemanychinas.1.d: "Furious with the growing foreign presence in China, the people are organizing into anti-foreign militias bent on driving the barbarians back into the sea."
+ threemanychinas.1.f: ""The time has come to punish the barbarians for encroaching upon the Middle Kingdom. The barbarians disrupt our government, they create turmoil in our society, they destroy our customs and decieve our people. The barbarians want to destroy China.""
+ threemanychinas.1.a: "Glory to Ming! Death to the foreigner!"
+ threemanychinas.1.b: "We are too weak to fight the westerners."
+ threemanychinas.2.t: "The Mandate of Heaven Restored"
+ threemanychinas.2.d: "Once more, the yellow banner soars from the rooftops of all the Middle Kingdom's cities. From the shining pearls of the Southern Delta to the great metroplises along the East Sea, the stain of barbarism has been washed away from our shores."
+ threemanychinas.2.f: "Glory to Ming! Glory to the House of Zhu!"
+ threemanychinas.2.a: "Huangdi Wansui!"
+ threemanychinas.2.b: "Zhongguo Wansui!"
+ threemanychinas.3.t: "Republican Spring"
+ threemanychinas.3.d: "Where once the people shouted "Huangdi Wansui", that shout can scarcely be heard above the throng of radical republicans chanting themselves hoarse."
+ threemanychinas.3.f: ""Our lord has a smile for the makers of graves, for the builders of empires and the keepers of slaves. So beware of their banners and the general's lies, there's no glory for the poor man, no glittering prize. For we have all we had, now our homes they fall down.""
+ threemanychinas.3.a: ""And I cry out Republic and allegiance to no crown.""
+ republican_spring_war: "Chinese Republican Scrimmage"
+ 
  #Thunderdome loc
  yucatan_unification_popularity: "Yucatan Unifier"
  yucatan_unification_popularity_adj: "Yucatan Unifier"
