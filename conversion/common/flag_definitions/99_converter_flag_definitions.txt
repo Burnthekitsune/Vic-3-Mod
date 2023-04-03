@@ -6396,7 +6396,7 @@ W57 = {
 		allow_overlord_canton = yes
 		priority = 20
 		subject_canton = legacy_SRD_monarchy
-		overlord_canton_scale = { 0.337 0.337 }
+		overlord_canton_scale = { 0.45 0.5 }
 		trigger = { coa_def_absolute_monarchy_flag_trigger = yes }
 	}
 	flag_definition = {
@@ -9341,6 +9341,7 @@ X83 = {
 		allow_overlord_canton = yes
 		priority = 10
 		subject_canton = X83_republic
+		overlord_canton_scale = { 0.337 0.337 }
 		trigger = { coa_def_republic_flag_trigger = yes }
 	}
 	flag_definition = {
