@@ -16,7 +16,7 @@
 			ruler = yes
 			is_general = yes
 			commander_rank = commander_rank_1
-			culture = cu:neo-canada_colony-faykinghian
+			culture = cu:neo-usa_north_colony-north_american_alshamali
 			religion = rel:converted_dynamic_faith_102
 			birth_date = 1791.6.10
 			traits = {

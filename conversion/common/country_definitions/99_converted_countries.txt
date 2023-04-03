@@ -6744,7 +6744,7 @@ V23 = {
 	color = { 215 141 152 }
 	country_type = recognized
 	tier = hegemony
-	cultures = { rumanian }
+	cultures = { north_italian }
 	religion = converted_dynamic_faith_102
 	capital = STATE_LAZIO
 }
