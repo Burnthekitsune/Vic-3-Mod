@@ -2813,6 +2813,10 @@
 				reserves = 1
 				activate_production_methods = { "pm_no_naval_theory" }
 			}
+			create_building={
+				building="building_forbidden_city"
+				level=1
+			}
 		}
 	}
 	s:STATE_BEIRA = {
@@ -4342,6 +4346,10 @@
 				level = 1
 				reserves = 1
 				activate_production_methods = { }
+			}
+			create_building={
+				building="building_angkor_wat"
+				level=1
 			}
 		}
 		region_state:X32 = {
@@ -6209,6 +6217,10 @@
 				reserves = 1
 				activate_production_methods = { "pm_basic_port" }
 			}
+			create_building={
+				building="building_white_house"
+				level=1
+			}
 		}
 	}
 	s:STATE_DIYARBAKIR = {
@@ -6237,6 +6249,7 @@
 				reserves = 1
 				activate_production_methods = { "pm_vertical_filing_cabinets" }
 			}
+			
 		}
 	}
 	s:STATE_DOBRUDJA = {
@@ -6638,6 +6651,10 @@
 				level = 1
 				reserves = 1
 				activate_production_methods = { "pm_vertical_filing_cabinets" }
+			}
+			create_building={
+				building="building_hagia_sophia"
+				level=1
 			}
 		}
 	}
@@ -12275,6 +12292,10 @@
 				reserves = 1
 				activate_production_methods = { }
 			}
+			create_building={
+				building="building_vatican_city"
+				level=1
+			}
 		}
 	}
 	s:STATE_LA_PAMPA = {
@@ -14870,6 +14891,10 @@
 				level = 7
 				reserves = 1
 				activate_production_methods = { "pm_vertical_filing_cabinets" }
+			}
+			create_building={
+				building="building_saint_basils_cathedral"
+				level=1
 			}
 		}
 	}
@@ -18617,6 +18642,10 @@
 				level = 5
 				reserves = 1
 				activate_production_methods = { "pm_handcrafted_furniture" "pm_no_luxuries" }
+			}
+			create_building={
+				building="building_taj_mahal"
+				level=1
 			}
 		}
 		region_state:X60 = {
