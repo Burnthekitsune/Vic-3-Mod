@@ -42235,6 +42235,11 @@
 				religion = jewish
 				size = 10038
 			}
+			create_pop = {
+				culture = msir
+				religion = converted_dynamic_faith_102
+				size = 3014
+			}
 		}
 	}
 	s:STATE_PANAMA = {
@@ -54858,12 +54863,12 @@
 			create_pop = {
 				culture = mashriqi
 				religion = converted_dynamic_faith_102
-				size = 7381
+				size = 14381
 			}
 			create_pop = {
 				culture = msir
 				religion = converted_dynamic_faith_102
-				size = 12860
+				size = 24860
 			}
 		}
 		region_state:V46 = {

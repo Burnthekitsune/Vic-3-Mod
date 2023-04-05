@@ -1,0 +1,50 @@
+﻿namespace = miscflavor
+
+miscflavor.1 = { # Save Palestien
+	placement = root
+	type = country_event
+	title = miscflavor.1.t
+	desc = miscflavor.1.d
+	icon = "gfx/interface/icons/event_icons/event_default.dds"
+	
+	event_image = {
+		video = "gfx/event_pictures/unspecific_signed_contract.bk2"
+	}
+	
+	duration = 5
+	
+	option = { # Deny
+		name = miscflavor.1.a
+		change_relations = {
+			country = c:PAL
+			value = -100
+		} 
+		ai_chance = {
+			base = 0
+		}
+	}
+	option = { # Accept
+		name = miscflavor.1.b
+		change_relations = {
+			country = c:PAL
+			value = 20
+		}
+		create_diplomatic_pact = {
+			country = c:PAL
+			type = puppet
+		}
+		random_state = {
+			limit = {
+				state_region = s:STATE_PALESTINE
+			}
+			set_state_owner = c:PAL
+			set_state_type = incorporated
+		}
+		c:PAL = {
+			set_capital = STATE_PALESTINE
+		}
+		ai_chance = {
+			base = 100
+		}
+	}
+}

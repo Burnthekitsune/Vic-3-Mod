@@ -6297,6 +6297,7 @@
 		}
 		add_homeland = mashriqi
 		add_homeland = msir
+		add_arable_land = 5
 		add_claim = c:EGY
 	}
 	s:STATE_TRANSVAAL = {

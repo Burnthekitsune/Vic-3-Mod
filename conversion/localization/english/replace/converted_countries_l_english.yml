@@ -1543,3 +1543,8 @@ ig_frontier_nobility: "Frontier Nobility"
 ig_frontier_nobility_desc: "Those mainly lesser nobles who without enough sway to be assigned the administration of core territories are stuck in the military's rank structure." 
 ig_noble_bureaucrats: "Noble Bureaucrats"
 ig_noble_bureaucrats_desc: "The backbone of the conservative state bureaucracy, these nobles serve as governors and mayors under the directions of the monarch.
+
+miscflavor.1.t: "The Plight of Palestine"
+miscflavor.1.d: "Approaching you are three diplomats from Palestine. They tell of the starvation in their lands, the insolvency of their government, and general hopelessness in their small nation. They offer you a proposal. They are willing to become a subject, in exchange for the return of their old capital. The return of their former capital will provide them enough farmland to save their starving population."
+miscflavor.1.a: "We cannot accept this deal."
+miscflavor.1.b: "We welcome you."

@@ -62513,34 +62513,23 @@ legacy_PAH_republic = {
 	color1 = "black"
 }
 legacy_PAL = {
-	pattern = "pattern_lozengy_bend.dds"
-	color1 = "blue_light"
-	color2 = "white"
+	pattern = "pattern_solid.tga"
+	color1 = "black"
 
 	colored_emblem = {
-		texture = "ce_per_cross.dds"
-		color1 = "black"
-		instance = { scale = { -1 1 } }
-	}
-	colored_emblem = {
-		texture = "ce_lion_rampant_crowned.dds"
-		color1 = "yellow"
-		color2 = "red"
-		color3 = "white"
-		instance = { scale = { 0.5 0.5 } position = { 0.25 0.25 } }
-		instance = { scale = { 0.5 0.5 } position = { 0.75 0.75 } }
+		texture = "ce_tricolor_horizontal.dds"
+		color1 = "green"
+		color2 = "white"
 	}
 }
 legacy_PAL_communist = {
 	pattern = "pattern_solid.tga"
-	color1 = "purple"
+	color1 = "black"
 
 	colored_emblem = {
-		texture = "ce_frame_circle_roundel_triangles.dds"
-		color1 = "white"
-		color2 = "yellow"
-		color3 = "yellow"
-		instance = { scale = { 0.5 0.5 } }
+		texture = "ce_tricolor_horizontal.dds"
+		color1 = "green"
+		color2 = "white"
 	}
 	colored_emblem = {
 		texture = "ce_hammer_compass_ddr.dds"
@@ -62553,6 +62542,11 @@ legacy_PAL_fascist = {
 	color1 = "black"
 
 	colored_emblem = {
+		texture = "ce_tricolor_horizontal.dds"
+		color1 = "green"
+		color2 = "white"
+	}
+	colored_emblem = {
 		texture = "ce_lion_rampant_crowned.dds"
 		color1 = "yellow"
 		color2 = "red"
@@ -62561,19 +62555,13 @@ legacy_PAL_fascist = {
 }
 legacy_PAL_monarchy = legacy_PAL
 legacy_PAL_republic = {
-	pattern = "pattern_horizontal_split_01.tga"
-	color1 = "yellow"
-	color2 = "red"
+	pattern = "pattern_solid.tga"
+	color1 = "black"
 
 	colored_emblem = {
-		texture = "ce_bicolor_top.dds"
-		color1 = "blue_light"
-		instance = { scale = { 1 0.5 } }
-	}
-	colored_emblem = {
-		texture = "ce_bicolor_bottom.dds"
-		color1 = "white"
-		instance = { scale = { 1 0.5 } }
+		texture = "ce_tricolor_horizontal.dds"
+		color1 = "green"
+		color2 = "white"
 	}
 }
 legacy_c_pfalz = legacy_PAL

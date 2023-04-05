@@ -22508,21 +22508,27 @@
 		region_state:PAL = {
 			create_building = {
 				building = "building_construction_sector"
-				level = 1
+				level = 2
 				reserves = 1
 				activate_production_methods = { }
 			}
 			create_building = {
 				building = "building_barracks"
-				level = 1
+				level = 2
 				reserves = 1
 				activate_production_methods = { "pm_line_infantry" "pm_mobile_artillery" }
 			}
 			create_building = {
 				building = "building_livestock_ranch"
-				level = 1
+				level = 2
 				reserves = 1
 				activate_production_methods = { }
+			}
+			create_building = {
+				building = "building_logging_camp"
+				level = 2
+				reserves = 1
+				activate_production_methods = { "pm_saw_mills" }
 			}
 		}
 		region_state:V46 = {
