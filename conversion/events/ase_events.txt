@@ -1619,3 +1619,109 @@ aseevent.46 = { # Fail
 		}
 	}
 }
+
+# aseevent.47 = { # Colony Split
+	placement = root
+	type = country_event
+	title = aseevent.47.t
+	desc = aseevent.47.d
+	icon = "gfx/interface/icons/event_icons/event_default.dds"
+	
+	event_image = {
+		video = "gfx/event_pictures/europenorthamerica_political_extremism.bk2"
+	}
+	
+	duration = 5
+	
+	option = { # Increased Autonomy
+		name = aseevent.47.a
+		set_variable = ase_turmoil_america_over
+		c:NEN = {
+			change_subject_type = subject_type_dominion
+		}
+		c:X29 = {
+			change_subject_type = subject_type_dominion
+		}
+		c:WIN = {
+			change_subject_type = subject_type_dominion
+		}
+		c:X84 = {
+			change_subject_type = subject_type_dominion
+		}
+		c:ONT = {
+			change_subject_type = subject_type_dominion
+		}
+		c:GCO = {
+			change_subject_type = subject_type_dominion
+		}
+		c:NIC = {
+			change_subject_type = subject_type_dominion
+		}
+		c:X20 = {
+			change_subject_type = subject_type_dominion
+		}
+		c:X28 = {
+			change_subject_type = subject_type_dominion
+		}
+		c:X24 = {
+			change_subject_type = subject_type_dominion
+		}
+		ai_chance = {
+			base = 10
+		}
+	}
+	
+	option = { # Centralized Colonies
+		name = aseevent.47.b
+		set_variable = ase_turmoil_america_over
+		c:NEN = {
+			annex = c:X29
+			annex = c:WIN
+			annex = c:X84
+			annex = c:ONT
+			change_tag = CAN
+		}
+		c:GCO = {
+			annex = c:NIC
+			annex = c:X20
+			annex = c:X28
+			annex = c:X24
+			change_tag = BRZ
+		}
+		ai_chance = {
+			base = 100
+		}
+	}
+	
+	option = { # Lose the North
+		name = aseevent.47.c
+		set_variable = ase_turmoil_america_over
+		c:NEN = {
+			make_independent = yes
+			annex = c:X29
+			annex = c:WIN
+			annex = c:X84
+			annex = c:ONT
+			change_tag = LOU
+		}
+		ai_chance = {
+			base = 10
+		}
+	}
+	
+	option = { # Lose the South
+		name = aseevent.47.e
+		set_variable = ase_turmoil_america_over
+		c:GCO = {
+			make_independent = yes
+			annex = c:NIC
+			annex = c:X20
+			annex = c:X28
+			annex = c:X24
+			change_tag = ARG
+		}
+		ai_chance = {
+			base = 10
+		}
+	}
+}

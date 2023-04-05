@@ -1453,6 +1453,13 @@
  aseevent.46.t: "House of Cards: China"
  aseevent.46.d: "We have lost our control of China."
  aseevent.46.a: "Damn!"
+ 
+ aseevent.47.t: "Colonial Manuvering"
+ aseevent.47.d: "Our colonies are on the verge of independance, we may not be able to maintain the status quo, but we can save something."
+ aseevent.47.a: "Promise more autonomy!"
+ aseevent.47.b: "Unite the colonies!"
+ aseevent.47.c: "Save the South!"
+ aseevent.47.e: "Save the North!"
 
  ase_min_authority: "Authority = 0"
  ase_max_authority: "Authority = 10"
