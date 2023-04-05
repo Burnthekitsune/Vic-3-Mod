@@ -9355,6 +9355,16 @@
 				religion = zoroastrian
 				size = 5580
 			}
+			create_pop = {
+				culture = paiute
+				religion = animist
+				size = 2250
+			}
+			create_pop = {
+				culture = hokan
+				religion = animist
+				size = 225
+			}
 		}
 		region_state:M08 = {
 			create_pop = {
@@ -9366,18 +9376,6 @@
 				culture = penutian
 				religion = animist
 				size = 3400
-			}
-		}
-		region_state:N04 = {
-			create_pop = {
-				culture = paiute
-				religion = animist
-				size = 2250
-			}
-			create_pop = {
-				culture = hokan
-				religion = animist
-				size = 225
 			}
 		}
 		region_state:N05 = {
