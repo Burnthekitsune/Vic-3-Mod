@@ -547,42 +547,6 @@ BEN = {
 		trigger = { coa_def_communist_flag_trigger = yes }
 	}
 }
-BJA = {
-	flag_definition = {
-		coa = legacy_d_beja
-		allow_overlord_canton = yes
-		subject_canton = legacy_d_beja
-		priority = 1
-	}
-	flag_definition = {
-		coa = legacy_d_beja_republic
-		allow_overlord_canton = yes
-		priority = 10
-		subject_canton = legacy_d_beja_republic
-		trigger = { coa_def_republic_flag_trigger = yes }
-	}
-	flag_definition = {
-		coa = legacy_d_beja_monarchy
-		allow_overlord_canton = yes
-		priority = 20
-		subject_canton = legacy_d_beja_monarchy
-		overlord_canton_scale = { 0.337 0.337 }
-		trigger = { coa_def_absolute_monarchy_flag_trigger = yes }
-	}
-	flag_definition = {
-		coa = legacy_d_beja_fascist
-		allow_overlord_canton = yes
-		priority = 1500
-		subject_canton = legacy_d_beja_fascist
-		trigger = { coa_def_fascist_flag_trigger = yes }
-	}
-	flag_definition = {
-		coa = legacy_d_beja_communist
-		allow_overlord_canton = yes
-		priority = 1500
-		trigger = { coa_def_communist_flag_trigger = yes }
-	}
-}
 BLH = {
 	flag_definition = {
 		coa = legacy_k_baluchistan
@@ -10162,6 +10126,70 @@ X10 = {
 	flag_definition = {
 		coa =  X10
 		subject_canton = X10
+		allow_overlord_canton = no
+		priority = 1
+	}
+}
+X70 = {
+	flag_definition = {
+		coa =  X70
+		subject_canton = X70
+		allow_overlord_canton = no
+		priority = 1
+	}
+}
+X07 = {
+	flag_definition = {
+		coa =  X07
+		subject_canton = X07
+		allow_overlord_canton = no
+		priority = 1
+	}
+}
+BJA = {
+	flag_definition = {
+		coa =  BJA
+		subject_canton = BJA
+		allow_overlord_canton = no
+		priority = 1
+	}
+}
+X35 = {
+	flag_definition = {
+		coa =  X35
+		subject_canton = X35
+		allow_overlord_canton = no
+		priority = 1
+	}
+}
+X68 = {
+	flag_definition = {
+		coa =  X68
+		subject_canton = X68
+		allow_overlord_canton = no
+		priority = 1
+	}
+}
+X00 = {
+	flag_definition = {
+		coa =  X00
+		subject_canton = X00
+		allow_overlord_canton = no
+		priority = 1
+	}
+}
+W59 = {
+	flag_definition = {
+		coa =  W59
+		subject_canton = W59
+		allow_overlord_canton = no
+		priority = 1
+	}
+}
+W64 = {
+	flag_definition = {
+		coa =  W64
+		subject_canton = W64
 		allow_overlord_canton = no
 		priority = 1
 	}
