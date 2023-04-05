@@ -95,4 +95,10 @@
 			days = 4200
 		}
 	}
+	c:V27 = {
+		trigger_event = {
+			id = miscflavor.1
+			days = 1825
+		}
+	}
 }
