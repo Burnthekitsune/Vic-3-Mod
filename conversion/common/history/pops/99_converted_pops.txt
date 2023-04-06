@@ -45056,13 +45056,6 @@
 				size = 14055
 			}
 		}
-		region_state:N13 = {
-			create_pop = {
-				culture = inuit
-				religion = animist
-				size = 29187
-			}
-		}
 		region_state:NEN = {
 			create_pop = {
 				culture = algonquian
@@ -45187,6 +45180,11 @@
 				culture = iroquoian
 				religion = totemism
 				size = 899
+			}
+			create_pop = {
+				culture = inuit
+				religion = animist
+				size = 29187
 			}
 			create_pop = {
 				culture = algonquian
