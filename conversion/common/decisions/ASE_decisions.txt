@@ -161,4 +161,45 @@ chinese_revolt = {
 			name = chinese_revolts
 		}
 	}
+	ai_chance = {
+		base = 100
+	}
+}
+
+grant_piedmont = {
+	is_shown = {
+		this = c:X10
+		exists = c:W57
+	}
+	
+	possible = {
+		country_or_subject_owns_entire_state_region = STATE_PIEDMONT
+	}
+	when_taken = {
+		s:STATE_PIEDMONT.region_state:X10 = {
+			set_state_owner = c:W57
+		}
+		change_relations = {
+			country = c:W57
+			amount = 50
+		}
+		s:STATE_LOMBARDY = { add_claim = c:W57 }
+		s:STATE_CALABRIA = { add_claim = c:W57 }
+		s:STATE_EMILIA = { add_claim = c:W57 }
+		s:STATE_APULIA = { add_claim = c:W57 }
+		s:STATE_CAMPANIA = { add_claim = c:W57 }
+		s:STATE_ABRUZZO = { add_claim = c:W57 }
+		s:STATE_LAZIO = { add_claim = c:W57 }
+		s:STATE_TUSCANY = { add_claim = c:W57 }
+		s:STATE_UMBRIA = { add_claim = c:W57 }
+		s:STATE_ROMAGNA = { add_claim = c:W57 }
+		s:STATE_VENETIA = { add_claim = c:W57 }
+		s:STATE_SOUTH_TYROL = { add_claim = c:W57 }
+		c:W57 = {
+			change_tag = SAR
+		}
+	}
+	ai_chance = {
+		base = 100
+	}
 }

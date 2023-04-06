@@ -5464,7 +5464,7 @@ SAR = {
 	color = { 117 146 167 }
 	country_type = recognized
 	tier = kingdom
-	cultures = { north_italian }
+	cultures = { rumanian north_italian }
 	capital = STATE_PIEDMONT
 	is_named_from_capital = yes
 }
