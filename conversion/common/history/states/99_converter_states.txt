@@ -931,6 +931,7 @@
 		add_homeland = neo-canada_colony-persian
 		add_homeland = nez_perce
 		add_homeland = salish
+		add_claim = c:X08
 	}
 	s:STATE_BRITTANY = {
 		create_state = {
