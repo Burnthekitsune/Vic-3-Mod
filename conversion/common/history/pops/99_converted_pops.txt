@@ -29159,8 +29159,6 @@
 				religion = jewish
 				size = 95
 			}
-		}
-		region_state:V23 = {
 			create_pop = {
 				culture = north_italian
 				religion = converted_dynamic_faith_102

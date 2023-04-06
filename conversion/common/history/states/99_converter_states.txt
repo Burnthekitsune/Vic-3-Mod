@@ -3482,11 +3482,7 @@
 	s:STATE_LOMBARDY = {
 		create_state = {
 			country = c:LOM
-			owned_provinces = { x3F1E38 x50C060 x70B8A9 x867A90 x9AC196 xA40CE9 }
-		}
-		create_state = {
-			country = c:V23
-			owned_provinces = { xD04060 }
+			owned_provinces = { xD04060 x3F1E38 x50C060 x70B8A9 x867A90 x9AC196 xA40CE9 }
 		}
 		create_state = {
 			country = c:VEN
