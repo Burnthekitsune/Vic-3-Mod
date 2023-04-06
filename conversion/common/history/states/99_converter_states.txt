@@ -1905,6 +1905,7 @@
 		}
 		add_homeland = misri
 		add_homeland = msir
+		add_claim = c:EGY
 	}
 	s:STATE_ELBE = {
 		create_state = {
@@ -3525,6 +3526,7 @@
 		}
 		add_homeland = misri
 		add_homeland = msir
+		add_claim = c:EGY
 	}
 	s:STATE_LOWLANDS = {
 		create_state = {
@@ -3681,6 +3683,7 @@
 		}
 		add_homeland = misri
 		add_homeland = msir
+		add_claim = c:EGY
 	}
 	s:STATE_MAURITANIA = {
 		create_state = {
@@ -3775,6 +3778,7 @@
 		}
 		add_homeland = misri
 		add_homeland = msir
+		add_claim = c:EGY
 	}
 	s:STATE_MIDLANDS = {
 		create_state = {
@@ -4194,6 +4198,7 @@
 		add_homeland = aborigine
 		add_homeland = australian
 		add_homeland = persian
+		add_claim = c:AST
 	}
 	s:STATE_NEW_YORK = {
 		create_state = {
@@ -4408,6 +4413,7 @@
 		}
 		add_homeland = aborigine
 		add_homeland = australian
+		add_claim = c:AST
 	}
 	s:STATE_NORTHERN_THRACE = {
 		create_state = {
@@ -5185,6 +5191,7 @@
 		add_homeland = australian
 		add_homeland = australian_alshamali
 		add_homeland = persian
+		add_claim = c:AST
 	}
 	s:STATE_RAJPUTANA = {
 		create_state = {
@@ -5855,6 +5862,7 @@
 		}
 		add_homeland = aborigine
 		add_homeland = australian
+		add_claim = c:AST
 	}
 	s:STATE_SOUTH_BENGAL = {
 		create_state = {
@@ -6502,6 +6510,7 @@
 		}
 		add_homeland = misri
 		add_homeland = msir
+		add_claim = c:EGY
 	}
 	s:STATE_UPPER_YENISEYSK = {
 		create_state = {
@@ -6826,6 +6835,7 @@
 		add_homeland = australian_alshamali
 		add_homeland = persian
 		add_claim = c:NNG
+		add_claim = c:AST
 	}
 	s:STATE_WESTERN_HUBEI = {
 		create_state = {
