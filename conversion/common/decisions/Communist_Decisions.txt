@@ -1,0 +1,33 @@
+﻿spread_communism_subjects = {
+	is_shown = {
+		NOT = { this = c:X10 }
+		has_law = law_type:law_council_republic
+	}
+	possible = {
+		any_subject_or_below = {
+			NOT = { has_law = law_type:law_council_republic }
+			OR = {
+				is_subject_type = subject_type_protectorate
+				is_subject_type = subject_type_puppet
+				is_subject_type = subject_type_dominion
+			}
+		}
+	}
+	when_taken = {
+		every_subject_or_below = {
+			limit = {
+				OR = {
+					is_subject_type = subject_type_protectorate
+					is_subject_type = subject_type_puppet
+					is_subject_type = subject_type_dominion
+				}
+				NOT = { has_law = law_type:law_council_republic }
+			}
+			activate_law = law_type:law_council_republic
+			add_technology_researched = socialism
+		}
+	}
+	ai_chance = {
+		base = 100
+	}
+}

@@ -1304,3 +1304,7 @@ miscflavor.1.t: "The Plight of Palestine"
 miscflavor.1.d: "Approaching you are three diplomats from Palestine. They tell of the starvation in their lands, the insolvency of their government, and general hopelessness in their small nation. They offer you a proposal. They are willing to become a subject, in exchange for the return of their old capital. The return of their former capital will provide them enough farmland to save their starving population."
 miscflavor.1.a: "We cannot accept this deal."
 miscflavor.1.b: "We welcome you."
+
+spread_communism_subjects: "Spread Communism to Subjects"
+spread_communism_subjects_desc: "We have a subject that does not follow our ways, we must fix this as soon as possible."
+spread_communism_subjects_tooltip: "Workers Unite!"
