@@ -19,8 +19,11 @@
  chinese_revolt_desc: "There is a revolt in China, we can use this to sieze more power and control."
  chinese_revolt_tooltip: "China is ours!"
  grant_piedmont: "Grant Piedmont"
- grant_piedmont: "We can grant this minor bit of land for good will, and future plans to make an Italian subject!"
- grant_piedmont: "Let us bolster out eastern flank!"
+ grant_piedmont_desc: "We can grant this minor bit of land for good will, and future plans to make an Italian subject!"
+ grant_piedmont_tooltip: "Let us bolster out eastern flank!"
+ spread_communism_to_subjects: "Spread Communism"
+ spread_communism_to_subjects_desc: "We must spread out beleifs to any under our rule!"
+ spread_communism_to_subjects_tooltip: "We must spread out beleifs to any under our rule!"
  
  centralize_federation: "Centralize the Federation"
  centralize_federation_desc: "We can bring outselves together more."
