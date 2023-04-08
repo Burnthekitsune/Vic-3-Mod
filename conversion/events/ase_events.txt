@@ -1852,9 +1852,11 @@ aseevent.48 = { # Communism
 				years = 15
 			}
 		}
+		call_election = { months = 3 } 
 		trigger_event = {
 			id = aseevent.49
-			days = 100 } 
+			days = 30
+		}
 		ai_chance = {
 			base = 100
 		}
@@ -1872,7 +1874,7 @@ aseevent.49 = { # Skewed Elections
 		video = "gfx/event_pictures/europenorthamerica_political_extremism.bk2"
 	}
 	
-	duration = 5
+	duration = 1
 	
 	option = {
 		name = aseevent.49.a
@@ -1884,3 +1886,4 @@ aseevent.49 = { # Skewed Elections
 		}
 	}
 }
+# :P

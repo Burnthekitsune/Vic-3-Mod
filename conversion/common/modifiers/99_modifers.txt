@@ -44,7 +44,7 @@ politial_isolation = {
 }
 
 politial_sideline = {
-	interest_group_pol_str_mult = -0.1
+	interest_group_pol_str_mult = -0.25
 }
 
 poltical_focus = {
