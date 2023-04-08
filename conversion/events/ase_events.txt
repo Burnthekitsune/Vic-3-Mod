@@ -102,6 +102,10 @@ aseevent.1 = { # Intro
 			max = 5
 			min = 0
 		}
+		ig:ig_devout = {
+			add_ideology = ideology_patriarchal_suffrage
+			remove_ideology = ideology_patriarchal
+		}
 		add_modifier = {
 			name = efficient_bureaucracy
 		}
@@ -1722,6 +1726,161 @@ aseevent.46 = { # Fail
 		}
 		ai_chance = {
 			base = 10
+		}
+	}
+}
+
+aseevent.48 = { # Communism
+	placement = root
+	type = country_event
+	title = aseevent.48.t
+	desc = aseevent.48.d
+	icon = "gfx/interface/icons/event_icons/event_default.dds"
+	
+	event_image = {
+		video = "gfx/event_pictures/europenorthamerica_political_extremism.bk2"
+	}
+	
+	duration = 5
+	
+	option = {
+		name = aseevent.48.a
+		activate_law = law_type:law_council_republic
+		activate_law = law_type:law_multicultural
+		activate_law = law_type:law_universal_suffrage
+		activate_law = law_type:law_elected_bureaucrats
+		activate_law = law_type:law_total_separation
+		activate_law = law_type:law_cooperative_ownership
+		activate_law = law_type:law_public_schools
+		activate_law = law_type:law_graduated_taxation
+		activate_law = law_type:law_worker_protections
+		activate_law = law_type:law_compulsory_primary_school
+		activate_law = law_type:law_womens_suffrage
+		activate_law = law_type:law_old_age_pension
+		random_scope_character = {
+			limit = {
+				is_ruler = yes
+			}
+			kill_character = yes
+		}
+		random_scope_character = {
+			limit = {
+				is_heir = yes
+			}
+			kill_character = yes
+		}
+		create_character = {
+			ideology = ideology_communist
+			interest_group = ig:ig_trade_unions
+			add_character_role = politician
+			ig_leader = yes
+			trait_generation = {
+				add_trait = charismatic
+				add_trait = ambitious
+				add_trait = firebrand
+			}
+		}
+		create_character = {
+			ideology = ideology_communist
+			add_character_role = politician
+			interest_group = ig:ig_intelligentsia
+			ig_leader = yes
+		}
+		create_character = {
+			ideology = ideology_anarchist
+			add_character_role = politician
+			interest_group = ig:ig_rural_folk
+			ig_leader = yes
+		}
+		create_character = {
+			ideology = ideology_vanguardist
+			add_character_role = politician
+			interest_group = ig:ig_armed_forces
+			ig_leader = yes
+		}
+		ig:ig_landowners = {
+			every_scope_character = {
+				kill_character = {
+					hidden = yes
+					value = yes
+				}
+			}
+			add_modifier = {
+				name = politial_isolation
+				years = 10
+			}
+		}
+		ig:ig_devout = {
+			add_modifier = {
+				name = politial_isolation
+				years = 5
+			}
+		}
+		ig:ig_petty_bourgeoisie = {
+			add_modifier = {
+				name = politial_isolation
+				years = 5
+			}
+		}
+		ig:ig_industrialists = {
+			add_modifier = {
+				name = politial_isolation
+				years = 5
+			}
+		}
+		ig:ig_rural_folk = {
+			add_modifier = {
+				name = politial_sideline
+				years = 5
+			}
+		}
+		ig:ig_intelligentsia = {
+			add_modifier = {
+				name = politial_sideline
+				years = 5
+			}
+		}
+		ig:ig_armed_forces = {
+			add_modifier = {
+				name = politial_sideline
+				years = 5
+			}
+		}
+		ig:ig_trade_unions = {
+			add_modifier = {
+				name = poltical_focus
+				years = 15
+			}
+		}
+		trigger_event = {
+			id = aseevent.49
+			days = 100 } 
+		ai_chance = {
+			base = 100
+		}
+	}
+}
+
+aseevent.49 = { # Skewed Elections
+	placement = root
+	type = country_event
+	title = aseevent.49.t
+	desc = aseevent.49.d
+	icon = "gfx/interface/icons/event_icons/event_default.dds"
+	
+	event_image = {
+		video = "gfx/event_pictures/europenorthamerica_political_extremism.bk2"
+	}
+	
+	duration = 5
+	
+	option = {
+		name = aseevent.49.a
+		py:communist_party = {
+			add_momentum = 1
+		}
+		ai_chance = {
+			base = 100
 		}
 	}
 }

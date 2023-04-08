@@ -37,3 +37,18 @@ mexican_unifier_ruler = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
 	character_popularity_add = 65
 }
+
+politial_isolation = {
+	interest_group_pol_str_mult = -3
+	interest_group_pop_attraction_mult = -3
+}
+
+politial_sideline = {
+	interest_group_pol_str_mult = -0.1
+}
+
+poltical_focus = {
+	interest_group_pol_str_mult = 7.5
+	interest_group_pop_attraction_mult = 5
+	interest_group_in_government_approval_add = 10
+}
