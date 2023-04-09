@@ -451,7 +451,7 @@ accept_coahuiltecan = {
 	}
 	
 	possible = {
-		has_state_in_state_region = s:STATE_TEXAS
+		has_state_in_state_region = STATE_TEXAS
 	}
 	
 	when_taken = {
@@ -470,11 +470,11 @@ accept_chichimeca = {
 	is_shown = {
 		this = c:X42
 		NOT = { has_variable = accepted_chichimeca }
-		has_state_in_state_region = s:STATE_RIO_GRANDE
+		has_state_in_state_region = STATE_RIO_GRANDE
 	}
 	
 	possible = {
-		has_state_in_state_region = s:STATE_RIO_GRANDE
+		has_state_in_state_region = STATE_RIO_GRANDE
 	}
 	
 	when_taken = {
@@ -482,6 +482,200 @@ accept_chichimeca = {
 			name = accepted_chichimeca
 		}
 		add_primary_culture = cu:chichimecan
+	}
+	
+	ai_chance = {
+		base = 100
+	}
+}
+
+sway_acoma = {
+	is_shown = {
+		this = c:X42
+		NOT = { has_variable = swayed_acoma }
+		NOT = { has_variable = sway_cooldown }
+		exists = c:X47
+		has_state_in_state_region = STATE_RIO_GRANDE
+	}
+	
+	possible = {
+		has_state_in_state_region = STATE_RIO_GRANDE
+	}
+	
+	when_taken = {
+		annex = c:X47
+		set_variable = {
+			name = swayed_acoma
+		} 
+		set_variable = {
+			name = sway_cooldown
+			days = 365
+		}
+		add_primary_culture = cu:apache
+	}
+	
+	ai_chance = {
+		base = 100
+	}
+}
+
+accept_apache = {
+	is_shown = {
+		this = c:X42
+		NOT = { has_variable = swayed_acoma }
+		NOT = { has_variable = sway_cooldown }
+		NOT = { exists = c:X47 }
+	}
+	
+	possible = {
+		has_state_in_state_region = s:STATE_TEXAS
+	}
+	
+	when_taken = {
+		set_variable = {
+			name = swayed_acoma
+		} 
+		set_variable = {
+			name = sway_cooldown
+			days = 365
+		}
+		add_primary_culture = cu:apache
+	}
+	
+	ai_chance = {
+		base = 100
+	}
+}
+
+invade_zia = {
+	is_shown = {
+		this = c:X42
+		NOT = { has_variable = invaded_zia }
+		NOT = { has_variable = war_cooldown }
+		NOT = {
+			exists = c:X47
+			exists = c:X43
+		}
+		exists = c:X48
+	}
+	
+	possible = {
+		NOT = { is_diplomatic_play_committed_participant = yes }
+		c:X48 = {
+			aggressive_diplomatic_plays_permitted = yes
+		}
+	}
+	
+	when_taken = {
+		add_primary_culture = cu:pueblo
+		add_primary_culture = cu:oodham
+		create_diplomatic_play = {
+			name = zia_war
+			target_state = s:STATE_JALISCO.region_state:X48
+			war = yes
+			type = dp_annex_war
+			
+			add_war_goal = {
+				holder = c:X48
+				type = conquer_state
+				target_state = s:STATE_JALISCO.region_state:X42
+			}
+			add_war_goal = {
+				holder = c:X48
+				type = conquer_state
+				target_state = s:STATE_TEXAS.region_state:X42
+			}
+			add_war_goal = {
+				holder = c:X48
+				type = conquer_state
+				target_state = s:STATE_DURANGO.region_state:X42
+			}
+			add_war_goal = {
+				holder = c:X48
+				type = conquer_state
+				target_state = s:STATE_RIO_GRANDE.region_state:X42
+			}
+			
+		}
+		set_variable = {
+			name = invaded_zia
+		} 
+	}
+	
+	ai_chance = {
+		base = 100
+	}
+}
+
+accept_pueblo = {
+	is_shown = {
+		this = c:X42
+		NOT = { has_variable = invaded_zia }
+		NOT = {
+			exists = c:X48
+		}
+	}
+	
+	possible = {
+		has_state_in_state_region = STATE_CHIHUAHUA
+	}
+	
+	when_taken = {
+		set_variable = {
+			name = invaded_zia
+		}
+		set_variable = {
+			name = war_cooldown
+			days = 3650
+		}
+		add_primary_culture = cu:pueblo
+		add_primary_culture = cu:oodham
+	}
+	
+	ai_chance = {
+		base = 100
+	}
+}
+
+northern_push = {
+	is_shown = {
+		this = c:X42
+		NOT = { has_variable = push_north }
+		NOT = {
+			exists = c:X48
+		}
+	}
+	
+	possible = {
+		OR = {
+			has_state_in_state_region = STATE_COLORADO
+			has_state_in_state_region = STATE_UTAH
+			has_state_in_state_region = STATE_NEVADA
+		}
+	}
+	
+	when_taken = {
+		set_variable = {
+			name = push_north
+		}
+		set_variable = {
+			name = war_cooldown
+			days = 3650
+		}
+		s:STATE_COLORADO = {
+			add_claim = c:X42
+		}
+		s:STATE_UTAH = {
+			add_claim = c:X42
+		}
+		s:STATE_NEVADA = {
+			add_claim = c:X42
+		}
+		add_primary_culture = cu:paiute
+		add_primary_culture = cu:caddoan
+		add_primary_culture = cu:navajo
+		add_primary_culture = cu:siouan
+		add_primary_culture = cu:penutian
 	}
 	
 	ai_chance = {
