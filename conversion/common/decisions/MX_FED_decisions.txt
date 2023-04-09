@@ -469,7 +469,7 @@ accept_coahuiltecan = {
 accept_chichimeca = {
 	is_shown = {
 		this = c:X42
-		NOT = { has_variable = accepted_chichimeca }
+		NOT = { has_variable = swayed_chichimeca }
 		has_state_in_state_region = STATE_RIO_GRANDE
 	}
 	
@@ -479,7 +479,7 @@ accept_chichimeca = {
 	
 	when_taken = {
 		set_variable = {
-			name = accepted_chichimeca
+			name = swayed_chichimeca
 		}
 		add_primary_culture = cu:chichimecan
 	}
@@ -495,11 +495,11 @@ sway_acoma = {
 		NOT = { has_variable = swayed_acoma }
 		NOT = { has_variable = sway_cooldown }
 		exists = c:X47
-		has_state_in_state_region = STATE_RIO_GRANDE
+		has_state_in_state_region = STATE_TEXAS
 	}
 	
 	possible = {
-		has_state_in_state_region = STATE_RIO_GRANDE
+		has_state_in_state_region = STATE_TEXAS
 	}
 	
 	when_taken = {
