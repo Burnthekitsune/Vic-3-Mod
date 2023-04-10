@@ -69,7 +69,7 @@ FER = {
 }
 
 FLA = {
-	provinces = { x8041A0  }
+	provinces = { }
 	ai_will_do = { always = no }
 }
 
@@ -169,7 +169,7 @@ MOL = {
 }
 
 NET = {
-	provinces = { x018061 x01C0A0 x777732 x80C0A0 x93FB2E xC04021 xC0C0A0  }
+	provinces = { x4141A0 x41C021 x5A48A2 xC041A0 xC0C021 x01C0A0 x777732 x80C0A0 xC04021 x0000DF x41C0A0 x4C4894 xAF3A54 xC0C0A0 }
 	ai_will_do = { always = no }
 }
 
@@ -314,7 +314,7 @@ V41 = {
 }
 
 V42 = {
-	provinces = { x5A48A2 xC0C021  }
+	provinces = { }
 	ai_will_do = { always = no }
 }
 
@@ -639,7 +639,7 @@ X50 = {
 }
 
 X52 = {
-	provinces = { x4141A0 x41C021 x41C0A0 x5A48A2 x784B8E xAF3A54 xC041A0 xC0C021 xECC3B4 xF9DCA2  }
+	provinces = { }
 	ai_will_do = { always = no }
 }
 
@@ -785,5 +785,20 @@ SAR = {
 
 HAI = {
 	provinces = { }
+	ai_will_do = { always = no }
+}
+
+WLL = {
+	provinces = { }
+	ai_will_do = { always = no }
+}
+
+BEL = {
+	provinces = { x018061 x800060 x8041A0 x808061 x93FB2E x0141A0 x2D32D7 x3A5FB9 x5180A0 x916574 xB0A0C0 xD001A0 xEF2040 x8080A0 }
+	ai_will_do = { always = no }
+}
+
+LUX = {
+	provinces = { x5180A0 }
 	ai_will_do = { always = no }
 }

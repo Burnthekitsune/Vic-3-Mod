@@ -7324,7 +7324,7 @@ W17 = {
 	tier = empire
 	cultures = { north_german }
 	religion = converted_dynamic_faith_102
-	capital = STATE_WALLONIA
+	capital = STATE_HESSE
 }
 
 W18 = {
@@ -8370,7 +8370,7 @@ X19 = {
 	color = { 148 30 70 }
 	country_type = recognized
 	tier = kingdom
-	cultures = { french }
+	cultures = { french swiss }
 	religion = converted_dynamic_faith_102
 	capital = STATE_WEST_SWITZERLAND
 }
