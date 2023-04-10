@@ -86,3 +86,24 @@ W87 = {
 		}
 	}
 }
+
+X10 = {
+	dynamic_country_name = {
+		name = dyn_c_x10_communist
+		adjective = dyn_c_x10_communist_adj
+		
+		trigger = {
+			has_law = law_type:law_council_republic
+		}
+	}
+}
+GBR = {
+	dynamic_country_name = {
+		name = dyn_c_gbr
+		adjective = dyn_c_gbr_adj
+		
+		trigger = {
+			country_has_accepted_religion = converted_dynamic_faith_102
+		}
+	}
+}
