@@ -2299,11 +2299,11 @@
 		}
 		create_state = {
 			country = c:V12
-			owned_provinces = { x42124E xD030C0 x011E0F x02073E x30E01C x50B0C0 x65C19A x6D71DA x702CD9 x78C465 x7D333F xB2E11E xBD8628 xC67219 xD0B040 xD176F3 xD9BEFE xFA4B41 }
+			owned_provinces = { x011E0F x02073E x30E01C x50B0C0 x65C19A x6D71DA x702CD9 x78C465 x7D333F xB2E11E xBD8628 xC67219 xD0B040 xD176F3 xD9BEFE xFA4B41 }
 		}
 		create_state = {
 			country = c:X86
-			owned_provinces = {  }
+			owned_provinces = { x42124E xD030C0 }
 		}
 		add_homeland = mayan
 		add_homeland = chowinikob
