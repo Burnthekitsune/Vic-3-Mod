@@ -883,7 +883,7 @@
 		set_relations = { country = c:X10 value = 10 }
 	}
 	c:X86 = {
-		set_relations = { country = c:W40 value = 10 }
+		set_relations = { country = c:W40 value = 65 }
 	}
 	c:X89 = {
 		set_relations = { country = c:ACE value = -200 }
