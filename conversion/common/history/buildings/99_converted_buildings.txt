@@ -12932,13 +12932,13 @@
 		region_state:LOM = {
 			create_building = {
 				building = "building_construction_sector"
-				level = 2
+				level = 3
 				reserves = 1
 				activate_production_methods = { }
 			}
 			create_building = {
 				building = "building_barracks"
-				level = 9
+				level = 13
 				reserves = 1
 				activate_production_methods = { "pm_cannon_artillery" "pm_line_infantry" }
 			}
@@ -13007,20 +13007,6 @@
 				level = 1
 				reserves = 1
 				activate_production_methods = { }
-			}
-		}
-		region_state:VEN = {
-			create_building = {
-				building = "building_construction_sector"
-				level = 1
-				reserves = 1
-				activate_production_methods = { }
-			}
-			create_building = {
-				building = "building_barracks"
-				level = 4
-				reserves = 1
-				activate_production_methods = { "pm_cannon_artillery" "pm_line_infantry" }
 			}
 			create_building = {
 				building = "building_arms_industry"

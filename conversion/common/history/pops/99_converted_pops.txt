@@ -29169,8 +29169,6 @@
 				religion = jewish
 				size = 73
 			}
-		}
-		region_state:VEN = {
 			create_pop = {
 				culture = north_italian
 				religion = converted_dynamic_faith_102

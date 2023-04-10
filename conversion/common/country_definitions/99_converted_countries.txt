@@ -5464,7 +5464,7 @@ SAR = {
 	color = { 117 146 167 }
 	country_type = recognized
 	tier = kingdom
-	cultures = { rumanian north_italian }
+	cultures = { rumanian north_italian dynamic-occitain-sardinian-culture-num1 south_italian shamalian }
 	capital = STATE_PIEDMONT
 	is_named_from_capital = yes
 }
@@ -7682,7 +7682,7 @@ W57 = {
 	color = { 117 146 167 }
 	country_type = recognized
 	tier = principality
-	cultures = { rumanian }
+	cultures = { rumanian dynamic-occitain-sardinian-culture-num1 north_italian south_italian }
 	religion = converted_dynamic_faith_102
 	capital = STATE_SARDINIA
 }
