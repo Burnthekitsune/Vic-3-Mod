@@ -429,76 +429,76 @@ threemanychinas.3 = {
 				}
 			}
 		}
-		create_country = {
-			tag = CR4
-			origin = this
-			province = x553A28
-			province = xCDCCF7
-			province = x85A9B1
-			on_created = {
-				if = {
-					limit = {
-						NOT = {
-							has_ruling_interest_group = ig_armed_forces
-						}
-					}
-					ig:ig_armed_forces = {
-						leader = {
-							set_ideology = ideology_republican
-						}
-						add_ruling_interest_group = yes
-					}
-				}
-				if = {
-					limit = {
-						NOT = {
-							has_law = law_type:law_presidential_republic
-						}
-					}
-					activate_law = law_type:law_presidential_republic
-				}
-				if = {
-					limit = {
-						NOT = {
-							has_law = law_type:law_oligarchy
-						}
-					}
-					activate_law = law_type:law_oligarchy
-				}
-				if = {
-					limit = {
-						NOT = {
-							has_law = law_type:law_per_capita_based_taxation
-						}
-					}
-					activate_law = law_type:law_per_capita_based_taxation
-				}
-				if = {
-					limit = {
-						NOT = {
-							has_law = law_type:law_interventionism
-						}
-					}
-					activate_law = law_type:law_interventionism
-				}
-				if = {
-					limit = {
-						NOT = {
-							has_law = law_type:law_peasant_levies
-						}
-					}
-					activate_law = law_type:law_peasant_levies
-				}
-				if = {
-					limit = {
-						NOT = {
-							has_law = law_type:law_serfdom_banned
-						}
-					}
-					activate_law = law_type:law_serfdom_banned
-				}
-			}
-		}
+#		create_country = {
+#			tag = CR4
+#			origin = this
+#			province = x553A28
+#			province = xCDCCF7
+#			province = x85A9B1
+#			on_created = {
+#				if = {
+#					limit = {
+#						NOT = {
+#							has_ruling_interest_group = ig_armed_forces
+#						}
+#					}
+#					ig:ig_armed_forces = {
+#						leader = {
+#							set_ideology = ideology_republican
+#						}
+#						add_ruling_interest_group = yes
+#					}
+#				}
+#				if = {
+#					limit = {
+#						NOT = {
+#							has_law = law_type:law_presidential_republic
+#						}
+#					}
+#					activate_law = law_type:law_presidential_republic
+#				}
+#				if = {
+#					limit = {
+#						NOT = {
+#							has_law = law_type:law_oligarchy
+#						}
+#					}
+#					activate_law = law_type:law_oligarchy
+#				}
+#				if = {
+#					limit = {
+#						NOT = {
+#							has_law = law_type:law_per_capita_based_taxation
+#						}
+#					}
+#					activate_law = law_type:law_per_capita_based_taxation
+#				}
+#				if = {
+#					limit = {
+#						NOT = {
+#							has_law = law_type:law_interventionism
+#						}
+#					}
+#					activate_law = law_type:law_interventionism
+#				}
+#				if = {
+#					limit = {
+#						NOT = {
+#							has_law = law_type:law_peasant_levies
+#						}
+#					}
+#					activate_law = law_type:law_peasant_levies
+#				}
+#				if = {
+#					limit = {
+#						NOT = {
+#							has_law = law_type:law_serfdom_banned
+#						}
+#					}
+#					activate_law = law_type:law_serfdom_banned
+#				}
+#			}
+#		}
 		create_country = {
 			tag = CR5
 			origin = this
@@ -618,11 +618,11 @@ threemanychinas.3 = {
 			country = c:CR3
 			type = puppet
 		}
-		c:CR1 = {
-		create_diplomatic_pact = {
-			country = c:CR4
-			type = puppet
-		}
+#		c:CR1 = {
+#		create_diplomatic_pact = {
+#			country = c:CR4
+#			type = puppet
+#		}
 		c:CR1 = {
 		create_diplomatic_pact = {
 			country = c:CR5
@@ -639,43 +639,43 @@ threemanychinas.3 = {
 			add_target_backers = { CR1 CR2 CR3 CR4 CR5 CW1 }
 			add_war_goal = {
 				holder = c:CR1
-                type = annex_country
-                target_state = s:STATE_CHONGQING.region_state:W34
+                		type = annex_country
+                		target_state = s:STATE_CHONGQING.region_state:W34
 			}
 			add_war_goal = {
 				holder = c:CR1
-                type = annex_country
-                target_state = s:STATE_QINGHAI.region_state:CW2
+                		type = annex_country
+                		target_state = s:STATE_QINGHAI.region_state:CW2
 			}
 			add_war_goal = {
 				holder = c:CR1
-                type = annex_country
-                target_state = s:STATE_YUNNAN.region_state:CW3
+               			type = annex_country
+                		target_state = s:STATE_YUNNAN.region_state:CW3
 			}
 			add_war_goal = {
 				holder = c:CR1
-                type = annex_country
-                target_state = s:STATE_ZHILI.region_state:CW5
+                		type = annex_country
+                		target_state = s:STATE_ZHILI.region_state:CW5
 			}
 			add_war_goal = {
 				holder = c:W34
-                type = annex_country
-                target_state = s:STATE_FUJIAN.region_state:CR2
+                		type = annex_country
+                		target_state = s:STATE_FUJIAN.region_state:CR2
 			}
 			add_war_goal = {
 				holder = c:W34
-                type = annex_country
-                target_state = s:STATE_GUANGDONG.region_state:CR3
+                		type = annex_country
+                		target_state = s:STATE_GUANGDONG.region_state:CR3
 			}
+#			add_war_goal = {
+#				holder = c:W34
+#               		type = annex_country
+#              		target_state = s:STATE_FUJIAN.region_state:CR4
+#			}
 			add_war_goal = {
 				holder = c:W34
-                type = annex_country
-                target_state = s:STATE_FUJIAN.region_state:CR4
-			}
-			add_war_goal = {
-				holder = c:W34
-                type = annex_country
-                target_state = s:STATE_FUJIAN.region_state:CR5
+                		type = annex_country
+                		target_state = s:STATE_FUJIAN.region_state:CR5
 			}
 		}
 	}
