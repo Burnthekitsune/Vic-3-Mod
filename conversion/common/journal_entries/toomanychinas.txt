@@ -24,7 +24,7 @@ je_too_many_chinas = {
     on_complete = {
         trigger_event = { id = threemanychinas.2 } # The Mandate of Heaven
     }
-    timeout = 1825
+    timeout = 9000
     on_timeout = {
         trigger_event = { id = threemanychinas.3 } # The Qing and the Han
     }
