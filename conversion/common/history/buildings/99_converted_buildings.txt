@@ -878,7 +878,7 @@
 		}
 	}
 	s:STATE_ANHALT = {
-		region_state:SCA = {
+		region_state:PRU = {
 			create_building = {
 				building = "building_construction_sector"
 				level = 1
@@ -3146,7 +3146,7 @@
 		}
 	}
 	s:STATE_BOHEMIA = {
-		region_state:SCA = {
+		region_state:PRU = {
 			create_building = {
 				building = "building_barracks"
 				level = 2
@@ -3678,7 +3678,7 @@
 		}
 	}
 	s:STATE_BRANDENBURG = {
-		region_state:SCA = {
+		region_state:PRU = {
 			create_building = {
 				building = "building_barracks"
 				level = 1
@@ -7043,7 +7043,7 @@
 		}
 	}
 	s:STATE_EAST_PRUSSIA = {
-		region_state:SCA = {
+		region_state:PRU = {
 			create_building = {
 				building = "building_naval_base"
 				level = 1
@@ -8665,36 +8665,22 @@
 		}
 	}
 	s:STATE_GREATER_POLAND = {
-		region_state:SCA = {
-			create_building = {
-				building = "building_barracks"
-				level = 1
-				reserves = 1
-				activate_production_methods = { "pm_mobile_artillery" "pm_skirmish_infantry" }
-			}
-			create_building = {
-				building = "building_rye_farm"
-				level = 1
-				reserves = 1
-				activate_production_methods = { "pm_no_secondary" }
-			}
+		region_state:X79 = {
 			create_building = {
 				building = "building_coal_mine"
 				level = 1
 				reserves = 1
 				activate_production_methods = { "pm_atmospheric_engine_pump_building_coal_mine" }
 			}
-		}
-		region_state:X79 = {
 			create_building = {
 				building = "building_barracks"
-				level = 2
+				level = 3
 				reserves = 1
 				activate_production_methods = { "pm_line_infantry" "pm_mobile_artillery" }
 			}
 			create_building = {
 				building = "building_rye_farm"
-				level = 5
+				level = 6
 				reserves = 1
 				activate_production_methods = { "pm_no_secondary" }
 			}
@@ -12477,26 +12463,6 @@
 		}
 	}
 	s:STATE_LESSER_POLAND = {
-		region_state:SCA = {
-			create_building = {
-				building = "building_construction_sector"
-				level = 2
-				reserves = 1
-				activate_production_methods = { }
-			}
-			create_building = {
-				building = "building_barracks"
-				level = 2
-				reserves = 1
-				activate_production_methods = { "pm_mobile_artillery" "pm_skirmish_infantry" }
-			}
-			create_building = {
-				building = "building_rye_farm"
-				level = 1
-				reserves = 1
-				activate_production_methods = { "pm_no_secondary" }
-			}
-		}
 		region_state:UKR = {
 			create_building = {
 				building = "building_construction_sector"
@@ -12541,6 +12507,24 @@
 				level = 1
 				reserves = 1
 				activate_production_methods = { "pm_handcrafted_furniture" "pm_luxury_furniture" }
+			}
+			create_building = {
+				building = "building_construction_sector"
+				level = 2
+				reserves = 1
+				activate_production_methods = { }
+			}
+			create_building = {
+				building = "building_barracks"
+				level = 2
+				reserves = 1
+				activate_production_methods = { "pm_mobile_artillery" "pm_skirmish_infantry" }
+			}
+			create_building = {
+				building = "building_rye_farm"
+				level = 1
+				reserves = 1
+				activate_production_methods = { "pm_no_secondary" }
 			}
 		}
 		region_state:X79 = {
@@ -13991,7 +13975,7 @@
 		}
 	}
 	s:STATE_MAZOVIA = {
-		region_state:SCA = {
+		region_state:PRU = {
 			create_building = {
 				building = "building_livestock_ranch"
 				level = 1
@@ -14057,7 +14041,7 @@
 		}
 	}
 	s:STATE_MECKLENBURG = {
-		region_state:SCA = {
+		region_state:PRU = {
 			create_building = {
 				building = "building_construction_sector"
 				level = 1
@@ -18014,7 +17998,7 @@
 		}
 	}
 	s:STATE_POMERANIA = {
-		region_state:SCA = {
+		region_state:PRU = {
 			create_building = {
 				building = "building_barracks"
 				level = 4
@@ -18066,7 +18050,7 @@
 		}
 	}
 	s:STATE_POSEN = {
-		region_state:SCA = {
+		region_state:PRU = {
 			create_building = {
 				building = "building_barracks"
 				level = 2
@@ -18103,8 +18087,6 @@
 				reserves = 1
 				activate_production_methods = { "pm_vertical_filing_cabinets" }
 			}
-		}
-		region_state:X79 = {
 			create_building = {
 				building = "building_livestock_ranch"
 				level = 1
@@ -19498,7 +19480,7 @@
 		}
 	}
 	s:STATE_SAXONY = {
-		region_state:SCA = {
+		region_state:PRU = {
 			create_building = {
 				building = "building_sulfur_mine"
 				level = 1
@@ -20258,7 +20240,7 @@
 		}
 	}
 	s:STATE_SILESIA = {
-		region_state:SCA = {
+		region_state:PRU = {
 			create_building = {
 				building = "building_rye_farm"
 				level = 7
@@ -24743,7 +24725,7 @@
 		}
 	}
 	s:STATE_WEST_PRUSSIA = {
-		region_state:SCA = {
+		region_state:PRU = {
 			create_building = {
 				building = "building_naval_base"
 				level = 1

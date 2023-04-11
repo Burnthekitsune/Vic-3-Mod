@@ -532,4 +532,10 @@
 			type = puppet
 		}
 	}
+	c:SCA = {
+		create_diplomatic_pact = {
+			country = c:PRU
+			type = personal_union
+		}
+	}
 }

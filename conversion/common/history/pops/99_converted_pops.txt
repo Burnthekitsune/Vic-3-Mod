@@ -1912,7 +1912,7 @@
 		}
 	}
 	s:STATE_ANHALT = {
-		region_state:SCA = {
+		region_state:PRU = {
 			create_pop = {
 				culture = sorb
 				religion = catholic
@@ -6450,7 +6450,7 @@
 		}
 	}
 	s:STATE_BOHEMIA = {
-		region_state:SCA = {
+		region_state:PRU = {
 			create_pop = {
 				culture = sorb
 				religion = orthodox
@@ -7294,7 +7294,7 @@
 		}
 	}
 	s:STATE_BRANDENBURG = {
-		region_state:SCA = {
+		region_state:PRU = {
 			create_pop = {
 				culture = old_pommeranian
 				religion = catholic
@@ -15426,7 +15426,7 @@
 		}
 	}
 	s:STATE_EAST_PRUSSIA = {
-		region_state:SCA = {
+		region_state:PRU = {
 			create_pop = {
 				culture = pruthenian
 				religion = animist
@@ -18867,7 +18867,7 @@
 		}
 	}
 	s:STATE_GREATER_POLAND = {
-		region_state:SCA = {
+		region_state:X79 = {
 			create_pop = {
 				culture = dynamic-lithuanian-culture-num1
 				religion = catholic
@@ -18943,8 +18943,6 @@
 				religion = jewish
 				size = 8186
 			}
-		}
-		region_state:X79 = {
 			create_pop = {
 				culture = lithuanian
 				religion = catholic
@@ -27954,33 +27952,6 @@
 		}
 	}
 	s:STATE_LESSER_POLAND = {
-		region_state:SCA = {
-			create_pop = {
-				culture = dynamic-lithuanian-polish-culture-num1
-				religion = orthodox
-				size = 20825
-			}
-			create_pop = {
-				culture = dynamic-lithuanian-polish-culture-num1
-				religion = catholic
-				size = 9899
-			}
-			create_pop = {
-				culture = dynamic-lithuanian-polish-culture-num1
-				religion = protestant
-				size = 37532
-			}
-			create_pop = {
-				culture = dynamic-lithuanian-polish-culture-num1
-				religion = converted_dynamic_faith_102
-				size = 44037
-			}
-			create_pop = {
-				culture = ashkenazi
-				religion = jewish
-				size = 9866
-			}
-		}
 		region_state:UKR = {
 			create_pop = {
 				culture = dynamic-polish-culture-num2
@@ -28039,6 +28010,31 @@
 			}
 		}
 		region_state:V36 = {
+			create_pop = {
+				culture = dynamic-lithuanian-polish-culture-num1
+				religion = orthodox
+				size = 20825
+			}
+			create_pop = {
+				culture = dynamic-lithuanian-polish-culture-num1
+				religion = catholic
+				size = 9899
+			}
+			create_pop = {
+				culture = dynamic-lithuanian-polish-culture-num1
+				religion = protestant
+				size = 37532
+			}
+			create_pop = {
+				culture = dynamic-lithuanian-polish-culture-num1
+				religion = converted_dynamic_faith_102
+				size = 44037
+			}
+			create_pop = {
+				culture = ashkenazi
+				religion = jewish
+				size = 9866
+			}
 			create_pop = {
 				culture = dynamic-polish-culture-num2
 				religion = catholic
@@ -31754,7 +31750,7 @@
 		}
 	}
 	s:STATE_MAZOVIA = {
-		region_state:SCA = {
+		region_state:PRU = {
 			create_pop = {
 				culture = dynamic-lithuanian-polish-culture-num1
 				religion = orthodox
@@ -31855,7 +31851,7 @@
 		}
 	}
 	s:STATE_MECKLENBURG = {
-		region_state:SCA = {
+		region_state:PRU = {
 			create_pop = {
 				culture = dynamic-sorbian-culture-num1
 				religion = converted_dynamic_faith_102
@@ -43969,7 +43965,7 @@
 		}
 	}
 	s:STATE_POMERANIA = {
-		region_state:SCA = {
+		region_state:PRU = {
 			create_pop = {
 				culture = danish
 				religion = converted_dynamic_faith_102
@@ -44133,7 +44129,7 @@
 		}
 	}
 	s:STATE_POSEN = {
-		region_state:SCA = {
+		region_state:PRU = {
 			create_pop = {
 				culture = dynamic-polish-culture-num1
 				religion = catholic
@@ -44199,8 +44195,6 @@
 				religion = jewish
 				size = 2411
 			}
-		}
-		region_state:X79 = {
 			create_pop = {
 				culture = lithuanian
 				religion = catholic
@@ -47851,7 +47845,7 @@
 		}
 	}
 	s:STATE_SAXONY = {
-		region_state:SCA = {
+		region_state:PRU = {
 			create_pop = {
 				culture = sorb
 				religion = catholic
@@ -49192,7 +49186,7 @@
 		}
 	}
 	s:STATE_SILESIA = {
-		region_state:SCA = {
+		region_state:PRU = {
 			create_pop = {
 				culture = polish
 				religion = catholic
@@ -60465,7 +60459,7 @@
 		}
 	}
 	s:STATE_WEST_PRUSSIA = {
-		region_state:SCA = {
+		region_state:PRU = {
 			create_pop = {
 				culture = old_pommeranian
 				religion = animist
