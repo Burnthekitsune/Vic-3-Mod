@@ -524,6 +524,9 @@
 		set_relations = { country = c:X38 value = 10 }
 		set_relations = { country = c:X72 value = 10 }
 		set_relations = { country = c:X86 value = 10 }
+		set_relations = { country = c:X80 value = 60 }
+		set_relations = { country = c:X79 value = 60 }
+		set_relations = { country = c:W65 value = 60 }
 	}
 	c:W49 = {
 		set_relations = { country = c:ACE value = 25 }
