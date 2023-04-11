@@ -273,3 +273,80 @@ spread_communism_to_subjects = {
 		base = 100
 	}
 }
+
+expand_indochina = {
+	is_shown = {
+		this = c:X10
+		has_variable = chinese_domination
+		NOT = { has_variable = expand_indochina }
+	}
+	
+	possible = {
+		always = yes
+	}
+	when_taken = {
+		s:STATE_TONKIN = {
+			add_claim = c:X10
+		}
+		s:STATE_ANNAM = {
+			add_claim = c:X10
+		}
+		s:STATE_MEKONG = {
+			add_claim = c:X10
+		}
+		s:STATE_LAOS = {
+			add_claim = c:X10
+		}
+		s:STATE_CAMBODIA = {
+			add_claim = c:X10
+		}
+		s:STATE_NAKHON_RATCHASIMA = {
+			add_claim = c:X10
+		}
+		set_variable = expand_indochina
+	}
+	ai_chance = {
+		base = 100
+	}
+}
+
+control_indochina = {
+	is_shown = {
+		this = c:X10
+		has_variable = expand_indochina
+		NOT = { has_variable = control_indochina }
+	}
+	possible = {
+		always = yes
+	}
+	when_taken = {
+		s:STATE_BANGKOK = {
+			add_claim = c:X10
+		}
+		s:STATE_TENASSERIM = {
+			add_claim = c:X10
+		}
+		s:STATE_MALAYA = {
+			add_claim = c:X10
+		}
+		s:STATE_CHIANG_MAI = {
+			add_claim = c:X10
+		}
+		s:STATE_PEGU = {
+			add_claim = c:X10
+		}
+		s:STATE_SHAN_STATES = {
+			add_claim = c:X10
+		}
+		s:STATE_BURMA = {
+			add_claim = c:X10
+		}
+		s:STATE_KACHIN = {
+			add_claim = c:X10
+		}
+		set_variable = control_indochina
+	}
+	ai_chance = {
+		base = 100
+	}
+}

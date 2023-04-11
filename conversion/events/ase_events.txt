@@ -888,6 +888,10 @@ aseevent.23 = {
 		c:DAI = {
 			make_independent = yes
 		}
+		create_diplomatic_pact = {
+			country = c:DAI
+			type = protectorate
+		}
 		ai_chance = {
 			base = 100
 		}

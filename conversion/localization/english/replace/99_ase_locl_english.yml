@@ -24,6 +24,12 @@
  spread_communism_to_subjects: "Spread Communism"
  spread_communism_to_subjects_desc: "We must spread out beleifs to any under our rule!"
  spread_communism_to_subjects_tooltip: "We must spread out beleifs to any under our rule!"
+ expand_indochina: "Expand into Indo-China"
+ expand_indochina_desc: "These lands are rich, we must strike while we can!"
+ expand_indochina_tooltip: "These lands are rich, we must strike while we can!"
+ control_indochina: "Control Indo-China"
+ control_indochinas_desc: "We have pushed into part of Indo-China, let us take the rest!"
+ control_indochina_tooltip: "We have pushed into part of Indo-China, let us take the rest!"
  
  centralize_federation: "Centralize the Federation"
  centralize_federation_desc: "We can bring outselves together more."
