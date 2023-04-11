@@ -323,6 +323,39 @@ STZ = {
 		}
 	}
 }
+UPU = {
+	pattern = "pattern_solid.tga"
+	color1 = "red_light"
+	colored_emblem={
+		color1=white
+		color2=red_dark
+		texture="ce_tricolor_thick.dds"
+		instance={
+			position={ 0.5 0.5 }
+			scale={ 1 1 }
+		}
+	}
+	colored_emblem={
+		color1=yellow
+		color2=black
+		color3=red
+		texture="ce_lion_rampant.dds"
+		instance={
+			position={ 0.5 0.3 }
+			scale={ 0.5 0.5 }
+		}
+	}
+	colored_emblem={
+		color1=grey
+		color2=grey
+		color3=white
+		texture="ce_bull_head.dds"
+		instance={
+			position={ 0.5 0.75 }
+			scale={ 0.6 0.6 }
+		}
+	}
+}
 #GABES communist flag storage until I have time to code it
 #V27 = {
 #	pattern = "pattern_solid.tga"
