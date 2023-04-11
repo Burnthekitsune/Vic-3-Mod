@@ -9610,3 +9610,12 @@ MR4 = {
 	religion = mahayana
 	capital = STATE_YANGSEO
 }
+
+STZ = {
+	color = { 212 142 36 }
+	country_type = recognized
+	tier = principality
+	cultures = { dynamic-berber-fulani-culture-num1 }
+	religion = converted_dynamic_faith_106
+	capital = STATE_TONGA
+}

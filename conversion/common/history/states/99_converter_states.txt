@@ -6230,7 +6230,11 @@
 		}
 		create_state = {
 			country = c:W56
-			owned_provinces = { xA7F8A1 xC00010 xD98CDA }
+			owned_provinces = { xA7F8A1 xC00010 }
+		}
+		create_state = {
+			country = c:STZ
+			owned_provinces = { xD98CDA }
 		}
 		add_homeland = polynesian
 		add_claim = c:W99

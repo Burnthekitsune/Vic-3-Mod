@@ -54570,7 +54570,39 @@
 			create_pop = {
 				culture = polynesian
 				religion = animist
-				size = 25901
+				size = 20901
+			}
+		}
+		region_state:STZ = {
+			create_pop = {
+				culture = polynesian
+				religion = animist
+				size = 5901
+			}
+			create_pop = {
+				culture = dynamic-berber-fulani-culture-num1
+				religion = converted_dynamic_faith_106
+				size = 847
+			}
+			create_pop = {
+				culture = dynamic-greek-culture-num4
+				religion = converted_dynamic_faith_106
+				size = 606
+			}
+			create_pop = {
+				culture = dynamic-fulani-culture-num1
+				religion = converted_dynamic_faith_103
+				size = 480
+			}
+			create_pop = {
+				culture = chowinikob
+				religion = converted_dynamic_faith_106
+				size = 150
+			}
+			create_pop = {
+				culture = dynamic-fulani-culture-num2
+				religion = converted_dynamic_faith_103
+				size = 216
 			}
 		}
 	}
