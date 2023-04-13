@@ -6725,8 +6725,8 @@ V20 = {
 V21 = {
 	color = { 136 37 120 }
 	country_type = recognized
-	tier = hegemony
-	cultures = { hungarian }
+	tier = kingdom
+	cultures = { dynamic-bulgarian-greek-culture-num1 }
 	religion = orthodox
 	capital = STATE_HUDAVENDIGAR
 }
