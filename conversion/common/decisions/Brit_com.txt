@@ -29,9 +29,9 @@
 launch_revolution = {
 	is_shown = {
 		this = c:X10
-		# has_law = law_type:law_council_republic
+		has_law = law_type:law_council_republic
 		NOT = { has_variable = launched_revolution }
-		# has_variable = supplied_communists
+		has_variable = supplied_communists
 		exists = c:GBR
 	}
 	
@@ -308,10 +308,6 @@ york_victory = {
 	
 	when_taken = {
 		change_tag = GBR
-		set_relations = {
-			country = c:X10
-			value = 100
-		} 
 		if = {
 			limit = {
 				exists = c:GB2

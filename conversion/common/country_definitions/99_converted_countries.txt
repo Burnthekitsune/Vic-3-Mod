@@ -5527,7 +5527,7 @@ SCO = {
 	tier = city_state
 	cultures = { askulandi }
 	religion = converted_dynamic_faith_102
-	capital = STATE_LANCASHIRE
+	capital = STATE_LOWLANDS
 }
 
 SCW = {
@@ -9618,4 +9618,49 @@ STZ = {
 	cultures = { dynamic-berber-fulani-culture-num1 }
 	religion = converted_dynamic_faith_106
 	capital = STATE_TONGA
+}
+
+GB2 = { #England
+	color = { 193 26 14 }
+	country_type = recognized
+	tier = kingdom
+	cultures = { anjilu_saksunia }
+	religion = converted_dynamic_faith_102
+	capital = STATE_WEST_COUNTRY
+}
+
+GB5 = { # Ireland
+	color = { 112 150 105 }
+	country_type = recognized
+	tier = kingdom
+	cultures = { ayirlandian }
+	religion = converted_dynamic_faith_102
+	capital = STATE_CONNAUGHT
+}
+
+GB3 = { #Wales
+	color = { 117 127 174 }
+	country_type = recognized
+	tier = kingdom
+	cultures = { wylz }
+	religion = converted_dynamic_faith_102
+	capital = STATE_WALES
+}
+
+GB4 = { #Scotland
+	color = { 199 175 12 }
+	country_type = recognized
+	tier = kingdom
+	cultures = { askulandi }
+	religion = converted_dynamic_faith_102
+	capital = STATE_LOWLANDS
+}
+
+GB1 = { #York
+	color = { 235 150 5 }
+	country_type = recognized
+	tier = kingdom
+	cultures = { anjilu_nurs }
+	religion = converted_dynamic_faith_102
+	capital = STATE_YORKSHIRE
 }
