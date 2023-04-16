@@ -1361,8 +1361,11 @@ aseevent.41 = {
 			country = c:W34
 			value = -50
 		}
-		s:STATE_GUANGDONG.region_state:W34 = {
-			set_state_owner = c:W94
+		s:STATE_GUANGDONG = {
+			set_owner_of_provinces = {
+				country = c:W94
+				provinces = { xF0B061 }
+			}
 		}
 		ai_chance = {
 			base = 100
