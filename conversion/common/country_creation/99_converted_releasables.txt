@@ -802,3 +802,8 @@ LUX = {
 	provinces = { x5180A0 }
 	ai_will_do = { always = no }
 }
+
+ULS = {
+	provinces = { }
+	ai_will_do = { always = no }
+}
