@@ -317,7 +317,12 @@ control_indochina = {
 		NOT = { has_variable = control_indochina }
 	}
 	possible = {
-		always = yes
+		country_or_subject_owns_entire_state_region = STATE_TONKIN
+		country_or_subject_owns_entire_state_region = STATE_ANNAM
+		country_or_subject_owns_entire_state_region = STATE_MEKONG
+		country_or_subject_owns_entire_state_region = STATE_LAOS
+		country_or_subject_owns_entire_state_region = STATE_CAMBODIA
+		country_or_subject_owns_entire_state_region = STATE_NAKHON_RATCHASIMA
 	}
 	when_taken = {
 		s:STATE_BANGKOK = {
@@ -345,6 +350,34 @@ control_indochina = {
 			add_claim = c:X10
 		}
 		set_variable = control_indochina
+	}
+	ai_chance = {
+		base = 100
+	}
+}
+
+expand_manghulia = {
+	is_shown = {
+		this = c:X10
+		has_variable = chinese_domination
+		NOT = { has_variable = expanded_manghulia }
+	}
+	possible = {
+		exists = c:X82
+		c:X82 = {
+			is_direct_subject_of = c:X10
+		}
+	}
+	when_taken = {
+		s:STATE_ALXA.region_state:W34 = {
+			set_state_owner = c:X82
+		}
+		s:STATE_HINGGAN.region_state:W34 = {
+			set_state_owner = c:X82
+		}
+		set_variable = {
+			name = expanded_manghulia
+		}
 	}
 	ai_chance = {
 		base = 100
