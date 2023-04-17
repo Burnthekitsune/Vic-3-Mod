@@ -380,6 +380,11 @@ york_victory = {
 		s:STATE_EAST_ANGLIA.region_state:GBR = {
 			set_state_type = incorporated
 		}
+		add_primary_culture = cu:anjilu_saksunia
+		add_primary_culture = cu:ayirlandian
+		add_primary_culture = cu:wylz
+		add_primary_culture = cu:askulandi
+		add_primary_culture = cu:alayislandia
 		set_variable = {
 			name = brit_communist
 		}
