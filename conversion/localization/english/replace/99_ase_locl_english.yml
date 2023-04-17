@@ -306,9 +306,13 @@
  ireland_stalemate_desc: "The total revolution failed, but we must hold on."
  welsh_stalemate: "Form Wales"
  welsh_stalemate_desc: "The total revolution failed, but we must hold on."
+ free_jorvik: "Free Jorvik"
+ free_jorvik_desc: "The revoltuion has failed, but we can keep a revolution alive at home."
  
  GB1: "Revolutionary York"
  GB1_ADJ: "Yorkish"
+ YOR: "Jorvik"
+ YOR_ADJ: "Yorkish"
  GB2: "Revolutionary England"
  GB2_ADJ: "English"
  GB3: "Revolutionary Wales"

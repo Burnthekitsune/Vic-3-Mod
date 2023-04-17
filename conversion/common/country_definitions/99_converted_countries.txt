@@ -9664,3 +9664,12 @@ GB1 = { #York
 	religion = converted_dynamic_faith_102
 	capital = STATE_YORKSHIRE
 }
+
+YOR = { #York
+	color = { 235 150 5 }
+	country_type = recognized
+	tier = kingdom
+	cultures = { anjilu_nurs }
+	religion = converted_dynamic_faith_102
+	capital = STATE_YORKSHIRE
+}
