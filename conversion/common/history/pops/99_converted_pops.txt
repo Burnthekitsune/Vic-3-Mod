@@ -24334,8 +24334,6 @@
 				religion = mahayana
 				size = 5814258
 			}
-		}
-		region_state:W94 = {
 			create_pop = {
 				culture = min
 				religion = mahayana
@@ -48761,14 +48759,12 @@
 		}
 	}
 	s:STATE_SHAOZHOU = {
-		region_state:W34 = {
+		region_state:W94 = {
 			create_pop = {
 				culture = hakka
 				religion = mahayana
 				size = 2037722
 			}
-		}
-		region_state:W94 = {
 			create_pop = {
 				culture = yue
 				religion = mahayana

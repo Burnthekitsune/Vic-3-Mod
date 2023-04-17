@@ -10844,7 +10844,7 @@
 		region_state:W34 = {
 			create_building = {
 				building = "building_barracks"
-				level = 20
+				level = 28
 				reserves = 1
 				activate_production_methods = { "pm_cannon_artillery" "pm_irregular_infantry" }
 			}
@@ -10874,7 +10874,7 @@
 			}
 			create_building = {
 				building = "building_rice_farm"
-				level = 36
+				level = 41
 				reserves = 1
 				activate_production_methods = { "pm_no_secondary" }
 			}
@@ -10884,25 +10884,11 @@
 				reserves = 1
 				activate_production_methods = { "pm_horizontal_drawer_cabinets" }
 			}
-		}
-		region_state:W94 = {
 			create_building = {
 				building = "building_cotton_plantation"
 				level = 1
 				reserves = 1
 				activate_production_methods = { }
-			}
-			create_building = {
-				building = "building_rice_farm"
-				level = 5
-				reserves = 1
-				activate_production_methods = { "pm_no_secondary" }
-			}
-			create_building = {
-				building = "building_barracks"
-				level = 8
-				reserves = 1
-				activate_production_methods = { "pm_mobile_artillery" "pm_skirmish_infantry" }
 			}
 			create_building = {
 				building = "building_food_industry"
@@ -19888,7 +19874,7 @@
 		}
 	}
 	s:STATE_SHAOZHOU = {
-		region_state:W34 = {
+		region_state:W94 = {
 			create_building = {
 				building = "building_construction_sector"
 				level = 7
@@ -19896,25 +19882,11 @@
 				activate_production_methods = { }
 			}
 			create_building = {
-				building = "building_barracks"
-				level = 14
-				reserves = 1
-				activate_production_methods = { "pm_cannon_artillery" "pm_irregular_infantry" }
-			}
-			create_building = {
-				building = "building_rice_farm"
-				level = 1
-				reserves = 1
-				activate_production_methods = { "pm_fig_orchards" }
-			}
-			create_building = {
 				building = "building_dye_plantation"
 				level = 2
 				reserves = 1
 				activate_production_methods = { }
 			}
-		}
-		region_state:W94 = {
 			create_building = {
 				building = "building_university"
 				level = 1
@@ -19923,7 +19895,7 @@
 			}
 			create_building = {
 				building = "building_barracks"
-				level = 5
+				level = 20
 				reserves = 1
 				activate_production_methods = { "pm_mobile_artillery" "pm_skirmish_infantry" }
 			}
@@ -19941,7 +19913,7 @@
 			}
 			create_building = {
 				building = "building_rice_farm"
-				level = 32
+				level = 33
 				reserves = 1
 				activate_production_methods = { "pm_no_secondary" }
 			}
