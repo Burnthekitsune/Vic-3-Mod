@@ -43,7 +43,7 @@ launch_revolution = {
 		set_relations = {
 			country = c:GBR
 			value = -500
-		}
+		} 
 		set_variable = {
 			name = launched_revolution
 		}
@@ -297,6 +297,7 @@ launch_revolution = {
 
 york_victory = {
 	is_shown = {
+		exists = c:GB1
 		this = c:GB1
 		NOT = { has_variable = brit_communist }
 		NOT = { exists = c:GBR }
@@ -308,6 +309,10 @@ york_victory = {
 	
 	when_taken = {
 		change_tag = GBR
+		set_relations = {
+			country = c:X10
+			value = 100
+		} 
 		if = {
 			limit = {
 				exists = c:GB2
@@ -380,11 +385,6 @@ york_victory = {
 		s:STATE_EAST_ANGLIA.region_state:GBR = {
 			set_state_type = incorporated
 		}
-		add_primary_culture = cu:anjilu_saksunia
-		add_primary_culture = cu:ayirlandian
-		add_primary_culture = cu:wylz
-		add_primary_culture = cu:askulandi
-		add_primary_culture = cu:alayislandia
 		set_variable = {
 			name = brit_communist
 		}
@@ -397,6 +397,7 @@ york_victory = {
 
 england_stalemate = {
 	is_shown = {
+		exists = c:GB2
 		this = c:GB2
 		exists = c:GBR
 		NOT = { exists = c:GB1 }
@@ -417,6 +418,7 @@ england_stalemate = {
 
 scotland_stalemate = {
 	is_shown = {
+		exists = c:GB4
 		this = c:GB4
 		exists = c:GBR
 		NOT = { exists = c:GB1 }
@@ -437,6 +439,7 @@ scotland_stalemate = {
 
 ireland_stalemate = {
 	is_shown = {
+		exists = c:GB5
 		this = c:GB5
 		exists = c:GBR
 		NOT = { exists = c:GB1 }
@@ -457,6 +460,7 @@ ireland_stalemate = {
 
 welsh_stalemate = {
 	is_shown = {
+		exists = c:GB2
 		this = c:GB3
 		exists = c:GBR
 		NOT = { exists = c:GB1 }
@@ -474,9 +478,9 @@ welsh_stalemate = {
 		base = 100
 	}
 }
-
 free_jorvik = {
 	is_shown = {
+		exists = c:ENG
 		this = c:ENG
 		exists = c:GBR
 		exists = c:WLS
