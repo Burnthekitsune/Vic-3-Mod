@@ -33,6 +33,12 @@
  expand_manghulia: "Expand Manghulia"
  expand_manghulia_desc: "We have absolute control of Chinese affairs. Let us adjust the border."
  expand_manghulia_tooltip: "We have absolute control of Chinese affairs. Let us adjust the border."
+ buy_out_trade_companies: "Buy out Trade Companies"
+ buy_out_trade_companies_desc: "The trade companies would be better suited under out control."
+ buy_out_trade_companies_tooltip: "Buy out Trade Companies"
+ annex_chinese_coast: "Annex Chinese Coast"
+ annex_chinese_coast_desc: "Our influence and power in China is unmattached, we can sieze the coast with out Navy."
+ annex_chinese_coast_tooltip: "Annex Chinese Coast"
  
  centralize_federation: "Centralize the Federation"
  centralize_federation_desc: "We can bring outselves together more."

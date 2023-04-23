@@ -369,14 +369,311 @@ expand_manghulia = {
 		}
 	}
 	when_taken = {
-		s:STATE_ALXA.region_state:W34 = {
+		s:STATE_ALXA = {
+			add_claim = c:X82
+		}
+		every_state = {
+			limit = {
+				state_region = s:STATE_ALXA
+				OR = {
+					owner = c:W34
+					owner = c:CW1
+					owner = c:CW2
+					owner = c:CW3
+					owner = c:CW4
+					owner = c:CW5
+					owner = c:CR1
+					owner = c:CR2
+					owner = c:CR3
+					owner = c:CR4
+					owner = c:CR5
+				}
+			}
 			set_state_owner = c:X82
 		}
-		s:STATE_HINGGAN.region_state:W34 = {
+		s:STATE_HINGGAN = {
+			add_claim = c:X82
+		}
+		every_state = {
+			limit = {
+				state_region = s:STATE_HINGGAN
+				OR = {
+					owner = c:W34
+					owner = c:CW1
+					owner = c:CW2
+					owner = c:CW3
+					owner = c:CW4
+					owner = c:CW5
+					owner = c:CR1
+					owner = c:CR2
+					owner = c:CR3
+					owner = c:CR4
+					owner = c:CR5
+				}
+			}
 			set_state_owner = c:X82
 		}
 		set_variable = {
 			name = expanded_manghulia
+		}
+	}
+	ai_chance = {
+		base = 100
+	}
+}
+
+buy_out_trade_companies = {
+	is_shown = {
+		this = c:X10
+		has_variable = chinese_domination
+		NOT = { has_variable = bought_trade_companeis }
+	}
+	possible = {
+		exists = c:W87
+		c:W87 = {
+			is_direct_subject_of = c:X10
+		}
+	}
+	when_taken = {
+		annex = c:W87
+		if = {
+			limit = {
+				exists = c:W90
+			}
+			annex = c:W90
+		}
+		if = {
+			limit = {
+				exists = c:W94
+			}
+			annex = c:W94
+		}
+		add_treasury = -500000
+		set_variable = {
+			name = bought_trade_companeis
+		}
+	}
+	ai_chance = {
+		base = 100
+	}
+}
+
+annex_chinese_coast = {
+	is_shown = {
+		this = c:X10
+		has_variable = chinese_domination
+		has_variable = bought_trade_companeis
+		NOT = { has_variable = chinese_coast }
+	}
+	possible = {
+		OR = {
+			exists = c:W34
+			exists = c:CW1
+			exists = c:CW2
+			exists = c:CW3
+			exists = c:CW5
+			exists = c:CR1
+			exists = c:CR2
+			exists = c:CR3
+			exists = c:CR4
+			exists = c:CR5
+		}
+	}
+	when_taken = {
+		change_infamy = 10
+		every_state = {
+			limit = {
+				state_region = s:STATE_GUANGDONG
+				OR = {
+					owner = c:W34
+					owner = c:CW1
+					owner = c:CW2
+					owner = c:CW3
+					owner = c:CW4
+					owner = c:CW5
+					owner = c:CR1
+					owner = c:CR2
+					owner = c:CR3
+					owner = c:CR4
+					owner = c:CR5
+				}
+			}
+			set_state_owner = c:X10
+		}
+		every_state = {
+			limit = {
+				state_region = s:STATE_SHAOZHOU
+				OR = {
+					owner = c:W34
+					owner = c:CW1
+					owner = c:CW2
+					owner = c:CW3
+					owner = c:CW4
+					owner = c:CW5
+					owner = c:CR1
+					owner = c:CR2
+					owner = c:CR3
+					owner = c:CR4
+					owner = c:CR5
+				}
+			}
+			set_state_owner = c:X10
+		}
+		every_state = {
+			limit = {
+				state_region = s:STATE_FUJIAN
+				OR = {
+					owner = c:W34
+					owner = c:CW1
+					owner = c:CW2
+					owner = c:CW3
+					owner = c:CW4
+					owner = c:CW5
+					owner = c:CR1
+					owner = c:CR2
+					owner = c:CR3
+					owner = c:CR4
+					owner = c:CR5
+				}
+			}
+			set_state_owner = c:X10
+		}
+		every_state = {
+			limit = {
+				state_region = s:STATE_ZHEJIANG
+				OR = {
+					owner = c:W34
+					owner = c:CW1
+					owner = c:CW2
+					owner = c:CW3
+					owner = c:CW4
+					owner = c:CW5
+					owner = c:CR1
+					owner = c:CR2
+					owner = c:CR3
+					owner = c:CR4
+					owner = c:CR5
+				}
+			}
+			set_state_owner = c:X10
+		}
+		every_state = {
+			limit = {
+				state_region = s:STATE_SUZHOU
+				OR = {
+					owner = c:W34
+					owner = c:CW1
+					owner = c:CW2
+					owner = c:CW3
+					owner = c:CW4
+					owner = c:CW5
+					owner = c:CR1
+					owner = c:CR2
+					owner = c:CR3
+					owner = c:CR4
+					owner = c:CR5
+				}
+			}
+			set_state_owner = c:X10
+		}
+		every_state = {
+			limit = {
+				state_region = s:STATE_NANJING
+				OR = {
+					owner = c:W34
+					owner = c:CW1
+					owner = c:CW2
+					owner = c:CW3
+					owner = c:CW4
+					owner = c:CW5
+					owner = c:CR1
+					owner = c:CR2
+					owner = c:CR3
+					owner = c:CR4
+					owner = c:CR5
+				}
+			}
+			set_state_owner = c:X10
+		}
+		every_state = {
+			limit = {
+				state_region = s:STATE_JIANGSU
+				OR = {
+					owner = c:W34
+					owner = c:CW1
+					owner = c:CW2
+					owner = c:CW3
+					owner = c:CW4
+					owner = c:CW5
+					owner = c:CR1
+					owner = c:CR2
+					owner = c:CR3
+					owner = c:CR4
+					owner = c:CR5
+				}
+			}
+			set_state_owner = c:X10
+		}
+		every_state = {
+			limit = {
+				state_region = s:STATE_SHANDONG
+				OR = {
+					owner = c:W34
+					owner = c:CW1
+					owner = c:CW2
+					owner = c:CW3
+					owner = c:CW4
+					owner = c:CW5
+					owner = c:CR1
+					owner = c:CR2
+					owner = c:CR3
+					owner = c:CR4
+					owner = c:CR5
+				}
+			}
+			set_state_owner = c:X10
+		}
+		every_state = {
+			limit = {
+				state_region = s:STATE_ZHILI
+				OR = {
+					owner = c:W34
+					owner = c:CW1
+					owner = c:CW2
+					owner = c:CW3
+					owner = c:CW4
+					owner = c:CW5
+					owner = c:CR1
+					owner = c:CR2
+					owner = c:CR3
+					owner = c:CR4
+					owner = c:CR5
+				}
+			}
+			set_state_owner = c:X10
+		}
+		every_state = {
+			limit = {
+				state_region = s:STATE_BEIJING
+				OR = {
+					owner = c:W34
+					owner = c:CW1
+					owner = c:CW2
+					owner = c:CW3
+					owner = c:CW4
+					owner = c:CW5
+					owner = c:CR1
+					owner = c:CR2
+					owner = c:CR3
+					owner = c:CR4
+					owner = c:CR5
+				}
+			}
+			set_state_owner = c:X10
+		}
+		
+		set_variable = {
+			name = chinese_coast
 		}
 	}
 	ai_chance = {
