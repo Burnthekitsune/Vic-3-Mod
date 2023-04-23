@@ -1,4 +1,5 @@
 ﻿efficient_bureaucracy = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds
 	country_bureaucracy_mult = 0.2
 }
 
@@ -39,16 +40,39 @@ mexican_unifier_ruler = {
 }
 
 politial_isolation = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_fist_positive.dds
 	interest_group_pol_str_mult = -3
 	interest_group_pop_attraction_mult = -3
 }
 
 politial_sideline = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_fist_negative.dds
 	interest_group_pol_str_mult = -0.25
 }
 
 poltical_focus = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_fist_negative.dds
 	interest_group_pol_str_mult = 7.5
 	interest_group_pop_attraction_mult = 5
 	interest_group_in_government_approval_add = 10
+}
+
+ase_absolute_authority = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_fist_positive.dds
+	country_authority_mult = 0.1
+}
+
+chinese_ports = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_positive.dds
+	country_trade_route_competitiveness_mult = 0.1
+}
+
+colonial_navy = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_documents_positive.dds
+	country_convoys_capacity_mult = 0.1
+}
+
+nunavut_rush = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
+	state_colony_growth_speed_mult = 0.2
 }

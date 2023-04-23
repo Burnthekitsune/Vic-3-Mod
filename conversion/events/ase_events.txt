@@ -138,6 +138,10 @@ aseevent.1 = { # Intro
 			name = chinese_power
 			add = 5
 		}
+		add_modifier = {
+			name = nunavut_rush
+			months = 60
+		}
 		set_variable = ase_ready
 		ai_chance = {
 			base = 100

@@ -81,6 +81,9 @@ je_ase_authority = {
 				name = chinese_power
 				add = 1
 			}
+			add_modifier = {
+				name = ase_absolute_authority
+			}
 		}
 		if = {
 			trigger_event = aseevent.14
@@ -263,6 +266,9 @@ je_china_authority = {
 				name = caliph_power
 				add = 2
 			}
+			add_modifier = {
+				name = ase_authority
+			}
 		}
 		if = {
 			limit = {
@@ -361,6 +367,9 @@ je_america_authority = {
 			change_variable = { 
 				name = caliph_power
 				add = 1
+			}
+			add_modifier = {
+				name = colonial_navy
 			}
 			set_variable = ase_turmoil_america_over
 		}
