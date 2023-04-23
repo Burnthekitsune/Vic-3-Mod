@@ -1245,6 +1245,18 @@
  MR4_ADJ: "Chaoxian"
  STZ: "Battaadedubbi"
  STZ_ADJ: "Battaadedubbi"
+ CC1: "Mjimpya"
+ CC1_ADJ: "Mjimpyan"
+ CC2: "Sabha"
+ CC2_ADJ: "Sabhan"
+ CC3: "Tenere"
+ CC3_ADJ: "Tenere"
+ CC4:
+ CC4_ADJ:
+ CC5:
+ CC5_ADJ:
+ CC6:
+ CC6_ADJ:
 
  #Zaracas stuff I dont know where to put
  tenth_cycle: "Tenth Cycle"

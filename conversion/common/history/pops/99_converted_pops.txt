@@ -33581,6 +33581,33 @@
 				size = 45176
 			}
 		}
+		region_state:CC1 = {
+			create_pop = {
+				culture = dynamic-berber-fulani-culture-num1
+				religion = converted_dynamic_faith_106
+				size = 16922
+			}
+			create_pop = {
+				culture = chewa
+				religion = animist
+				size = 10419
+			}
+			create_pop = {
+				culture = swahili
+				religion = sunni
+				size = 5176
+			}
+			create_pop = {
+				culture = swahili
+				religion = animist
+				size = 85176
+			}
+			create_pop = {
+				culture = yao
+				religion = sunni
+				size = 35176
+			}
+		}
 		region_state:V49 = {
 			create_pop = {
 				culture = swahili
@@ -62489,6 +62516,40 @@
 		}
 	}
 	s:STATE_ZAMBEZIA = {
+		region_state:CC2 = {
+			create_pop = {
+				culture = dynamic-berber-fulani-culture-num1
+				religion = converted_dynamic_faith_106
+				size = 5614
+			}
+			create_pop = {
+				culture = nguni
+				religion = animist
+				size = 27022
+			}
+			create_pop = {
+				culture = yao
+				religion = sunni
+				size = 11028
+			}
+		}
+		region_state:CC3 = {
+			create_pop = {
+				culture = dynamic-berber-fulani-culture-num1
+				religion = converted_dynamic_faith_106
+				size = 1012
+			}
+			create_pop = {
+				culture = nguni
+				religion = animist
+				size = 37022
+			}
+			create_pop = {
+				culture = yao
+				religion = sunni
+				size = 16018
+			}
+		}
 		region_state:V49 = {
 			create_pop = {
 				culture = nguni

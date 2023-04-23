@@ -14552,6 +14552,16 @@
 			}
 		}
 	}
+	s:STATE_MOCAMBIQUE = {
+		region_state:CC1 = {
+			create_building = {
+				building = "building_port"
+				level = 5
+				reserves = 1
+				activate_production_methods = { }
+			}
+		}
+	}
 	s:STATE_MOLDAVIA = {
 		region_state:W40 = {
 			create_building = {
@@ -25319,6 +25329,36 @@
 				level = 1
 				reserves = 1
 				activate_production_methods = { "pm_fig_orchards" }
+			}
+		}
+	}
+	s:STATE_ZAMBEZIA = {
+		region_state:CC2 = {
+			create_building = {
+				building = "building_millet_farm"
+				level = 1
+				reserves = 1
+				activate_production_methods = { "pm_fig_orchards" }
+			}
+			create_building = {
+				building = "building_port"
+				level = 1
+				reserves = 1
+				activate_production_methods = { }
+			}
+		}
+		region_state:CC3 = {
+			create_building = {
+				building = "building_millet_farm"
+				level = 1
+				reserves = 1
+				activate_production_methods = { "pm_fig_orchards" }
+			}
+			create_building = {
+				building = "building_port"
+				level = 1
+				reserves = 1
+				activate_production_methods = { }
 			}
 		}
 	}
