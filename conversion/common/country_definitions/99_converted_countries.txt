@@ -699,6 +699,7 @@ BEL = {
 	tier = kingdom
 	cultures = { flemish wallonian }
 	capital = STATE_FLANDERS
+	religion = converted_dynamic_faith_102
 }
 
 BEN = {
