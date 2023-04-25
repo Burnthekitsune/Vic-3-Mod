@@ -325,6 +325,97 @@ control_indochina = {
 		country_or_subject_owns_entire_state_region = STATE_NAKHON_RATCHASIMA
 	}
 	when_taken = {
+		if = {
+			limit = {
+				exists = c:DAI
+				has_subject_relation_with = c:DAI
+			}
+			annex = c:DAI
+		}
+		if = {
+			limit = {
+				exists = c:W36
+				has_subject_relation_with = c:W36
+			}
+			annex = c:W36
+		}
+		if = {
+			limit = {
+				exists = c:X32
+				has_subject_relation_with = c:X32
+			}
+			annex = c:X32
+		}
+		if = {
+			limit = {
+				exists = c:SIA
+				has_subject_relation_with = c:SIA
+			}
+			annex = c:SIA
+		}
+		if = {
+			limit = {
+				exists = c:CHP
+				has_subject_relation_with = c:CHP
+			}
+			annex = c:CHP
+		}
+		if = {
+			limit = {
+				exists = c:VIE
+				has_subject_relation_with = c:VIE
+			}
+			annex = c:VIE
+		}
+		if = {
+			limit = {
+				exists = c:CW4
+				has_subject_relation_with = c:CW4
+			}
+			annex = c:CW4
+		}
+		if = {
+			limit = {
+				exists = c:HTH
+				has_subject_relation_with = c:HTH
+			}
+			annex = c:HTH
+		}
+		if = {
+			limit = {
+				exists = c:CMI
+				has_subject_relation_with = c:CMI
+			}
+			annex = c:CMI
+		}
+		if = {
+			limit = {
+				exists = c:KRN
+				has_subject_relation_with = c:KRN
+			}
+			annex = c:KRN
+		}
+		if = {
+			limit = {
+				exists = c:W35
+				has_subject_relation_with = c:W35
+			}
+			annex = c:W35
+		}
+		if = {
+			limit = {
+				exists = c:W32
+				has_subject_relation_with = c:W32
+			}
+			annex = c:W32
+		}
+		if = {
+			limit = {
+				exists = c:X63
+				has_subject_relation_with = c:X63
+			}
+			annex = c:X63
+		}
 		s:STATE_BANGKOK = {
 			add_claim = c:X10
 		}
