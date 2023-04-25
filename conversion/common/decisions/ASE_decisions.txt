@@ -1059,7 +1059,7 @@ northern_revolt = {
 			}
 		}
 		create_country = {
-			tag = ANU
+			tag = AHU
 			origin = W34
 			state = s:STATE_NORTHERN_ANHUI.region_state:X10
 			state = s:STATE_SOUTHERN_ANHUI.region_state:X10
