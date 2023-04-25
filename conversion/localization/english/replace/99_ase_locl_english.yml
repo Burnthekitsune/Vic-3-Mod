@@ -45,6 +45,12 @@
  southern_revolt: "South Chinese Revolt"
  southern_revolt_desc: "We can use the discontent in China to make some puppets in the South"
  southern_revolt_tooltip: "We can use the discontent in China to make some puppets in the South"
+ lowland_puppets: "Puppet the Lowlands"
+ lowland_puppets_desc: "We can use our influence in the area to break the Lowlands free and under us."
+ lowland_puppets_tooltip: "We can use our influence in the area to break the Lowlands free and under us."
+ iceland_trade: "Trade Iceland"
+ iceland_trade_desc: "The British are interested in Iceland, and we are interested in a potential ally. We can sell Iceland to them for a defensive pact and banning slavery!"
+ iceland_trade_tooltip: "The British are interested in Iceland, and we are interested in a potential ally. We can sell Iceland to them for a defensive pact and banning slavery!"
  
  centralize_federation: "Centralize the Federation"
  centralize_federation_desc: "We can bring outselves together more."
