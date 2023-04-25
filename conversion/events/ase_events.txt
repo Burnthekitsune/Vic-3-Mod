@@ -259,6 +259,9 @@ aseevent.4 = {
 			country = c:W17
 			value = -50
 		}
+		set_variable = {
+			name = kept_lowlands
+		}
 		ai_chance = {
 			base = 100
 		}

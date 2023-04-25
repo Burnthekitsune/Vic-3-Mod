@@ -486,6 +486,9 @@ je_france_authority = {
 				name = caliph_power
 				add = 1
 			}
+			set_variable = {
+				name = french_domination
+			}
 		}
 		if = {
 			limit = {
