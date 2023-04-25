@@ -39,6 +39,12 @@
  annex_chinese_coast: "Annex Chinese Coast"
  annex_chinese_coast_desc: "Our influence and power in China is unmattached, we can sieze the coast with out Navy."
  annex_chinese_coast_tooltip: "Annex Chinese Coast"
+ northern_revolt: "North Chinese Revolt"
+ northern_revolt_desc: "We can use the discontent in China to make some puppets in the North"
+ northern_revolt_tooltip: "We can use the discontent in China to make some puppets in the North"
+ southern_revolt: "South Chinese Revolt"
+ southern_revolt_desc: "We can use the discontent in China to make some puppets in the South"
+ southern_revolt_tooltip: "We can use the discontent in China to make some puppets in the South"
  
  centralize_federation: "Centralize the Federation"
  centralize_federation_desc: "We can bring outselves together more."

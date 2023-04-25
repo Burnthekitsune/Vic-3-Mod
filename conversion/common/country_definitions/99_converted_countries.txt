@@ -2292,8 +2292,9 @@ GUI = {
 	color = { 37 102 37 }
 	country_type = unrecognized
 	tier = kingdom
-	cultures = { dynamic-chihan-chihan-culture-num1 dynamic-chihan-culture-num2 dynamic-chihan-culture-num3 han }
+	cultures = { han yi yue }
 	capital = STATE_GUIZHOU
+	religion = mahayana
 }
 
 GWA = {
@@ -2522,8 +2523,9 @@ HNA = {
 	color = { 126 164 224 }
 	country_type = unrecognized
 	tier = kingdom
-	cultures = { dynamic-chihan-chihan-culture-num1 dynamic-chihan-culture-num2 dynamic-chihan-culture-num3 han }
+	cultures = { han hakka min miao }
 	capital = STATE_HUNAN
+	religion = mahayana
 }
 
 HND = {
@@ -3246,7 +3248,7 @@ KHN = {
 	color = { 44 51 65 }
 	country_type = unrecognized
 	tier = principality
-	cultures = { shan }
+	cultures = { shan yi yue }
 	religion = mahayana
 	capital = STATE_KACHIN
 }
@@ -5632,8 +5634,9 @@ SHN = {
 	color = { 94 209 94 }
 	country_type = unrecognized
 	tier = kingdom
-	cultures = { dynamic-chihan-chihan-culture-num1 dynamic-chihan-culture-num2 dynamic-chihan-culture-num3 han }
+	cultures = { han }
 	capital = STATE_SHANXI
+	religion = mahayana
 }
 
 SHW = {
@@ -9257,7 +9260,7 @@ YUE = {
 	color = { 89 113 223 }
 	country_type = unrecognized
 	tier = principality
-	cultures = { yue }
+	cultures = { yue han zhuang }
 	capital = STATE_GUANGDONG
 }
 

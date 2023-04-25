@@ -363,6 +363,7 @@ expand_manghulia = {
 		NOT = { has_variable = expanded_manghulia }
 	}
 	possible = {
+		NOT = { has_variable = chinese_cooldown }
 		exists = c:X82
 		c:X82 = {
 			is_direct_subject_of = c:X10
@@ -413,8 +414,16 @@ expand_manghulia = {
 			}
 			set_state_owner = c:X82
 		}
+		change_relations = {
+			country = c:W34
+			amount = -25
+		}
 		set_variable = {
 			name = expanded_manghulia
+		}
+		set_variable = {
+			name = chinese_cooldown
+			days = 365
 		}
 	}
 	ai_chance = {
@@ -429,6 +438,7 @@ buy_out_trade_companies = {
 		NOT = { has_variable = bought_trade_companeis }
 	}
 	possible = {
+		NOT = { has_variable = chinese_cooldown }
 		exists = c:W87
 		c:W87 = {
 			is_direct_subject_of = c:X10
@@ -452,6 +462,10 @@ buy_out_trade_companies = {
 		set_variable = {
 			name = bought_trade_companeis
 		}
+		set_variable = {
+			name = chinese_cooldown
+			days = 365
+		}
 	}
 	ai_chance = {
 		base = 100
@@ -463,9 +477,11 @@ annex_chinese_coast = {
 		this = c:X10
 		has_variable = chinese_domination
 		has_variable = bought_trade_companeis
+		has_variable = expanded_manghulia
 		NOT = { has_variable = chinese_coast }
 	}
 	possible = {
+		NOT = { has_variable = chinese_cooldown }
 		OR = {
 			exists = c:W34
 			exists = c:CW1
@@ -671,9 +687,434 @@ annex_chinese_coast = {
 			}
 			set_state_owner = c:X10
 		}
-		
+		change_relations = {
+			country = c:W34
+			amount = -50
+		}
 		set_variable = {
 			name = chinese_coast
+		}
+		
+		set_variable = {
+			name = chinese_cooldown
+			days = 365
+		}
+	}
+	ai_chance = {
+		base = 100
+	}
+}
+
+southern_revolt = {
+	is_shown = {
+		this = c:X10
+		has_variable = chinese_coast
+		NOT = { has_variable = southern_china_revolt }
+		
+	}
+	possible = {
+		NOT = { has_variable = chinese_cooldown }
+		NOT = { exists = c:YUE }
+		NOT = { exists = c:KHN }
+		NOT = { exists = c:GUI }
+		NOT = { exists = c:HNA }
+	}
+	when_taken = {
+		every_state = {
+			limit = {
+				state_region = s:STATE_GUANGXI
+				OR = {
+					owner = c:W34
+					owner = c:CW1
+					owner = c:CW2
+					owner = c:CW3
+					owner = c:CW4
+					owner = c:CW5
+					owner = c:CR1
+					owner = c:CR2
+					owner = c:CR3
+					owner = c:CR4
+					owner = c:CR5
+					owner = c:W32
+					owner = c:W35
+					owner = c:X14
+				}
+			}
+			set_state_owner = c:X10
+		}
+		every_state = {
+			limit = {
+				state_region = s:STATE_YUNNAN
+				OR = {
+					owner = c:W34
+					owner = c:CW1
+					owner = c:CW2
+					owner = c:CW3
+					owner = c:CW4
+					owner = c:CW5
+					owner = c:CR1
+					owner = c:CR2
+					owner = c:CR3
+					owner = c:CR4
+					owner = c:CR5
+					owner = c:W32
+					owner = c:W35
+					owner = c:X14
+				}
+			}
+			set_state_owner = c:X10
+		}
+		every_state = {
+			limit = {
+				state_region = s:STATE_GUIZHOU
+				OR = {
+					owner = c:W34
+					owner = c:CW1
+					owner = c:CW2
+					owner = c:CW3
+					owner = c:CW4
+					owner = c:CW5
+					owner = c:CR1
+					owner = c:CR2
+					owner = c:CR3
+					owner = c:CR4
+					owner = c:CR5
+					owner = c:W32
+					owner = c:W35
+					owner = c:X14
+				}
+			}
+			set_state_owner = c:X10
+		}
+		every_state = {
+			limit = {
+				state_region = s:STATE_HUNAN
+				OR = {
+					owner = c:W34
+					owner = c:CW1
+					owner = c:CW2
+					owner = c:CW3
+					owner = c:CW4
+					owner = c:CW5
+					owner = c:CR1
+					owner = c:CR2
+					owner = c:CR3
+					owner = c:CR4
+					owner = c:CR5
+					owner = c:W32
+					owner = c:W35
+					owner = c:X14
+				}
+			}
+			set_state_owner = c:X10
+		}
+		every_state = {
+			limit = {
+				state_region = s:STATE_JIANGXI
+				OR = {
+					owner = c:W34
+					owner = c:CW1
+					owner = c:CW2
+					owner = c:CW3
+					owner = c:CW4
+					owner = c:CW5
+					owner = c:CR1
+					owner = c:CR2
+					owner = c:CR3
+					owner = c:CR4
+					owner = c:CR5
+					owner = c:W32
+					owner = c:W35
+					owner = c:X14
+				}
+			}
+			set_state_owner = c:X10
+		}
+		create_country = {
+			tag = YUE
+			origin = W34
+			state = s:STATE_GUANGXI.region_state:X10
+			on_created = {
+				add_primary_culture = cu:east_asian_alshamali
+				set_state_religion = rel:converted_dynamic_faith_102
+			}
+		}
+		create_country = {
+			tag = KHN
+			origin = W34
+			state = s:STATE_YUNNAN.region_state:X10
+			on_created = {
+				add_primary_culture = cu:east_asian_alshamali
+				set_state_religion = rel:converted_dynamic_faith_102
+			}
+		}
+		create_country = {
+			tag = GUI
+			origin = W34
+			state = s:STATE_GUIZHOU.region_state:X10
+			on_created = {
+				add_primary_culture = cu:east_asian_alshamali
+				set_state_religion = rel:converted_dynamic_faith_102
+			}
+		}
+		create_country = {
+			tag = HNA
+			origin = W34
+			state = s:STATE_JIANGXI.region_state:X10
+			state = s:STATE_HUNAN.region_state:X10
+			on_created = {
+				add_primary_culture = cu:east_asian_alshamali
+				set_state_religion = rel:converted_dynamic_faith_102
+			}
+		}
+		c:X10 = {
+			create_diplomatic_pact = {
+				country = c:YUE
+				type = puppet
+			}
+		}
+		c:X10 = {
+			create_diplomatic_pact = {
+				country = c:HNA
+				type = puppet
+			}
+		}
+		c:X10 = {
+			create_diplomatic_pact = {
+				country = c:KHN
+				type = puppet
+			}
+		}
+		c:X10 = {
+			create_diplomatic_pact = {
+				country = c:GUI
+				type = puppet
+			}
+		}
+		change_infamy = 10
+		
+		change_relations = {
+			country = c:W34
+			amount = -50
+		}
+		set_variable = {
+			name = southern_china_revolt
+		}
+		
+		set_variable = {
+			name = chinese_cooldown
+			days = 365
+		}
+	}
+	ai_chance = {
+		base = 100
+	}
+}
+
+northern_revolt = {
+	is_shown = {
+		this = c:X10
+		has_variable = chinese_coast
+		NOT = { has_variable = northern_china_revolt }
+		
+	}
+	possible = {
+		NOT = { has_variable = chinese_cooldown }
+		NOT = { exists = c:SHN }
+		NOT = { exists = c:W16 }
+		NOT = { exists = c:X41 }
+		NOT = { exists = c:AHU }
+	}
+	when_taken = {
+		every_state = {
+			limit = {
+				state_region = s:STATE_SHANXI
+				OR = {
+					owner = c:W34
+					owner = c:CW1
+					owner = c:CW2
+					owner = c:CW3
+					owner = c:CW4
+					owner = c:CW5
+					owner = c:CR1
+					owner = c:CR2
+					owner = c:CR3
+					owner = c:CR4
+					owner = c:CR5
+				}
+			}
+			set_state_owner = c:X10
+		}
+		every_state = {
+			limit = {
+				state_region = s:STATE_HENAN
+				OR = {
+					owner = c:W34
+					owner = c:CW1
+					owner = c:CW2
+					owner = c:CW3
+					owner = c:CW4
+					owner = c:CW5
+					owner = c:CR1
+					owner = c:CR2
+					owner = c:CR3
+					owner = c:CR4
+					owner = c:CR5
+				}
+			}
+			set_state_owner = c:X10
+		}
+		every_state = {
+			limit = {
+				state_region = s:STATE_NORTHERN_ANHUI
+				OR = {
+					owner = c:W34
+					owner = c:CW1
+					owner = c:CW2
+					owner = c:CW3
+					owner = c:CW4
+					owner = c:CW5
+					owner = c:CR1
+					owner = c:CR2
+					owner = c:CR3
+					owner = c:CR4
+					owner = c:CR5
+				}
+			}
+			set_state_owner = c:X10
+		}
+		every_state = {
+			limit = {
+				state_region = s:STATE_SOUTHERN_ANHUI
+				OR = {
+					owner = c:W34
+					owner = c:CW1
+					owner = c:CW2
+					owner = c:CW3
+					owner = c:CW4
+					owner = c:CW5
+					owner = c:CR1
+					owner = c:CR2
+					owner = c:CR3
+					owner = c:CR4
+					owner = c:CR5
+				}
+			}
+			set_state_owner = c:X10
+		}
+		every_state = {
+			limit = {
+				state_region = s:STATE_WESTERN_HUBEI
+				OR = {
+					owner = c:W34
+					owner = c:CW1
+					owner = c:CW2
+					owner = c:CW3
+					owner = c:CW4
+					owner = c:CW5
+					owner = c:CR1
+					owner = c:CR2
+					owner = c:CR3
+					owner = c:CR4
+					owner = c:CR5
+				}
+			}
+			set_state_owner = c:X10
+		}
+		every_state = {
+			limit = {
+				state_region = s:STATE_EASTERN_HUBEI
+				OR = {
+					owner = c:W34
+					owner = c:CW1
+					owner = c:CW2
+					owner = c:CW3
+					owner = c:CW4
+					owner = c:CW5
+					owner = c:CR1
+					owner = c:CR2
+					owner = c:CR3
+					owner = c:CR4
+					owner = c:CR5
+				}
+			}
+			set_state_owner = c:X10
+		}
+		create_country = {
+			tag = SHN
+			origin = W34
+			state = s:STATE_SHANXI.region_state:X10
+			on_created = {
+				add_primary_culture = cu:east_asian_alshamali
+				set_state_religion = rel:converted_dynamic_faith_102
+			}
+		}
+		create_country = {
+			tag = W16
+			origin = W34
+			state = s:STATE_HENAN.region_state:X10
+			on_created = {
+				add_primary_culture = cu:east_asian_alshamali
+				set_state_religion = rel:converted_dynamic_faith_102
+			}
+		}
+		create_country = {
+			tag = ANU
+			origin = W34
+			state = s:STATE_NORTHERN_ANHUI.region_state:X10
+			state = s:STATE_SOUTHERN_ANHUI.region_state:X10
+			on_created = {
+				add_primary_culture = cu:east_asian_alshamali
+				set_state_religion = rel:converted_dynamic_faith_102
+			}
+		}
+		create_country = {
+			tag = X41
+			origin = W34
+			state = s:STATE_WESTERN_HUBEI.region_state:X10
+			state = s:STATE_EASTERN_HUBEI.region_state:X10
+			on_created = {
+				add_primary_culture = cu:east_asian_alshamali
+				set_state_religion = rel:converted_dynamic_faith_102
+			}
+		}
+		c:X10 = {
+			create_diplomatic_pact = {
+				country = c:SHN
+				type = puppet
+			}
+		}
+		c:X10 = {
+			create_diplomatic_pact = {
+				country = c:W16
+				type = puppet
+			}
+		}
+		c:X10 = {
+			create_diplomatic_pact = {
+				country = c:AHU
+				type = puppet
+			}
+		}
+		c:X10 = {
+			create_diplomatic_pact = {
+				country = c:X41
+				type = puppet
+			}
+		}
+		change_infamy = 10
+		
+		change_relations = {
+			country = c:W34
+			amount = -50
+		}
+		set_variable = {
+			name = northern_china_revolt
+		}
+		
+		set_variable = {
+			name = chinese_cooldown
+			days = 365
 		}
 	}
 	ai_chance = {
