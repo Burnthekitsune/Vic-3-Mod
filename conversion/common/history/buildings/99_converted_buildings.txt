@@ -10949,19 +10949,7 @@
 		}
 	}
 	s:STATE_KACHIN = {
-		region_state:KHN = {
-			create_building = {
-				building = "building_construction_sector"
-				level = 1
-				reserves = 1
-				activate_production_methods = { }
-			}
-			create_building = {
-				building = "building_barracks"
-				level = 2
-				reserves = 1
-				activate_production_methods = { "pm_cannon_artillery" "pm_irregular_infantry" }
-			}
+		region_state:X14 = {
 			create_building = {
 				building = "building_opium_plantation"
 				level = 1
@@ -10980,17 +10968,15 @@
 				reserves = 1
 				activate_production_methods = { }
 			}
-		}
-		region_state:X14 = {
 			create_building = {
 				building = "building_construction_sector"
-				level = 1
+				level = 2
 				reserves = 1
 				activate_production_methods = { }
 			}
 			create_building = {
 				building = "building_barracks"
-				level = 4
+				level = 6
 				reserves = 1
 				activate_production_methods = { "pm_cannon_artillery" "pm_irregular_infantry" }
 			}
@@ -12544,7 +12530,7 @@
 			}
 			create_building = {
 				building = "building_barracks"
-				level = 7
+				level = 8
 				reserves = 1
 				activate_production_methods = { "pm_cannon_artillery" "pm_irregular_infantry" }
 			}
@@ -12585,14 +12571,6 @@
 				level = 1
 				reserves = 1
 				activate_production_methods = { "pm_pig_iron" }
-			}
-		}
-		region_state:KHN = {
-			create_building = {
-				building = "building_barracks"
-				level = 1
-				reserves = 1
-				activate_production_methods = { "pm_cannon_artillery" "pm_irregular_infantry" }
 			}
 		}
 		region_state:NEP = {

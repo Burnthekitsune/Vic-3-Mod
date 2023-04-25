@@ -24488,7 +24488,7 @@
 		}
 	}
 	s:STATE_KACHIN = {
-		region_state:KHN = {
+		region_state:X14 = {
 			create_pop = {
 				culture = kachin
 				religion = animist
@@ -24577,8 +24577,6 @@
 				pop_type = slaves
 				size = 150
 			}
-		}
-		region_state:X14 = {
 			create_pop = {
 				culture = burmese
 				religion = mahayana
@@ -28103,6 +28101,21 @@
 	s:STATE_LHASA = {
 		region_state:ASM = {
 			create_pop = {
+				culture = kachin
+				religion = animist
+				size = 10512
+			}
+			create_pop = {
+				culture = kachin
+				religion = theravada
+				size = 12153
+			}
+			create_pop = {
+				culture = kachin
+				religion = mahayana
+				size = 13499
+			}
+			create_pop = {
 				culture = tibetan
 				religion = gelugpa
 				size = 260389
@@ -28213,23 +28226,6 @@
 				culture = tibetan
 				religion = jain
 				size = 109633
-			}
-		}
-		region_state:KHN = {
-			create_pop = {
-				culture = kachin
-				religion = animist
-				size = 10512
-			}
-			create_pop = {
-				culture = kachin
-				religion = theravada
-				size = 12153
-			}
-			create_pop = {
-				culture = kachin
-				religion = mahayana
-				size = 13499
 			}
 		}
 		region_state:NEP = {
