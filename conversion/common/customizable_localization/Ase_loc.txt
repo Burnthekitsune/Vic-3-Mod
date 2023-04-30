@@ -1,0 +1,7 @@
+﻿small_fervor_gain = {
+	type = country
+	text = {
+		localization_key = small_uprising
+	}
+
+}

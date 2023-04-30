@@ -1757,6 +1757,10 @@ aseevent.48 = { # Communism
 	
 	duration = 5
 	
+	immediate = {
+		set_variable = ase_had_revolution
+	}
+	
 	option = {
 		name = aseevent.48.a
 		activate_law = law_type:law_council_republic
@@ -1871,6 +1875,16 @@ aseevent.48 = { # Communism
 			id = aseevent.49
 			days = 30
 		}
+		remove_modifier = lowered_authority
+		remove_modifier = wealth_distribution
+		remove_modifier = government_reshuffle
+		remove_modifier = political_scandal
+		remove_modifier = distracted_research
+		remove_modifier = disabled_printing
+		remove_modifier = inward_focus
+		every_scope_state = {
+			remove_modifier = inward_focus
+		}
 		ai_chance = {
 			base = 100
 		}
@@ -1900,4 +1914,638 @@ aseevent.49 = { # Skewed Elections
 		}
 	}
 }
-# :P
+
+
+# Revolts
+
+aseevent.50 = { # Demand for less absoluteism
+	placement = root
+	type = country_event
+	title = aseevent.50.t
+	desc = aseevent.50.d
+	icon = "gfx/interface/icons/event_icons/event_default.dds"
+	
+	event_image = {
+		video = "gfx/event_pictures/europenorthamerica_political_extremism.bk2"
+	}
+	
+	duration = 3
+	
+	immediate = {
+		set_variable = {
+			name = revolutionary_fervor
+			value = 0
+		}
+		clamp_variable = {
+			name = revolutionary_fervor
+			max = 10
+			min = 0
+		}
+		add_journal_entry = {
+			type = je_revolutionary_fervor
+			target = this
+		}
+		set_variable = ase_revolution
+	}
+	
+	option = { # Don't give in
+		name = aseevent.50.a
+		random_list = {
+			5 = {
+				change_variable = {
+					name = revolutionary_fervor
+					add = 1
+				}
+			}
+			3 = {
+				change_variable = {
+					name = revolutionary_fervor
+					add = 2
+				}
+			}
+			2 = {
+			
+			}
+		}
+		if = {
+			limit = {
+				NOT = { has_variable = ase_had_revolution }
+			}
+			trigger_event = {
+				id = aseevent.51
+				months = 4
+			}
+		}
+		ai_chance = {
+			base = 50
+		}
+	}
+	
+	option = { # Give in
+		name = aseevent.50.b
+		add_modifier = {
+			name = lowered_authority
+			months = 36
+		}
+		if = {
+			limit = {
+				NOT = { has_variable = ase_had_revolution }
+			}
+			trigger_event = {
+				id = aseevent.51
+				months = 4
+			}
+		}
+		ai_chance = {
+			base = 50
+		}
+	}
+}
+
+aseevent.51 = { # Execute Random General
+	placement = root
+	type = country_event
+	title = aseevent.51.t
+	desc = aseevent.51.d
+	icon = "gfx/interface/icons/event_icons/event_default.dds"
+	
+	event_image = {
+		video = "gfx/event_pictures/europenorthamerica_political_extremism.bk2"
+	}
+	
+	duration = 3
+	
+	option = { # Don't give in
+		name = aseevent.50.a
+		random_list = {
+			5 = {
+				change_variable = {
+					name = revolutionary_fervor
+					add = 1
+				}
+			}
+			3 = {
+				change_variable = {
+					name = revolutionary_fervor
+					add = 2
+				}
+			}
+			2 = {
+			
+			}
+		}
+		if = {
+			limit = {
+				NOT = { has_variable = ase_had_revolution }
+			}
+			trigger_event = {
+				id = aseevent.52
+				months = 4
+			}
+		}
+		ai_chance = {
+			base = 50
+		}
+	}
+	
+	option = { # Give in
+		name = aseevent.50.b
+		random_scope_character = {
+			limit = {
+				commander_rank > 2
+			}
+			kill_character = yes 
+		}
+		if = {
+			limit = {
+				NOT = { has_variable = ase_had_revolution }
+			}
+			trigger_event = {
+				id = aseevent.52
+				months = 4
+			}
+		}
+		ai_chance = {
+			base = 50
+		}
+	}
+}
+
+aseevent.52 = { # Demand for more pay
+	placement = root
+	type = country_event
+	title = aseevent.52.t
+	desc = aseevent.52.d
+	icon = "gfx/interface/icons/event_icons/event_default.dds"
+	
+	event_image = {
+		video = "gfx/event_pictures/europenorthamerica_political_extremism.bk2"
+	}
+	
+	duration = 3
+	
+	option = { # Don't give in
+		name = aseevent.50.a
+		random_list = {
+			5 = {
+				change_variable = {
+					name = revolutionary_fervor
+					add = 1
+				}
+			}
+			3 = {
+				change_variable = {
+					name = revolutionary_fervor
+					add = 2
+				}
+			}
+			2 = {
+			
+			}
+		}
+		if = {
+			limit = {
+				NOT = { has_variable = ase_had_revolution }
+			}
+			trigger_event = {
+				id = aseevent.53
+				months = 4
+			}
+		}
+		ai_chance = {
+			base = 50
+		}
+	}
+	
+	option = { # Give in
+		name = aseevent.50.b
+		add_modifier = {
+			name = wealth_distribution
+			months = 36
+		}
+		if = {
+			limit = {
+				NOT = { has_variable = ase_had_revolution }
+			}
+			trigger_event = {
+				id = aseevent.53
+				months = 4
+			}
+		}
+		ai_chance = {
+			base = 50
+		}
+	}
+}
+
+aseevent.53 = { # Government reshuffle
+	placement = root
+	type = country_event
+	title = aseevent.53.t
+	desc = aseevent.53.d
+	icon = "gfx/interface/icons/event_icons/event_default.dds"
+	
+	event_image = {
+		video = "gfx/event_pictures/europenorthamerica_political_extremism.bk2"
+	}
+	
+	duration = 3
+	
+	option = { # Don't give in
+		name = aseevent.50.a
+		random_list = {
+			5 = {
+				change_variable = {
+					name = revolutionary_fervor
+					add = 1
+				}
+			}
+			3 = {
+				change_variable = {
+					name = revolutionary_fervor
+					add = 2
+				}
+			}
+			2 = {
+			
+			}
+		}
+		if = {
+			limit = {
+				NOT = { has_variable = ase_had_revolution }
+			}
+			trigger_event = {
+				id = aseevent.54
+				months = 4
+			}
+		}
+		ai_chance = {
+			base = 50
+		}
+	}
+	
+	option = { # Give in
+		name = aseevent.50.b
+		add_modifier = {
+			name = government_reshuffle
+			months = 36
+		}
+		if = {
+			limit = {
+				NOT = { has_variable = ase_had_revolution }
+			}
+			trigger_event = {
+				id = aseevent.54
+				months = 4
+			}
+		}
+		ai_chance = {
+			base = 50
+		}
+	}
+}
+
+aseevent.54 = { # Political Scandal
+	placement = root
+	type = country_event
+	title = aseevent.54.t
+	desc = aseevent.54.d
+	icon = "gfx/interface/icons/event_icons/event_default.dds"
+	
+	event_image = {
+		video = "gfx/event_pictures/europenorthamerica_political_extremism.bk2"
+	}
+	
+	duration = 3
+	
+	option = { # Don't give in
+		name = aseevent.50.a
+		random_list = {
+			5 = {
+				change_variable = {
+					name = revolutionary_fervor
+					add = 1
+				}
+			}
+			3 = {
+				change_variable = {
+					name = revolutionary_fervor
+					add = 2
+				}
+			}
+			2 = {
+			
+			}
+		}
+		if = {
+			limit = {
+				NOT = { has_variable = ase_had_revolution }
+			}
+			trigger_event = {
+				id = aseevent.55
+				months = 4
+			}
+		}
+		ai_chance = {
+			base = 50
+		}
+	}
+	
+	option = { # Give in
+		name = aseevent.50.b
+		add_modifier = {
+			name = political_scandal
+			months = 36
+		}
+		if = {
+			limit = {
+				NOT = { has_variable = ase_had_revolution }
+			}
+			trigger_event = {
+				id = aseevent.55
+				months = 4
+			}
+		}
+		ai_chance = {
+			base = 50
+		}
+	}
+}
+
+aseevent.55 = { # Upset Researchers
+	placement = root
+	type = country_event
+	title = aseevent.55.t
+	desc = aseevent.55.d
+	icon = "gfx/interface/icons/event_icons/event_default.dds"
+	
+	event_image = {
+		video = "gfx/event_pictures/europenorthamerica_political_extremism.bk2"
+	}
+	
+	duration = 3
+	
+	option = { # Don't give in
+		name = aseevent.50.a
+		random_list = {
+			5 = {
+				change_variable = {
+					name = revolutionary_fervor
+					add = 1
+				}
+			}
+			3 = {
+				change_variable = {
+					name = revolutionary_fervor
+					add = 2
+				}
+			}
+			2 = {
+			
+			}
+		}
+		if = {
+			limit = {
+				NOT = { has_variable = ase_had_revolution }
+			}
+			trigger_event = {
+				id = aseevent.56
+				months = 4
+			}
+		}
+		ai_chance = {
+			base = 50
+		}
+	}
+	
+	option = { # Give in
+		name = aseevent.50.b
+		add_modifier = {
+			name = distracted_research
+			months = 36
+		}
+		if = {
+			limit = {
+				NOT = { has_variable = ase_had_revolution }
+			}
+			trigger_event = {
+				id = aseevent.56
+				months = 4
+			}
+		}
+		ai_chance = {
+			base = 50
+		}
+	}
+}
+
+aseevent.56 = { # Currency Tampering
+	placement = root
+	type = country_event
+	title = aseevent.56.t
+	desc = aseevent.56.d
+	icon = "gfx/interface/icons/event_icons/event_default.dds"
+	
+	event_image = {
+		video = "gfx/event_pictures/europenorthamerica_political_extremism.bk2"
+	}
+	
+	duration = 3
+	
+	option = { # Don't give in
+		name = aseevent.50.a
+		random_list = {
+			5 = {
+				change_variable = {
+					name = revolutionary_fervor
+					add = 1
+				}
+			}
+			3 = {
+				change_variable = {
+					name = revolutionary_fervor
+					add = 2
+				}
+			}
+			2 = {
+			
+			}
+		}
+		if = {
+			limit = {
+				NOT = { has_variable = ase_had_revolution }
+			}
+			trigger_event = {
+				id = aseevent.57
+				months = 4
+			}
+		}
+		ai_chance = {
+			base = 50
+		}
+	}
+	
+	option = { # Give in
+		name = aseevent.50.b
+		add_modifier = {
+			name = disabled_printing
+			months = 36
+		}
+		if = {
+			limit = {
+				NOT = { has_variable = ase_had_revolution }
+			}
+			trigger_event = {
+				id = aseevent.57
+				months = 4
+			}
+		}
+		ai_chance = {
+			base = 50
+		}
+	}
+}
+
+aseevent.57 = { # Inward Focus
+	placement = root
+	type = country_event
+	title = aseevent.57.t
+	desc = aseevent.57.d
+	icon = "gfx/interface/icons/event_icons/event_default.dds"
+	
+	event_image = {
+		video = "gfx/event_pictures/europenorthamerica_political_extremism.bk2"
+	}
+	
+	duration = 3
+	
+	option = { # Don't give in
+		name = aseevent.50.a
+		random_list = {
+			5 = {
+				change_variable = {
+					name = revolutionary_fervor
+					add = 1
+				}
+			}
+			3 = {
+				change_variable = {
+					name = revolutionary_fervor
+					add = 2
+				}
+			}
+			2 = {
+			
+			}
+		}
+		if = {
+			limit = {
+				NOT = { has_variable = ase_had_revolution }
+			}
+			trigger_event = {
+				id = aseevent.58
+				months = 4
+			}
+		}
+		ai_chance = {
+			base = 50
+		}
+	}
+	
+	option = { # Give in
+		name = aseevent.50.b
+		add_modifier = {
+			name = inward_focus
+			months = 36
+		}
+		if = {
+			limit = {
+				NOT = { has_variable = ase_had_revolution }
+			}
+			trigger_event = {
+				id = aseevent.58
+				months = 4
+			}
+		}
+		ai_chance = {
+			base = 50
+		}
+	}
+}
+
+aseevent.58 = { # Tax lessened
+	placement = root
+	type = country_event
+	title = aseevent.58.t
+	desc = aseevent.58.d
+	icon = "gfx/interface/icons/event_icons/event_default.dds"
+	
+	event_image = {
+		video = "gfx/event_pictures/europenorthamerica_political_extremism.bk2"
+	}
+	
+	duration = 3
+	
+	option = { # Don't give in
+		name = aseevent.50.a
+		random_list = {
+			5 = {
+				change_variable = {
+					name = revolutionary_fervor
+					add = 1
+				}
+			}
+			3 = {
+				change_variable = {
+					name = revolutionary_fervor
+					add = 2
+				}
+			}
+			2 = {
+			
+			}
+		}
+		remove_variable = ase_revolution
+		ai_chance = {
+			base = 50
+		}
+	}
+	
+	option = { # Give in
+		name = aseevent.50.b
+		every_scope_state = {
+			add_modifier = {
+				name = lowered_taxes
+				months = 36
+			}
+		}
+		remove_variable = ase_revolution
+		ai_chance = {
+			base = 50
+		}
+	}
+}
+
+# Survived Revoltution
+
+aseevent.60 = {
+	placement = root
+	type = country_event
+	title = aseevent.60.t
+	desc = aseevent.60.d
+	icon = "gfx/interface/icons/event_icons/event_default.dds"
+	
+	event_image = {
+		video = "gfx/event_pictures/europenorthamerica_political_extremism.bk2"
+	}
+	
+	duration = 5
+	
+	option = {
+		name = aseevent.60.a
+		
+		ai_chance = {
+			base = 100
+		}
+	}
+}

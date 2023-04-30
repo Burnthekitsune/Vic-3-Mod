@@ -94,6 +94,11 @@
 			id = aseevent.43
 			days = 4200
 		}
+		
+		trigger_event = {
+			id = aseevent.50
+			years = 32
+		}
 	}
 	c:V27 = {
 		trigger_event = {

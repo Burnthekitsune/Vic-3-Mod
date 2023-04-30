@@ -525,3 +525,67 @@ je_france_authority = {
 	weight = 10000
 	should_be_pinned_by_default = yes
 }
+
+je_revolutionary_fervor = {
+	icon = "gfx/interface/icons/event_icons/event_fire.dds"
+	
+	complete = {
+		OR = {
+			NOT = { has_variable = ase_revolution }
+			var:revolutionary_fervor = 10
+		}
+	}
+	
+	on_complete = {
+		if = { # Instant Coup
+			limit = {
+				var:revolutionary_fervor = 10
+			}
+			trigger_event = aseevent.48
+			remove_variable = ase_revolution
+		}
+		if = {
+			limit = {
+				NOT = { var:revolutionary_fervor =  10 }
+			}
+			random_list = {
+				10 = { # Monarchy Kept
+					modifier = {
+						if = {
+							limit = {
+								var:revolutionary_fervor >= 1
+							}
+							subtract = var:revolutionary_fervor
+						}
+					}
+					
+					trigger_event = aseevent.60
+				}
+				0 = { # Revolution
+					modifier = {
+						if = {
+							limit = {
+								var:revolutionary_fervor >= 1
+							}
+							add = var:revolutionary_fervor
+						}
+					}
+					
+					trigger_event = aseevent.48
+				}
+			}
+		}
+	}
+	
+	current_value = {
+		value = var:revolutionary_fervor
+	}
+	
+	goal_add_value = {
+		add = 10
+	}
+	
+	progressbar = yes
+	weight = 10000
+	should_be_pinned_by_default = yes
+}

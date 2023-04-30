@@ -76,3 +76,47 @@ nunavut_rush = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
 	state_colony_growth_speed_mult = 0.2
 }
+
+
+# Revolt penelties
+lowered_authority = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_fist_negative.dds
+	country_authority_add = -600
+}
+
+wealth_distribution = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_negative.dds
+	country_government_wages_mult = 1
+	country_military_wages_mult = 1
+	state_dependent_wage_mult = 1
+}
+
+government_reshuffle = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_negative.dds
+	country_bureaucracy_mult = -0.1
+}
+
+political_scandal = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_neagtive.dds
+	country_legitimacy_base_add = -15
+}
+
+distracted_research = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_lightbulb_negative.dds
+	country_weekly_innovation_mult = -0.2
+}
+
+disabled_printing = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_negative.dds
+	country_minting_mult = -10  
+}
+
+inward_focus = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds
+	country_max_declared_interests_add = -2
+}
+
+lowered_taxes = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_negative.dds
+	state_tax_collection_mult = -0.1
+}
