@@ -1284,7 +1284,7 @@ iceland_trade = {
 		exists = c:ICL
 		has_subject_relation_with = c:ICL
 	}
-	when_taken = {
+	 = {
 		c:GBR = {
 			annex = c:ICL
 			activate_law = law_type:law_slavery_banned
@@ -1301,6 +1301,94 @@ iceland_trade = {
 			name = sold_iceland
 		}
 	}
+	ai_chance = {
+		base = 100
+	}
+}
+
+unite_south_american_colonies = {
+	is_shown = {
+		has_variable = house_of_cards_done
+		exists = c:GCO
+	}
+	
+	possible = {
+		has_subject_relation_with = c:GCO
+	}
+	when_taken = {
+		c:GCO = {
+			if = {
+				limit = {
+					exists = c:NIC
+				}
+				annex = c:NIC
+			}
+			if = {
+				limit = {
+					exists = c:X20
+				}
+				annex = c:X20
+			}
+			if = {
+				limit = {
+					exists = c:X28
+				}
+				annex = c:X28
+			}
+			if = {
+				limit = {
+					exists = c:X24
+				}
+				annex = c:X24
+			}
+			change_tag = BRZ
+		}
+	}
+	
+	ai_chance = {
+		base = 100
+	}
+}
+
+unite_south_american_colonies = {
+	is_shown = {
+		has_variable = house_of_cards_done
+		exists = c:NEN
+	}
+	
+	possible = {
+		has_subject_relation_with = c:NEN
+	}
+	when_taken = {
+		c:NEN = {
+			if = {
+				limit = {
+					exists = c:X29
+				}
+				annex = c:X29
+			}
+			if = {
+				limit = {
+					exists = c:WIN
+				}
+				annex = c:WIN
+			}
+			if = {
+				limit = {
+					exists = c:X84
+				}
+				annex = c:X84
+			}
+			if = {
+				limit = {
+					exists = c:ONT
+				}
+				annex = c:ONT
+			}
+			change_tag = CAN
+		}
+	}
+	
 	ai_chance = {
 		base = 100
 	}

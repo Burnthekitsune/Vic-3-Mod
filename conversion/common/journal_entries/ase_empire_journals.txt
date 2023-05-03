@@ -330,18 +330,57 @@ je_america_authority = {
 			set_variable = ase_turmoil_america_over
 			c:GCO = {
 				make_independent = yes
-				annex = c:NIC
-				annex = c:X20
-				annex = c:X28
-				annex = c:X24
+				if = {
+					limit = {
+						exists = c:NIC
+					}
+					annex = c:NIC
+				}
+				if = {
+					limit = {
+						exists = c:X20
+					}
+					annex = c:X20
+				}
+				if = {
+					limit = {
+						exists = c:X28
+					}
+					annex = c:X28
+				}
+				if = {
+					limit = {
+						exists = c:X24
+					}
+					annex = c:X24
+				}
 				change_tag = ARG
 			}
 			c:NEN = {
 				make_independent = yes
-				annex = c:X29
-				annex = c:WIN
-				annex = c:X84
-				annex = c:ONT
+				if = {
+					limit = {
+						exists = c:X29
+					}
+					annex = c:X29
+				}
+				if = {
+					limit = {
+						exists = c:WIN
+					}
+					annex = c:WIN
+				}
+				if = {
+					limit = {
+						exists = c:X84
+					}
+					annex = c:X84
+				}if = {
+					limit = {
+						exists = c:ONT
+					}
+					annex = c:ONT
+				}
 				change_tag = LOU
 			}
 			if = {

@@ -107,3 +107,24 @@ GBR = {
 		}
 	}
 }
+
+CAN = {
+	dynamic_country_name = {
+		name = dyn_c_can
+		adjective = dyn_c_can_adj
+		
+		trigger = {
+			country_has_accepted_religion = converted_dynamic_faith_102
+		}
+	}
+}
+BRZ = {
+	dynamic_country_name = {
+		name = dyn_c_brz
+		adjective = dyn_c_brz_adj
+		
+		trigger = {
+			country_has_accepted_religion = converted_dynamic_faith_102
+		}
+	}
+}
