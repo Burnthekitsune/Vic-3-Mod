@@ -175,7 +175,6 @@
 			owned_provinces = { x4899A2 xF0C0A0 x6E4891 xB000E0 xCC3250 }
 		}
 		add_homeland = faransan
-		add_homeland = south_german
 		add_claim = c:W68
 	}
 	s:STATE_ALTO_PARAGUAY = {
@@ -1057,7 +1056,6 @@
 		add_homeland = hokan
 		add_homeland = neo-mexico_colony-faykinghian
 		add_homeland = neo-usa_north_colony-persian
-		add_homeland = oodham
 		add_homeland = paiute
 		add_homeland = penutian
 		add_claim = c:CAL
@@ -1488,7 +1486,6 @@
 		}
 		add_homeland = bosniak
 		add_homeland = croat
-		add_homeland = south_german
 		add_claim = c:V30
 	}
 	s:STATE_CUBA = {
@@ -2303,7 +2300,7 @@
 		}
 		add_homeland = mayan
 		add_homeland = chowinikob
-		add_homeland = neo-central_america_colony-north_american_alshamali
+		add_homeland = guatemalan
 		add_claim = c:GUA
 	}
 	s:STATE_GUAVIARE = {
@@ -4675,7 +4672,6 @@
 			owned_provinces = { x155091 x158786 x269541 x286941 x32D681 x37CCC2 x384259 x47C329 x49BF7D x4BE9C6 x5F2DBA x70D146 x7A707B x7A74B8 x8BDF6D x8CD89B x90C0C0 x94D9C2 x9A9935 xA07F85 xA1D6F3 xAE0966 xBFD5C4 xC03040 xD545C6 xD6ADF2 xD72549 xE0ACB6 xE1CC08 xEB66DA xEF15A7 xF6681C xF98E99 }
 		}
 		add_homeland = algonquian
-		add_homeland = apache
 		add_homeland = neo-usa_south_colony-north_american_alshamali
 	}
 	s:STATE_OMAN = {
@@ -7110,7 +7106,7 @@
 		}
 		add_homeland = mayan
 		add_homeland = chowinikob
-		add_homeland = neo-central_america_colony-north_american_alshamali
+		add_homeland = guatemalan
 		add_claim = c:GUA
 	}
 	s:STATE_YUKON_TERRITORY = {

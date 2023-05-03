@@ -2194,7 +2194,7 @@ GER = {
 	color = { 147 130 110 }
 	country_type = recognized
 	tier = empire
-	cultures = { north_german south_german }
+	cultures = { north_german south_german old_pommeranian sorb }
 	capital = STATE_BRANDENBURG
 }
 
@@ -2284,7 +2284,7 @@ GUA = {
 	color = { 115 194 251 }
 	country_type = recognized
 	tier = principality
-	cultures = { neo-central_america_colony-north_american_alshamali }
+	cultures = { guatemalan }
 	religion = converted_dynamic_faith_102
 	capital = STATE_GUATEMALA
 	is_named_from_capital = yes
@@ -4038,9 +4038,9 @@ MEW = {
 
 MEX = {
 	color = { 56 143 53 }
-	country_type = colonial
-	tier = kingdom
-	cultures = { mexican }
+	country_type = recognized
+	tier = empire
+	cultures = { mayan zapotec neo-mexico_colony-north_american_alshamali neo-texas_colony-north_american_alshamali apache navajo tarascan mixtec nahua chichimecan otomanguean guatemalan chowinikob pueblo oodham }
 	capital = STATE_MEXICO
 	is_named_from_capital = yes
 }

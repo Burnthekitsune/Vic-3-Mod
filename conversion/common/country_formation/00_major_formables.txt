@@ -10,12 +10,15 @@
 			country_has_primary_culture = cu:north_german
 			country_has_primary_culture = cu:south_german
 			country_has_primary_culture = cu:weder_german
+			country_has_primary_culture = cu:old_pommeranian
 		}
 		any_country = {
 			OR = {
 				country_has_primary_culture = cu:north_german
 				country_has_primary_culture = cu:south_german
 				country_has_primary_culture = cu:weder_german
+				country_has_primary_culture = cu:old_pommeranian
+				country_has_primary_culture = cu:sorb
 			}
 			has_technology_researched = nationalism
 		}
@@ -79,21 +82,39 @@ MXC = {
 	ai_will_do = { has_technology_researched = romanticism }
 	possible = {
 		OR = {
-			country_has_primary_culture = cu:maya
+			country_has_primary_culture = cu:mayan
 			country_has_primary_culture = cu:zapotec
 			country_has_primary_culture = cu:neo-mexico_colony-north_american_alshamali
 			country_has_primary_culture = cu:neo-texas_colony-north_american_alshamali
 			country_has_primary_culture = cu:apache
 			country_has_primary_culture = cu:navajo
+			country_has_primary_culture = cu:mixtec
+			country_has_primary_culture = cu:tarascan
+			country_has_primary_culture = cu:nahua
+			country_has_primary_culture = cu:chichimecan
+			country_has_primary_culture = cu:otomanguean
+			country_has_primary_culture = cu:guatemalan
+			country_has_primary_culture = cu:chowinikob
+			country_has_primary_culture = cu:pueblo
+			country_has_primary_culture = cu:oodham
 		}
 		any_country = {
 			OR = {
-				country_has_primary_culture = cu:maya
+				country_has_primary_culture = cu:mayan
 				country_has_primary_culture = cu:zapotec
 				country_has_primary_culture = cu:neo-mexico_colony-north_american_alshamali
 				country_has_primary_culture = cu:neo-texas_colony-north_american_alshamali
 				country_has_primary_culture = cu:apache
 				country_has_primary_culture = cu:navajo
+				country_has_primary_culture = cu:mixtec
+				country_has_primary_culture = cu:tarascan
+				country_has_primary_culture = cu:nahua
+				country_has_primary_culture = cu:chichimecan
+				country_has_primary_culture = cu:otomanguean
+				country_has_primary_culture = cu:guatemalan
+				country_has_primary_culture = cu:chowinikob
+				country_has_primary_culture = cu:pueblo
+				country_has_primary_culture = cu:oodham
 			}
 			has_technology_researched = romanticism
 		}

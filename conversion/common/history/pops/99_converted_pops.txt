@@ -19417,7 +19417,7 @@
 				size = 1785
 			}
 			create_pop = {
-				culture = neo-central_america_colony-north_american_alshamali
+				culture = guatemalan
 				religion = converted_dynamic_faith_102
 				size = 38401
 			}
@@ -19432,7 +19432,7 @@
 				size = 2587
 			}
 			create_pop = {
-				culture = neo-central_america_colony-north_american_alshamali
+				culture = guatemalan
 				religion = converted_dynamic_faith_102
 				size = 63247
 			}
@@ -61995,17 +61995,17 @@
 				size = 1669
 			}
 			create_pop = {
-				culture = neo-central_america_colony-anjilu_nurs
+				culture = guatemalan
 				religion = converted_dynamic_faith_102
 				size = 1657
 			}
 			create_pop = {
-				culture = neo-central_america_colony-north_american_alshamali
+				culture = guatemalan
 				religion = converted_dynamic_faith_102
 				size = 6729
 			}
 			create_pop = {
-				culture = neo-central_america_colony-north_american_alshamali
+				culture = guatemalan
 				religion = mesoamerican_religion
 				size = 57293
 			}
@@ -62030,17 +62030,17 @@
 				size = 292
 			}
 			create_pop = {
-				culture = neo-central_america_colony-anjilu_nurs
+				culture = guatemalan
 				religion = converted_dynamic_faith_102
 				size = 1462
 			}
 			create_pop = {
-				culture = neo-central_america_colony-north_american_alshamali
+				culture = guatemalan
 				religion = converted_dynamic_faith_102
 				size = 6229
 			}
 			create_pop = {
-				culture = neo-central_america_colony-north_american_alshamali
+				culture = guatemalan
 				religion = mesoamerican_religion
 				size = 53129
 			}
@@ -62115,17 +62115,17 @@
 				size = 819
 			}
 			create_pop = {
-				culture = neo-central_america_colony-anjilu_nurs
+				culture = guatemalan
 				religion = converted_dynamic_faith_102
 				size = 1234
 			}
 			create_pop = {
-				culture = neo-central_america_colony-north_american_alshamali
+				culture = guatemalan
 				religion = converted_dynamic_faith_102
 				size = 6406
 			}
 			create_pop = {
-				culture = neo-central_america_colony-north_american_alshamali
+				culture = guatemalan
 				religion = mesoamerican_religion
 				size = 55278
 			}
@@ -62145,7 +62145,7 @@
 				size = 8856
 			}
 			create_pop = {
-				culture = neo-central_america_colony-anjilu_nurs
+				culture = neo-central_america_colony-north_american_alshamali
 				religion = converted_dynamic_faith_102
 				size = 1300
 			}
