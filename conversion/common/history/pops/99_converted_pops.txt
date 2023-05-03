@@ -19405,7 +19405,7 @@
 		}
 	}
 	s:STATE_GUATEMALA = {
-		region_state:NIC = {
+		region_state:GUA = {
 			create_pop = {
 				culture = mayan
 				religion = mesoamerican_religion

@@ -2290,7 +2290,7 @@
 	}
 	s:STATE_GUATEMALA = {
 		create_state = {
-			country = c:NIC
+			country = c:GUA
 			owned_provinces = { x0F5049 x2D4EB6 x464F6A x50B040 x5449D0 xA9090A xDEC8D3 }
 		}
 		create_state = {
@@ -2304,6 +2304,7 @@
 		add_homeland = mayan
 		add_homeland = chowinikob
 		add_homeland = neo-central_america_colony-north_american_alshamali
+		add_claim = c:GUA
 	}
 	s:STATE_GUAVIARE = {
 		create_state = {
@@ -7110,6 +7111,7 @@
 		add_homeland = mayan
 		add_homeland = chowinikob
 		add_homeland = neo-central_america_colony-north_american_alshamali
+		add_claim = c:GUA
 	}
 	s:STATE_YUKON_TERRITORY = {
 		create_state = {

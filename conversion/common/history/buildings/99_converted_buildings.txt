@@ -8889,7 +8889,7 @@
 				activate_production_methods = { }
 			}
 		}
-		region_state:NIC = {
+		region_state:GUA = {
 			create_building = {
 				building = "building_barracks"
 				level = 1

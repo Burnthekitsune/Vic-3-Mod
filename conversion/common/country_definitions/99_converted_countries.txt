@@ -2282,9 +2282,10 @@ GRN = {
 
 GUA = {
 	color = { 115 194 251 }
-	country_type = colonial
+	country_type = recognized
 	tier = principality
-	cultures = { central_american }
+	cultures = { neo-central_america_colony-north_american_alshamali }
+	religion = converted_dynamic_faith_102
 	capital = STATE_GUATEMALA
 	is_named_from_capital = yes
 }
