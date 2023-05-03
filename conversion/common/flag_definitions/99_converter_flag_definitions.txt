@@ -10129,6 +10129,13 @@ X10 = {
 		allow_overlord_canton = no
 		priority = 1
 	}
+	
+	flag_definition = {
+		coa = X10_communist
+		allow_overlord_canton = no
+		priority = 1500
+		trigger = { coa_def_communist_flag_trigger = yes }
+	}
 }
 X70 = {
 	flag_definition = {
