@@ -5068,7 +5068,8 @@ PNM = {
 	color = { 150 85 61 }
 	country_type = colonial
 	tier = principality
-	cultures = { central_american }
+	cultures = { neo-argentine_colony-south_american_alshamali }
+	recognized = converted_dynamic_faith_102
 	capital = STATE_PANAMA
 	is_named_from_capital = yes
 }
