@@ -195,7 +195,7 @@ X10_communist = {
 	
 	colored_emblem = {
 		texture = "ce_haesteining.dds"
-		color1 = color2
+		color1 = "white"
 		instance = { scale = { 0.70 0.70 } position = { 0.5 0.5 } }
 	}
 }
