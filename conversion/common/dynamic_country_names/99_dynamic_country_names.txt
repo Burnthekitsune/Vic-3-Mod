@@ -85,6 +85,15 @@ W87 = {
 			}
 		}
 	}
+	
+	dynamic_country_name = {
+		name = dyn_c_w87_3
+		adjective = dyn_c_w87_3_adj
+		
+		trigger = {
+			has_law = law_type:law_council_republic
+		}
+	}
 }
 
 X10 = {
@@ -125,6 +134,83 @@ BRZ = {
 		
 		trigger = {
 			country_has_accepted_religion = converted_dynamic_faith_102
+		}
+	}
+}
+
+W93 = {
+	dynamic_country_name = {
+		name = dyn_c_w93
+		adjective = dyn_c_w93_adj
+		
+		trigger = {
+			has_law = law_type:law_council_republic
+		}
+	}
+}
+
+W88 = {
+	dynamic_country_name = {
+		name = dyn_c_w88
+		adjective = dyn_c_w88_adj
+		
+		trigger = {
+			has_law = law_type:law_council_republic
+		}
+	}
+}
+
+W91 = {
+	dynamic_country_name = {
+		name = dyn_c_w91
+		adjective = dyn_c_w91_adj
+		
+		trigger = {
+			has_law = law_type:law_council_republic
+		}
+	}
+}
+
+W92 = {
+	dynamic_country_name = {
+		name = dyn_c_w92
+		adjective = dyn_c_w92_adj
+		
+		trigger = {
+			has_law = law_type:law_council_republic
+		}
+	}
+}
+
+W94 = {
+	dynamic_country_name = {
+		name = dyn_c_w94
+		adjective = dyn_c_w94_adj
+		
+		trigger = {
+			has_law = law_type:law_council_republic
+		}
+	}
+}
+
+W90 = {
+	dynamic_country_name = {
+		name = dyn_c_w90
+		adjective = dyn_c_w90_adj
+		
+		trigger = {
+			has_law = law_type:law_council_republic
+		}
+	}
+}
+
+W89 = {
+	dynamic_country_name = {
+		name = dyn_c_w89
+		adjective = dyn_c_w89_adj
+		
+		trigger = {
+			has_law = law_type:law_council_republic
 		}
 	}
 }
