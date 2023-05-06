@@ -1997,9 +1997,10 @@ FRM = {
 
 FRS = {
 	color = { 218 234 15 }
-	country_type = decentralized
-	tier = principality
-	cultures = { formosan min }
+	country_type = unrecognized
+	tier = kingdom
+	cultures = { min polynesian east_asian_alshamali }
+	religion = converted_dynamic_faith_102
 	capital = STATE_FORMOSA
 }
 
@@ -3249,7 +3250,7 @@ KHM = {
 KHN = {
 	color = { 44 51 65 }
 	country_type = unrecognized
-	tier = principality
+	tier = kingdom
 	cultures = { shan yi yue }
 	religion = mahayana
 	capital = STATE_KACHIN
@@ -5629,7 +5630,8 @@ SHA = {
 	color = { 189 113 42 }
 	country_type = unrecognized
 	tier = kingdom
-	cultures = { dynamic-chihan-chihan-culture-num1 dynamic-chihan-culture-num2 dynamic-chihan-culture-num3 han }
+	cultures = { han east_asian_alshamali }
+	religion =  converted_dynamic_faith_102
 	capital = STATE_SHANDONG
 }
 
@@ -6659,9 +6661,9 @@ V12 = {
 V13 = {
 	color = { 219 44 21 }
 	country_type = unrecognized
-	tier = empire
-	cultures = { han }
-	religion = mahayana
+	tier = kingdom
+	cultures = { han east_asian_alshamali }
+	religion = converted_dynamic_faith_102
 	capital = STATE_NANJING
 }
 
@@ -7318,7 +7320,7 @@ W15 = {
 W16 = {
 	color = { 106 97 104 }
 	country_type = unrecognized
-	tier = grand_principality
+	tier = kingdom
 	cultures = { han }
 	religion = mahayana
 	capital = STATE_HENAN
@@ -7426,9 +7428,9 @@ W27 = {
 W28 = {
 	color = { 206 235 209 }
 	country_type = unrecognized
-	tier = grand_principality
+	tier = kingdom
 	cultures = { min }
-	religion = mahayana
+	religion = converted_dynamic_faith_102
 	capital = STATE_FUJIAN
 }
 
@@ -8528,7 +8530,7 @@ X40 = {
 X41 = {
 	color = { 140 183 154 }
 	country_type = unrecognized
-	tier = grand_principality
+	tier = kingdom
 	cultures = { han }
 	religion = mahayana
 	capital = STATE_WESTERN_HUBEI
@@ -8744,9 +8746,9 @@ X64 = {
 X65 = {
 	color = { 132 207 191 }
 	country_type = unrecognized
-	tier = grand_principality
-	cultures = { hakka }
-	religion = mahayana
+	tier = kingdom
+	cultures = { hakka yue min east_asian_alshamali }
+	religion = converted_dynamic_faith_102
 	capital = STATE_SHAOZHOU
 }
 
@@ -9262,7 +9264,7 @@ YUC = {
 YUE = {
 	color = { 89 113 223 }
 	country_type = unrecognized
-	tier = principality
+	tier = kingdom
 	cultures = { yue han zhuang }
 	capital = STATE_GUANGDONG
 }
