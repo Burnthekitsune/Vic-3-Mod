@@ -353,6 +353,18 @@
 			type = puppet
 		}
 	}
+	c:CC1 = {
+		create_diplomatic_pact = {
+			country = c:CC2
+			type = dominion
+		}
+	}
+	c:CC1 = {
+		create_diplomatic_pact = {
+			country = c:CC3
+			type = dominion
+		}
+	}
 	c:V12 = {
 		create_diplomatic_pact = {
 			country = c:X38

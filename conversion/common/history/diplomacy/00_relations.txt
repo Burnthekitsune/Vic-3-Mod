@@ -922,4 +922,19 @@
 	c:X99 = {
 		set_relations = { country = c:W85 value = 10 }
 	}
+	c:CC1 = {
+		set_relations = { country = c:CC2 value = 80 }
+		set_relations = { country = c:CC3 value = 80 }
+		set_relations = { country = c:V27 value = -100 }
+	}
+	c:CC2 = {
+		set_relations = { country = c:CC1 value = 50 }
+		set_relations = { country = c:CC3 value = 100 }
+		set_relations = { country = c:V27 value = -40 }
+	}
+	c:CC3 = {
+		set_relations = { country = c:CC1 value = 50 }
+		set_relations = { country = c:CC2 value = 100 }
+		set_relations = { country = c:V27 value = -40 }
+	}
 }

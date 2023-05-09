@@ -9683,7 +9683,7 @@ YOR = { #York
 }
 
 CC1 = { #Mjimpya
-	color = { 212 142 36 }
+	color = { 181 181 181 }
 	country_type = recognized
 	tier = grand_principality
 	cultures = { dynamic-berber-fulani-culture-num1 }
@@ -9692,7 +9692,7 @@ CC1 = { #Mjimpya
 }
 
 CC2 = { #Sabha
-	color = { 212 142 36 }
+	color = { 100 40 211 }
 	country_type = recognized
 	tier = city_state
 	cultures = { dynamic-berber-fulani-culture-num1 }
@@ -9701,7 +9701,7 @@ CC2 = { #Sabha
 }
 
 CC3 = { #Tenere
-	color = { 212 142 36 }
+	color = { 6 76 40 }
 	country_type = recognized
 	tier = city_state
 	cultures = { dynamic-berber-fulani-culture-num1 }
