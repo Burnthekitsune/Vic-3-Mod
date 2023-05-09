@@ -618,3 +618,105 @@ CC1_LATE = {
 #		}
 #	}
 #}
+W40_M_L = {
+	pattern = "pattern_solid.tga"
+	color1 = "yellow"
+	colored_emblem={
+		color1=white
+		color2=black
+		texture="ce_tricolor_vertical.dds"
+		instance={
+			position={ 0.5 0.5 }
+			scale={ 1 1 }
+		}
+	}
+}
+W40_R_E = {
+	pattern = "pattern_solid.tga"
+	color1 = "blue_light"
+	colored_emblem={
+		color1=white
+		color2=green_light
+		texture="ce_tricolor_horizontal.dds"
+		instance={
+			position={ 0.5 0.5 }
+			scale={ 1 1 }
+		}
+	}
+}
+W40_R_L = {
+	pattern = "pattern_solid.tga"
+	color1 = "black"
+	colored_emblem={
+		color1=white
+		color2=blue
+		texture="ce_tricolor_horizontal.dds"
+		instance={
+			position={ 0.5 0.5 }
+			scale={ 1 1 }
+		}
+	}
+}
+W40_A = {
+	pattern = "pattern_solid.tga"
+	color1 = "black"
+	colored_emblem={
+		color1=white
+		texture="ce_solid.dds"
+		instance={
+			position={ 0.5 0.5 }
+			scale={ 0.4 0.4 }
+		}
+	}
+}
+W40_C = {
+	pattern = "pattern_solid.tga"
+	color1 = "red_dark"
+	colored_emblem={
+		color1=red_dark
+		color2=yellow_dark
+		texture="ce_saltire_fimbriated.dds"
+		instance={
+			position={ 0.5 0.5 }
+			scale={ 1 1 }
+		}
+	}
+	colored_emblem={
+		color1=yellow
+		texture="ce_crescent_star_06.dds"
+		instance={
+			position={ 0.15 0.5 }
+			scale={ 0.4 0.4 }
+			rotation= 180 
+		}
+	}
+}
+W40_M_W_E = {
+	pattern = "pattern_gironny_16_center.dds"
+	color1 = "blue_light"
+	color2 = "pink"
+	colored_emblem={
+		color1=yellow
+		texture="ce_frame_circle.dds"
+		instance={
+			position={ 0.5 0.5 }
+			scale={ 0.55 0.55 }
+		}
+	}
+	colored_emblem={
+		color1=white
+		texture="ce_frame_circle.dds"
+		instance={
+			position={ 0.5 0.5 }
+			scale={ 0.5 0.5 }
+		}
+	}
+	colored_emblem={
+		color1=yellow
+		texture="ce_morning_star.dds"
+		instance={
+			position={ 0.5 0.5 }
+			scale={ 0.5 0.5 }
+		}
+	}
+}
