@@ -10411,7 +10411,44 @@ GB5 = { # Ireland
 		}
 	}	
 }
-
+CC2 = {
+	flag_definition = {
+		coa = CC2
+		priority = 1
+	}
+	flag_definition = {
+		coa = CC2_MED
+		priority = 10
+		trigger = { game_date >= 1875.1.1 }
+	}
+	flag_definition = {
+		coa = CC2_LATE
+		priority = 20
+		trigger = { game_date >= 1920.1.1 }
+	}
+}
+CC3 = {
+	flag_definition = {
+		coa = CC3
+		priority = 1
+	}
+	flag_definition = {
+		coa = CC3_LATE
+		priority = 10
+		trigger = { game_date >= 1895.1.1 }
+	}
+}
+CC1 = {
+	flag_definition = {
+		coa = CC1
+		priority = 1
+	}
+	flag_definition = {
+		coa = CC1_LATE
+		priority = 10
+		trigger = { game_date >= 1912.1.1 }
+	}
+}
 GB1 = { # Great Britain / United Kingdom
 	flag_definition = {
 		coa = GBR

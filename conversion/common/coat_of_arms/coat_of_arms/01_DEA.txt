@@ -456,6 +456,104 @@ CC3 = {
 		}
 	}
 }
+CC2_MED = {
+	pattern = "pattern_solid.tga"
+	color1 = "purple"
+	colored_emblem={
+		color1=green
+		texture="ce_canton.dds"
+		instance={
+			position={ 0.5 0.5 }
+			scale={ 1 1 }
+		}
+	}
+	colored_emblem={
+		color1=white
+		texture="ce_coa_saf_wagon.dds"
+		instance={
+			position={ 0.25 0.25 }
+			scale={ 0.75 0.75 }
+		}
+	}
+}
+CC3_LATE = {
+	pattern = "pattern_solid.tga"
+	color1 = "green_dark"
+	colored_emblem={
+		color1=orange
+		color2=white
+		texture="ce_hexacolor_horizontal.dds"
+		instance={
+			position={ 0.5 0.5 }
+			scale={ 1 1 }
+		}
+	}
+}
+CC2_LATE = {
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+	colored_emblem={
+		color1=purple
+		color2=green
+		color3=green
+		texture="ce_quarterly_per_fess_wavy.dds"
+		instance={
+			position={ 0.5 0.5 }
+			scale={ 1 1 }
+		}
+	}
+	colored_emblem={
+		color1=white
+		color2=red
+		texture="ce_cross_sardinia.dds"
+		instance={
+			position={ 0.5 0.5 }
+			scale={ 1 1 }
+		}
+	}
+}
+CC1_LATE = {
+	pattern = "pattern_border_venice.dds"
+	color1=green
+	color2=yellow
+	colored_emblem={
+		color1=orange
+		texture="ce_frame_circle.dds"
+		instance={
+			position={ 0.5 0.5 }
+			scale={ 0.68 0.68 }
+		}
+	}
+	colored_emblem={
+		color1=green_dark
+		color2=blue_light
+		color3=red
+		texture="ce_coa_sierra_leone_bg.dds"
+		instance={
+			position={ 0.5 0.5 }
+			scale={ 0.8 0.8 }
+		}
+	}
+	colored_emblem={
+		color1=blue
+		color2=purple
+		color3=pink
+		texture="ce_clouds_china_02.dds"
+		instance={
+			position={ 0.40 0.30 }
+			scale={ 0.25 0.25 }
+		}
+	}
+	colored_emblem={
+		color1=purple
+		color2=pink
+		texture="ce_clouds_china_03.dds"
+		instance={
+			position={ 0.55 0.35 }
+			scale={ 0.25 0.25 }
+		}
+	}
+}
 #GABES communist flag storage until I have time to code it
 #V27 = {
 #	pattern = "pattern_solid.tga"
