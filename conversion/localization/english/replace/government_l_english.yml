@@ -112,6 +112,8 @@
  gov_decentralized_realm:0 "Decentralized Realm"
  gov_zhuz:0 "Zhuz"
  gov_zhuz_desc:0 "This is a [concept_government_type] ruled by the [Concept('concept_ruler','$RULER_TITLE_SENIOR_SULTAN$')], the most powerful noble amongst those of the nomadic peoples of this country.\n\n$TRANSFER_OF_POWER_NAME_DESC$"
+ gov_miatate:0 "Miatate"
+ gov_miatate:0 "This is a [concept_government_type] where all power rests in the [Concept('concept_ruler','$RULER_TITLE_MIAT$')], a scion of the ancient Silla Empire.\n\n$TRANSFER_OF_POWER_NAME_DESC$"
 
 # Theocracies
  gov_theocracy:0 "Theocracy"
@@ -298,6 +300,10 @@
  RULER_TITLE_JUNIOR_HEAVENLY_KING:0 "Junior Heavenly King"
  RULER_TITLE_SENIOR_SULTAN:0 "Agha-Sultan"
  RULER_TITLE_SENIOR_SULTANA:0 "Agha-Sultana"
+ RULER_TITLE_MIAT:0 "Miat"
+ RULER_TITLE_MIA:0 "Mia"
+ RULER_TITLE_HEIR_CELEBI:0 "Celebi"
+ RULER_TITLE_HEIR_MIRMIRA:0 "Mirmira"
 
  RULER_CHIEFTAIN:0 "Chieftain"
  RULER_CHIEFTESS:0 "Chieftess"
