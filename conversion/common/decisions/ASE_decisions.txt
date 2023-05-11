@@ -1230,16 +1230,31 @@ lowland_puppets = {
 		s:STATE_FLANDERS.region_state:W17 = {
 			set_state_owner = c:X10
 		}
+		s:STATE_FLANDERS.region_state:GER = {
+			set_state_owner = c:X10
+		}
 		s:STATE_WALLONIA.region_state:W17 = {
+			set_state_owner = c:X10
+		}
+		s:STATE_WALLONIA.region_state:GER = {
 			set_state_owner = c:X10
 		}
 		s:STATE_HOLLAND.region_state:W17 = {
 			set_state_owner = c:X10
 		}
+		s:STATE_HOLLAND.region_state:GER = {
+			set_state_owner = c:X10
+		}
 		s:STATE_GELRE.region_state:W17 = {
 			set_state_owner = c:X10
 		}
+		s:STATE_GELRE.region_state:GER = {
+			set_state_owner = c:X10
+		}
 		s:STATE_FRIESLAND.region_state:W17 = {
+			set_state_owner = c:X10
+		}
+		s:STATE_FRIESLAND.region_state:GER = {
 			set_state_owner = c:X10
 		}
 		create_country = {

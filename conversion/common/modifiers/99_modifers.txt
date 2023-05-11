@@ -52,8 +52,8 @@ politial_sideline = {
 
 poltical_focus = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_fist_negative.dds
-	interest_group_pol_str_mult = 7.5
-	interest_group_pop_attraction_mult = 5
+	interest_group_pol_str_mult = 1
+	interest_group_pop_attraction_mult = 1
 	interest_group_in_government_approval_add = 10
 }
 
