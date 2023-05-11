@@ -689,3 +689,36 @@ northern_push = {
 		base = 100
 	}
 }
+
+sway_guatemala = {
+	is_shown = {
+		this = c:X42
+		NOT = { has_variable = swayed_guatemala }
+		NOT = { has_variable = sway_cooldown }
+		exists = c:GUA
+	}
+	
+	possible = {
+		has_variable = zap_war
+		influence > 500
+		c:GUA = {
+			is_subject = no
+		}
+	}
+	
+	when_taken = {
+		annex = c:GUA
+		set_variable = {
+			name = swayed_guatemala
+		} 
+		set_variable = {
+			name = sway_cooldown
+			days = 365
+		}
+		add_primary_culture = guatemalan
+	}
+	
+	ai_chance = {
+		base = 100
+	}
+}
