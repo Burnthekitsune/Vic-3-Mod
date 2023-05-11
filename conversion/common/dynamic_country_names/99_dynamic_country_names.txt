@@ -214,3 +214,16 @@ W89 = {
 		}
 	}
 }
+
+W17 = {
+	dynamic_country_name = {
+		name = dyn_c_w17
+		adjective = dyn_c_w17_adj
+		
+		trigger = {
+			c:V48 = {
+				is_subject_of = c:W17
+			}
+		}
+	}
+}

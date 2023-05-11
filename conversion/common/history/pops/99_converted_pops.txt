@@ -13570,7 +13570,7 @@
 		}
 	}
 	s:STATE_DELVIDEK = {
-		region_state:V48 = {
+		region_state:SLV = {
 			create_pop = {
 				culture = croat
 				religion = catholic
@@ -34222,8 +34222,6 @@
 				religion = jewish
 				size = 4872
 			}
-		}
-		region_state:X80 = {
 			create_pop = {
 				culture = slovak
 				religion = catholic
@@ -54813,7 +54811,7 @@
 		}
 	}
 	s:STATE_TRANSDANUBIA = {
-		region_state:V48 = {
+		region_state:SLV = {
 			create_pop = {
 				culture = slovak
 				religion = catholic
@@ -60681,7 +60679,7 @@
 		}
 	}
 	s:STATE_WEST_SLOVAKIA = {
-		region_state:V48 = {
+		region_state:SLV = {
 			create_pop = {
 				culture = slovak
 				religion = catholic

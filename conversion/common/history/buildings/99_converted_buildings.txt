@@ -6168,7 +6168,7 @@
 		}
 	}
 	s:STATE_DELVIDEK = {
-		region_state:V48 = {
+		region_state:SLV = {
 			create_building = {
 				building = "building_construction_sector"
 				level = 3
@@ -14740,7 +14740,7 @@
 			}
 			create_building = {
 				building = "building_wheat_farm"
-				level = 9
+				level = 11
 				reserves = 1
 				activate_production_methods = { }
 			}
@@ -14761,26 +14761,6 @@
 				level = 1
 				reserves = 1
 				activate_production_methods = { "pm_cannons" }
-			}
-		}
-		region_state:X80 = {
-			create_building = {
-				building = "building_construction_sector"
-				level = 2
-				reserves = 1
-				activate_production_methods = { }
-			}
-			create_building = {
-				building = "building_barracks"
-				level = 5
-				reserves = 1
-				activate_production_methods = { "pm_line_infantry" "pm_mobile_artillery" }
-			}
-			create_building = {
-				building = "building_wheat_farm"
-				level = 2
-				reserves = 1
-				activate_production_methods = { "pm_citrus_orchards" }
 			}
 		}
 	}
@@ -22359,7 +22339,7 @@
 		}
 	}
 	s:STATE_TRANSDANUBIA = {
-		region_state:V48 = {
+		region_state:SLV = {
 			create_building = {
 				building = "building_construction_sector"
 				level = 1
@@ -24725,7 +24705,7 @@
 		}
 	}
 	s:STATE_WEST_SLOVAKIA = {
-		region_state:V48 = {
+		region_state:SLV = {
 			create_building = {
 				building = "building_barracks"
 				level = 1

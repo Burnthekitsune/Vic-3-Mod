@@ -1586,7 +1586,7 @@
 	}
 	s:STATE_DELVIDEK = {
 		create_state = {
-			country = c:V48
+			country = c:SLV
 			owned_provinces = { x11E021 x901B70 x9E1AD1 }
 		}
 		create_state = {
@@ -3904,11 +3904,7 @@
 	s:STATE_MORAVIA = {
 		create_state = {
 			country = c:V45
-			owned_provinces = { x12778D x1D088E x49C8F7 x4B3444 xD9A784 xEF6080 xF0E080 }
-		}
-		create_state = {
-			country = c:X80
-			owned_provinces = { x08AA4B x10DFDF x71E080 }
+			owned_provinces = { x12778D x1D088E x49C8F7 x4B3444 xD9A784 xEF6080 xF0E080 x08AA4B x10DFDF x71E080 }
 		}
 		add_homeland = slovak
 		add_homeland = south_german
@@ -5581,7 +5577,6 @@
 		}
 		add_homeland = polish
 		add_homeland = slovak
-		add_homeland = sorb
 		add_claim = c:V31
 	}
 	s:STATE_SINAI = {
@@ -6239,7 +6234,7 @@
 	}
 	s:STATE_TRANSDANUBIA = {
 		create_state = {
-			country = c:V48
+			country = c:SLV
 			owned_provinces = { x124D73 x1CAC04 x2668FB x27F483 x30A020 x3C6913 x6F8D2A x715F5D x716180 xA709B7 xB02121 xC139B7 xCACEBC xCF2020 xCFDFDF xF0E001 }
 		}
 		create_state = {
@@ -6961,7 +6956,7 @@
 	}
 	s:STATE_WEST_SLOVAKIA = {
 		create_state = {
-			country = c:V48
+			country = c:SLV
 			owned_provinces = { x516161 x695F42 xCA932B }
 		}
 		create_state = {

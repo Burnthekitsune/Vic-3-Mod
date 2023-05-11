@@ -559,13 +559,25 @@
 	}
 	c:W17 = {
 		create_diplomatic_pact = {
-			country = c:VEN
+			country = c:V48
 			type = defensive_pact
 		}
 	}
-	c:VEN = {
+	c:V48 = {
 		create_diplomatic_pact = {
 			country = c:W17
+			type = defensive_pact
+		}
+	}
+	c:W66 = {
+		create_diplomatic_pact = {
+			country = c:W17
+			type = defensive_pact
+		}
+	}
+	c:W17 = {
+		create_diplomatic_pact = {
+			country = c:W66
 			type = defensive_pact
 		}
 	}

@@ -1,0 +1,67 @@
+﻿german_land = {
+	is_shown = {
+		has_variable = germ_con
+		NOT = { has_variable = swap_land_proposed }
+		exists = c:SLV
+	}
+	
+	possible = {
+		c:SLV = {
+			is_subject_of = ROOT
+		}
+		c:W40 = {
+			OR = {
+				has_state_in_state_region = STATE_TYROL
+				has_state_in_state_region = STATE_STYRIA
+				has_state_in_state_region = STATE_AUSTRIA
+				has_state_in_state_region = STATE_BAVARIA
+				has_state_in_state_region = STATE_MORAVIA
+			}
+		}
+	}
+	
+	when_taken = {
+		set_variable = {
+			name = swap_land_proposed
+		} 
+		c:W40 = {
+			trigger_event = w17event.2 # Land Swap
+		}
+	}
+	
+	ai_chance = {
+		base = 100
+	}
+}
+
+invade_prussia = {
+	is_shown = {
+		this = c:GER
+		NOT = { has_variable = invade_prussia }
+		exists = c:PRU
+	}
+	
+	possible = {
+		NOT = {
+			has_truce_with = c:PRU
+			has_truce_with = c:SCA
+		}
+	}
+	
+	when_taken = {
+		set_variable = {
+			name = invade_prussia
+		} 
+		create_diplomatic_play = {
+			name = ger_war
+			target_state = s:STATE_WEST_PRUSSIA.region_state:PRU
+			war = yes
+			type = dp_annex_war
+			
+		}
+	}
+	
+	ai_chance = {
+		base = 100
+	}
+}

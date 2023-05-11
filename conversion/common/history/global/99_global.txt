@@ -97,13 +97,19 @@
 		
 		trigger_event = {
 			id = aseevent.50
-			years = 32
+			years = 42
 		}
 	}
 	c:V27 = {
 		trigger_event = {
 			id = miscflavor.1
 			days = 1825
+		}
+	}
+	c:W17 = {
+		trigger_event = {
+			id = w17event.1
+			days = 7300
 		}
 	}
 }

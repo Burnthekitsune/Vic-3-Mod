@@ -1,0 +1,249 @@
+﻿namespace = w17event
+
+w17event.1 = { #german union
+	placement = root
+	type = country_event
+	title = w17event.1.t
+	desc = w17event.1.d
+	icon = "gfx/interface/icons/event_icons/event_default.dds"
+	
+	event_image = {
+		video = "gfx/event_pictures/europenorthamerica_rich_and_poor.bk2"
+	}
+	
+	duration = 5
+	
+	option = { # Yes
+		name = w17event.1.a
+		set_variable = {
+			name = germ_con
+		}
+		if = {
+			limit = {
+				exists = c:X16
+				c:X16 = {
+					is_subject = no
+				}
+			}
+			create_diplomatic_pact = {
+				country = c:X16
+				type = dominion
+			}
+		}
+		if = {
+			limit = {
+				exists = c:V31
+				c:V31 = {
+					is_subject = no
+				}
+			}
+			create_diplomatic_pact = {
+				country = c:V31
+				type = dominion
+			}
+		}
+		if = {
+			limit = {
+				exists = c:W68
+				c:W68 = {
+					is_subject = no
+				}
+			}
+			create_diplomatic_pact = {
+				country = c:W68
+				type = dominion
+			}
+		}
+		if = {
+			limit = {
+				exists = c:W54
+				c:W54 = {
+					is_subject = no
+				}
+			}
+			create_diplomatic_pact = {
+				country = c:W54
+				type = dominion
+			}
+		}
+		if = {
+			limit = {
+				exists = c:V45
+				c:V45 = {
+					is_subject = no
+				}
+			}
+			create_diplomatic_pact = {
+				country = c:V45
+				type = dominion
+			}
+		}
+		if = {
+			limit = {
+				exists = c:W66
+				c:W66 = {
+					is_subject = no
+				}
+			}
+			create_diplomatic_pact = {
+				country = c:W66
+				type = dominion
+			}
+		}
+		if = {
+			limit = {
+				exists = c:V48
+				c:V48 = {
+					is_subject = no
+				}
+			}
+			create_diplomatic_pact = {
+				country = c:V48
+				type = dominion
+			}
+		}
+		if = {
+			limit = {
+				exists = c:SLV
+				c:SLV = {
+					is_direct_subject_of = c:V48
+				}
+			}
+			create_diplomatic_pact = {
+				country = c:SLV
+				type = dominion
+			}
+		}
+		ai_chance = {
+			base = 100
+		}
+	}
+	
+	option = { # No
+		name = w17event.1.b
+		
+		ai_chance = {
+			base = 0
+		}
+	}
+
+}
+
+w17event.2 = { #german union
+	placement = root
+	type = country_event
+	title = w17event.2.t
+	desc = w17event.2.d
+	icon = "gfx/interface/icons/event_icons/event_default.dds"
+	
+	event_image = {
+		video = "gfx/event_pictures/europenorthamerica_rich_and_poor.bk2"
+	}
+	
+	duration = 5
+	
+	option = { # Yes
+		name = w17event.2.a
+		every_state = {
+			limit = {
+				state_region = s:STATE_TYROL
+				owner = c:W40
+			}
+			set_state_owner = c:W17
+		}
+		every_state = {
+			limit = {
+				state_region = s:STATE_STYRIA
+				owner = c:W40
+			}
+			set_state_owner = c:W17
+		}
+		every_state = {
+			limit = {
+				state_region = s:STATE_AUSTRIA
+				owner = c:W40
+			}
+			set_state_owner = c:W17
+		}
+		every_state = {
+			limit = {
+				state_region = s:STATE_BAVARIA
+				owner = c:W40
+			}
+			set_state_owner = c:W17
+		}
+		every_state = {
+			limit = {
+				state_region = s:STATE_MORAVIA
+				owner = c:W40
+			}
+			set_state_owner = c:W17
+		}
+		every_state = {
+			limit = {
+				owner = c:SLV
+			}
+			set_state_owner = c:W40
+		}
+		ai_chance = {
+			base = 100
+		}
+	}
+	
+	option = { # Keep Subject
+		name = w17event.2.b
+		every_state = {
+			limit = {
+				state_region = s:STATE_TYROL
+				owner = c:W40
+			}
+			set_state_owner = c:W17
+		}
+		every_state = {
+			limit = {
+				state_region = s:STATE_STYRIA
+				owner = c:W40
+			}
+			set_state_owner = c:W17
+		}
+		every_state = {
+			limit = {
+				state_region = s:STATE_AUSTRIA
+				owner = c:W40
+			}
+			set_state_owner = c:W17
+		}
+		every_state = {
+			limit = {
+				state_region = s:STATE_BAVARIA
+				owner = c:W40
+			}
+			set_state_owner = c:W17
+		}
+		every_state = {
+			limit = {
+				state_region = s:STATE_MORAVIA
+				owner = c:W40
+			}
+			set_state_owner = c:W17
+		}
+		create_diplomatic_pact = {
+			country = c:SLV
+			type = dominion
+		}
+		ai_chance = {
+			base = 50
+		}
+	}
+	
+	option = { # No
+		name = w17event.2.c
+		change_relations = {
+			country = c:W17
+			value = -50
+		}
+		ai_chance = {
+			base = 0
+		}
+	}
+}
