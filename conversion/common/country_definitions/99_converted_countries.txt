@@ -9735,3 +9735,12 @@ CC6 = {
 	religion = converted_dynamic_faith_106
 	capital = STATE_TONGA
 }
+
+UPU = {
+	color = { 93 45 171 }
+	country_type = recognized
+	tier = kingdom
+	cultures = { dynamic-hungarian-russian_culture-culture-num1 dynamic-polish-culture-num2 }
+	religion = zoroastrian
+	capital = STATE_EAST_SLOVAKIA
+}
