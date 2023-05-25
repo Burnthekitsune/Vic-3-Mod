@@ -3518,7 +3518,19 @@
 		}
 	}
 	s:STATE_ASSAM = {
-		region_state:ASM = {
+		region_state:ORI = {
+			create_pop = {
+				culture = dynamic-assamese-nepali-culture-num1
+				religion = mahayana
+				size = 186304
+			}
+			create_pop = {
+				culture = dynamic-assamese-nepali-culture-num1
+				religion = jain
+				size = 148120
+			}
+		}
+		region_state:X14 = {
 			create_pop = {
 				culture = dynamic-assamese-nepali-culture-num1
 				religion = mahayana
@@ -3534,20 +3546,6 @@
 				religion = mahayana
 				size = 167212
 			}
-		}
-		region_state:ORI = {
-			create_pop = {
-				culture = dynamic-assamese-nepali-culture-num1
-				religion = mahayana
-				size = 186304
-			}
-			create_pop = {
-				culture = dynamic-assamese-nepali-culture-num1
-				religion = jain
-				size = 148120
-			}
-		}
-		region_state:X14 = {
 			create_pop = {
 				culture = dynamic-assamese-nepali-culture-num1
 				religion = zoroastrian
@@ -3800,74 +3798,6 @@
 		}
 	}
 	s:STATE_AWADH = {
-		region_state:NEP = {
-			create_pop = {
-				culture = avadhi
-				religion = hindu
-				size = 363458
-			}
-			create_pop = {
-				culture = avadhi
-				religion = hindu
-				pop_type = slaves
-				size = 514
-			}
-			create_pop = {
-				culture = avadhi
-				religion = mahayana
-				size = 622009
-			}
-			create_pop = {
-				culture = avadhi
-				religion = mahayana
-				pop_type = slaves
-				size = 880
-			}
-			create_pop = {
-				culture = avadhi
-				religion = mahayana
-				size = 782974
-			}
-			create_pop = {
-				culture = avadhi
-				religion = mahayana
-				pop_type = slaves
-				size = 1107
-			}
-			create_pop = {
-				culture = avadhi
-				religion = mahayana
-				size = 796474
-			}
-			create_pop = {
-				culture = avadhi
-				religion = mahayana
-				pop_type = slaves
-				size = 1126
-			}
-			create_pop = {
-				culture = avadhi
-				religion = hindu
-				size = 346672
-			}
-			create_pop = {
-				culture = avadhi
-				religion = hindu
-				pop_type = slaves
-				size = 490
-			}
-			create_pop = {
-				culture = avadhi
-				religion = mahayana
-				size = 463300
-			}
-			create_pop = {
-				culture = avadhi
-				religion = mahayana
-				pop_type = slaves
-				size = 656
-			}
-		}
 		region_state:ORI = {
 			create_pop = {
 				culture = dynamic-avadhi-nepali-culture-num1
@@ -3981,6 +3911,72 @@
 			}
 		}
 		region_state:X44 = {
+			create_pop = {
+				culture = avadhi
+				religion = hindu
+				size = 363458
+			}
+			create_pop = {
+				culture = avadhi
+				religion = hindu
+				pop_type = slaves
+				size = 514
+			}
+			create_pop = {
+				culture = avadhi
+				religion = mahayana
+				size = 622009
+			}
+			create_pop = {
+				culture = avadhi
+				religion = mahayana
+				pop_type = slaves
+				size = 880
+			}
+			create_pop = {
+				culture = avadhi
+				religion = mahayana
+				size = 782974
+			}
+			create_pop = {
+				culture = avadhi
+				religion = mahayana
+				pop_type = slaves
+				size = 1107
+			}
+			create_pop = {
+				culture = avadhi
+				religion = mahayana
+				size = 796474
+			}
+			create_pop = {
+				culture = avadhi
+				religion = mahayana
+				pop_type = slaves
+				size = 1126
+			}
+			create_pop = {
+				culture = avadhi
+				religion = hindu
+				size = 346672
+			}
+			create_pop = {
+				culture = avadhi
+				religion = hindu
+				pop_type = slaves
+				size = 490
+			}
+			create_pop = {
+				culture = avadhi
+				religion = mahayana
+				size = 463300
+			}
+			create_pop = {
+				culture = avadhi
+				religion = mahayana
+				pop_type = slaves
+				size = 656
+			}
 			create_pop = {
 				culture = dynamic-avadhi-nepali-culture-num1
 				religion = hindu
@@ -10284,32 +10280,6 @@
 				pop_type = slaves
 				size = 104
 			}
-		}
-		region_state:HYD = {
-			create_pop = {
-				culture = dynamic-kannada-marathi-culture-num1
-				religion = jain
-				size = 590679
-			}
-			create_pop = {
-				culture = dynamic-kannada-marathi-culture-num1
-				religion = jain
-				pop_type = slaves
-				size = 306
-			}
-			create_pop = {
-				culture = dynamic-kannada-marathi-culture-num1
-				religion = jain
-				size = 480552
-			}
-			create_pop = {
-				culture = dynamic-kannada-marathi-culture-num1
-				religion = jain
-				pop_type = slaves
-				size = 249
-			}
-		}
-		region_state:NEP = {
 			create_pop = {
 				culture = dynamic-avadhi-nepali-culture-num1
 				religion = gelugpa
@@ -10342,6 +10312,30 @@
 				religion = mahayana
 				pop_type = slaves
 				size = 62
+			}
+		}
+		region_state:HYD = {
+			create_pop = {
+				culture = dynamic-kannada-marathi-culture-num1
+				religion = jain
+				size = 590679
+			}
+			create_pop = {
+				culture = dynamic-kannada-marathi-culture-num1
+				religion = jain
+				pop_type = slaves
+				size = 306
+			}
+			create_pop = {
+				culture = dynamic-kannada-marathi-culture-num1
+				religion = jain
+				size = 480552
+			}
+			create_pop = {
+				culture = dynamic-kannada-marathi-culture-num1
+				religion = jain
+				pop_type = slaves
+				size = 249
 			}
 		}
 		region_state:ORI = {
@@ -21193,7 +21187,7 @@
 				size = 102025
 			}
 		}
-		region_state:ORI = {
+		region_state:SIK = {
 			create_pop = {
 				culture = dynamic-assamese-nepali-culture-num1
 				religion = jain
@@ -28227,25 +28221,6 @@
 				religion = jain
 				size = 109633
 			}
-		}
-		region_state:NEP = {
-			create_pop = {
-				culture = tibetan
-				religion = mahayana
-				size = 6820
-			}
-			create_pop = {
-				culture = tibetan
-				religion = gelugpa
-				size = 27166
-			}
-			create_pop = {
-				culture = tibetan
-				religion = mahayana
-				size = 71508
-			}
-		}
-		region_state:ORI = {
 			create_pop = {
 				culture = dynamic-assamese-nepali-culture-num1
 				religion = mahayana
@@ -28295,6 +28270,21 @@
 				culture = dynamic-assamese-nepali-culture-num1
 				religion = jain
 				size = 85413
+			}
+			create_pop = {
+				culture = tibetan
+				religion = mahayana
+				size = 6820
+			}
+			create_pop = {
+				culture = tibetan
+				religion = gelugpa
+				size = 27166
+			}
+			create_pop = {
+				culture = tibetan
+				religion = mahayana
+				size = 71508
 			}
 		}
 		region_state:X14 = {
@@ -36311,7 +36301,34 @@
 		}
 	}
 	s:STATE_NGARI = {
-		region_state:ASM = {
+		region_state:BHU = {
+			create_pop = {
+				culture = tibetan
+				religion = mahayana
+				size = 255925
+			}
+			create_pop = {
+				culture = tibetan
+				religion = gelugpa
+				size = 22025
+			}
+			create_pop = {
+				culture = tibetan
+				religion = mahayana
+				size = 57977
+			}
+		}
+		region_state:X59 = {
+			create_pop = {
+				culture = tibetan
+				religion = gelugpa
+				size = 5928
+			}
+			create_pop = {
+				culture = mongol
+				religion = gelugpa
+				size = 7954
+			}
 			create_pop = {
 				culture = tibetan_new
 				religion = gelugpa
@@ -36332,37 +36349,6 @@
 				religion = mahayana
 				size = 38382
 			}
-		}
-		region_state:NEP = {
-			create_pop = {
-				culture = tibetan
-				religion = mahayana
-				size = 255925
-			}
-			create_pop = {
-				culture = tibetan
-				religion = gelugpa
-				size = 22025
-			}
-			create_pop = {
-				culture = tibetan
-				religion = mahayana
-				size = 57977
-			}
-		}
-		region_state:CW2 = {
-			create_pop = {
-				culture = tibetan
-				religion = gelugpa
-				size = 5928
-			}
-			create_pop = {
-				culture = mongol
-				religion = gelugpa
-				size = 7954
-			}
-		}
-		region_state:X59 = {
 			create_pop = {
 				culture = tibetan_new
 				religion = gelugpa
@@ -42743,8 +42729,6 @@
 				religion = zoroastrian
 				size = 28758
 			}
-		}
-		region_state:X59 = {
 			create_pop = {
 				culture = tibetan
 				religion = hindu
@@ -44437,6 +44421,61 @@
 	s:STATE_PUNJAB = {
 		region_state:NEP = {
 			create_pop = {
+				culture = tibetan_new
+				religion = jain
+				size = 264831
+			}
+			create_pop = {
+				culture = tibetan_new
+				religion = jain
+				pop_type = slaves
+				size = 25
+			}
+			create_pop = {
+				culture = tibetan_new
+				religion = gelugpa
+				size = 731224
+			}
+			create_pop = {
+				culture = tibetan_new
+				religion = gelugpa
+				pop_type = slaves
+				size = 69
+			}
+			create_pop = {
+				culture = panjabi
+				religion = hindu
+				size = 245892
+			}
+			create_pop = {
+				culture = panjabi
+				religion = hindu
+				pop_type = slaves
+				size = 23
+			}
+			create_pop = {
+				culture = panjabi
+				religion = zoroastrian
+				size = 266989
+			}
+			create_pop = {
+				culture = panjabi
+				religion = zoroastrian
+				pop_type = slaves
+				size = 25
+			}
+			create_pop = {
+				culture = panjabi
+				religion = gelugpa
+				size = 713032
+			}
+			create_pop = {
+				culture = panjabi
+				religion = gelugpa
+				pop_type = slaves
+				size = 67
+			}
+			create_pop = {
 				culture = dynamic-tibetan-nepali-culture-num1
 				religion = hindu
 				size = 131441
@@ -44793,63 +44832,6 @@
 				size = 71
 			}
 		}
-		region_state:X59 = {
-			create_pop = {
-				culture = tibetan_new
-				religion = jain
-				size = 264831
-			}
-			create_pop = {
-				culture = tibetan_new
-				religion = jain
-				pop_type = slaves
-				size = 25
-			}
-			create_pop = {
-				culture = tibetan_new
-				religion = gelugpa
-				size = 731224
-			}
-			create_pop = {
-				culture = tibetan_new
-				religion = gelugpa
-				pop_type = slaves
-				size = 69
-			}
-			create_pop = {
-				culture = panjabi
-				religion = hindu
-				size = 245892
-			}
-			create_pop = {
-				culture = panjabi
-				religion = hindu
-				pop_type = slaves
-				size = 23
-			}
-			create_pop = {
-				culture = panjabi
-				religion = zoroastrian
-				size = 266989
-			}
-			create_pop = {
-				culture = panjabi
-				religion = zoroastrian
-				pop_type = slaves
-				size = 25
-			}
-			create_pop = {
-				culture = panjabi
-				religion = gelugpa
-				size = 713032
-			}
-			create_pop = {
-				culture = panjabi
-				religion = gelugpa
-				pop_type = slaves
-				size = 67
-			}
-		}
 	}
 	s:STATE_PYONGYANG = {
 		region_state:X77 = {
@@ -44916,7 +44898,7 @@
 		}
 	}
 	s:STATE_QINGHAI = {
-		region_state:ASM = {
+		region_state:CW2 = {
 			create_pop = {
 				culture = tibetan
 				religion = zoroastrian
@@ -44957,8 +44939,6 @@
 				religion = mahayana
 				size = 17885
 			}
-		}
-		region_state:CW2 = {
 			create_pop = {
 				culture = tibetan
 				religion = gelugpa
@@ -48935,7 +48915,7 @@
 		}
 	}
 	s:STATE_SICHUAN = {
-		region_state:ASM = {
+		region_state:W34 = {
 			create_pop = {
 				culture = tibetan
 				religion = nestorian
@@ -48956,8 +48936,6 @@
 				religion = mahayana
 				size = 738876
 			}
-		}
-		region_state:W34 = {
 			create_pop = {
 				culture = tibetan
 				religion = gelugpa

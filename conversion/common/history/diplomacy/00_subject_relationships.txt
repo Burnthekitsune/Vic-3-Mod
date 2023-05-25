@@ -53,12 +53,6 @@
 			type = tributary
 		}
 	}
-	c:X44 = {
-		create_diplomatic_pact = {
-			country = c:BUN
-			type = tributary
-		}
-	}
 	c:W17 = {
 		create_diplomatic_pact = {
 			country = c:V26
@@ -554,6 +548,12 @@
 		create_diplomatic_pact = {
 			country = c:PRU
 			type = personal_union
+		}
+	}
+	c:ORI = {
+		create_diplomatic_pact = {
+			country = c:SIK
+			type = vassal
 		}
 	}
 }
