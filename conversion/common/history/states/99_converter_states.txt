@@ -2766,7 +2766,7 @@
 			owned_provinces = { x108021 x3060BF x36B2E3 x56C78A xB061C0 xF0A040 }
 		}
 		add_homeland = bosniak
-		add_homeland = north_italian
+		add_homeland = dalmatian
 		add_claim = c:VEN
 	}
 	s:STATE_IVORY_COAST = {
@@ -3573,7 +3573,7 @@
 			country = c:MLT
 			owned_provinces = { x015121 x3A8B51 }
 		}
-		add_homeland = maltese
+		add_homeland = rumanian
 	}
 	s:STATE_MANITOBA = {
 		create_state = {
@@ -5638,7 +5638,7 @@
 			country = c:W40
 			owned_provinces = { x31E041 x44F127 x792B8A xB0E040 }
 		}
-		add_homeland = north_italian
+		add_homeland = dalmatian
 		add_claim = c:VEN
 	}
 	s:STATE_SMOLENSK = {
@@ -6972,7 +6972,7 @@
 			country = c:X19
 			owned_provinces = { x117FE0 x508060 x7ACC0B x9041E0 x9080E0 xA042B5 xD08060 xE51E78 xEBF5B1 xED07F7 }
 		}
-		add_homeland = french
+		add_homeland = swiss
 	}
 	s:STATE_WEST_VIRGINIA = {
 		create_state = {

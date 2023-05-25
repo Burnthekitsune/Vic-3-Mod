@@ -2810,7 +2810,7 @@ ITA = {
 	color = { 125 171 84 }
 	country_type = recognized
 	tier = empire
-	cultures = { north_italian south_italian rumanian dynamic-occitain-sardinian-culture-num1 shamalian }
+	cultures = { north_italian south_italian rumanian dynamic-occitain-sardinian-culture-num1 }
 	capital = STATE_LAZIO
 }
 

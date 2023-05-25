@@ -23780,12 +23780,12 @@
 	s:STATE_ISTRIA = {
 		region_state:W40 = {
 			create_pop = {
-				culture = north_italian
+				culture = dalmatian
 				religion = converted_dynamic_faith_102
 				size = 12483
 			}
 			create_pop = {
-				culture = north_italian
+				culture = dalmatian
 				religion = converted_dynamic_faith_106
 				size = 10893
 			}
@@ -23800,12 +23800,12 @@
 				size = 16914
 			}
 			create_pop = {
-				culture = north_italian
+				culture = dalmatian
 				religion = converted_dynamic_faith_102
 				size = 71240
 			}
 			create_pop = {
-				culture = north_italian
+				culture = dalmatian
 				religion = converted_dynamic_faith_106
 				size = 116787
 			}
@@ -23815,12 +23815,12 @@
 				size = 38135
 			}
 			create_pop = {
-				culture = north_italian
+				culture = dalmatian
 				religion = converted_dynamic_faith_102
 				size = 51336
 			}
 			create_pop = {
-				culture = north_italian
+				culture = dalmatian
 				religion = converted_dynamic_faith_106
 				size = 78839
 			}
@@ -49580,12 +49580,12 @@
 				size = 6152
 			}
 			create_pop = {
-				culture = north_italian
+				culture = dalmatian
 				religion = converted_dynamic_faith_102
 				size = 21522
 			}
 			create_pop = {
-				culture = north_italian
+				culture = dalmatian
 				religion = converted_dynamic_faith_106
 				size = 40725
 			}
@@ -49600,12 +49600,12 @@
 				size = 9068
 			}
 			create_pop = {
-				culture = north_italian
+				culture = dalmatian
 				religion = converted_dynamic_faith_102
 				size = 39713
 			}
 			create_pop = {
-				culture = north_italian
+				culture = dalmatian
 				religion = converted_dynamic_faith_106
 				size = 66557
 			}
@@ -49620,12 +49620,12 @@
 				size = 16320
 			}
 			create_pop = {
-				culture = north_italian
+				culture = dalmatian
 				religion = converted_dynamic_faith_102
 				size = 47118
 			}
 			create_pop = {
-				culture = north_italian
+				culture = dalmatian
 				religion = converted_dynamic_faith_106
 				size = 87640
 			}
@@ -60752,17 +60752,17 @@
 	s:STATE_WEST_SWITZERLAND = {
 		region_state:X19 = {
 			create_pop = {
-				culture = french
+				culture = swiss
 				religion = converted_dynamic_faith_102
 				size = 431873
 			}
 			create_pop = {
-				culture = french
+				culture = swiss
 				religion = converted_dynamic_faith_102
 				size = 161270
 			}
 			create_pop = {
-				culture = french
+				culture = swiss
 				religion = hurufi
 				size = 29474
 			}
@@ -60777,7 +60777,7 @@
 				size = 26389
 			}
 			create_pop = {
-				culture = french
+				culture = swiss
 				religion = converted_dynamic_faith_102
 				size = 403081
 			}
