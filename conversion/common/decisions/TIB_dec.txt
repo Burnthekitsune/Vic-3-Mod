@@ -1,0 +1,68 @@
+unite_with_assam = {
+	is_shown = {
+		exists = c:BHU
+		exists = c:ASM
+		this = c:BHU
+		NOT = { has_variable = assam_unity }
+	}
+	
+	possible = {
+		c:ASM = {
+			has_state_in_state_region = STATE_LHASA
+			NOT = { has_state_in_state_region = STATE_ASdSAM }
+		}
+		exists = c:CR1
+		is_at_war = no
+	}
+	
+	when_taken = {
+		annex = c:ASM
+		set_variable = {
+			name = assam_unity
+		}
+		set_variable = {
+			name = guge_timer
+			days = 365
+		}
+	}
+	
+	ai_chance = {
+		base = 100
+	}
+}
+
+invade_guge = {
+	is_shown = {
+		exists = c:BHU
+		exists = c:X59
+		this = c:BHU
+		has_variable = assam_unity
+		NOT = { has_variable = invade_guge }
+		NOT = { has_variable = guge_timer }
+	}
+	
+	possible = {
+		c:X59 = {
+			has_state_in_state_region = STATE_NGARI
+		}
+		exists = c:CR1
+		is_at_war = no
+	}
+	
+	when_taken = {
+		every_state = {
+			limit = {
+				state_region = s:STATE_NGARI
+				owner = c:X59
+			}
+			set_state_owner = c:BHU
+		}
+		set_variable = {
+			name = invade_guge
+		}
+	}
+	
+	ai_chance = {
+		base = 100
+	}
+}

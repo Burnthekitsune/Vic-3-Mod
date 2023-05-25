@@ -1251,12 +1251,12 @@
  CC2_ADJ: "Sabhan"
  CC3: "Tenere"
  CC3_ADJ: "Tenere"
- CC4:
- CC4_ADJ:
- CC5:
- CC5_ADJ:
- CC6:
- CC6_ADJ:
+ CC4: ""
+ CC4_ADJ: ""
+ CC5: ""
+ CC5_ADJ: ""
+ CC6: ""
+ CC6_ADJ: "'
 
  #Zaracas stuff I dont know where to put
  tenth_cycle: "Tenth Cycle"
@@ -1309,16 +1309,24 @@
  thunderdome.1.a: "Three Hurrahs for Mexico!"
  
  #Gabes Interest Group change pool
-ig_frontier_nobility: "Frontier Nobility"
-ig_frontier_nobility_desc: "Those mainly lesser nobles who without enough sway to be assigned the administration of core territories are stuck in the military's rank structure." 
-ig_noble_bureaucrats: "Noble Bureaucrats"
-ig_noble_bureaucrats_desc: "The backbone of the conservative state bureaucracy, these nobles serve as governors and mayors under the directions of the monarch.
+ ig_frontier_nobility: "Frontier Nobility"
+ ig_frontier_nobility_desc: "Those mainly lesser nobles who without enough sway to be assigned the administration of core territories are stuck in the military's rank structure." 
+ ig_noble_bureaucrats: "Noble Bureaucrats"
+ ig_noble_bureaucrats_desc: "The backbone of the conservative state bureaucracy, these nobles serve as governors and mayors under the directions of the monarch.
 
-miscflavor.1.t: "The Plight of Palestine"
-miscflavor.1.d: "Approaching you are three diplomats from Palestine. They tell of the starvation in their lands, the insolvency of their government, and general hopelessness in their small nation. They offer you a proposal. They are willing to become a subject, in exchange for the return of their old capital. The return of their former capital will provide them enough farmland to save their starving population."
-miscflavor.1.a: "We cannot accept this deal."
-miscflavor.1.b: "We welcome you."
+ miscflavor.1.t: "The Plight of Palestine"
+ miscflavor.1.d: "Approaching you are three diplomats from Palestine. They tell of the starvation in their lands, the insolvency of their government, and general hopelessness in their small nation. They offer you a proposal. They are willing to become a subject, in exchange for the return of their old capital. The return of their former capital will provide them enough farmland to save their starving population."
+ miscflavor.1.a: "We cannot accept this deal."
+ miscflavor.1.b: "We welcome you."
 
-spread_communism_subjects: "Spread Communism to Subjects"
-spread_communism_subjects_desc: "We have a subject that does not follow our ways, we must fix this as soon as possible."
-spread_communism_subjects_tooltip: "Workers Unite!"
+ spread_communism_subjects: "Spread Communism to Subjects"
+ spread_communism_subjects_desc: "We have a subject that does not follow our ways, we must fix this as soon as possible."
+ spread_communism_subjects_tooltip: "Workers Unite!"
+ ori_puppet_bund: "Puppet Bundelkhand"
+ ori_puppet_bund_desc: "Bundelkhand is weak and will be annex by Yangaroks if we do not act."
+ ori_bengal_push: "Push Bengal"
+ ori_bengal_push_desc: "Bengal is weak with rich lands. This is our chance to strike at them!"
+ unite_with_assam: "Unite with Assam"
+ unite_with_assam_desc: "With the revolts in China, they are ripe for takeover."
+ invade_guge: "Invade Guge"
+ invade_guge_desc: "We can unify Tibet if we invade Guge."

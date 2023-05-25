@@ -1,0 +1,82 @@
+ori_bengal_push = {
+	is_shown = {
+		exists = c:ORI
+		exists = c:X14
+		this = c:ORI
+		NOT = { has_variable = bengal_push }
+		has_technology_researched = nationalism
+	}
+	
+	possible = {
+		is_at_war = no
+	}
+	
+	when_taken = {
+		every_state = {
+			limit = {
+				state_region = s:STATE_BIHAR
+				owner = c:X14
+			}
+			set_state_owner = c:ORI
+		}
+		every_state = {
+			limit = {
+				state_region = s:STATE_SOUTH_BENGAL
+				owner = c:X14
+			}
+			set_state_owner = c:ORI
+		}
+		every_state = {
+			limit = {
+				state_region = s:STATE_NORTH_BENGAL
+				owner = c:X14
+			}
+			set_state_owner = c:ORI
+		}
+		every_state = {
+			limit = {
+				state_region = s:STATE_ASSAM
+				owner = c:X14
+			}
+			set_state_owner = c:ORI
+		}
+		set_variable = {
+			name = bengal_push
+		} 
+	}
+	
+	ai_chance = {
+		base = 100
+	}
+}
+
+ori_puppet_bund = {
+	is_shown = {
+		exists = c:ORI
+		exists = c:BUN
+		this = c:ORI
+		has_variable = bengal_push
+		NOT = { has_variable = bund_puppet }
+	}
+	
+	possible = {
+		c:BUN = {
+			is_subject = no
+		}
+		is_at_war = no
+	}
+	
+	when_taken = {
+		create_diplomatic_pact = {
+			country = c:BUN
+			type = puppet
+		}
+		set_variable = {
+			name = bund_puppet
+		} 
+	}
+	
+	ai_chance = {
+		base = 100
+	}
+}

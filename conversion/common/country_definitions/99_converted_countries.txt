@@ -5689,7 +5689,8 @@ SIK = {
 	color = { 139 138 160 }
 	country_type = unrecognized
 	tier = principality
-	cultures = { dynamic-tibetan-chihan-culture-num1 dynamic-tibetan-nepali-culture-num1 tibetan }
+	cultures = { dynamic-tibetan-nepali-culture-num1 tibetan }
+	religion = jain
 	capital = STATE_HIMALAYAS
 }
 
@@ -6148,7 +6149,7 @@ TIB = {
 	color = { 65 127 186 }
 	country_type = unrecognized
 	tier = kingdom
-	cultures = { dynamic-tibetan-chihan-culture-num1 dynamic-tibetan-nepali-culture-num1 tibetan }
+	cultures = { tibetan_new tibetan }
 	capital = STATE_LHASA
 }
 
