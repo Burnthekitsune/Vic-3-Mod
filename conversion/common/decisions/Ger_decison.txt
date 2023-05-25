@@ -36,7 +36,8 @@
 
 invade_prussia = {
 	is_shown = {
-		this = c:GER
+		exists = c:GER
+		this - c:GER
 		NOT = { has_variable = invade_prussia }
 		exists = c:PRU
 	}
