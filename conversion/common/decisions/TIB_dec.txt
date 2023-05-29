@@ -9,13 +9,16 @@ unite_with_assam = {
 	possible = {
 		c:ASM = {
 			has_state_in_state_region = STATE_LHASA
-			NOT = { has_state_in_state_region = STATE_ASdSAM }
+			NOT = { has_state_in_state_region = STATE_ASSAM }
 		}
 		exists = c:CR1
 		is_at_war = no
 	}
 	
 	when_taken = {
+		s:STATE_ASSAM = {
+			remove_claim = c:ASM
+		}
 		annex = c:ASM
 		set_variable = {
 			name = assam_unity
