@@ -11057,24 +11057,10 @@
 		}
 	}
 	s:STATE_KASHMIR = {
-		region_state:PAN = {
-			create_building = {
-				building = "building_construction_sector"
-				level = 2
-				reserves = 1
-				activate_production_methods = { }
-			}
-			create_building = {
-				building = "building_barracks"
-				level = 4
-				reserves = 1
-				activate_production_methods = { "pm_cannon_artillery" "pm_irregular_infantry" }
-			}
-		}
 		region_state:X59 = {
 			create_building = {
 				building = "building_barracks"
-				level = 2
+				level = 6
 				reserves = 1
 				activate_production_methods = { "pm_cannon_artillery" "pm_irregular_infantry" }
 			}
@@ -11086,7 +11072,7 @@
 			}
 			create_building = {
 				building = "building_logging_camp"
-				level = 1
+				level = 2
 				reserves = 1
 				activate_production_methods = { "pm_saw_mills" }
 			}
@@ -11098,7 +11084,7 @@
 			}
 			create_building = {
 				building = "building_paper_mills"
-				level = 1
+				level = 2
 				reserves = 1
 				activate_production_methods = { }
 			}
@@ -17296,7 +17282,7 @@
 		}
 	}
 	s:STATE_PASHTUNISTAN = {
-		region_state:PAN = {
+		region_state:X59 = {
 			create_building = {
 				building = "building_barracks"
 				level = 1

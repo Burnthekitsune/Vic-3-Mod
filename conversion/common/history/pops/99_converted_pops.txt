@@ -25181,14 +25181,12 @@
 		}
 	}
 	s:STATE_KASHMIR = {
-		region_state:PAN = {
+		region_state:X59 = {
 			create_pop = {
 				culture = panjabi
 				religion = zoroastrian
 				size = 507118
 			}
-		}
-		region_state:X59 = {
 			create_pop = {
 				culture = kashmiri
 				religion = gelugpa
@@ -42676,7 +42674,7 @@
 		}
 	}
 	s:STATE_PASHTUNISTAN = {
-		region_state:PAN = {
+		region_state:X59 = {
 			create_pop = {
 				culture = kashmiri
 				religion = hindu
