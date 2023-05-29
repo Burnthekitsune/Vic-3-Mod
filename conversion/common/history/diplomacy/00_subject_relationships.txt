@@ -53,6 +53,12 @@
 			type = tributary
 		}
 	}
+	c:X44 = {
+		create_diplomatic_pact = {
+			country = c:X60
+			type = tributary
+		}
+	}
 	c:W17 = {
 		create_diplomatic_pact = {
 			country = c:V26

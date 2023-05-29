@@ -157,18 +157,6 @@
 	}
 	c:X14 = {
 		create_diplomatic_pact = {
-			country = c:X44
-			type = defensive_pact
-		}
-	}
-	c:X44 = {
-		create_diplomatic_pact = {
-			country = c:X14
-			type = defensive_pact
-		}
-	}
-	c:X14 = {
-		create_diplomatic_pact = {
 			country = c:X58
 			type = defensive_pact
 		}
@@ -306,18 +294,6 @@
 		}
 	}
 	c:X59 = {
-		create_diplomatic_pact = {
-			country = c:X44
-			type = defensive_pact
-		}
-	}
-	c:X44 = {
-		create_diplomatic_pact = {
-			country = c:X60
-			type = defensive_pact
-		}
-	}
-	c:X60 = {
 		create_diplomatic_pact = {
 			country = c:X44
 			type = defensive_pact

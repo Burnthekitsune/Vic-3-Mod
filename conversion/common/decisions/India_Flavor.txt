@@ -12,6 +12,7 @@ ori_bengal_push = {
 	}
 	
 	when_taken = {
+		change_infamy = 10
 		every_state = {
 			limit = {
 				state_region = s:STATE_BIHAR
@@ -69,13 +70,173 @@ ori_puppet_bund = {
 	when_taken = {
 		create_diplomatic_pact = {
 			country = c:BUN
-			type = puppet
+			type = vassal
 		}
 		set_variable = {
 			name = bund_puppet
 		} 
 	}
 	
+	ai_chance = {
+		base = 100
+	}
+}
+
+yang_vassal = {
+	is_shown = {
+		exists = c:X44
+		this = c:X44
+		has_technology_researched = nationalism
+		NOT = { has_variable = yang_cooldown }
+	}
+	
+	possible = {
+		any_country = {
+			has_subject_relation_with = c:X44
+			is_subject_type = subject_type_tributary
+		}
+	}
+	
+	when_taken = {
+		random_country = {
+			limit = {
+				has_subject_relation_with = c:X44
+				is_subject_type = subject_type_tributary
+			}
+			save_scope_as = yang_subject
+		}
+		change_infamy = 3
+		create_diplomatic_pact = {
+			country = scope:yang_subject
+			type = vassal
+		}
+		set_variable = {
+			name = yang_cooldown
+			days = 730
+		}
+	}
+	
+	ai_chance = {
+		base = 100
+	}
+}
+
+yang_nepal = {
+	is_shown = {
+		exists = c:X44
+		exists = c:NEP
+		has_technology_researched = nationalism
+		# NOT = { has_variable = yang_cooldown }
+		NOT = { has_variable = yang_nepal_take }
+	}
+	
+	possible = {
+		c:NEP = {
+			OR = {
+				has_state_in_state_region = STATE_PUNJAB
+				has_state_in_state_region = STATE_DELHI
+			}
+		}
+	}
+	
+	when_taken = {
+		change_infamy = 5
+		
+		set_variable = {
+			name = yang_cooldown
+			days = 730
+		}
+		set_variable = {
+			name = yang_nepal_take
+		}
+		every_state = {
+			limit = {
+				state_region = s:STATE_PUNJAB
+				owner = c:NEP
+			}
+			set_state_owner = c:X44
+		}
+		every_state = {
+			limit = {
+				state_region = s:STATE_DELHI
+				owner = c:NEP
+			}
+			set_state_owner = c:X44
+		}
+	}
+	ai_chance = {
+		base = 100
+	}	
+}
+
+push_for_india = {
+	is_shown = {
+		OR = {
+			country_has_primary_culture = cu:assamese
+			country_has_primary_culture = cu:avadhi
+			country_has_primary_culture = cu:baluchi
+			country_has_primary_culture = cu:bengali
+			country_has_primary_culture = cu:bihari
+			country_has_primary_culture = cu:dynamic-afghani-culture-num1
+			country_has_primary_culture = cu:dynamic-assamese-nepali-culture-num1
+			country_has_primary_culture = cu:dynamic-avadhi-nepali-culture-num1
+			country_has_primary_culture = cu:dynamic-bengali-sumpa-culture-num1
+			country_has_primary_culture = cu:dynamic-gujarati-culture-num1
+			country_has_primary_culture = cu:dynamic-kannada-marathi-culture-num1
+			country_has_primary_culture = cu:dynamic-oriya-telegu-culture-num1
+			country_has_primary_culture = cu:gujarati
+			country_has_primary_culture = cu:kanauji
+			country_has_primary_culture = cu:kannada
+			country_has_primary_culture = cu:malayalam
+			country_has_primary_culture = cu:marathi
+			country_has_primary_culture = cu:oriya
+			country_has_primary_culture = cu:panjabi
+			country_has_primary_culture = cu:pashtun
+			country_has_primary_culture = cu:rajput
+			country_has_primary_culture = cu:sindi
+			country_has_primary_culture = cu:tamil
+			country_has_primary_culture = cu:telegu
+		}
+		has_technology_researched = pan-nationalism
+		NOT = { has_variable = india_claims }
+	}
+	
+	possible = {
+		country_rank > rank_value:minor_power
+	}
+	when_taken = {
+		every_state = {
+			limit = {
+				NOT = { owner = ROOT }
+				OR = {
+					state_region = s:STATE_ASSAM 
+					state_region = s:STATE_AWADH 
+					state_region = s:STATE_BIHAR 
+					state_region = s:STATE_BOMBAY 
+					state_region = s:STATE_CENTRAL_INDIA 
+					state_region = s:STATE_CEYLON 
+					state_region = s:STATE_CIRCARS
+					state_region = s:STATE_DELHI 
+					state_region = s:STATE_GUJARAT 
+					state_region = s:STATE_HYDERABAD 
+					state_region = s:STATE_MADRAS 
+					state_region = s:STATE_MYSORE 
+					state_region = s:STATE_NAGPUR 
+					state_region = s:STATE_NORTH_BENGAL 
+					state_region = s:STATE_ORISSA 
+					state_region = s:STATE_PUNJAB 
+					state_region = s:STATE_RAJPUTANA 
+					state_region = s:STATE_SINDH 
+					state_region = s:STATE_SOUTH_BENGAL 
+					state_region = s:STATE_TRAVANCORE
+				}
+			}
+		state_region = { add_claim = ROOT }
+		}
+		set_variable = {
+			name = india_claims
+		}
+	}
 	ai_chance = {
 		base = 100
 	}
