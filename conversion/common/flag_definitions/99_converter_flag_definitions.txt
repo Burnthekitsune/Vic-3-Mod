@@ -10658,3 +10658,11 @@ W40 = {
 		trigger = { has_law = law_type:law_council_republic }
 	}
 }
+
+V27 = {
+	flag_definition = {
+	coa = V27_C1
+	priority = 1
+	trigger = { has_law = law_type:law_council_republic }
+	}
+}
