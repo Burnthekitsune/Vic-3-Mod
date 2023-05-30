@@ -230,11 +230,21 @@ W17 = {
 
 V27 = {
 	dynamic_country_name = {
-		name = v27_c1
-		adjective = v27_c1_adj
+		name = dyn_c_v27_c1
+		adjective = dyn_c_v27_c1_adj
 		
 		trigger = {
 			has_law = law_type:law_council_republic
+		}
+	}
+	dynamic_country_name = {
+		name = dyn_c_v27_r1
+		adjective = dyn_c_v27_r1_adj
+		
+		trigger = {
+			OR= {	has_law = law_type:law_presidential_republic
+					has_law = law_type:law_parliamentary_republic
+			}
 		}
 	}
 }

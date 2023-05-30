@@ -19787,7 +19787,7 @@
 		}
 	}
 	s:STATE_GUINEA = {
-		region_state:MDK = {
+		region_state:V27 = {
 			create_pop = {
 				culture = mande
 				religion = sunni
@@ -19815,8 +19815,6 @@
 				pop_type = slaves
 				size = 417
 			}
-		}
-		region_state:V27 = {
 			create_pop = {
 				culture = wolof
 				religion = converted_dynamic_faith_103
@@ -19867,8 +19865,6 @@
 				religion = converted_dynamic_faith_103
 				size = 129998
 			}
-		}
-		region_state:V61 = {
 			create_pop = {
 				culture = mande
 				size = 25109
@@ -23009,7 +23005,8 @@
 		}
 	}
 	s:STATE_INNER_MAURITANIA = {
-		region_state:OUA = {
+		region_state:V27 = {
+		
 			create_pop = {
 				culture = maures
 				religion = sunni
@@ -23031,8 +23028,6 @@
 				pop_type = slaves
 				size = 3466
 			}
-		}
-		region_state:V27 = {
 			create_pop = {
 				culture = dynamic-fulani-culture-num2
 				religion = converted_dynamic_faith_103
@@ -23838,15 +23833,11 @@
 				pop_type = slaves
 				size = 2933
 			}
-		}
-		region_state:BLE = {
 			create_pop = {
 				culture = akan
 				religion = animist
 				size = 13333
 			}
-		}
-		region_state:V27 = {
 			create_pop = {
 				culture = dynamic-aka-mali-culture-num1
 				religion = converted_dynamic_faith_103
@@ -28289,7 +28280,7 @@
 		}
 	}
 	s:STATE_LIBERIA = {
-		region_state:KRU = {
+		region_state:V27 = {
 			create_pop = {
 				culture = kru
 				religion = animist
@@ -28306,8 +28297,6 @@
 				pop_type = slaves
 				size = 41297
 			}
-		}
-		region_state:M13 = {
 			create_pop = {
 				culture = bassa
 				religion = animist
@@ -28336,8 +28325,6 @@
 				religion = sunni
 				size = 633300
 			}
-		}
-		region_state:V27 = {
 			create_pop = {
 				culture = dynamic-aka-mali-culture-num3
 				religion = converted_dynamic_faith_103
@@ -31602,24 +31589,6 @@
 		}
 	}
 	s:STATE_MAURITANIA = {
-		region_state:OUA = {
-			create_pop = {
-				culture = maures
-				religion = sunni
-				size = 39228
-			}
-			create_pop = {
-				culture = haratin
-				religion = sunni
-				size = 16596
-			}
-			create_pop = {
-				culture = haratin
-				religion = sunni
-				pop_type = slaves
-				size = 7544
-			}
-		}
 		region_state:V27 = {
 			create_pop = {
 				culture = haratin
@@ -31655,6 +31624,22 @@
 				culture = dynamic-fulani-culture-num1
 				religion = converted_dynamic_faith_106
 				size = 4158
+			}
+			create_pop = {
+				culture = maures
+				religion = sunni
+				size = 39228
+			}
+			create_pop = {
+				culture = haratin
+				religion = sunni
+				size = 16596
+			}
+			create_pop = {
+				culture = haratin
+				religion = sunni
+				pop_type = slaves
+				size = 7544
 			}
 		}
 		region_state:W65 = {
@@ -53816,7 +53801,7 @@
 		}
 	}
 	s:STATE_TIMBUKTU = {
-		region_state:ADG = {
+		region_state:V27 = {
 			create_pop = {
 				culture = songhai
 				religion = sunni
@@ -53844,8 +53829,6 @@
 				religion = sunni
 				size = 3122
 			}
-		}
-		region_state:V27 = {
 			create_pop = {
 				culture = dynamic-fulani-culture-num1
 				religion = converted_dynamic_faith_102
@@ -55269,8 +55252,6 @@
 				religion = jewish
 				size = 1521
 			}
-		}
-		region_state:V57 = {
 			create_pop = {
 				culture = bedouin
 				size = 80431
@@ -60606,7 +60587,7 @@
 		}
 	}
 	s:STATE_WEST_SAHARA = {
-		region_state:SAH = {
+		region_state:v27 = {
 			create_pop = {
 				culture = berber
 				religion = sunni
@@ -60829,7 +60810,7 @@
 		}
 	}
 	s:STATE_WINDWARD_COAST = {
-		region_state:BLE = {
+		region_state:V27 = {
 			create_pop = {
 				culture = akan
 				religion = animist
@@ -60846,8 +60827,6 @@
 				pop_type = slaves
 				size = 11100
 			}
-		}
-		region_state:KBD = {
 			create_pop = {
 				culture = mande
 				religion = sunni
@@ -60870,8 +60849,6 @@
 				pop_type = slaves
 				size = 3333
 			}
-		}
-		region_state:KRU = {
 			create_pop = {
 				culture = kru
 				religion = animist
@@ -60883,8 +60860,6 @@
 				pop_type = slaves
 				size = 11769
 			}
-		}
-		region_state:V27 = {
 			create_pop = {
 				culture = dynamic-aka-mali-culture-num3
 				religion = converted_dynamic_faith_103
