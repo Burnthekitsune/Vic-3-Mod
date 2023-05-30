@@ -1337,7 +1337,7 @@
  push_for_india: "Push for a united India"
  push_for_india_desc: "A United India has never happened before in history. In these modern times, we should make it happened!"
  
- v27_c1: "Jamahiriyah Shamal Afriqia Lilmajalis"
- v27_c1_adj: "Communard"
- v27_r1: "Republic of Gabes"
- V27_r1_adj: "Gabesi"
+ dyn_c_v27_c1: "Jamahiriyah Shamal Afriqia Lilmajalis"
+ dyn_c_v27_c1_adj: "Communard"
+ dyn_c_v27_r1: "Republic of Gabes"
+ dyn_c_V27_r1_adj: "Gabesi"
