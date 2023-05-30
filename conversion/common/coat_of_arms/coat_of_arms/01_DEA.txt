@@ -657,7 +657,7 @@ W40_M_W_E = {
 	}
 }
 
-V27_c1 = {
+V27_C1 = {
 	pattern = "pattern_solid.tga"
 		color1 = "red"
 	colored_emblem={
@@ -720,7 +720,7 @@ V27_c1 = {
 		}
 	}
 }
-V27_r1 = {
+V27_R1 = {
 	pattern = "pattern_solid.tga"
 	color1 = "yellow"
 	colored_emblem={
