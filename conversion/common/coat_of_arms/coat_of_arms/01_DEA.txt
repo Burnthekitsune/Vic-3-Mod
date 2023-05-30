@@ -554,70 +554,6 @@ CC1_LATE = {
 		}
 	}
 }
-#GABES communist flag storage until I have time to code it
-#V27 = {
-#	pattern = "pattern_solid.tga"
-#		color1 = "red"
-#	colored_emblem={
-#		color1=red
-#		color2=yellow
-#		texture="ce_frame_ddr_sun_bg.dds"
-#		instance={
-#			position={ 0.5 0.5 }
-#			scale={ 1 1 }
-#		}
-#	}
-#	colored_emblem={
-#		color1=green_light
-#		color2=yellow
-#		color3=white
-#		texture="ce_coa_frame_austria.dds"
-#		instance={
-#			position={ 0.5 0.5 }
-#			scale={ 1 1 }
-#		}
-#	}
-#	colored_emblem={
-#		color1=white
-#		texture="ce_hammer_compass_ddr.dds"
-#		instance={
-#			position={ 0.5 0.5 }
-#			scale={ 0.7 0.7 }
-#		}
-#	}
-#	colored_emblem={
-#		color1=red
-#		texture="ce_letter_j.dds"
-#		instance={
-#			position={ 0.45 0.85 }
-#			scale={ 0.16 0.16 }
-#		}
-#	}
-#	colored_emblem={
-#		color1=red
-#		texture="ce_letter_s.dds"
-#		instance={
-#			position={ 0.485 0.84 }
-#			scale={ 0.15 0.15 }
-#		}
-#	}
-#	colored_emblem={
-#		color1=red
-#		texture="ce_letter_a.dds"
-#		instance={
-#			position={ 0.53 0.84 }
-#			scale={ 0.14 0.14 }
-#		}
-#	}
-#	colored_emblem={
-#		color1=red
-#		texture="ce_letter_l.dds"
-#		instance={
-#			position={ 0.57 0.85 }
-#			scale={ 0.15 0.15 }
-#		}
-#	}
-#}
 W40_M_L = {
 	pattern = "pattern_solid.tga"
 	color1 = "yellow"
@@ -717,6 +653,92 @@ W40_M_W_E = {
 		instance={
 			position={ 0.5 0.5 }
 			scale={ 0.5 0.5 }
+		}
+	}
+}
+
+V27_c1 = {
+	pattern = "pattern_solid.tga"
+		color1 = "red"
+	colored_emblem={
+		color1=red
+		color2=yellow
+		texture="ce_frame_ddr_sun_bg.dds"
+		instance={
+			position={ 0.5 0.5 }
+			scale={ 1 1 }
+		}
+	}
+	colored_emblem={
+		color1=green_light
+		color2=yellow
+		color3=white
+		texture="ce_coa_frame_austria.dds"
+		instance={
+			position={ 0.5 0.5 }
+			scale={ 1 1 }
+		}
+	}
+	colored_emblem={
+		color1=white
+		texture="ce_hammer_compass_ddr.dds"
+		instance={
+			position={ 0.5 0.5 }
+			scale={ 0.7 0.7 }
+		}
+	}
+	colored_emblem={
+		color1=red
+		texture="ce_letter_j.dds"
+		instance={
+			position={ 0.45 0.85 }
+			scale={ 0.16 0.16 }
+		}
+	}
+	colored_emblem={
+		color1=red
+		texture="ce_letter_s.dds"
+		instance={
+			position={ 0.485 0.84 }
+			scale={ 0.15 0.15 }
+		}
+	}
+	colored_emblem={
+		color1=red
+		texture="ce_letter_a.dds"
+		instance={
+			position={ 0.53 0.84 }
+			scale={ 0.14 0.14 }
+		}
+	}
+	colored_emblem={
+		color1=red
+		texture="ce_letter_l.dds"
+		instance={
+			position={ 0.57 0.85 }
+			scale={ 0.15 0.15 }
+		}
+	}
+}
+V27_r1 = {
+	pattern = "pattern_solid.tga"
+	color1 = "yellow"
+	colored_emblem={
+		color1=blue
+		color2=yellow
+		color3=blue
+		texture="ce_tricolor_vertical.dds"
+		instance={
+			position={ 0.5 0.5 }
+			scale={ 1 1 }
+		}
+	}
+	colored_emblem={
+		color1=yellow
+		texture="ce_sun_philippines.dds"
+		instance={
+			position={ 0.5 0.5 }
+			scale={ 0.7 0.7 }
 		}
 	}
 }
