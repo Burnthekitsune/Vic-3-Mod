@@ -10621,21 +10621,21 @@ W40 = {
 	flag_definition = {
 		coa = W40
 		priority = 2
-		trigger = { coa_monarchy_trigger = yes }
+		trigger = { coa_def_monarchy_flag_trigger = yes }
 	}
 	flag_definition = {
 		coa = W40_M_L
 		priority = 3
 		trigger = { 
 			game_date >= 1890.1.1
-			coa_undemocratic_monarchy_trigger = yes }
+			coa_def_undemocratic_monarchy_flag_trigger = yes }
 	}
 	flag_definition = {
 		coa = W40_M_W_E
 		priority = 4
 		trigger = { 
 			game_date <= 1890.1.1
-			coa_monarchy_trigger = yes
+			coa_def_monarchy_flag_trigger = yes
 			is_at_war = yes }
 	}
 	flag_definition = {
@@ -10650,12 +10650,12 @@ W40 = {
 	flag_definition = {
 		coa = W40_A
 		priority = 5
-		trigger = { coa_anarchy_trigger = yes }
+		trigger = { coa_def_anarchy_flag_trigger = yes }
 	}
 	flag_definition = {
 		coa = W40_C
 		priority = 5
-		trigger = { coa_communist_trigger = yes }
+		trigger = { coa_def_communist_flag_trigger = yes }
 	}
 }
 
