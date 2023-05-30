@@ -234,7 +234,7 @@ V27 = {
 		adjective = dyn_c_v27_c1_adj
 		
 		trigger = {
-			has_law = law_type:law_council_republic
+			coa_def_communist_flag_trigger = true
 		}
 	}
 	dynamic_country_name = {
@@ -242,8 +242,7 @@ V27 = {
 		adjective = dyn_c_v27_r1_adj
 		
 		trigger = {
-			OR= {	has_law = law_type:law_presidential_republic
-					has_law = law_type:law_parliamentary_republic
+			coa_def_republic_flag_trigger = true
 			}
 		}
 	}
