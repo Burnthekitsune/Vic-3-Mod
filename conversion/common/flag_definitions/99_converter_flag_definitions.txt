@@ -10667,6 +10667,15 @@ V27 = {
 	flag_definition = {
 	coa = V27_C1
 	priority = 1
-	trigger = { has_law = law_type:law_council_republic }
+	trigger = { coa_def_communist_flag_trigger = true }
+	}
+	flag_definition = {
+	coa = V27
+	priority = 3
+	}
+	flag_definition = {
+	coa = V27_R1
+	priority = 1
+	trigger = { coa_def_republic_flag_trigger = true }
 	}
 }
