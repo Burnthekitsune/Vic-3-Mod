@@ -1308,7 +1308,7 @@
  thunderdome.1.f: "Many lives were lost for this day, years were spent planning and funds vanished into the maws of the dream of Mexico. Today we have managed to unite the polities of the region under one banner and with that achievment the future of the american continent will be ours to forge."
  thunderdome.1.a: "Three Hurrahs for Mexico!"
  
- #Gabes Interest Group change pool
+ #Gabes Bullshit
  ig_frontier_nobility: "Frontier Nobility"
  ig_frontier_nobility_desc: "Those mainly lesser nobles who without enough sway to be assigned the administration of core territories are stuck in the military's rank structure." 
  ig_noble_bureaucrats: "Noble Bureaucrats"
@@ -1336,3 +1336,6 @@
  yang_nepal_desc: "Nepal has land that should belong to us. Let us take it!"
  push_for_india: "Push for a united India"
  push_for_india_desc: "A United India has never happened before in history. In these modern times, we should make it happened!"
+ 
+ v27_c1: "Jamahiriyah Shamal Afriqia Lilmajalis"
+ v27_c1_adj: "Communard"

@@ -227,3 +227,14 @@ W17 = {
 		}
 	}
 }
+
+V27 = {
+	dynamic_country_name = {
+		name = v27_c1
+		adjective = v27_c1_adj
+		
+		trigger = {
+			has_law = law_type:law_council_republic
+		}
+	}
+}
