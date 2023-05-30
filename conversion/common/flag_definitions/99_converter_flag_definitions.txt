@@ -10650,12 +10650,12 @@ W40 = {
 	flag_definition = {
 		coa = W40_A
 		priority = 5
-		trigger = { coa_def_anarchy_flag_trigger = yes }
+		trigger = { coa_def_anarchy_flag_trigger = true }
 	}
 	flag_definition = {
 		coa = W40_C
 		priority = 5
-		trigger = { coa_def_communist_flag_trigger = yes }
+		trigger = { coa_def_communist_flag_trigger = true }
 	}
 }
 
