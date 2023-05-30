@@ -10670,7 +10670,7 @@ V27 = {
 	trigger = { coa_def_communist_flag_trigger = true }
 	flag_definition = {
 	coa = V27_R1
-	priority = 2
+	priority = 5000
 	trigger = { coa_def_republic_flag_trigger = true }
 	}
 }
