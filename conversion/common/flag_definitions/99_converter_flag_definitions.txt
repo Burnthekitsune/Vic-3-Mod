@@ -10621,21 +10621,21 @@ W40 = {
 	flag_definition = {
 		coa = W40
 		priority = 2
-		trigger = { has_law = law_type:law_monarchy }
+		trigger = { has_law = law_monarchy }
 	}
 	flag_definition = {
 		coa = W40_M_L
 		priority = 3
 		trigger = { 
 			game_date >= 1890.1.1
-			has_law = law_type:law_monarchy }
+			has_law = law_monarchy }
 	}
 	flag_definition = {
 		coa = W40_M_W_E
 		priority = 4
 		trigger = { 
 			game_date <= 1890.1.1
-			has_law = law_type:law_monarchy
+			has_law = law_monarchy
 			is_at_war = yes }
 	}
 	flag_definition = {
@@ -10650,12 +10650,12 @@ W40 = {
 	flag_definition = {
 		coa = W40_A
 		priority = 5
-		trigger = { has_law = law_type:law_anarchy }
+		trigger = { has_law = law_anarchy }
 	}
 	flag_definition = {
 		coa = W40_C
 		priority = 5
-		trigger = { has_law = law_type:law_council_republic }
+		trigger = { has_law = law_council_republic }
 	}
 }
 
