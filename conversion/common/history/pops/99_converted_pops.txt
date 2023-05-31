@@ -23821,7 +23821,7 @@
 		}
 	}
 	s:STATE_IVORY_COAST = {
-		region_state:AYI = {
+		region_state:V27 = {
 			create_pop = {
 				culture = akan
 				religion = animist
@@ -60587,7 +60587,7 @@
 		}
 	}
 	s:STATE_WEST_SAHARA = {
-		region_state:v27 = {
+		region_state:V27 = {
 			create_pop = {
 				culture = berber
 				religion = sunni
