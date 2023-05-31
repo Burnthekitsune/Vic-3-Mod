@@ -2706,7 +2706,7 @@ IBL = {
 
 IBO = {
 	color = { 119 24 85 }
-	country_type = decentralized
+	country_type = unrecognized
 	tier = principality
 	cultures = { ibo }
 	capital = STATE_NIGER_DELTA
@@ -4413,7 +4413,7 @@ NAG = {
 
 NAH = {
 	color = { 48 149 21 }
-	country_type = unrecognizedd
+	country_type = unrecognized
 	tier = city_state
 	cultures = { nahua }
 	religion = converted_dynamic_faith_102
