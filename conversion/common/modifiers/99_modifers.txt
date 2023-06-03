@@ -120,3 +120,40 @@ lowered_taxes = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_negative.dds
 	state_tax_collection_mult = -0.1
 }
+
+coins_silver = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_positive.dds
+	country_prestige_mult = 0.01
+	country_minting_mult = 0.01
+	country_loan_interest_rate_add = -3
+	country_government_wages_mult = -0.05
+}
+
+coins_bimetallic = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_positive.dds
+	country_prestige_mult = 0.05
+	country_minting_mult = 0.01
+	country_loan_interest_rate_add = -5
+	country_government_wages_mult = -0.02
+}
+
+coins_gold = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_positive.dds
+	country_prestige_mult = 0.1
+	country_minting_mult = 0.03
+}
+
+coins_debased = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_negative.dds
+	country_prestige_mult = -0.4
+	country_minting_mult = 0.05
+	country_loan_interest_rate_add = 10
+	country_government_wages_mult = -0.1
+}
+
+coins_remnant = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_negative.dds
+	country_prestige_add = 5
+	country_minting_mult = 0.01
+	country_loan_interest_rate_add = -1
+}

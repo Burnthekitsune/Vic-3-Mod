@@ -1,0 +1,119 @@
+monitary_event.1 = { # On game start
+	type = country_event
+    placement = scope:current_expedition_location
+	
+    hidden = yes
+
+    duration = 3
+
+	immediate = {
+		set_global_variable = {
+			name = monitary_union_corrption
+			value = 0
+		}
+		clamp_global_variable = {
+			name = monitary_union_corrption
+			max = 100
+			min = 0
+		}
+		set_global_variable = monitary_union_enabled
+	}
+}
+
+monitary_event.2 = { # Cheat union initial
+	type = country_event
+    placement = scope:current_expedition_location
+	
+    hidden = yes
+
+    duration = 3
+
+	immediate = {
+		set_variable = cheating_union
+		if = {
+			limit = {
+				country_rank < minor_power
+			}
+			set_variable = {
+				name = cheat_weight
+				value = 1
+			}
+		}
+		if = {
+			limit = {
+				country_rank = minor_power
+			}
+			set_variable = {
+				name = cheat_weight
+				value = 2
+			}
+		}
+		if = {
+			limit = {
+				OR = {
+					country_rank = major_power
+					country_rank = unrecognized_major_power
+				}
+			}
+			set_variable = {
+				name = cheat_weight
+				value = 3
+			}
+		}
+		if = {
+			limit = {
+				country_rank = great_power
+			}
+			set_variable = {
+				name = cheat_weight
+				value = 4
+			}
+		}
+		trigger_event = {
+			id = monitary_event.3
+			years = 1
+		}
+	}
+}
+
+
+monitary_event.3 = { # Yearly corruption add
+	type = country_event
+    placement = scope:current_expedition_location
+	
+    hidden = yes
+
+    duration = 3
+
+	immediate = {
+		change_global_variable = {
+			name = monitary_union_corrption
+			value = var:cheat_weight
+		}
+		if = {
+			limit = {
+				var:monitary_union_corrption < 100
+			}
+			trigger_event = {
+				id = monitary_event.3
+				years = 1
+			}
+		}
+		if = {
+			limit = {
+				NOT = { has_global_variable = monitary_system_failed }
+				var:monitary_union_corrption = 50
+			}
+			set_global_variable = monitary_system_failed
+			every_country = {
+				limit = {
+					has_variable = cheating_union
+				}
+				trigger_event = {
+				id = monitary_event.4 # Remove modifer
+				years = 1
+			}
+			}
+		}
+	}
+}

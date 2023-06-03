@@ -1341,3 +1341,15 @@
  dyn_c_v27_c1_adj: "Communard"
  dyn_c_v27_r1: "Republic of Gabes"
  dyn_c_V27_r1_adj: "Gabesi"
+
+ #coins
+ coins_silver: "Muraa Compliant Silver Currency"
+ coins_silver_adj: "Tangka, Florin or Drahm. Whatever the name they are all silver coins made to conform to the Muraa Monetary Union for ease of trade."
+ coins_bimetallic: "Muraa Compliant Bimetallic Currency"
+ coins_bimetallic_adj: "Aksha, Waxac Tangka or Karsa. Whatever the name they are all bimetallic coins made to conform to the Muraa Monetary Union for ease of trade."
+ coins_gold: "Muraa Compliant Gold Currency"
+ coins_gold_adj: "Daric, Drahm or Florin. Whatever the name they are all gold coins made to conform to the Muraa Monetary Union for ease of trade.
+ coins_debased: "Debased Muraa System Currency"
+ coins_debased_adj: "Not all currency in the Muraa Monetary Union adheres to the system, some cheat and gain the dual benefits of ease of trade and a higher currency strength. Over time this risks the disintegration of the Monetary Union."
+ coins_remnant: "Muraa Monetary System Holdout"
+ coins_remnant_adj: "Despite the collapse of the Muraa Monetary Union there are still some countries that adhere to the old standards. Uncertainty has made whatever benefits they used to recieve marginal."
