@@ -578,6 +578,74 @@ threemanychinas.3 = {
 			}
 		}
 		create_country = {
+			tag = CZ3
+			origin = this
+			provinces = { xBDBFAF }
+			on_created = {
+				if = {
+					limit = {
+						NOT = {
+							has_ruling_interest_group = ig_armed_forces
+						}
+					}
+					ig:ig_armed_forces = {
+						leader = {
+							set_ideology = ideology_republican
+						}
+						add_ruling_interest_group = yes
+					}
+				}
+				if = {
+					limit = {
+						NOT = {
+							has_law = law_type:law_presidential_republic
+						}
+					}
+					activate_law = law_type:law_presidential_republic
+				}
+				if = {
+					limit = {
+						NOT = {
+							has_law = law_type:law_oligarchy
+						}
+					}
+					activate_law = law_type:law_oligarchy
+				}
+				if = {
+					limit = {
+						NOT = {
+							has_law = law_type:law_per_capita_based_taxation
+						}
+					}
+					activate_law = law_type:law_per_capita_based_taxation
+				}
+				if = {
+					limit = {
+						NOT = {
+							has_law = law_type:law_interventionism
+						}
+					}
+					activate_law = law_type:law_interventionism
+				}
+				if = {
+					limit = {
+						NOT = {
+							has_law = law_type:law_peasant_levies
+						}
+					}
+					activate_law = law_type:law_peasant_levies
+				}
+				if = {
+					limit = {
+						NOT = {
+							has_law = law_type:law_serfdom_banned
+						}
+					}
+					activate_law = law_type:law_serfdom_banned
+				}
+			}
+		}
+		create_country = {
 			tag = CW5
 			origin = this
 			state = s:STATE_ZHILI.region_state:W34
