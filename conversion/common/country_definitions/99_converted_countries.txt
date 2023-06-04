@@ -6816,7 +6816,7 @@ V30 = {
 	color = { 180 85 120 }
 	country_type = recognized
 	tier = principality
-	cultures = { croat }
+	cultures = { romanian }
 	religion = catholic
 	capital = STATE_NORTHERN_TRANSYLVANIA
 }
