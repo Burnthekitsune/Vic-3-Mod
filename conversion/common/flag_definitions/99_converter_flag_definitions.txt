@@ -10636,7 +10636,10 @@ W40 = {
 		trigger = { 
 			game_date <= 1890.1.1
 			coa_def_monarchy_flag_trigger = yes
-			is_at_war = yes }
+			c:W40 = {
+ 				is_at_war = yes
+			}
+		}
 	}
 	flag_definition = {
 		coa = W40_R_E
