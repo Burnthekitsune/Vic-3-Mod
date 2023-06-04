@@ -580,6 +580,7 @@ threemanychinas.3 = {
 		create_country = {
 			tag = CZ3
 			origin = this
+			state = s:STATE_SHANXI.region_state:W40
 			provinces = { xBDBFAF }
 			on_created = {
 				if = {
