@@ -1353,3 +1353,12 @@
  coins_debased_adj: "Not all currency in the Muraa Monetary Union adheres to the system, some cheat and gain the dual benefits of ease of trade and a higher currency strength. Over time this risks the disintegration of the Monetary Union."
  coins_remnant: "Muraa Monetary System Holdout"
  coins_remnant_adj: "Despite the collapse of the Muraa Monetary Union there are still some countries that adhere to the old standards. Uncertainty has made whatever benefits they used to recieve marginal."
+
+ #muraaigs
+ ig_houses: "House of Roog"
+ ig_houses_desc: "An amalgamation of the Diuredonyorde, Diurduany and Duwaadean Old Believers who view the Haalpulaar as having a special role in society as granted to them by Roog."
+ ig_burgers: "New Society"
+ ig_burgers_desc: "Bureaucrats unaffiliated with the nobility, the clerks who oversee the day to day operation of society, the shopkeepers who ensure we are fed and clothed. These are the backbone of the New Society who will safeguard the future by protecting our past."
+ ig_secrets: "Society of Friends of the Revolution"
+ ig_secrets_desc: "The former Dyrrachion Lodge has had many names after the collapse of the revolutionary armies in Epirus and they seek to use their positions to further the end of the monarchy."
+ 

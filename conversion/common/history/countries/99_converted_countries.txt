@@ -6779,12 +6779,21 @@
 		}
 		ig:ig_armed_forces = {
 			set_ig_bolstering = yes
+			add_ruling_interest_group = yes
  		}
 		ig:ig_devout = {
 			set_ig_bolstering = yes
+			set_interest_group_name = ig_houses
+ 		}
+		ig:ig_petty_bourgeoisie = {
+			set_interest_group_name = ig_burgers
+ 		}
+		ig:ig_intelligentsia = {
+			set_interest_group_name = ig_secrets
  		}
 		ig:ig_landowners = {
 			add_ideology = ideology_pious
+			add_ruling_interest_group = yes
  		}
 	}
 	c:W49 = {
