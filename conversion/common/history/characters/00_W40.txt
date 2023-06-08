@@ -12,20 +12,6 @@
 		}
 
 		create_character = {
-			first_name = "tgc_51215414"
-			last_name = "tgt_Shatra"
-			culture = cu:tangut
-			religion = rel:gelugpa
-			is_admiral = yes
-			hq = region_east_siberia
-			interest_group = ig_petty_bourgeoisie
-			age = 23
-			traits = {
-				basic_colonial_administrator persistent dockyard_organizer
-			}
-		}
-
-		create_character = {
 			first_name = "Nomedas"
 			last_name = "Asha"
 			heir = yes
@@ -140,6 +126,20 @@
 				celebrity_commander direct firebrand charismatic
 			}
 		}
+		
+		create_character = {
+			first_name = "tgc_51215414"
+			last_name = "tgt_Shatra"
+			culture = cu:tangut
+			religion = rel:gelugpa
+			is_admiral = yes
+			hq = region_east_siberia
+			birth_date = 1812.6.15
+			traits = {
+				basic_colonial_administrator persistent dockyard_master
+			}
+		}
+		
 		create_character = {
 			first_name = "Helias"
 			last_name = "Mahan"
@@ -150,7 +150,7 @@
 			commander_rank = commander_rank_2
 			birth_date = 1792.02.10
 			traits = {
-				dockyard_organizer persistent meticulous
+				dockyard_master persistent meticulous
 			}
 		}
 	}
