@@ -24732,6 +24732,26 @@
 	s:STATE_KAMCHATKA = {
 		region_state:W40 = {
 			create_pop = {
+				culture = muraa
+				religion = converted_dynamic_faith_106
+				size = 16729
+			}
+			create_pop = {
+				culture = min
+				religion = mahayana
+				size = 12280
+			}
+			create_pop = {
+				culture = min
+				religion = zoroastrian
+				size = 2287
+			}
+			create_pop = {
+				culture = min
+				religion = converted_dynamic_faith_106
+				size = 7290
+			}
+			create_pop = {
 				culture = siberian
 				religion = tengri_pagan
 				size = 3331
@@ -24750,6 +24770,16 @@
 				culture = persian
 				religion = zoroastrian
 				size = 1740
+			}
+			create_pop = {
+				culture = siberian
+				religion = zoroastrian
+				size = 691
+			}
+			create_pop = {
+				culture = persian
+				religion = tengri_pagan
+				size = 440
 			}
 		}
 		region_state:X33 = {

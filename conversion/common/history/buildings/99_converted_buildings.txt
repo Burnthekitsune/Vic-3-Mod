@@ -10889,8 +10889,32 @@
 	s:STATE_KAMCHATKA = {
 		region_state:W40 = {
 			create_building = {
-				building = "building_port"
+				building = "building_livestock_ranch"
+				level = 3
+				reserves = 1
+				activate_production_methods = { }
+			}
+			create_building = {
+				building = "building_naval_base"
+				level = 2
+				reserves = 1
+				activate_production_methods = { "pm_no_naval_theory" }
+			}
+			create_building = {
+				building = "building_shipyards"
 				level = 1
+				reserves = 1
+				activate_production_methods = { "pm_military_shipbuilding_wooden" }
+			}
+			create_building = {
+				building = "building_logging_camp"
+				level = 2
+				reserves = 1
+				activate_production_methods = { "pm_no_hardwood" "pm_simple_forestry" }
+			}
+			create_building = {
+				building = "building_port"
+				level = 2
 				reserves = 1
 				activate_production_methods = { "pm_basic_port" }
 			}
@@ -24741,6 +24765,12 @@
 	}
 	s:STATE_YAKUTSK = {
 		region_state:W40 = {
+			create_building = {
+				building = "building_logging_camp"
+				level = 2
+				reserves = 1
+				activate_production_methods = { "pm_no_hardwood" "pm_simple_forestry" }
+			}
 			create_building = {
 				building = "building_barracks"
 				level = 1
