@@ -12,6 +12,20 @@
 		}
 
 		create_character = {
+			first_name = "tgc_51215414"
+			last_name = "tgt_Shatra"
+			culture = cu:tangut
+			religion = rel:gelugpa
+			is_admiral = yes
+			hq = region_east_siberia
+			interest_group = ig_petty_bourgeoisie
+			age = 23
+			traits = {
+				basic_colonial_administrator persistent dockyard_organizer
+			}
+		}
+
+		create_character = {
 			first_name = "Nomedas"
 			last_name = "Asha"
 			heir = yes
