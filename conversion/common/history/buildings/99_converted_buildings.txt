@@ -12505,7 +12505,7 @@
 				level = 3
 				reserves = 1
 				activate_production_methods = { }
-			}create_building = {
+			create_building = {
 				building = "building_shipyards"
 				level = 3
 				reserves = 1
