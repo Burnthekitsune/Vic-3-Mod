@@ -22376,9 +22376,21 @@
 			}
 			create_building = {
 				building = "building_port"
-				level = 2
+				level = 3
 				reserves = 1
 				activate_production_methods = { }
+			}
+			create_building = {
+				building = "building_shipyards"
+				level = 3
+				reserves = 1
+				activate_production_methods = { }
+			}
+			create_building = {
+				building = "building_arms_industry"
+				level = 5
+				reserves = 1
+				activate_production_methods = { "pm_cannons" }
 			}
 		}
 	}
@@ -22446,13 +22458,31 @@
 			}
 			create_building = {
 				building = "building_government_administration"
-				level = 2
+				level = 4
 				reserves = 1
 				activate_production_methods = { "pm_vertical_filing_cabinets" }
 			}
 			create_building = {
 				building = "building_port"
-				level = 1
+				level = 5
+				reserves = 1
+				activate_production_methods = { }
+			}
+			create_building = {
+				building = "building_shipyards"
+				level = 5
+				reserves = 1
+				activate_production_methods = { "pm_military_shipbuilding_wooden" }
+			}
+			create_building = {
+				building = "building_naval_base"
+				level = 5
+				reserves = 1
+				activate_production_methods = { }
+			}
+			create_building = {
+				building = "building_tooling_workshops"
+				level = 3
 				reserves = 1
 				activate_production_methods = { }
 			}
