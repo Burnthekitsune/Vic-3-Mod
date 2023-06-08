@@ -36712,7 +36712,33 @@
 		}
 	}
 	s:STATE_NIGER_DELTA = {
-		region_state:IBO = {
+		region_state:V27 = {
+			create_pop = {
+				culture = ibo
+				religion = converted_dynamic_faith_102
+				size = 480486
+			}
+			create_pop = {
+				culture = dynamic-hausa-nupe-culture-num1
+				religion = converted_dynamic_faith_102
+				size = 561745
+			}
+			create_pop = {
+				culture = dynamic-hausa-nupe-culture-num1
+				religion = converted_dynamic_faith_102
+				size = 296771
+			}
+			create_pop = {
+				culture = ibo
+				religion = converted_dynamic_faith_102
+				size = 254375
+			}
+			create_pop = {
+				culture = ibo
+				religion = converted_dynamic_faith_102
+				size = 593542
+			}
+			
 			create_pop = {
 				culture = ibo
 				religion = animist
@@ -36745,33 +36771,6 @@
 				religion = animist
 				pop_type = slaves
 				size = 1875
-			}
-		}
-		region_state:V27 = {
-			create_pop = {
-				culture = ibo
-				religion = converted_dynamic_faith_102
-				size = 480486
-			}
-			create_pop = {
-				culture = dynamic-hausa-nupe-culture-num1
-				religion = converted_dynamic_faith_102
-				size = 561745
-			}
-			create_pop = {
-				culture = dynamic-hausa-nupe-culture-num1
-				religion = converted_dynamic_faith_102
-				size = 296771
-			}
-			create_pop = {
-				culture = ibo
-				religion = converted_dynamic_faith_102
-				size = 254375
-			}
-			create_pop = {
-				culture = ibo
-				religion = converted_dynamic_faith_102
-				size = 593542
 			}
 		}
 	}
@@ -49116,28 +49115,6 @@
 		}
 	}
 	s:STATE_SIERRA_LEONE = {
-		region_state:M13 = {
-			create_pop = {
-				culture = kissi
-				religion = animist
-				size = 14770
-			}
-			create_pop = {
-				culture = mande
-				religion = sunni
-				size = 403475
-			}
-			create_pop = {
-				culture = mossi
-				religion = animist
-				size = 27998
-			}
-			create_pop = {
-				culture = fulbe
-				religion = sunni
-				size = 78750
-			}
-		}
 		region_state:V27 = {
 			create_pop = {
 				culture = kissi
@@ -49158,6 +49135,27 @@
 				culture = kissi
 				religion = converted_dynamic_faith_102
 				size = 27547
+			}
+			
+			create_pop = {
+				culture = kissi
+				religion = animist
+				size = 14770
+			}
+			create_pop = {
+				culture = mande
+				religion = sunni
+				size = 403475
+			}
+			create_pop = {
+				culture = mossi
+				religion = animist
+				size = 27998
+			}
+			create_pop = {
+				culture = fulbe
+				religion = sunni
+				size = 78750
 			}
 		}
 	}

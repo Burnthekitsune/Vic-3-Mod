@@ -12502,7 +12502,12 @@
 			}
 			create_building = {
 				building = "building_port"
-				level = 1
+				level = 3
+				reserves = 1
+				activate_production_methods = { }
+			}create_building = {
+				building = "building_shipyards"
+				level = 3
 				reserves = 1
 				activate_production_methods = { }
 			}
@@ -13046,7 +13051,7 @@
 			}
 			create_building = {
 				building = "building_port"
-				level = 1
+				level = 8
 				reserves = 1
 				activate_production_methods = { }
 			}
@@ -22464,7 +22469,7 @@
 			}
 			create_building = {
 				building = "building_port"
-				level = 5
+				level = 8
 				reserves = 1
 				activate_production_methods = { }
 			}

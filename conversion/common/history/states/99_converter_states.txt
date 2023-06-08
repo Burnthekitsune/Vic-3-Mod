@@ -4155,12 +4155,8 @@
 	}
 	s:STATE_NIGER_DELTA = {
 		create_state = {
-			country = c:IBO
-			owned_provinces = { x90B6CB }
-		}
-		create_state = {
 			country = c:V27
-			owned_provinces = { x016090 x01A050 x1B328B x255D8A x337660 x4D3C3A x553813 x80A090 x8B459B x93634A x938816 xA8A592 xC82CCC xD16652 xD8056B }
+			owned_provinces = { x016090 x01A050 x1B328B x255D8A x337660 x4D3C3A x553813 x80A090 x8B459B x93634A x938816 xA8A592 xC82CCC xD16652 xD8056B x90B6CB }
 		}
 		add_homeland = dynamic-hausa-nupe-culture-num1
 		add_homeland = ibibio
@@ -5466,12 +5462,8 @@
 	}
 	s:STATE_SIERRA_LEONE = {
 		create_state = {
-			country = c:M13
-			owned_provinces = { x30F9B8 x36A605 x883E85 x884E8D x8F958C xC0AC6C xF916CA }
-		}
-		create_state = {
 			country = c:V27
-			owned_provinces = { x608050 x6216D1 x8C1A4C xBBF47C xE4828F }
+			owned_provinces = { x608050 x6216D1 x8C1A4C xBBF47C xE4828F x30F9B8 x36A605 x883E85 x884E8D x8F958C xC0AC6C xF916CA }
 		}
 		add_homeland = akan
 		add_homeland = kissi
