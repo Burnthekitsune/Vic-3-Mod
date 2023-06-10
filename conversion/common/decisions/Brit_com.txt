@@ -1,5 +1,6 @@
 ﻿supply_communists = {
 	is_shown = {
+		exists = c:X10
 		this = c:X10
 		has_law = law_type:law_council_republic
 		NOT = { has_variable = supplied_communists }
@@ -28,6 +29,7 @@
 
 launch_revolution = {
 	is_shown = {
+		exists = c:X10
 		this = c:X10
 		has_law = law_type:law_council_republic
 		NOT = { has_variable = launched_revolution }

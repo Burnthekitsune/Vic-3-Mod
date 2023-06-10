@@ -1,7 +1,7 @@
 ﻿spread_communism_subjects = {
 	is_shown = {
-		NOT = { this = c:X10 }
 		has_law = law_type:law_council_republic
+		NOT = { this = c:X10 }
 	}
 	possible = {
 		any_subject_or_below = {

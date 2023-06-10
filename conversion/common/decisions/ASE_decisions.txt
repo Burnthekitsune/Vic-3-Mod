@@ -1,5 +1,6 @@
 ﻿nunavut_colony = {
 	is_shown = {
+		exists = c:X10
 		this = c:X10
 		NOT = { has_variable = nunavut_colony_decision }
 	}
@@ -38,6 +39,7 @@
 
 burgundy_customs = {
 	is_shown = {
+		exists = c:X10
 		this = c:X10
 		NOT = { has_variable = burgundy_union }
 	}
@@ -62,6 +64,7 @@ burgundy_customs = {
 
 allow_elections = {
 	is_shown = {
+		exists = c:X10
 		this = c:X10
 		NOT = { has_variable = elections_allowed }
 	}
@@ -89,6 +92,7 @@ allow_elections = {
 
 burmuda_customs = {
 	is_shown = {
+		exists = c:X10
 		this = c:X10
 		NOT = { has_variable = burmuda_union }
 	}
@@ -113,6 +117,7 @@ burmuda_customs = {
 
 sell_baja = {
 	is_shown = {
+		exists = c:X10
 		this = c:X10
 		NOT = { has_variable = sold_baja }
 		c:X83 = {
@@ -143,6 +148,7 @@ sell_baja = {
 
 chinese_revolt = {
 	is_shown = {
+		exists = c:X10
 		this = c:X10
 		exists = c:CR1
 		NOT = { has_variable = chinese_revolts }
@@ -168,6 +174,7 @@ chinese_revolt = {
 
 grant_piedmont = {
 	is_shown = {
+		exists = c:X10
 		this = c:X10
 		exists = c:W57
 	}
@@ -206,6 +213,7 @@ grant_piedmont = {
 
 spread_communism_to_subjects = {
 	is_shown = {
+		exists = c:X10
 		this = c:X10
 		has_law = law_type:law_council_republic
 	}
@@ -276,6 +284,7 @@ spread_communism_to_subjects = {
 
 expand_indochina = {
 	is_shown = {
+		exists = c:X10
 		this = c:X10
 		has_variable = chinese_domination
 		NOT = { has_variable = expand_indochina }
@@ -312,6 +321,7 @@ expand_indochina = {
 
 control_indochina = {
 	is_shown = {
+		exists = c:X10
 		this = c:X10
 		has_variable = expand_indochina
 		NOT = { has_variable = control_indochina }
@@ -449,6 +459,7 @@ control_indochina = {
 
 expand_manghulia = {
 	is_shown = {
+		exists = c:X10
 		this = c:X10
 		has_variable = chinese_domination
 		NOT = { has_variable = expanded_manghulia }
@@ -524,6 +535,7 @@ expand_manghulia = {
 
 buy_out_trade_companies = {
 	is_shown = {
+		exists = c:X10
 		this = c:X10
 		has_variable = chinese_domination
 		NOT = { has_variable = bought_trade_companeis }
@@ -565,6 +577,7 @@ buy_out_trade_companies = {
 
 annex_chinese_coast = {
 	is_shown = {
+		exists = c:X10
 		this = c:X10
 		has_variable = chinese_domination
 		has_variable = bought_trade_companeis
@@ -798,6 +811,7 @@ annex_chinese_coast = {
 
 southern_revolt = {
 	is_shown = {
+		exists = c:X10
 		this = c:X10
 		has_variable = chinese_coast
 		NOT = { has_variable = southern_china_revolt }
@@ -1004,6 +1018,7 @@ southern_revolt = {
 
 northern_revolt = {
 	is_shown = {
+		exists = c:X10
 		this = c:X10
 		has_variable = chinese_coast
 		NOT = { has_variable = northern_china_revolt }
@@ -1215,6 +1230,7 @@ northern_revolt = {
 
 lowland_puppets = {
 	is_shown = {
+		exists = c:X10
 		this = c:X10
 		has_variable = french_domination
 		has_variable = kept_lowlands
@@ -1290,6 +1306,7 @@ lowland_puppets = {
 
 iceland_trade = {
 	is_shown = {
+		exists = c:X10
 		this = c:X10
 		has_variable = house_of_cards_done
 		exists = c:GBR
