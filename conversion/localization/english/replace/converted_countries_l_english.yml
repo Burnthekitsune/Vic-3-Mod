@@ -1362,3 +1362,11 @@
  ig_secrets: "Society of Friends of the Revolution"
  ig_secrets_desc: "The former Dyrrachion Lodge has had many names after the collapse of the revolutionary armies in Epirus and they seek to use their positions to further the end of the monarchy."
  
+ UPU: "Uhorskpolanian Union"
+ UPU_ADJ: "Uhorskpolanian Union"
+ uhorskpolanian_union: "Form the Uhorskpolanian Union"
+ uhorskpolanian_union_desc: "We shall unite the realms"
+ demand_strip: "Demand the strip"
+ demand_strip_desc: "This land is a barrier in our way. Ungvar must give it up."
+ bosnian_concession: "Bosnian Concession"
+ bosnian_concession_desc: "Bosnia has agreed to surrender some land to us."

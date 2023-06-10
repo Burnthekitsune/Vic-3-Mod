@@ -1,8 +1,9 @@
-uhorskpolanian_union = {
+﻿uhorskpolanian_union = {
 	is_shown = {
 		exists = c:X80
 		exists = c:X79
 		this = c:W40
+		NOT = { has_variable = uhorskpolanian_union_formed }
 	}
 	
 	possible = {
@@ -14,8 +15,11 @@ uhorskpolanian_union = {
 	when_taken = {
 		c:X80 = {
 			annex = c:X79
-			change_tag = c:UPU
-			}
+			change_tag = UPU
+		}
+		set_variable = {
+			name = uhorskpolanian_union_formed
+		} 
 	}
 	
 	ai_chance = {
@@ -25,21 +29,49 @@ uhorskpolanian_union = {
 
 demand_strip = {
 	is_shown = {
-		exists = c:X79
+		OR = {
+			exists = c:X79
+			exists = c:UPU
+		}
 		exists = c:V36
 		this = c:W40
+		NOT = { has_variable = strip_demanded }
 	}
 	
 	possible = {
 		c:W40 = {
-			has_technology_researched = romanticism
+			has_technology_researche`d = romanticism
 		}
 	}
 	
 	when_taken = {
-		c:X79 = {
-			annex = s:STATE_GALICIA.region_state:V36
+		set_variable = {
+			name = strip_demanded
+		}
+		if = {
+			limit = {
+				exists = c:X79
 			}
+			every_state = {
+				limit = {
+					state_region = s:STATE_WEST_GALICIA
+					owner = c:V36
+				}
+				set_state_owner = c:X79
+			}
+		}
+		if = {
+			limit = {
+				exists = c:UPU
+			}
+			every_state = {
+				limit = {
+					state_region = s:STATE_WEST_GALICIA
+					owner = c:V36
+				}
+				set_state_owner = c:UPU
+			}
+		}
 	}
 	
 	ai_chance = {
@@ -52,6 +84,7 @@ bosnian_concession = {
 		exists = c:UPU
 		exists = c:V30
 		this = c:W40
+		NOT = { has_variable = bosnian_concession_taken }
 	}
 	
 	possible = {
@@ -62,11 +95,22 @@ bosnian_concession = {
 	
 	when_taken = {
 		c:UPU = {
-			annex = s:STATE_BANAT.region_state:V30
-			annex = s:STATE_CENTRAL_HUNGARY.region_state:V30
-			annex = s:STATE_BEKES.region_state:V30
-			annex = s:STATE_NORTHERN_TRANSYLVANIA.region_state:V30
+			every_state = {
+				limit = {
+					OR = {
+						state_region = s:STATE_BANAT
+						state_region = s:STATE_CENTRAL_HUNGARY
+						state_region = s:STATE_BEKES
+						state_region = s:STATE_NORTHERN_TRANSYLVANIA
+					}
+					owner = c:V30
+				}
+				set_state_owner = c:UPU
 			}
+		}
+		set_variable = {
+			name = bosnian_concession_taken
+		}
 	}
 	
 	ai_chance = {
