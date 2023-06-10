@@ -650,6 +650,11 @@
 		ig:ig_landowners = {
 			add_ideology = ideology_pro_slavery
  		}
+		ig:ig_devout = {
+			remove_ideology = ideology_patriarchal
+			remove_ideology = ideology_patriarchal_suffrage
+			add_ideology = ideology_loyalist
+		}
 	}
 	c:BRU = {
 		add_technology_researched = admiralty
@@ -1318,6 +1323,11 @@
 		ig:ig_landowners = {
 			add_ideology = ideology_pro_slavery
  		}
+		ig:ig_devout = {
+			remove_ideology = ideology_patriarchal
+			remove_ideology = ideology_patriarchal_suffrage
+			add_ideology = ideology_loyalist
+		}
 	}
 	c:G03 = {
 		effect_native_conscription_3 = yes
@@ -1418,6 +1428,11 @@
 			add_ideology = ideology_pious
  			add_ideology = ideology_pro_slavery
  		}
+		ig:ig_devout = {
+			remove_ideology = ideology_patriarchal
+			remove_ideology = ideology_patriarchal_suffrage
+			add_ideology = ideology_loyalist
+		}
 	}
 	c:GCO = {
 		add_technology_researched = academia
@@ -1498,6 +1513,11 @@
 			remove_ideology = ideology_isolationist
  			add_ideology = ideology_isolationist_expansionism
  		}
+		ig:ig_devout = {
+			remove_ideology = ideology_patriarchal
+			remove_ideology = ideology_patriarchal_suffrage
+			add_ideology = ideology_loyalist
+		}
 	}
 	c:GGO = {
 		effect_native_conscription_3 = yes
@@ -1759,6 +1779,11 @@
 		ig:ig_petty_bourgeoisie = {
 			set_ig_suppression = yes
 		}
+		ig:ig_devout = {
+			remove_ideology = ideology_patriarchal
+			remove_ideology = ideology_patriarchal_suffrage
+			add_ideology = ideology_loyalist
+		}
 	}
 	c:IN1 = {
 		effect_native_conscription_3 = yes
@@ -1830,6 +1855,11 @@
 			remove_ideology = ideology_isolationist
  			add_ideology = ideology_isolationist_expansionism
  		}
+		ig:ig_devout = {
+			remove_ideology = ideology_patriarchal
+			remove_ideology = ideology_patriarchal_suffrage
+			add_ideology = ideology_loyalist
+		}
 	}
 	c:J03 = {
 		effect_native_conscription_3 = yes
@@ -2356,6 +2386,11 @@
 		ig:ig_intelligentsia = {
 			set_ig_suppression = yes
 		}
+		ig:ig_devout = {
+			remove_ideology = ideology_patriarchal
+			remove_ideology = ideology_patriarchal_suffrage
+			add_ideology = ideology_loyalist
+		}
 	}
 	c:LUO = {
 		effect_native_conscription_3 = yes
@@ -2744,6 +2779,11 @@
 			remove_ideology = ideology_isolationist
  			add_ideology = ideology_isolationist_expansionism
  		}
+		ig:ig_devout = {
+			remove_ideology = ideology_patriarchal
+			remove_ideology = ideology_patriarchal_suffrage
+			add_ideology = ideology_loyalist
+		}
 	}
 	c:NEP = {
 		add_technology_researched = admiralty
@@ -2878,6 +2918,11 @@
 			remove_ideology = ideology_isolationist
  			add_ideology = ideology_isolationist_expansionism
  		}
+		ig:ig_devout = {
+			remove_ideology = ideology_patriarchal
+			remove_ideology = ideology_patriarchal_suffrage
+			add_ideology = ideology_loyalist
+		}
 	}
 	c:NNG = {
 		add_technology_researched = enclosure
@@ -3640,6 +3685,11 @@
 		ig:ig_landowners = {
 			add_ideology = ideology_pro_slavery
  		}
+		ig:ig_devout = {
+			remove_ideology = ideology_patriarchal
+			remove_ideology = ideology_patriarchal_suffrage
+			add_ideology = ideology_loyalist
+		}
 	}
 	c:PRU = {
 		add_technology_researched = academia
@@ -3728,6 +3778,11 @@
 		ig:ig_landowners = {
 			add_ideology = ideology_pro_slavery
  		}
+		ig:ig_devout = {
+			remove_ideology = ideology_patriarchal
+			remove_ideology = ideology_patriarchal_suffrage
+			add_ideology = ideology_loyalist
+		}
 	}
 	c:SD1 = {
 		effect_native_conscription_3 = yes
@@ -4439,6 +4494,11 @@
  		}
 		ig:ig_devout = {
 			set_ig_suppression = yes
+		}
+		ig:ig_devout = {
+			remove_ideology = ideology_patriarchal
+			remove_ideology = ideology_patriarchal_suffrage
+			add_ideology = ideology_loyalist
 		}
 	}
 	c:V24 = {
@@ -5356,6 +5416,11 @@
 		ig:ig_devout = {
 			set_ig_suppression = yes
 		}
+		ig:ig_devout = {
+			remove_ideology = ideology_patriarchal
+			remove_ideology = ideology_patriarchal_suffrage
+			add_ideology = ideology_loyalist
+		}
 	}
 	c:V46 = {
 		add_technology_researched = academia
@@ -5489,6 +5554,11 @@
 		ig:ig_devout = {
 			set_ig_suppression = yes
 		}
+		ig:ig_devout = {
+			remove_ideology = ideology_patriarchal
+			remove_ideology = ideology_patriarchal_suffrage
+			add_ideology = ideology_loyalist
+		}
 	}
 	c:SLV = {
 		add_technology_researched = academia
@@ -5562,6 +5632,11 @@
  		}
 		ig:ig_devout = {
 			set_ig_suppression = yes
+		}
+		ig:ig_devout = {
+			remove_ideology = ideology_patriarchal
+			remove_ideology = ideology_patriarchal_suffrage
+			add_ideology = ideology_loyalist
 		}
 	}
 	c:V49 = {
@@ -6069,6 +6144,11 @@
 		ig:ig_trade_unions = {
 			set_ig_bolstering = yes
  		}
+		ig:ig_devout = {
+			remove_ideology = ideology_patriarchal
+			remove_ideology = ideology_patriarchal_suffrage
+			add_ideology = ideology_loyalist
+		}
 	}
 	c:W19 = {
 		add_technology_researched = admiralty
@@ -7908,6 +7988,11 @@
 		ig:ig_trade_unions = {
 			set_ig_bolstering = yes
  		}
+		ig:ig_devout = {
+			remove_ideology = ideology_patriarchal
+			remove_ideology = ideology_patriarchal_suffrage
+			add_ideology = ideology_loyalist
+		}
 	}
 	c:W88 = {
 		add_technology_researched = academia
@@ -7978,6 +8063,11 @@
 			remove_ideology = ideology_isolationist
  			add_ideology = ideology_isolationist_expansionism
  		}
+		ig:ig_devout = {
+			remove_ideology = ideology_patriarchal
+			remove_ideology = ideology_patriarchal_suffrage
+			add_ideology = ideology_loyalist
+		}
 	}
 	c:W89 = {
 		add_technology_researched = academia
@@ -8115,6 +8205,11 @@
 		ig:ig_trade_unions = {
 			set_ig_bolstering = yes
  		}
+		ig:ig_devout = {
+			remove_ideology = ideology_patriarchal
+			remove_ideology = ideology_patriarchal_suffrage
+			add_ideology = ideology_loyalist
+		}
 	}
 	c:W91 = {
 		add_technology_researched = academia
@@ -8184,6 +8279,11 @@
 			remove_ideology = ideology_isolationist
  			add_ideology = ideology_isolationist_expansionism
  		}
+		ig:ig_devout = {
+			remove_ideology = ideology_patriarchal
+			remove_ideology = ideology_patriarchal_suffrage
+			add_ideology = ideology_loyalist
+		}
 	}
 	c:W92 = {
 		add_technology_researched = academia
@@ -8249,6 +8349,11 @@
 		ig:ig_trade_unions = {
 			set_ig_bolstering = yes
  		}
+		ig:ig_devout = {
+			remove_ideology = ideology_patriarchal
+			remove_ideology = ideology_patriarchal_suffrage
+			add_ideology = ideology_loyalist
+		}
 	}
 	c:W93 = {
 		add_technology_researched = academia
@@ -8316,6 +8421,11 @@
 		ig:ig_trade_unions = {
 			set_ig_bolstering = yes
  		}
+		ig:ig_devout = {
+			remove_ideology = ideology_patriarchal
+			remove_ideology = ideology_patriarchal_suffrage
+			add_ideology = ideology_loyalist
+		}
 	}
 	c:W94 = {
 		add_technology_researched = academia
@@ -8381,6 +8491,11 @@
 		ig:ig_trade_unions = {
 			set_ig_bolstering = yes
  		}
+		ig:ig_devout = {
+			remove_ideology = ideology_patriarchal
+			remove_ideology = ideology_patriarchal_suffrage
+			add_ideology = ideology_loyalist
+		}
 	}
 	c:W95 = {
 		add_technology_researched = academia
@@ -8840,6 +8955,11 @@
 			remove_ideology = ideology_isolationist
  			add_ideology = ideology_isolationist_expansionism
  		}
+		ig:ig_devout = {
+			remove_ideology = ideology_patriarchal
+			remove_ideology = ideology_patriarchal_suffrage
+			add_ideology = ideology_loyalist
+		}
 	}
 	c:X08 = {
 		add_technology_researched = academia
@@ -9080,6 +9200,11 @@
 		ig:ig_trade_unions = {
 			set_ig_bolstering = yes
  		}
+		ig:ig_devout = {
+			remove_ideology = ideology_patriarchal
+			remove_ideology = ideology_patriarchal_suffrage
+			add_ideology = ideology_loyalist
+		}
 		trigger_event = {
 			id = aseevent.1
 		}
@@ -9345,6 +9470,11 @@
 		ig:ig_devout = {
 			set_ig_suppression = yes
 		}
+		ig:ig_devout = {
+			remove_ideology = ideology_patriarchal
+			remove_ideology = ideology_patriarchal_suffrage
+			add_ideology = ideology_loyalist
+		}
 	}
 	c:X20 = {
 		add_technology_researched = academia
@@ -9433,6 +9563,11 @@
 			remove_ideology = ideology_isolationist
  			add_ideology = ideology_isolationist_expansionism
  		}
+		ig:ig_devout = {
+			remove_ideology = ideology_patriarchal
+			remove_ideology = ideology_patriarchal_suffrage
+			add_ideology = ideology_loyalist
+		}
 	}
 	c:X24 = {
 		add_technology_researched = academia
@@ -9512,6 +9647,11 @@
 			remove_ideology = ideology_isolationist
  			add_ideology = ideology_isolationist_expansionism
  		}
+		ig:ig_devout = {
+			remove_ideology = ideology_patriarchal
+			remove_ideology = ideology_patriarchal_suffrage
+			add_ideology = ideology_loyalist
+		}
 	}
 	c:X28 = {
 		add_technology_researched = academia
@@ -9595,6 +9735,11 @@
 			remove_ideology = ideology_isolationist
  			add_ideology = ideology_isolationist_expansionism
  		}
+		ig:ig_devout = {
+			remove_ideology = ideology_patriarchal
+			remove_ideology = ideology_patriarchal_suffrage
+			add_ideology = ideology_loyalist
+		}
 	}
 	c:X29 = {
 		add_technology_researched = academia
@@ -9677,6 +9822,11 @@
 			remove_ideology = ideology_isolationist
  			add_ideology = ideology_isolationist_expansionism
  		}
+		ig:ig_devout = {
+			remove_ideology = ideology_patriarchal
+			remove_ideology = ideology_patriarchal_suffrage
+			add_ideology = ideology_loyalist
+		}
 	}
 	c:X30 = {
 		add_technology_researched = enclosure
@@ -10081,6 +10231,11 @@
 		ig:ig_landowners = {
 			set_ig_suppression = yes
 		}
+		ig:ig_devout = {
+			remove_ideology = ideology_patriarchal
+			remove_ideology = ideology_patriarchal_suffrage
+			add_ideology = ideology_loyalist
+		}
 	}
 	c:GUA = {
 		add_technology_researched = academia
@@ -10217,6 +10372,11 @@
 			remove_ideology = ideology_isolationist
  			add_ideology = ideology_isolationist_expansionism
  		}
+		ig:ig_devout = {
+			remove_ideology = ideology_patriarchal
+			remove_ideology = ideology_patriarchal_suffrage
+			add_ideology = ideology_loyalist
+		}
 	}
 	c:X44 = {
 		add_technology_researched = academia
@@ -11537,6 +11697,11 @@
 		ig:ig_trade_unions = {
 			set_ig_bolstering = yes
  		}
+		ig:ig_devout = {
+			remove_ideology = ideology_patriarchal
+			remove_ideology = ideology_patriarchal_suffrage
+			add_ideology = ideology_loyalist
+		}
 	}
 	c:X78 = {
 		add_technology_researched = admiralty
@@ -11587,6 +11752,11 @@
 		ig:ig_trade_unions = {
 			set_ig_bolstering = yes
  		}
+		ig:ig_devout = {
+			remove_ideology = ideology_patriarchal
+			remove_ideology = ideology_patriarchal_suffrage
+			add_ideology = ideology_loyalist
+		}
 	}
 	c:X79 = {
 		add_technology_researched = academia
@@ -11787,6 +11957,11 @@
 		ig:ig_armed_forces = {
 			add_ideology = ideology_bakufu
  		}
+		ig:ig_devout = {
+			remove_ideology = ideology_patriarchal
+			remove_ideology = ideology_patriarchal_suffrage
+			add_ideology = ideology_loyalist
+		}
 	}
 	c:X82 = {
 		add_technology_researched = centralization
@@ -11833,6 +12008,11 @@
 		ig:ig_trade_unions = {
 			set_ig_bolstering = yes
  		}
+		ig:ig_devout = {
+			remove_ideology = ideology_patriarchal
+			remove_ideology = ideology_patriarchal_suffrage
+			add_ideology = ideology_loyalist
+		}
 	}
 	c:X83 = {
 		add_technology_researched = academia
@@ -11903,6 +12083,11 @@
 			remove_ideology = ideology_isolationist
  			add_ideology = ideology_isolationist_expansionism
  		}
+		ig:ig_devout = {
+			remove_ideology = ideology_patriarchal
+			remove_ideology = ideology_patriarchal_suffrage
+			add_ideology = ideology_loyalist
+		}
 	}
 	c:X84 = {
 		add_technology_researched = academia
@@ -11975,6 +12160,11 @@
 			remove_ideology = ideology_isolationist
  			add_ideology = ideology_isolationist_expansionism
  		}
+		ig:ig_devout = {
+			remove_ideology = ideology_patriarchal
+			remove_ideology = ideology_patriarchal_suffrage
+			add_ideology = ideology_loyalist
+		}
 	}
 	c:X85 = {
 		add_technology_researched = academia

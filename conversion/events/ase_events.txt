@@ -143,6 +143,11 @@ aseevent.1 = { # Intro
 			months = 60
 		}
 		set_variable = ase_ready
+		c:X10 = {
+			ig:ig_devout = {
+				remove_ideology = ideology_patriarchal_suffrage
+			}
+		}
 		ai_chance = {
 			base = 100
 		}
