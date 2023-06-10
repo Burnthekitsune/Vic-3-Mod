@@ -1,0 +1,62 @@
+﻿namespace = gabesevents
+
+gabesevents.1 = {
+	type = country_event
+	placement = ROOT
+
+	title = gabesevents.1.t
+	desc = gabesevents.1.d
+
+	duration = 3
+
+	event_image = {
+		video = "gfx/event_pictures/africa_diplomats_negotiating.bk2"
+	}
+	
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+	
+	option = {
+		name = gabesevents.1.a
+		c:V27 = {
+			add_loyalists = {
+				value = 0.2
+				pop_type  = officers
+			}
+			add_loyalists = {
+				value = 0.2
+				pop_type  = bureaucrats
+			}
+			add_loyalists = {
+				value = 0.2
+				pop_type  = soldiers
+			}
+		}
+	}
+}
+
+
+gabesevents.2 = {
+	type = country_event
+	placement = ROOT
+
+	title = gabesevents.2.t
+	desc = gabesevents.2.d
+
+	duration = 3
+
+	event_image = {
+		video = "gfx/event_pictures/africa_leader_arguing.bk2"
+	}
+	
+	icon = "gfx/interface/icons/event_icons/event_protest.dds"
+	
+	option = {
+		name = gabesevents.2.a
+		c:V27 = {
+			ig:ig_devout = {
+				remove_ideology = ideology_moralist
+				add_ideology = ideology_populist
+			}
+		}
+	}
+}

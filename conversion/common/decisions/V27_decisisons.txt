@@ -1,0 +1,61 @@
+﻿a_job_well_done = {
+	is_shown = {
+		exists = c:V27
+		this = c:V27
+		NOT = { has_variable = job_well_done_var }
+	}
+	
+	possible = {
+		c:V27 = {
+			country_or_subject_owns_entire_state_region = STATE_EAST_SAHARA
+			country_or_subject_owns_entire_state_region = STATE_TLEMCEN
+			country_or_subject_owns_entire_state_region = STATE_ALGIERS
+			country_or_subject_owns_entire_state_region = STATE_CONSTANTINE
+		}
+	}
+	
+	when_taken = {
+		set_variable = {
+			name = job_well_done_var
+		}
+		trigger_event = {
+			id = gabesevents.1
+		}
+	}
+	
+	ai_chance = {
+		base = 100
+	}
+}
+
+self_reflection = {
+	is_shown = {
+		exists = c:V27
+		this = c:V27
+		NOT = { has_variable = self_reflection_var }
+	}
+	
+	possible = {
+		c:V27 = {
+			ig:ig_devout = {
+				is_marginal = yes
+			}
+			ig:ig_trade_unions = {
+				is_powerful = yes
+			}
+		}
+	}
+	
+	when_taken = {
+		set_variable = {
+			name = self_reflection_var
+		}
+		trigger_event = {
+			id = gabesevents.2
+		}
+	}
+	
+	ai_chance = {
+		base = 100
+	}
+}

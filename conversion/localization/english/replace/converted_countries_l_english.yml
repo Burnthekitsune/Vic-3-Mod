@@ -1370,3 +1370,15 @@
  demand_strip_desc: "This land is a barrier in our way. Ungvar must give it up."
  bosnian_concession: "Bosnian Concession"
  bosnian_concession_desc: "Bosnia has agreed to surrender some land to us."
+ 
+ a_job_well_done: "A job well done"
+ a_job_well_done_desc: "After decades of agitation, the frontier nobility have finally made good on their promises."
+ self_reflection: "Self-Reflection"
+ self_reflection_desc: "After years and yeard of dwindling in its power, many within the church have pushed for a return to the basic principles of the faith."
+ gabesevents.1.t:"A job well done"
+ gabesevents.1.d:"After decades of agitation, the frontier nobility have finally made good on their promises: they restored the imperial borders surrendered in the shameful compromise with Al-Shamali."
+ gabesevents.1.a:"Whole once more"
+ gabesevents.2.t:"Self-Reflection"
+ gabesevents.2.d:"After years and yeard of dwindling in its power, many within the church have pushed for a return to the basic principles of the faith. Educating and serving the everyday people. With the working class increasingly gaining power, the church seems to have adjusted to a more socialistic policy."
+ gabesevents.2.a:"A socialist and a preacher walk into a school..."
+ 
